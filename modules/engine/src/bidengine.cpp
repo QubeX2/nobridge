@@ -1,19 +1,21 @@
 #include "bidengine.h"
-#include "bridgeengine.h"
-#include "player.h"
+
+#include <sys/types.h>
+
 #include <cstdint>
 #include <memory>
-#include <sys/types.h>
+
+#include "bridgeengine.h"
+#include "player.h"
 
 namespace nobridge::engine {
 
-void BridgeEngine::add_player(std::shared_ptr<Player>& player) 
-{
-  for(uint i = 0; i < m_players.size(); i++) {
-    if(m_players[i] == nullptr) {
-      m_players[i] = player;
+    void BridgeEngine::add_player(std::shared_ptr<Player>& player) {
+        for (uint i = 0; i < m_players.size(); i++) {
+            if (m_players[i] == nullptr) {
+                m_players[i] = player;
+            }
+        }
     }
-  }
-} 
 
-}
+}  // namespace nobridge::engine

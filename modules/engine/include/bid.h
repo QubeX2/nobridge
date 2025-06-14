@@ -1,23 +1,24 @@
 #ifndef ENGINE_BID_H
 #define ENGINE_BID_H
 
+#include <cstdint>
+
 #include "card.h"
 #include "player.h"
-#include <cstdint>
 
 namespace nobridge::engine {
 
-enum BidType { PASS = 1, DOUBLE, REDOUBLE, ALERT, NORMAL, CONVENTIONAL };
+  enum BidType { PASS = 1, DOUBLE, REDOUBLE, ALERT, NORMAL, CONVENTIONAL };
 
-class Bid {
-  BidType m_type;
-  uint8_t m_level;
-  Suit m_suit;
-  std::shared_ptr<Player> m_bidder;
+  class Bid {
+   public:
+   private:
+    BidType m_type;
+    uint8_t m_level;
+    Suit m_suit;
+    std::shared_ptr<Player> m_bidder;
+  };
 
-public:
-};
-
-}
+}  // namespace nobridge::engine
 
 #endif

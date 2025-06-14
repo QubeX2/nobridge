@@ -1,18 +1,19 @@
 #ifndef BID_ENGINE_H
 #define BID_ENGINE_H
 
-#include "bid.h"
 #include <memory>
 #include <vector>
 
+#include "bid.h"
+
 namespace nobridge::engine {
 
-class BidEngine {
-  std::vector<std::shared_ptr<Bid>> m_history;
+  class BidEngine {
+   public:
+   private:
+    std::vector<std::shared_ptr<Bid>> m_history;
+  };
 
-public:
-};
-
-}
+}  // namespace nobridge::engine
 
 #endif

@@ -1,5 +1,3 @@
 #include "playengine.h"
 
-namespace nobridge::engine {
-
-}
+namespace nobridge::engine {}

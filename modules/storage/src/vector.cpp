@@ -1,6 +1,3 @@
 #include "vector.h"
 
-namespace nobridge::storage {
-
-}
-
+namespace nobridge::storage {}

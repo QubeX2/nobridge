@@ -1,5 +1,3 @@
 #include "player.h"
 
-namespace nobridge::engine {
-
-}
+namespace nobridge::engine {}

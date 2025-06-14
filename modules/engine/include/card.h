@@ -3,16 +3,33 @@
 
 namespace nobridge::engine {
 
-enum class Suit { CLUBS = 1, DIAMONDS, HEARTS, SPADES };
-enum class Rank { TWO = 2, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE };
+    enum class Suit { CLUBS = 1, DIAMONDS, HEARTS, SPADES };
+    enum class Rank {
+        TWO = 2,
+        THREE,
+        FOUR,
+        FIVE,
+        SIX,
+        SEVEN,
+        EIGHT,
+        NINE,
+        TEN,
+        JACK,
+        QUEEN,
+        KING,
+        ACE
+    };
 
-class Card {
-  Suit m_suit;
-  Rank m_rank;
+    class Card {
+       public:
+        Suit suit() const;
+        void setSuit(const Suit& newSuit);
 
-public:
-};
+       private:
+        Suit m_suit;
+        Rank m_rank;
+    };
 
-}
+}  // namespace nobridge::engine
 
 #endif

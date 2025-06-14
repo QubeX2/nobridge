@@ -1,5 +1,3 @@
 #include "bid.h"
 
-namespace nobridge::engine {
-
-}
+namespace nobridge::engine {}

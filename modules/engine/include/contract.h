@@ -1,21 +1,22 @@
 #ifndef CONTRACT_H
 #define CONTRACT_H
 
+#include <cstdint>
+
 #include "bid.h"
 #include "card.h"
 #include "player.h"
-#include <cstdint>
 
 namespace nobridge::engine {
 
-class Contract {
-  uint8_t m_level;
-  Suit m_suit;
-  // doubled??
-  Player m_declarer;
+    class Contract {
+        uint8_t m_level;
+        Suit m_suit;
+        // doubled??
+        Player m_declarer;
 
-public:
-};
+       public:
+    };
 
-}
+}  // namespace nobridge::engine
 #endif

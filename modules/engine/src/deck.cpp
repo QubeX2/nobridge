@@ -1,5 +1,3 @@
 #include "deck.h"
 
-namespace nobridge::engine {
-
-}
+namespace nobridge::engine {}
