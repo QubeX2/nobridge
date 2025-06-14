@@ -18,11 +18,11 @@ namespace nobridge::engine {
         void add_player(std::shared_ptr<Player>& player);
 
        private:
-        std::shared_ptr<Deck> m_deck;
+        Deck m_deck;
         std::array<std::shared_ptr<Player>, 4> m_players;
-        std::shared_ptr<BidEngine> m_bids;
-        std::shared_ptr<PlayEngine> m_play;
-        std::shared_ptr<ScoreEngine> m_scoring;
+        BidEngine m_bids;
+        PlayEngine m_play;
+        ScoreEngine m_scoring;
     };
 
 }  // namespace nobridge::engine

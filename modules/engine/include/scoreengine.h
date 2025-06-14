@@ -6,12 +6,9 @@
 #include "contract.h"
 namespace nobridge::engine {
 
-    using score_t = int16_t;
-    using tricks_t = uint8_t;
-
     class ScoreEngine {
        public:
-        score_t calculate(const Contract& contract, tricks_t tricks,
+        int16_t calculate(const Contract& contract, uint8_t tricks,
                           bool vulnerable);
 
        private:

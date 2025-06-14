@@ -15,7 +15,7 @@ namespace nobridge::engine {
        public:
        private:
         PlayerType m_type;
-        std::vector<std::shared_ptr<Card>> m_hand;
+        std::vector<Card> m_hand;
         Direction m_direction;
     };
 

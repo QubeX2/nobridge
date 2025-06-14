@@ -11,10 +11,11 @@ namespace nobridge::engine {
     class Deck {
        public:
         void shuffle();
-        std::vector<std::vector<std::shared_ptr<Card>>> deal();
+        // 4 deals with 13 cards
+        std::vector<std::vector<Card>> deal();
 
        private:
-        std::vector<std::shared_ptr<Card>> m_cards;
+        std::vector<Card> m_cards;
     };
 
 }  // namespace nobridge::engine

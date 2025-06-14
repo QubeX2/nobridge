@@ -13,7 +13,7 @@ namespace nobridge::engine {
         uint8_t m_level;
         Suit m_suit;
         // doubled??
-        Player m_declarer;
+        std::shared_ptr<Player> m_declarer;
 
        public:
     };

@@ -1,0 +1,10078 @@
+% PBN 2.1
+% Content-type: text/x-pbn; charset=UTF-8
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "1"]
+[West "Tina Drnovsek#201592"]
+[North "Teo Kukuljan#201593"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Gregor Rus#201594"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:6.KJ94.Q863.7532 754.Q32.A974.K94 KQT93.87.KT.AQT6 AJ82.AT65.J52.J8"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "9"]
+[Score "NS 110"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "67769677796566465664"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  7
+N  H  7
+N  D  6
+N  C  9
+S NT  6
+S  S  7
+S  H  7
+S  D  7
+S  C  9
+E NT  6
+E  S  5
+E  H  6
+E  D  6
+E  C  4
+W NT  6
+W  S  5
+W  H  6
+W  D  6
+W  C  4
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S Pass 
+1NT Pass 2C Pass 
+Pass Pass 
+[Play "W"]
+D2 D3 DA DT 
+C8 C2 C4 CQ 
+SA S6 S7 SQ 
+CJ C3 C9 CA 
+S2 C5 S4 S3 
+D5 D6 D4 DK 
+S8 C7 S5 S9 
+DJ DQ D7 H8 
+H5 D8 D9 C6 
+SJ H4 CK SK 
+HA H9 H2 H7 
+H6 -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "1"]
+[West "Jan Clementsson#55627"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Fredin#2514"]
+[South "Johan Sylvan#2325"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:6.KJ94.Q863.7532 754.Q32.A974.K94 KQT93.87.KT.AQT6 AJ82.AT65.J52.J8"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "9"]
+[Score "NS 110"]
+[Table "2"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "67769677796566465664"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  7
+N  H  7
+N  D  6
+N  C  9
+S NT  6
+S  S  7
+S  H  7
+S  D  7
+S  C  9
+E NT  6
+E  S  5
+E  H  6
+E  D  6
+E  C  4
+W NT  6
+W  S  5
+W  H  6
+W  D  6
+W  C  4
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S Pass =1= 
+1NT Pass 2C Pass 
+Pass Pass 
+[Note "1: ♣"]
+[Play "W"]
+D2 D3 DA DT 
+C8 C2 C4 CQ 
+D5 D6 D4 DK 
+HA H4 H3 H7 
+DJ DQ D7 S3 
+SA S6 S7 SK 
+S2 D8 S5 S9 
+CJ C3 C9 CA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "1"]
+[West "Joakim Johansson#68245"]
+[North "Peter Bertheau#16757"]
+[East "Matteo Nordqvist#67675"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:6.KJ94.Q863.7532 754.Q32.A974.K94 KQT93.87.KT.AQT6 AJ82.AT65.J52.J8"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Table "5"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "67769677796566465664"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  7
+N  H  7
+N  D  6
+N  C  9
+S NT  6
+S  S  7
+S  H  7
+S  D  7
+S  C  9
+E NT  6
+E  S  5
+E  H  6
+E  D  6
+E  C  4
+W NT  6
+W  S  5
+W  H  6
+W  D  6
+W  C  4
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S Pass 
+1NT Pass 2C =1= Pass 
+2S =2= Pass Pass Pass 
+[Note "1: NAT eller någon 16+"]
+[Note "2: svagt"]
+[Play "W"]
+D2 D3 DA DT 
+D5 D6 D4 DK 
+H5 HJ HQ H7 
+SJ S6 S4 ST 
+DJ D8 D7 S3 
+SA C2 S7 SK 
+C8 C3 CK CA 
+S2 H4 S5 SQ 
+S8 C5 D9 S9 
+HA H9 H3 H8 
+CJ C7 C4 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "1"]
+[West "Johan Svensson#11900"]
+[North "Demitrius Berg#78981"]
+[East "Lars-Uno Andersson#14287"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:6.KJ94.Q863.7532 754.Q32.A974.K94 KQT93.87.KT.AQT6 AJ82.AT65.J52.J8"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "7"]
+[Score "NS -50"]
+[Table "3"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "67769677796566465664"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  7
+N  H  7
+N  D  6
+N  C  9
+S NT  6
+S  S  7
+S  H  7
+S  D  7
+S  C  9
+E NT  6
+E  S  5
+E  H  6
+E  D  6
+E  C  4
+W NT  6
+W  S  5
+W  H  6
+W  D  6
+W  C  4
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S =1= Pass 
+1NT Pass 2C Pass 
+Pass Pass 
+[Note "1: ♠"]
+[Play "W"]
+CJ C2 CK CA 
+H5 HJ HQ H7 
+C8 C3 C4 CQ 
+D5 D3 DA DK 
+HA H4 H2 H8 
+H6 HK H3 S3 
+SA S6 S5 SQ 
+HT H9 S4 S9 
+D2 DQ D7 DT 
+DJ C7 C9 CT 
+S2 D6 S7 SK 
+S8 C5 D4 C6 
+SJ D8 D9 ST 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "1"]
+[West "Eva Nilsson#60259"]
+[North "Lars Goldberg#9298"]
+[East "Tina Elfstedt#55302"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:6.KJ94.Q863.7532 754.Q32.A974.K94 KQT93.87.KT.AQT6 AJ82.AT65.J52.J8"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "8"]
+[Score "NS 90"]
+[Table "1"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "67769677796566465664"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  7
+N  H  7
+N  D  6
+N  C  9
+S NT  6
+S  S  7
+S  H  7
+S  D  7
+S  C  9
+E NT  6
+E  S  5
+E  H  6
+E  D  6
+E  C  4
+W NT  6
+W  S  5
+W  H  6
+W  D  6
+W  C  4
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S Pass 
+1NT Pass 2C Pass 
+Pass Pass 
+[Play "W"]
+D2 D3 DA DT 
+D5 D6 D4 DK 
+SA S6 S7 SK 
+DJ DQ D7 H7 
+C8 C2 C4 CQ 
+S8 D8 S4 SQ 
+SJ C3 S5 ST 
+CJ C5 C9 CT 
+S2 H4 CK S3 
+HA H9 H2 H8 
+H5 HK H3 S9 
+H6 C7 D9 CA 
+HT HJ HQ C6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "2"]
+[West "Joakim Johansson#68245"]
+[North "Peter Bertheau#16757"]
+[East "Matteo Nordqvist#67675"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T764.JT9.64.J976 AQJ2.Q74.JT3.QT5 K85.K6.AK875.842 93.A8532.Q92.AK3"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[Score "NS 100"]
+[Table "5"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "45555455558788787877"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  5
+N  H  5
+N  D  5
+N  C  5
+S NT  4
+S  S  5
+S  H  5
+S  D  5
+S  C  5
+E NT  8
+E  S  7
+E  H  8
+E  D  8
+E  C  7
+W NT  8
+W  S  7
+W  H  8
+W  D  7
+W  C  7
+[OptimumScore "NS -120"]
+[Competition "Pairs"]
+[Auction "E"]
+1C =1= 1D X Pass 
+1S Pass 2H Pass 
+3H Pass 4H Pass 
+Pass Pass 
+[Note "1: 3+"]
+[Play "N"]
+D6 D3 DA D9 
+D4 DT DK DQ 
+HT DJ D8 D2 
+S6 SQ SK S3 
+ST SJ S8 S9 
+HJ H4 H6 HA 
+H9 HQ HK H2 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "2"]
+[West "Tina Drnovsek#201592"]
+[North "Teo Kukuljan#201593"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Gregor Rus#201594"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T764.JT9.64.J976 AQJ2.Q74.JT3.QT5 K85.K6.AK875.842 93.A8532.Q92.AK3"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[Score "NS 100"]
+[Table "6"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "45555455558788787877"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  5
+N  H  5
+N  D  5
+N  C  5
+S NT  4
+S  S  5
+S  H  5
+S  D  5
+S  C  5
+E NT  8
+E  S  7
+E  H  8
+E  D  8
+E  C  7
+W NT  8
+W  S  7
+W  H  8
+W  D  7
+W  C  7
+[OptimumScore "NS -120"]
+[Competition "Pairs"]
+[Auction "E"]
+1C 1D 1H Pass 
+1S Pass 2D =1= Pass 
+2H Pass 4H Pass 
+Pass Pass 
+[Note "1: Alerted"]
+[Play "N"]
+D6 D3 DA D2 
+D4 DT DK D9 
+HT DJ D8 DQ 
+S7 SQ SK S3 
+C9 C5 C8 CA 
+H9 H4 H6 HA 
+HJ HQ HK H3 
+C6 -  C4 CK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "2"]
+[West "Johan Svensson#11900"]
+[North "Demitrius Berg#78981"]
+[East "Lars-Uno Andersson#14287"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T764.JT9.64.J976 AQJ2.Q74.JT3.QT5 K85.K6.AK875.842 93.A8532.Q92.AK3"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS 50"]
+[Table "3"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "45555455558788787877"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  5
+N  H  5
+N  D  5
+N  C  5
+S NT  4
+S  S  5
+S  H  5
+S  D  5
+S  C  5
+E NT  8
+E  S  7
+E  H  8
+E  D  8
+E  C  7
+W NT  8
+W  S  7
+W  H  8
+W  D  7
+W  C  7
+[OptimumScore "NS -120"]
+[Competition "Pairs"]
+[Auction "E"]
+1S 2D X Pass 
+2NT Pass 3NT Pass 
+Pass Pass 
+[Play "S"]
+DA D2 D6 D3 
+DK D9 D4 DT 
+D5 DQ S6 DJ 
+SK S3 S4 SQ 
+D8 H2 S7 H4 
+D7 H3 ST H7 
+S5 S9 H9 S2 
+C2 CA C6 C5 
+C4 CK C7 CT 
+H6 HA HJ HQ 
+C8 C3 CJ CQ 
+S8 H5 HT SJ 
+HK H8 C9 SA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "2"]
+[West "Jan Clementsson#55627"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Fredin#2514"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T764.JT9.64.J976 AQJ2.Q74.JT3.QT5 K85.K6.AK875.842 93.A8532.Q92.AK3"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[Score "NS 100"]
+[Table "2"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "45555455558788787877"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  5
+N  H  5
+N  D  5
+N  C  5
+S NT  4
+S  S  5
+S  H  5
+S  D  5
+S  C  5
+E NT  8
+E  S  7
+E  H  8
+E  D  8
+E  C  7
+W NT  8
+W  S  7
+W  H  8
+W  D  7
+W  C  7
+[OptimumScore "NS -120"]
+[Competition "Pairs"]
+[Auction "E"]
+1C 1D 1H Pass 
+1NT Pass 2C =1= Pass 
+2H Pass 4H Pass 
+Pass Pass 
+[Note "1: Alerted"]
+[Play "N"]
+D6 DJ DK D2 
+D4 D3 DA DQ 
+HJ DT D8 D9 
+S6 SA S5 S3 
+H9 H4 H6 HA 
+HT HQ HK H2 
+-  -  C2 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "2"]
+[West "Eva Nilsson#60259"]
+[North "Lars Goldberg#9298"]
+[East "Tina Elfstedt#55302"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T764.JT9.64.J976 AQJ2.Q74.JT3.QT5 K85.K6.AK875.842 93.A8532.Q92.AK3"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[Score "NS 100"]
+[Table "1"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "45555455558788787877"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  5
+N  H  5
+N  D  5
+N  C  5
+S NT  4
+S  S  5
+S  H  5
+S  D  5
+S  C  5
+E NT  8
+E  S  7
+E  H  8
+E  D  8
+E  C  7
+W NT  8
+W  S  7
+W  H  8
+W  D  7
+W  C  7
+[OptimumScore "NS -120"]
+[Competition "Pairs"]
+[Auction "E"]
+1S 2D 2H Pass 
+3H Pass 4H Pass 
+Pass Pass 
+[Play "N"]
+D6 D3 DK D2 
+D4 DT DA D9 
+HT DJ D8 DQ 
+S6 S2 SK S3 
+C6 C5 C4 CA 
+S4 SJ S5 S9 
+HJ H4 H6 HA 
+H9 HQ HK H2 
+C7 CT C2 CK 
+C9 CQ C8 C3 
+S7 SQ S8 H3 
+ST H7 D5 H5 
+CJ SA D7 H8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "3"]
+[West "Joakim Johansson#68245"]
+[North "Peter Bertheau#16757"]
+[East "Matteo Nordqvist#67675"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ53.AJ864.86.54 T92.Q95.AKJ54.QJ A74.K2.T932.9873 J86.T73.Q7.AKT62"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "8"]
+[Score "NS -50"]
+[Table "5"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "37833378337457774577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  7
+N  H  8
+N  D  3
+N  C  3
+S NT  3
+S  S  7
+S  H  8
+S  D  3
+S  C  3
+E NT  7
+E  S  4
+E  H  5
+E  D  7
+E  C  7
+W NT  7
+W  S  4
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 2H 3D 
+3H Pass Pass Pass 
+[Play "E"]
+DA D2 D7 D8 
+DK D3 DQ D6 
+CQ C3 CK C5 
+CJ C7 CA C4 
+H9 C8 C2 H8 
+D4 D9 H7 HJ 
+H5 HK H3 H4 
+HQ H2 HT HA 
+D5 DT C6 H6 
+S2 SA S6 S3 
+S9 S4 S8 SK 
+ST S7 SJ SQ 
+DJ C9 CT S5 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "3"]
+[West "Jan Clementsson#55627"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Fredin#2514"]
+[South "Johan Sylvan#2325"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ53.AJ864.86.54 T92.Q95.AKJ54.QJ A74.K2.T932.9873 J86.T73.Q7.AKT62"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[Score "NS -50"]
+[Table "2"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "37833378337457774577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  7
+N  H  8
+N  D  3
+N  C  3
+S NT  3
+S  S  7
+S  H  8
+S  D  3
+S  C  3
+E NT  7
+E  S  4
+E  H  5
+E  D  7
+E  C  7
+W NT  7
+W  S  4
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 1H Pass 
+1NT Pass Pass Pass 
+[Play "W"]
+C2 C4 CJ C3 
+CK C5 CQ C7 
+CA H4 ST C8 
+CT H6 S9 C9 
+C6 H8 S2 S7 
+H3 HA H5 H2 
+H7 HJ HQ HK 
+S6 S3 D4 SA 
+S8 SK D5 S4 
+SJ SQ DJ D2 
+HT S5 H9 D3 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "3"]
+[West "Tina Drnovsek#201592"]
+[North "Teo Kukuljan#201593"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Gregor Rus#201594"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ53.AJ864.86.54 T92.Q95.AKJ54.QJ A74.K2.T932.9873 J86.T73.Q7.AKT62"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Table "6"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "37833378337457774577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  7
+N  H  8
+N  D  3
+N  C  3
+S NT  3
+S  S  7
+S  H  8
+S  D  3
+S  C  3
+E NT  7
+E  S  4
+E  H  5
+E  D  7
+E  C  7
+W NT  7
+W  S  4
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 2H =1= Pass 
+2S Pass Pass Pass 
+[Note "1: šibko, oba majorja * lahko je 4,4 [0:09]"]
+[Play "W"]
+CA C4 CQ C8 
+CK C5 CJ C3 
+DQ D6 DK D3 
+D7 D8 DA D2 
+S6 S3 ST SA 
+H3 H4 H5 HK 
+H7 HA H9 H2 
+HT H8 HQ S7 
+S8 SK S2 S4 
+SJ SQ S9 C7 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "3"]
+[West "Johan Svensson#11900"]
+[North "Demitrius Berg#78981"]
+[East "Lars-Uno Andersson#14287"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ53.AJ864.86.54 T92.Q95.AKJ54.QJ A74.K2.T932.9873 J86.T73.Q7.AKT62"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "E"]
+[Contract "4D"]
+[Result "10"]
+[Score "NS -130"]
+[Table "3"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "37833378337457774577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  7
+N  H  8
+N  D  3
+N  C  3
+S NT  3
+S  S  7
+S  H  8
+S  D  3
+S  C  3
+E NT  7
+E  S  4
+E  H  5
+E  D  7
+E  C  7
+W NT  7
+W  S  4
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 2D =1= X 
+2S 3S Pass 4D =2= 
+Pass Pass Pass 
+[Note "1: 2 ruter lovar minst 4-4 i hf och 3-10 p♢♢"]
+[Note "2: hållsö♢♢♠♢kande"]
+[Play "S"]
+C9 C2 C5 CJ 
+D2 DQ D6 D4 
+D3 D7 D8 DK 
+D9 S6 H4 DA 
+DT S8 S3 DJ 
+C3 CA C4 CQ 
+C7 CK H6 S2 
+C8 CT H8 S9 
+S4 C6 S5 ST 
+HK H3 HJ HQ 
+SA SJ SQ D5 
+H2 HT HA H5 
+S7 H7 SK H9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "3"]
+[West "Eva Nilsson#60259"]
+[North "Lars Goldberg#9298"]
+[East "Tina Elfstedt#55302"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ53.AJ864.86.54 T92.Q95.AKJ54.QJ A74.K2.T932.9873 J86.T73.Q7.AKT62"]
+[Scoring "MP;MP1"]
+[Round "1"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "7"]
+[Score "NS 100"]
+[Table "1"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "37833378337457774577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  7
+N  H  8
+N  D  3
+N  C  3
+S NT  3
+S  S  7
+S  H  8
+S  D  3
+S  C  3
+E NT  7
+E  S  4
+E  H  5
+E  D  7
+E  C  7
+W NT  7
+W  S  4
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 1H 2D 
+Pass Pass Pass 
+[Play "S"]
+HK H3 H4 H5 
+H2 H7 HA H9 
+D2 HT HJ HQ 
+SA S6 S3 S2 
+S7 S8 SQ S9 
+S4 SJ SK ST 
+D9 DQ H8 D4 
+D3 D7 D6 DA 
+DT C2 D8 DK 
+C3 C6 H6 DJ 
+C7 CA C4 CJ 
+C8 CK C5 CQ 
+C9 CT S5 D5 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "4"]
+[West "Joakim Johansson#68245"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Matteo Nordqvist#67675"]
+[South "Tina Drnovsek#201592"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:82.Q.AKT9632.KQ6 AK954.T7.J8.9874 QJ73.AKJ86.54.T3 T6.95432.Q7.AJ52"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS 660"]
+[Table "1"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "a8997a89973542635426"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  8
+N  H  9
+N  D  9
+N  C  7
+S NT 10
+S  S  8
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  5
+E  H  4
+E  D  2
+E  C  6
+W NT  3
+W  S  5
+W  H  4
+W  D  2
+W  C  6
+[OptimumScore "NS +630"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1D 1S 2H 
+Pass 2S =1= X 2NT 
+Pass 3NT Pass Pass 
+Pass 
+[Note "1: forsing"]
+[Play "W"]
+ST S2 SK S3 
+S6 S8 SA S7 
+C2 D2 S4 SQ 
+D7 DA D8 D5 
+DQ DK DJ D4 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "4"]
+[West "UllaBritt Goldberg#12649"]
+[North "Lars-Uno Andersson#14287"]
+[East "Lars Goldberg#9298"]
+[South "Johan Svensson#11900"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:82.Q.AKT9632.KQ6 AK954.T7.J8.9874 QJ73.AKJ86.54.T3 T6.95432.Q7.AJ52"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "3"]
+[ScorePercentage "NS 12.50 EW 87.50"]
+[DoubleDummyTricks "a8997a89973542635426"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  8
+N  H  9
+N  D  9
+N  C  7
+S NT 10
+S  S  8
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  5
+E  H  4
+E  D  2
+E  C  6
+W NT  3
+W  S  5
+W  H  4
+W  D  2
+W  C  6
+[OptimumScore "NS +630"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1D 1S X 
+Pass 3D Pass 3NT 
+Pass Pass Pass 
+[Play "W"]
+ST S2 SK S7 
+H5 HQ H7 HA 
+H2 S8 HT HK 
+D7 DK DJ D4 
+DQ DA D8 D5 
+C2 DT C9 H6 
+C5 D9 S4 H8 
+H3 D2 C4 C3 
+CJ D3 C7 S3 
+H4 D6 C8 CT 
+CA CK S5 HJ 
+H9 C6 S9 SJ 
+S6 CQ SA SQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "4"]
+[West "Birgitta Bornestav#36526"]
+[North "Peter Bertheau#16757"]
+[East "Demitrius Berg#78981"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:82.Q.AKT9632.KQ6 AK954.T7.J8.9874 QJ73.AKJ86.54.T3 T6.95432.Q7.AJ52"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "5"]
+[ScorePercentage "NS 12.50 EW 87.50"]
+[DoubleDummyTricks "a8997a89973542635426"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  8
+N  H  9
+N  D  9
+N  C  7
+S NT 10
+S  S  8
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  5
+E  H  4
+E  D  2
+E  C  6
+W NT  3
+W  S  5
+W  H  4
+W  D  2
+W  C  6
+[OptimumScore "NS +630"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1D =1= 1S X 
+1NT 2D Pass 3NT 
+Pass Pass Pass 
+[Note "1:  * 3+ [0:08]"]
+[Play "W"]
+ST S2 SA S3 
+S6 S8 SK S7 
+H2 HQ H7 HA 
+C2 C6 S5 SQ 
+D7 DT DJ D4 
+H3 D2 HT HK 
+CA CQ C7 C3 
+H9 D3 D8 HJ 
+DQ -  -  D5 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "4"]
+[West "Per Gjellan#16668"]
+[North "Peter Fredin#2514"]
+[East "Cristina Ringström#39288"]
+[South "Jan Clementsson#55627"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:82.Q.AKT9632.KQ6 AK954.T7.J8.9874 QJ73.AKJ86.54.T3 T6.95432.Q7.AJ52"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[Score "NS 630"]
+[Table "4"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "a8997a89973542635426"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  8
+N  H  9
+N  D  9
+N  C  7
+S NT 10
+S  S  8
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  5
+E  H  4
+E  D  2
+E  C  6
+W NT  3
+W  S  5
+W  H  4
+W  D  2
+W  C  6
+[OptimumScore "NS +630"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1D 1S 2H 
+Pass 2S Pass 2NT 
+Pass 3NT Pass Pass 
+Pass 
+[Play "W"]
+ST S2 S5 SJ 
+D7 D9 DJ D4 
+S6 S8 SA S3 
+C5 C6 SK S7 
+-  -  HT -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "4"]
+[West "Eva Nilsson#60259"]
+[North "Mikael Westerlund#9690"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Sylvan#2325"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:82.Q.AKT9632.KQ6 AK954.T7.J8.9874 QJ73.AKJ86.54.T3 T6.95432.Q7.AJ52"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[Score "NS 630"]
+[Table "2"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "a8997a89973542635426"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  8
+N  H  9
+N  D  9
+N  C  7
+S NT 10
+S  S  8
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  5
+E  H  4
+E  D  2
+E  C  6
+W NT  3
+W  S  5
+W  H  4
+W  D  2
+W  C  6
+[OptimumScore "NS +630"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1D =1= 1S 2H 
+Pass 3D Pass 3NT 
+Pass Pass Pass 
+[Note "1: 11-13 bal. eller naturligt"]
+[Play "W"]
+ST S2 SK S3 
+H5 HQ HT H6 
+D7 DA D8 D4 
+DQ DK DJ D5 
+C2 DT S4 S7 
+C5 D9 S5 H8 
+CJ D6 H7 HJ 
+H2 D2 S9 C3 
+CA C6 C4 CT 
+S6 S8 SA SJ 
+-  -  C7 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "5"]
+[West "Birgitta Bornestav#36526"]
+[North "Peter Bertheau#16757"]
+[East "Demitrius Berg#78981"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K953.J863.KJT.54 QJ76.AKT7.Q652.2 .Q54.A8.AKQT9876 AT842.92.9743.J3"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "12"]
+[Score "NS 170"]
+[Table "5"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "a585aa585a2858228582"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  5
+N  H  8
+N  D  5
+N  C 10
+S NT 10
+S  S  5
+S  H  8
+S  D  5
+S  C 10
+E NT  2
+E  S  8
+E  H  5
+E  D  8
+E  C  2
+W NT  2
+W  S  8
+W  H  5
+W  D  8
+W  C  2
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1C =1= 2C =2= Pass 
+Pass Pass 
+[Note "1: Se vår förklaring av 1 kl."]
+[Note "2:  * Naturligt [0:09]"]
+[Play "W"]
+SA S3 S7 C6 
+C3 C4 C2 CA 
+CJ C5 H7 CK 
+S2 S5 HT CQ 
+S4 H3 S6 CT 
+D4 H6 D5 C9 
+D3 H8 HK C8 
+H2 HJ HA H4 
+S8 SK SQ H5 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "5"]
+[West "UllaBritt Goldberg#12649"]
+[North "Lars-Uno Andersson#14287"]
+[East "Lars Goldberg#9298"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K953.J863.KJT.54 QJ76.AKT7.Q652.2 .Q54.A8.AKQT9876 AT842.92.9743.J3"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "11"]
+[Score "NS 600"]
+[Table "3"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "a585aa585a2858228582"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  5
+N  H  8
+N  D  5
+N  C 10
+S NT 10
+S  S  5
+S  H  8
+S  D  5
+S  C 10
+E NT  2
+E  S  8
+E  H  5
+E  D  8
+E  C  2
+W NT  2
+W  S  8
+W  H  5
+W  D  8
+W  C  2
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H 5C Pass 
+Pass =1= Pass 
+[Note "1: spärr"]
+[Play "W"]
+SA S3 S7 C6 
+C3 C4 C2 CA 
+CJ C5 S6 CK 
+H9 S5 H7 CQ 
+H2 H3 SJ CT 
+D7 S9 SQ C9 
+D3 DT D2 DA 
+D4 DK D5 D8 
+S2 SK D6 H4 
+S8 H6 HK H5 
+S4 H8 HA HQ 
+D9 DJ DQ C7 
+ST HJ HT C8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "5"]
+[West "Eva Nilsson#60259"]
+[North "Mikael Westerlund#9690"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Sylvan#2325"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K953.J863.KJT.54 QJ76.AKT7.Q652.2 .Q54.A8.AKQT9876 AT842.92.9743.J3"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS 660"]
+[Table "2"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "a585aa585a2858228582"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  5
+N  H  8
+N  D  5
+N  C 10
+S NT 10
+S  S  5
+S  H  8
+S  D  5
+S  C 10
+E NT  2
+E  S  8
+E  H  5
+E  D  8
+E  C  2
+W NT  2
+W  S  8
+W  H  5
+W  D  8
+W  C  2
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1D 3NT Pass 
+Pass Pass 
+[Play "W"]
+D4 DJ DQ DA 
+C3 C4 C2 CA 
+CJ C5 D6 CK 
+S2 H3 D2 CQ 
+H9 S3 D5 C9 
+D3 S5 H7 C7 
+S4 H6 S6 C8 
+D7 H8 HT C6 
+H2 S9 S7 CT 
+D9 DT SJ D8 
+S8 DK SQ H4 
+SA SK HK H5 
+ST HJ HA HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "5"]
+[West "Per Gjellan#16668"]
+[North "Peter Fredin#2514"]
+[East "Cristina Ringström#39288"]
+[South "Jan Clementsson#55627"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K953.J863.KJT.54 QJ76.AKT7.Q652.2 .Q54.A8.AKQT9876 AT842.92.9743.J3"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[Score "NS 630"]
+[Table "4"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "a585aa585a2858228582"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  5
+N  H  8
+N  D  5
+N  C 10
+S NT 10
+S  S  5
+S  H  8
+S  D  5
+S  C 10
+E NT  2
+E  S  8
+E  H  5
+E  D  8
+E  C  2
+W NT  2
+W  S  8
+W  H  5
+W  D  8
+W  C  2
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1D =1= X Pass 
+1S Pass 3NT Pass 
+Pass Pass 
+[Note "1: 3+"]
+[Play "W"]
+D3 DT D2 D8 
+C3 C4 C2 CK 
+CJ C5 D5 CA 
+S8 H3 HT CQ 
+D4 S3 S6 CT 
+S2 S5 S7 C9 
+S4 H6 H7 C8 
+D7 H8 D6 C7 
+H2 HJ DQ C6 
+D9 DJ SJ DA 
+H9 DK HK H4 
+ST S9 HA H5 
+SA SK SQ HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "5"]
+[West "Joakim Johansson#68245"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Matteo Nordqvist#67675"]
+[South "Tina Drnovsek#201592"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K953.J863.KJT.54 QJ76.AKT7.Q652.2 .Q54.A8.AKQT9876 AT842.92.9743.J3"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "12"]
+[Score "NS 690"]
+[Table "1"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "a585aa585a2858228582"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  5
+N  H  8
+N  D  5
+N  C 10
+S NT 10
+S  S  5
+S  H  8
+S  D  5
+S  C 10
+E NT  2
+E  S  8
+E  H  5
+E  D  8
+E  C  2
+W NT  2
+W  S  8
+W  H  5
+W  D  8
+W  C  2
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1D =1= X 1S 
+2H 2S 3C Pass 
+3NT Pass Pass Pass 
+[Note "1: 3+"]
+[Play "E"]
+SQ H4 S2 SK 
+C2 CA C3 C5 
+H7 CK CJ C4 
+HT CQ S4 S3 
+S6 CT D3 S5 
+S7 C9 H2 H3 
+D2 C8 D4 S9 
+SJ C7 S8 H6 
+D6 C6 H9 H8 
+D5 DA D7 DT 
+DQ D8 D9 DK 
+HK H5 ST DJ 
+HA HQ SA HJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "6"]
+[West "Birgitta Bornestav#36526"]
+[North "Peter Bertheau#16757"]
+[East "Demitrius Berg#78981"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT6.T8753.K5.Q92 KQ83.K64.J983.K5 A974.AQ92.A4.J64 52.J.QT762.AT873"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS 140"]
+[Table "5"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "88945889454549735396"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  8
+N  H  9
+N  D  4
+N  C  5
+S NT  8
+S  S  8
+S  H  9
+S  D  4
+S  C  5
+E NT  4
+E  S  5
+E  H  4
+E  D  9
+E  C  7
+W NT  3
+W  S  5
+W  H  3
+W  D  9
+W  C  6
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "E"]
+1C =1= X 2C 2H 
+2S 3H Pass Pass 
+Pass 
+[Note "1: 1 kl*"]
+[Play "E"]
+CK C4 C3 C9 
+C5 C6 CA CQ 
+H4 CJ C7 C2 
+D9 D4 DQ DK 
+H6 HQ HJ H3 
+HK HA C8 H5 
+D3 DA D2 D5 
+S3 H2 D6 H7 
+SQ SA S2 SJ 
+SK S4 S5 ST 
+D8 -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "6"]
+[West "Eva Nilsson#60259"]
+[North "Mikael Westerlund#9690"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT6.T8753.K5.Q92 KQ83.K64.J983.K5 A974.AQ92.A4.J64 52.J.QT762.AT873"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "11"]
+[Score "NS 200"]
+[Table "2"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "88945889454549735396"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  8
+N  H  9
+N  D  4
+N  C  5
+S NT  8
+S  S  8
+S  H  9
+S  D  4
+S  C  5
+E NT  4
+E  S  5
+E  H  4
+E  D  9
+E  C  7
+W NT  3
+W  S  5
+W  H  3
+W  D  9
+W  C  6
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "E"]
+1S 1NT Pass 2D =1= 
+Pass 2H Pass Pass 
+Pass 
+[Note "1: 5+ ♡"]
+[Play "W"]
+S5 S6 SQ SA 
+D6 DK D3 D4 
+HJ H3 H4 HQ 
+S2 SJ SK S4 
+C3 ST S3 S7 
+D2 H8 H6 H2 
+C7 H5 HK HA 
+C8 C2 S8 S9 
+D7 D5 D8 DA 
+CA C9 C5 C4 
+DQ CQ D9 H9 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "6"]
+[West "Per Gjellan#16668"]
+[North "Peter Fredin#2514"]
+[East "Cristina Ringström#39288"]
+[South "Jan Clementsson#55627"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT6.T8753.K5.Q92 KQ83.K64.J983.K5 A974.AQ92.A4.J64 52.J.QT762.AT873"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS 140"]
+[Table "4"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "88945889454549735396"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  8
+N  H  9
+N  D  4
+N  C  5
+S NT  8
+S  S  8
+S  H  9
+S  D  4
+S  C  5
+E NT  4
+E  S  5
+E  H  4
+E  D  9
+E  C  7
+W NT  3
+W  S  5
+W  H  3
+W  D  9
+W  C  6
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "E"]
+1D =1= X 3D =2= 3H 
+Pass Pass Pass 
+[Note "1: 3+"]
+[Note "2: omv minor"]
+[Play "E"]
+DJ DA D2 D5 
+D3 D4 D6 DK 
+H4 HQ HJ HT 
+CK CJ C3 C2 
+SK SA S2 S6 
+C5 C4 CA C9 
+H6 C6 C7 CQ 
+SQ S4 S5 ST 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "6"]
+[West "Joakim Johansson#68245"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Matteo Nordqvist#67675"]
+[South "Tina Drnovsek#201592"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT6.T8753.K5.Q92 KQ83.K64.J983.K5 A974.AQ92.A4.J64 52.J.QT762.AT873"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "6"]
+[Score "NS 300"]
+[Table "1"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "88945889454549735396"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  8
+N  H  9
+N  D  4
+N  C  5
+S NT  8
+S  S  8
+S  H  9
+S  D  4
+S  C  5
+E NT  4
+E  S  5
+E  H  4
+E  D  9
+E  C  7
+W NT  3
+W  S  5
+W  H  3
+W  D  9
+W  C  6
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "E"]
+1D =1= 1NT 3D Pass 
+3NT Pass Pass Pass 
+[Note "1: 3+"]
+[Play "S"]
+S4 S2 ST SK 
+C4 C3 C9 CK 
+C6 C7 CQ C5 
+SA S5 SJ SQ 
+CJ CA C2 D3 
+H2 CT H8 S3 
+H9 C8 S6 S8 
+DA D2 D5 D8 
+S9 D6 HT H4 
+S7 D7 H3 D9 
+HA HJ H5 H6 
+D4 DT DK DJ 
+HQ DQ H7 HK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "6"]
+[West "UllaBritt Goldberg#12649"]
+[North "Lars-Uno Andersson#14287"]
+[East "Lars Goldberg#9298"]
+[South "Johan Svensson#11900"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT6.T8753.K5.Q92 KQ83.K64.J983.K5 A974.AQ92.A4.J64 52.J.QT762.AT873"]
+[Scoring "MP;MP1"]
+[Round "2"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[Score "NS -50"]
+[Table "3"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "88945889454549735396"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  8
+N  H  9
+N  D  4
+N  C  5
+S NT  8
+S  S  8
+S  H  9
+S  D  4
+S  C  5
+E NT  4
+E  S  5
+E  H  4
+E  D  9
+E  C  7
+W NT  3
+W  S  5
+W  H  3
+W  D  9
+W  C  6
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "E"]
+1S 1NT Pass 2D =1= 
+Pass 2H Pass Pass 
+Pass 
+[Note "1: 15-18"]
+[Play "W"]
+S5 S6 SQ SA 
+D7 D5 D8 D4 
+S2 ST SK S4 
+HJ SJ S8 S7 
+D2 DK D3 DA 
+C3 H3 H4 HA 
+D6 C2 S3 S9 
+C7 H5 HK H9 
+C8 H7 H6 H2 
+CA C9 C5 CJ 
+CT CQ CK C4 
+DT H8 D9 HQ 
+DQ HT DJ C6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "7"]
+[West "Mikael Rimstedt#88184"]
+[North "Lars Goldberg#9298"]
+[East "Peter Bertheau#16757"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:95.KJ93.65.T6532 K63.A52.AKQ943.4 QJ4.T8.T72.KQJ97 AT872.Q764.J8.A8"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS -680"]
+[Table "5"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "1131711317abab6acac6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  1
+N  H  3
+N  D  1
+N  C  7
+S NT  1
+S  S  1
+S  H  3
+S  D  1
+S  C  7
+E NT 10
+E  S 11
+E  H 10
+E  D 11
+E  C  6
+W NT 10
+W  S 12
+W  H 10
+W  D 12
+W  C  6
+[OptimumScore "NS -1430"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1S Pass 2D 
+Pass 2H Pass 3S 
+Pass 4S Pass Pass 
+Pass 
+[Play "N"]
+C2 C4 CJ CA 
+S9 SK S4 S2 
+S5 S3 SJ SA 
+D5 D3 D2 DJ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "7"]
+[West "Jan Clementsson#55627"]
+[North "Teo Kukuljan#201593"]
+[East "Peter Fredin#2514"]
+[South "Gregor Rus#201594"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:95.KJ93.65.T6532 K63.A52.AKQ943.4 QJ4.T8.T72.KQJ97 AT872.Q764.J8.A8"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS -1430"]
+[Table "6"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "1131711317abab6acac6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  1
+N  H  3
+N  D  1
+N  C  7
+S NT  1
+S  S  1
+S  H  3
+S  D  1
+S  C  7
+E NT 10
+E  S 11
+E  H 10
+E  D 11
+E  C  6
+W NT 10
+W  S 12
+W  H 10
+W  D 12
+W  C  6
+[OptimumScore "NS -1430"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1S Pass 2NT =1= 
+Pass 3C =2= Pass 3D =3= 
+Pass 4S Pass 4NT 
+Pass 5H =4= Pass 6S 
+Pass Pass Pass 
+[Note "1: inv+, support"]
+[Note "2: minimum"]
+[Note "3: ask"]
+[Note "4: 2"]
+[Play "N"]
+D6 D3 D2 DJ 
+S9 SK S4 S2 
+S5 S3 SJ SA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "7"]
+[West "Birgitta Bornestav#36526"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Demitrius Berg#78981"]
+[South "Tina Drnovsek#201592"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:95.KJ93.65.T6532 K63.A52.AKQ943.4 QJ4.T8.T72.KQJ97 AT872.Q764.J8.A8"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS -1430"]
+[Table "1"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "1131711317abab6acac6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  1
+N  H  3
+N  D  1
+N  C  7
+S NT  1
+S  S  1
+S  H  3
+S  D  1
+S  C  7
+E NT 10
+E  S 11
+E  H 10
+E  D 11
+E  C  6
+W NT 10
+W  S 12
+W  H 10
+W  D 12
+W  C  6
+[OptimumScore "NS -1430"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1S Pass 2D 
+Pass 2H Pass 4NT 
+Pass 5H Pass 6S 
+Pass Pass Pass 
+[Play "N"]
+C2 C4 CJ CA 
+S5 SK S4 S2 
+S9 S3 SJ SA 
+C6 S6 C7 C8 
+D5 D3 D7 DJ 
+H3 H2 SQ ST 
+C3 H5 CK S7 
+D6 DA D2 D8 
+C5 DK DT H4 
+H9 DQ C9 H6 
+CT D9 H8 H7 
+HJ HA HT HQ 
+HK D4 CQ S8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "7"]
+[West "Johan Sylvan#2325"]
+[North "Cristina Ringström#39288"]
+[East "Mikael Westerlund#9690"]
+[South "Per Gjellan#16668"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:95.KJ93.65.T6532 K63.A52.AKQ943.4 QJ4.T8.T72.KQJ97 AT872.Q764.J8.A8"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS -1430"]
+[Table "4"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "1131711317abab6acac6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  1
+N  H  3
+N  D  1
+N  C  7
+S NT  1
+S  S  1
+S  H  3
+S  D  1
+S  C  7
+E NT 10
+E  S 11
+E  H 10
+E  D 11
+E  C  6
+W NT 10
+W  S 12
+W  H 10
+W  D 12
+W  C  6
+[OptimumScore "NS -1430"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1S Pass 2NT =1= 
+Pass 3C =2= Pass 4NT =3= 
+Pass 5H =4= Pass 6S 
+Pass Pass Pass 
+[Note "1: stenbergs invit"]
+[Note "2: min"]
+[Note "3: rkc 14-30"]
+[Note "4: 2A no Q in trump"]
+[Play "N"]
+C3 C4 CJ CA 
+S5 SK S4 S2 
+S9 S3 SJ SA 
+D6 D3 D2 DJ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "7"]
+[West "Eva Nilsson#60259"]
+[North "Lars-Uno Andersson#14287"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Svensson#11900"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:95.KJ93.65.T6532 K63.A52.AKQ943.4 QJ4.T8.T72.KQJ97 AT872.Q764.J8.A8"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS -680"]
+[Table "3"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "1131711317abab6acac6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  1
+N  H  3
+N  D  1
+N  C  7
+S NT  1
+S  S  1
+S  H  3
+S  D  1
+S  C  7
+E NT 10
+E  S 11
+E  H 10
+E  D 11
+E  C  6
+W NT 10
+W  S 12
+W  H 10
+W  D 12
+W  C  6
+[OptimumScore "NS -1430"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1S Pass 2D 
+Pass 2H Pass 4S 
+Pass Pass Pass 
+[Play "N"]
+D6 D3 DT DJ 
+S5 S3 SQ S7 
+C5 C4 CK CA 
+S9 SK S4 S2 
+D5 S6 SJ SA 
+C2 DA D2 D8 
+H9 DK D7 H4 
+C3 DQ C7 H6 
+C6 D9 C9 C8 
+CT D4 CJ H7 
+H3 HA H8 HQ 
+HJ H2 HT S8 
+HK H5 CQ ST 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "8"]
+[West "Jan Clementsson#55627"]
+[North "Teo Kukuljan#201593"]
+[East "Peter Fredin#2514"]
+[South "Gregor Rus#201594"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:874.KQ98.3.AT973 KT2.AT5.QT52.KQ8 A963.7432.K964.4 QJ5.J6.AJ87.J652"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "9"]
+[Score "NS -110"]
+[Table "6"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "35645356459669896698"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  5
+N  H  6
+N  D  4
+N  C  5
+S NT  3
+S  S  5
+S  H  6
+S  D  4
+S  C  5
+E NT  9
+E  S  6
+E  H  6
+E  D  9
+E  C  8
+W NT  9
+W  S  6
+W  H  6
+W  D  9
+W  C  8
+[OptimumScore "NS -400"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D Pass 
+1NT X =1= Pass 2S 
+3D Pass Pass Pass 
+[Note "1: takeout"]
+[Play "S"]
+C4 C2 CA C8 
+D4 C5 C3 CQ 
+H7 H6 HK HA 
+DK DA D3 DQ 
+D6 D7 C7 DT 
+D9 DJ -  D2 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "8"]
+[West "Eva Nilsson#60259"]
+[North "Lars-Uno Andersson#14287"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Svensson#11900"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:874.KQ98.3.AT973 KT2.AT5.QT52.KQ8 A963.7432.K964.4 QJ5.J6.AJ87.J652"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "9"]
+[Score "NS -110"]
+[Table "3"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "35645356459669896698"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  5
+N  H  6
+N  D  4
+N  C  5
+S NT  3
+S  S  5
+S  H  6
+S  D  4
+S  C  5
+E NT  9
+E  S  6
+E  H  6
+E  D  9
+E  C  8
+W NT  9
+W  S  6
+W  H  6
+W  D  9
+W  C  8
+[OptimumScore "NS -400"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D Pass 
+2D Pass Pass Pass 
+[Play "S"]
+C4 C2 CA C8 
+D4 C5 C3 CK 
+H7 H6 HQ HA 
+D6 D7 D3 DT 
+D9 D8 C7 DQ 
+DK DA H8 D2 
+S3 C6 C9 CQ 
+SA S5 S8 SK 
+H2 HJ HK H5 
+H3 SJ H9 HT 
+S6 SQ S4 S2 
+H4 CJ CT ST 
+S9 DJ S7 D5 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "8"]
+[West "Mikael Rimstedt#88184"]
+[North "Lars Goldberg#9298"]
+[East "Peter Bertheau#16757"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:874.KQ98.3.AT973 KT2.AT5.QT52.KQ8 A963.7432.K964.4 QJ5.J6.AJ87.J652"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "2NT"]
+[Result "10"]
+[Score "NS -180"]
+[Table "5"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "35645356459669896698"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  5
+N  H  6
+N  D  4
+N  C  5
+S NT  3
+S  S  5
+S  H  6
+S  D  4
+S  C  5
+E NT  9
+E  S  6
+E  H  6
+E  D  9
+E  C  8
+W NT  9
+W  S  6
+W  H  6
+W  D  9
+W  C  8
+[OptimumScore "NS -400"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D Pass 
+1NT X Pass 2D =1= 
+X Pass Pass 2H 
+Pass Pass 2NT Pass 
+Pass Pass 
+[Note "1: Alerted"]
+[Play "N"]
+HK HA H4 H6 
+S8 S2 S3 SQ 
+C3 CK C4 C2 
+D3 DQ DK DA 
+C7 CQ S6 C6 
+S4 SK SA S5 
+H8 H5 H2 HJ 
+S7 ST S9 SJ 
+C9 DT D4 D7 
+-  D2 D6 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "8"]
+[West "Johan Sylvan#2325"]
+[North "Cristina Ringström#39288"]
+[East "Mikael Westerlund#9690"]
+[South "Per Gjellan#16668"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:874.KQ98.3.AT973 KT2.AT5.QT52.KQ8 A963.7432.K964.4 QJ5.J6.AJ87.J652"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[Score "NS -430"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "35645356459669896698"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  5
+N  H  6
+N  D  4
+N  C  5
+S NT  3
+S  S  5
+S  H  6
+S  D  4
+S  C  5
+E NT  9
+E  S  6
+E  H  6
+E  D  9
+E  C  8
+W NT  9
+W  S  6
+W  H  6
+W  D  9
+W  C  8
+[OptimumScore "NS -400"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1NT =1= Pass 
+3NT Pass Pass Pass 
+[Note "1: 14-16"]
+[Play "S"]
+S3 S5 S7 ST 
+D4 D7 D3 DQ 
+DK DA S4 DT 
+C4 C2 C3 CK 
+D6 D8 H9 D5 
+H2 C5 CA C8 
+SA SJ S8 S2 
+S6 SQ H8 SK 
+D9 C6 C7 CQ 
+H3 DJ C9 D2 
+H4 CJ CT H5 
+H7 HJ HQ HA 
+S9 H6 HK HT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "8"]
+[West "Birgitta Bornestav#36526"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Demitrius Berg#78981"]
+[South "Tina Drnovsek#201592"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:874.KQ98.3.AT973 KT2.AT5.QT52.KQ8 A963.7432.K964.4 QJ5.J6.AJ87.J652"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "8"]
+[Score "NS -120"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "35645356459669896698"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  3
+N  S  5
+N  H  6
+N  D  4
+N  C  5
+S NT  3
+S  S  5
+S  H  6
+S  D  4
+S  C  5
+E NT  9
+E  S  6
+E  H  6
+E  D  9
+E  C  8
+W NT  9
+W  S  6
+W  H  6
+W  D  9
+W  C  8
+[OptimumScore "NS -400"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1C =1= Pass 
+1NT Pass Pass Pass 
+[Note "1: 1 cl denies 5 card in higher suit"]
+[Play "N"]
+HK HA H7 H6 
+D3 DT D4 D7 
+S8 D2 D6 DJ 
+C7 CK C4 C2 
+C3 D5 D9 DA 
+S4 S2 S6 SQ 
+S7 ST SA SJ 
+C9 DQ DK D8 
+H9 H5 H4 HJ 
+CA C8 H3 C5 
+HQ HT H2 C6 
+H8 CQ S3 S5 
+CT SK S9 CJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "9"]
+[West "Jan Clementsson#55627"]
+[North "Teo Kukuljan#201593"]
+[East "Peter Fredin#2514"]
+[South "Gregor Rus#201594"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A82.Q63.AKT85.AQ KQ654..643.KJ542 93.JT7542.Q97.73 JT7.AK98.J2.T986"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "8"]
+[Score "NS -100"]
+[Table "6"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "74885738836935869458"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  4
+N  H  8
+N  D  8
+N  C  5
+S NT  7
+S  S  3
+S  H  8
+S  D  8
+S  C  3
+E NT  6
+E  S  9
+E  H  3
+E  D  5
+E  C  8
+W NT  6
+W  S  9
+W  H  4
+W  D  5
+W  C  8
+[OptimumScore "NS -140"]
+[Competition "Pairs"]
+[Auction "N"]
+2NT =1= Pass 4D =2= Pass 
+4H Pass Pass Pass 
+[Note "1: 19-21"]
+[Note "2: ♡"]
+[Play "E"]
+SK S3 S7 SA 
+C2 HT HK H3 
+S6 S9 SJ S2 
+CK C3 CT CQ 
+S5 H5 ST S8 
+S4 H2 H8 HQ 
+SQ HJ HA H6 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "9"]
+[West "Mikael Rimstedt#88184"]
+[North "Lars Goldberg#9298"]
+[East "Peter Bertheau#16757"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A82.Q63.AKT85.AQ KQ654..643.KJ542 93.JT7542.Q97.73 JT7.AK98.J2.T986"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "S"]
+[Contract "4HX"]
+[Result "8"]
+[Score "NS -300"]
+[Table "5"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "74885738836935869458"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  4
+N  H  8
+N  D  8
+N  C  5
+S NT  7
+S  S  3
+S  H  8
+S  D  8
+S  C  3
+E NT  6
+E  S  9
+E  H  3
+E  D  5
+E  C  8
+W NT  6
+W  S  9
+W  H  4
+W  D  5
+W  C  8
+[OptimumScore "NS -140"]
+[Competition "Pairs"]
+[Auction "N"]
+1C =1= 1S Pass =2= 2S 
+3D 3S 4H X 
+Pass Pass Pass 
+[Note "1: 16+"]
+[Note "2: 0-4"]
+[Play "W"]
+SJ SA S4 S3 
+HK H3 C2 HJ 
+CT CQ CK C3 
+S7 S2 SK S9 
+ST S8 SQ H5 
+H8 HQ S5 H2 
+-  D5 D6 DQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "9"]
+[West "Johan Sylvan#2325"]
+[North "Cristina Ringström#39288"]
+[East "Mikael Westerlund#9690"]
+[South "Per Gjellan#16668"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A82.Q63.AKT85.AQ KQ654..643.KJ542 93.JT7542.Q97.73 JT7.AK98.J2.T986"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "8"]
+[Score "NS -50"]
+[Table "4"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "74885738836935869458"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  4
+N  H  8
+N  D  8
+N  C  5
+S NT  7
+S  S  3
+S  H  8
+S  D  8
+S  C  3
+E NT  6
+E  S  9
+E  H  3
+E  D  5
+E  C  8
+W NT  6
+W  S  9
+W  H  4
+W  D  5
+W  C  8
+[OptimumScore "NS -140"]
+[Competition "Pairs"]
+[Auction "N"]
+1D =1= 1S Pass 2S 
+2NT Pass 3H Pass 
+Pass Pass 
+[Note "1: 3+"]
+[Play "W"]
+SJ SA S4 S3 
+HK H3 C2 HT 
+CT CQ CK C3 
+S7 S2 SK S9 
+ST S8 SQ H2 
+H8 HQ S5 H4 
+C6 CA C4 C7 
+D2 D5 D6 DQ 
+DJ DA D4 D7 
+H9 DK D3 D9 
+HA H6 C5 H5 
+C8 D8 CJ H7 
+C9 DT S6 HJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "9"]
+[West "Eva Nilsson#60259"]
+[North "Lars-Uno Andersson#14287"]
+[East "Tina Elfstedt#55302"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A82.Q63.AKT85.AQ KQ654..643.KJ542 93.JT7542.Q97.73 JT7.AK98.J2.T986"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "8"]
+[Score "NS -50"]
+[Table "3"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "74885738836935869458"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  4
+N  H  8
+N  D  8
+N  C  5
+S NT  7
+S  S  3
+S  H  8
+S  D  8
+S  C  3
+E NT  6
+E  S  9
+E  H  3
+E  D  5
+E  C  8
+W NT  6
+W  S  9
+W  H  4
+W  D  5
+W  C  8
+[OptimumScore "NS -140"]
+[Competition "Pairs"]
+[Auction "N"]
+1D 2D =1= Pass 2S 
+Pass Pass 3H Pass 
+Pass Pass 
+[Note "1: Michels"]
+[Play "W"]
+HA H3 C2 H2 
+CT CQ CK C3 
+SJ SA SK S3 
+C6 CA C4 C7 
+D2 DA D3 D7 
+DJ D5 D4 DQ 
+HK H6 C5 H4 
+S7 S2 SQ S9 
+H8 D8 D6 D9 
+C9 S8 CJ H5 
+H9 HQ S4 H7 
+ST DT S5 HT 
+C8 DK S6 HJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "9"]
+[West "Birgitta Bornestav#36526"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Demitrius Berg#78981"]
+[South "Tina Drnovsek#201592"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A82.Q63.AKT85.AQ KQ654..643.KJ542 93.JT7542.Q97.73 JT7.AK98.J2.T986"]
+[Scoring "MP;MP1"]
+[Round "3"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[Score "NS 100"]
+[Table "1"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "74885738836935869458"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  4
+N  H  8
+N  D  8
+N  C  5
+S NT  7
+S  S  3
+S  H  8
+S  D  8
+S  C  3
+E NT  6
+E  S  9
+E  H  3
+E  D  5
+E  C  8
+W NT  6
+W  S  9
+W  H  4
+W  D  5
+W  C  8
+[OptimumScore "NS -140"]
+[Competition "Pairs"]
+[Auction "N"]
+1D 2D =1= Pass 2S 
+2NT 3S 4D 4S 
+Pass Pass Pass 
+[Note "1: Shows ♠ and one other suit "]
+[Play "N"]
+DA D3 D7 DJ 
+SA S4 S3 S7 
+S2 S5 S9 SJ 
+H3 D4 H2 HA 
+H6 D6 H4 HK 
+S8 SQ H5 ST 
+CQ C2 C3 C9 
+DK S6 D9 D2 
+CA C4 C7 CT 
+DT SK DQ H8 
+D5 CK H7 C6 
+D8 CJ HT C8 
+HQ C5 HJ H9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "10"]
+[West "Jan Clementsson#55627"]
+[North "Matteo Nordqvist#67675"]
+[East "Peter Fredin#2514"]
+[South "Joakim Johansson#68245"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT542.8.AK7.KT83 Q.972.JT942.A972 AJ98.AT53.Q63.Q5 763.KQJ64.85.J64"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Table "2"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "ac79aac79a2154221542"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S 12
+N  H  7
+N  D  9
+N  C 10
+S NT 10
+S  S 12
+S  H  7
+S  D  9
+S  C 10
+E NT  2
+E  S  1
+E  H  5
+E  D  4
+E  C  2
+W NT  2
+W  S  1
+W  H  5
+W  D  4
+W  C  2
+[OptimumScore "NS +1430"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1D 1H 1S 
+2H 2S Pass 4S 
+Pass Pass Pass 
+[Play "E"]
+H2 HA H4 H8 
+SQ SA S6 S2 
+H7 S8 S3 S4 
+H9 H3 HJ S5 
+D9 DQ D5 D7 
+D2 H5 H6 ST 
+CA C5 C6 CK 
+DT D3 D8 DK 
+C2 CQ C4 C3 
+D4 HT HQ SK 
+C9 SJ CJ C8 
+DJ S9 S7 CT 
+C7 D6 HK DA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "10"]
+[West "Gregor Rus#201594"]
+[North "Mikael Westerlund#9690"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT542.8.AK7.KT83 Q.972.JT942.A972 AJ98.AT53.Q63.Q5 763.KQJ64.85.J64"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Table "6"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "ac79aac79a2154221542"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S 12
+N  H  7
+N  D  9
+N  C 10
+S NT 10
+S  S 12
+S  H  7
+S  D  9
+S  C 10
+E NT  2
+E  S  1
+E  H  5
+E  D  4
+E  C  2
+W NT  2
+W  S  1
+W  H  5
+W  D  4
+W  C  2
+[OptimumScore "NS +1430"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1D =1= 1H 1S 
+2H =2= 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: BAL or NAT"]
+[Note "2: 3harths, no figure"]
+[Play "E"]
+H9 HA H4 H8 
+SQ SA S3 S2 
+D2 D3 D8 DA 
+C7 CQ C4 C3 
+CA C5 C6 CT 
+DJ D6 D5 DK 
+C2 S8 CJ C8 
+D4 SJ S7 S4 
+-  S9 S6 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "10"]
+[West "Johan Svensson#11900"]
+[North "Peter Bertheau#16757"]
+[East "Lars-Uno Andersson#14287"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT542.8.AK7.KT83 Q.972.JT942.A972 AJ98.AT53.Q63.Q5 763.KQJ64.85.J64"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Table "5"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "ac79aac79a2154221542"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S 12
+N  H  7
+N  D  9
+N  C 10
+S NT 10
+S  S 12
+S  H  7
+S  D  9
+S  C 10
+E NT  2
+E  S  1
+E  H  5
+E  D  4
+E  C  2
+W NT  2
+W  S  1
+W  H  5
+W  D  4
+W  C  2
+[OptimumScore "NS +1430"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1D =1= Pass 1S 
+Pass 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: 3+"]
+[Play "E"]
+DJ D3 D5 DA 
+H7 HA H4 H8 
+H9 H3 HJ S2 
+SQ S8 S3 SK 
+C2 CQ C6 C3 
+H2 H5 HQ S4 
+D4 SA S6 S5 
+D2 HT HK ST 
+C7 C5 CJ C8 
+-  -  S7 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "10"]
+[West "UllaBritt Goldberg#12649"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Lars Goldberg#9298"]
+[South "Tina Drnovsek#201592"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT542.8.AK7.KT83 Q.972.JT942.A972 AJ98.AT53.Q63.Q5 763.KQJ64.85.J64"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "ac79aac79a2154221542"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S 12
+N  H  7
+N  D  9
+N  C 10
+S NT 10
+S  S 12
+S  H  7
+S  D  9
+S  C 10
+E NT  2
+E  S  1
+E  H  5
+E  D  4
+E  C  2
+W NT  2
+W  S  1
+W  H  5
+W  D  4
+W  C  2
+[OptimumScore "NS +1430"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C 1H 1S =1= 
+2H 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: 5+"]
+[Play "E"]
+H2 HA H4 H8 
+SQ S8 S3 SK 
+C2 CQ C6 C3 
+CA C5 C4 CT 
+DJ D3 D8 DA 
+H7 SA S6 S2 
+D2 SJ S7 S4 
+DT D6 D5 DK 
+C9 S9 CJ C8 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "10"]
+[West "Eva Nilsson#60259"]
+[North "Cristina Ringström#39288"]
+[East "Tina Elfstedt#55302"]
+[South "Per Gjellan#16668"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT542.8.AK7.KT83 Q.972.JT942.A972 AJ98.AT53.Q63.Q5 763.KQJ64.85.J64"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Table "4"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "ac79aac79a2154221542"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S 12
+N  H  7
+N  D  9
+N  C 10
+S NT 10
+S  S 12
+S  H  7
+S  D  9
+S  C 10
+E NT  2
+E  S  1
+E  H  5
+E  D  4
+E  C  2
+W NT  2
+W  S  1
+W  H  5
+W  D  4
+W  C  2
+[OptimumScore "NS +1430"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1D =1= Pass 1S 
+Pass 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: 3+"]
+[Play "E"]
+DJ D3 D5 DK 
+C2 CQ C6 C3 
+CA C5 C4 CK 
+H2 HA H4 H8 
+SQ S8 S3 SK 
+C7 S9 CJ C8 
+H7 H3 HJ S2 
+C9 SJ D8 CT 
+H9 SA S6 S4 
+D2 H5 H6 S5 
+D4 HT S7 ST 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "11"]
+[West "Jan Clementsson#55627"]
+[North "Matteo Nordqvist#67675"]
+[East "Peter Fredin#2514"]
+[South "Joakim Johansson#68245"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:862.Q3.AQ5.JT752 T9743.A74.74.K43 KQJ.KJT95.T93.86 A5.862.KJ862.AQ9"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Table "2"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "55757867575757657576"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  5
+N  H  7
+N  D  5
+N  C  7
+S NT  8
+S  S  6
+S  H  7
+S  D  5
+S  C  7
+E NT  5
+E  S  7
+E  H  5
+E  D  7
+E  C  6
+W NT  5
+W  S  7
+W  H  5
+W  D  7
+W  C  6
+[OptimumScore "NS +120"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2H 
+Pass 2S =1= Pass Pass 
+Pass 
+[Note "1: Alerted"]
+[Play "N"]
+CJ CK C8 C9 
+DQ D4 D3 DJ 
+DA D7 D9 D6 
+S2 S3 SJ SA 
+S8 ST SQ S5 
+S6 S4 SK H2 
+C5 C3 C6 CA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "11"]
+[West "UllaBritt Goldberg#12649"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Lars Goldberg#9298"]
+[South "Tina Drnovsek#201592"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:862.Q3.AQ5.JT752 T9743.A74.74.K43 KQJ.KJT95.T93.86 A5.862.KJ862.AQ9"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS 50"]
+[Table "1"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "55757867575757657576"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  5
+N  H  7
+N  D  5
+N  C  7
+S NT  8
+S  S  6
+S  H  7
+S  D  5
+S  C  7
+E NT  5
+E  S  7
+E  H  5
+E  D  7
+E  C  6
+W NT  5
+W  S  7
+W  H  5
+W  D  7
+W  C  6
+[OptimumScore "NS +120"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2H =1= 
+X 2S Pass Pass 
+Pass 
+[Note "1: trf"]
+[Play "N"]
+HQ HA H5 H2 
+DQ D4 D9 DJ 
+H3 H4 HK H6 
+C2 H7 HJ H8 
+S2 S3 SK SA 
+S6 S9 SQ S5 
+DA D7 D3 D2 
+CJ CK C8 C9 
+S8 ST SJ D6 
+-  -  HT -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "11"]
+[West "Johan Svensson#11900"]
+[North "Peter Bertheau#16757"]
+[East "Lars-Uno Andersson#14287"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:862.Q3.AQ5.JT752 T9743.A74.74.K43 KQJ.KJT95.T93.86 A5.862.KJ862.AQ9"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS 50"]
+[Table "5"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "55757867575757657576"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  5
+N  H  7
+N  D  5
+N  C  7
+S NT  8
+S  S  6
+S  H  7
+S  D  5
+S  C  7
+E NT  5
+E  S  7
+E  H  5
+E  D  7
+E  C  6
+W NT  5
+W  S  7
+W  H  5
+W  D  7
+W  C  6
+[OptimumScore "NS +120"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2H =1= 
+X Pass Pass 2S 
+Pass Pass Pass 
+[Note "1: överf"]
+[Play "S"]
+SK SA S6 S3 
+SJ S5 S2 S7 
+H5 H2 HQ HA 
+SQ D2 S8 ST 
+HK H6 H3 H4 
+HJ H8 C7 H7 
+DT DJ DQ D4 
+D3 D6 DA D7 
+D9 D8 D5 S4 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "11"]
+[West "Gregor Rus#201594"]
+[North "Mikael Westerlund#9690"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Sylvan#2325"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:862.Q3.AQ5.JT752 T9743.A74.74.K43 KQJ.KJT95.T93.86 A5.862.KJ862.AQ9"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[Score "NS -90"]
+[Table "6"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "55757867575757657576"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  5
+N  H  7
+N  D  5
+N  C  7
+S NT  8
+S  S  6
+S  H  7
+S  D  5
+S  C  7
+E NT  5
+E  S  7
+E  H  5
+E  D  7
+E  C  6
+W NT  5
+W  S  7
+W  H  5
+W  D  7
+W  C  6
+[OptimumScore "NS +120"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1D =1= Pass 1S 
+Pass 1NT =2= Pass Pass 
+Pass 
+[Note "1: 3+"]
+[Note "2: 14-16"]
+[Play "N"]
+C2 C3 C8 CQ 
+S6 S3 SK SA 
+S2 S4 SJ S5 
+CT CK C6 C9 
+S8 ST SQ D2 
+DQ D4 DT DJ 
+C5 C4 H5 CA 
+H3 HA H9 H2 
+D5 S9 D9 D6 
+HQ S7 HT H6 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "11"]
+[West "Eva Nilsson#60259"]
+[North "Cristina Ringström#39288"]
+[East "Tina Elfstedt#55302"]
+[South "Per Gjellan#16668"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:862.Q3.AQ5.JT752 T9743.A74.74.K43 KQJ.KJT95.T93.86 A5.862.KJ862.AQ9"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Table "4"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "55757867575757657576"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  5
+N  H  7
+N  D  5
+N  C  7
+S NT  8
+S  S  6
+S  H  7
+S  D  5
+S  C  7
+E NT  5
+E  S  7
+E  H  5
+E  D  7
+E  C  6
+W NT  5
+W  S  7
+W  H  5
+W  D  7
+W  C  6
+[OptimumScore "NS +120"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1D Pass 1S 
+2H Pass Pass Pass 
+[Play "W"]
+H2 HQ HA H5 
+SA S2 S3 SJ 
+S5 S6 S7 SQ 
+H6 H3 H4 HK 
+H8 C2 H7 HJ 
+DJ DQ D4 D9 
+D2 S8 S9 SK 
+DK DA D7 DT 
+CQ CJ C3 C6 
+CA C5 C4 C8 
+D8 D5 S4 D3 
+D6 C7 ST H9 
+C9 CT CK HT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "12"]
+[West "Jan Clementsson#55627"]
+[North "Matteo Nordqvist#67675"]
+[East "Peter Fredin#2514"]
+[South "Joakim Johansson#68245"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A543.AT976.AT.87 T2.84.QJ87.JT542 6.QJ2.K965432.93 KQJ987.K53..AKQ6"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS -420"]
+[Table "2"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "83992839925a4495a449"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  9
+N  D  9
+N  C  2
+S NT  8
+S  S  3
+S  H  9
+S  D  9
+S  C  2
+E NT  5
+E  S 10
+E  H  4
+E  D  4
+E  C  9
+W NT  5
+W  S 10
+W  H  4
+W  D  4
+W  C  9
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "W"]
+1S 2H Pass Pass 
+4S Pass Pass Pass 
+[Play "N"]
+DA D7 D2 S8 
+S3 S2 S6 S7 
+SA ST D3 SK 
+C8 C2 C3 CA 
+S4 H4 D4 SQ 
+S5 H8 D5 SJ 
+C7 C4 C9 CK 
+DT C5 D6 CQ 
+H6 CT D9 C6 
+H7 CJ H2 H3 
+H9 DQ DK S9 
+HT D8 HJ H5 
+HA DJ HQ HK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "12"]
+[West "Gregor Rus#201594"]
+[North "Mikael Westerlund#9690"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Sylvan#2325"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A543.AT976.AT.87 T2.84.QJ87.JT542 6.QJ2.K965432.93 KQJ987.K53..AKQ6"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "11"]
+[Score "NS -200"]
+[Table "6"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "83992839925a4495a449"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  9
+N  D  9
+N  C  2
+S NT  8
+S  S  3
+S  H  9
+S  D  9
+S  C  2
+E NT  5
+E  S 10
+E  H  4
+E  D  4
+E  C  9
+W NT  5
+W  S 10
+W  H  4
+W  D  4
+W  C  9
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "W"]
+1S 2H Pass 3H 
+3S Pass Pass Pass 
+[Play "N"]
+C8 C2 C3 CA 
+S3 S2 S6 SQ 
+SA ST HQ SK 
+C7 C4 C9 CK 
+S4 D7 D2 SJ 
+S5 D8 D3 S9 
+H6 H8 D4 S8 
+H7 C5 D5 CQ 
+H9 CT D6 C6 
+HT CJ HJ H3 
+HA H4 H2 H5 
+DA -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "12"]
+[West "UllaBritt Goldberg#12649"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Lars Goldberg#9298"]
+[South "Tina Drnovsek#201592"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A543.AT976.AT.87 T2.84.QJ87.JT542 6.QJ2.K965432.93 KQJ987.K53..AKQ6"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "11"]
+[Score "NS -200"]
+[Table "1"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "83992839925a4495a449"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  9
+N  D  9
+N  C  2
+S NT  8
+S  S  3
+S  H  9
+S  D  9
+S  C  2
+E NT  5
+E  S 10
+E  H  4
+E  D  4
+E  C  9
+W NT  5
+W  S 10
+W  H  4
+W  D  4
+W  C  9
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "W"]
+1C =1= 1H Pass =2= 2H 
+2S Pass Pass Pass 
+[Note "1: 16+"]
+[Note "2: 0-4"]
+[Play "N"]
+C8 C2 C9 CK 
+S3 ST S6 S7 
+SA S2 D6 SK 
+H6 H4 HJ HK 
+S4 D7 D2 SQ 
+S5 H8 D3 SJ 
+H7 D8 D4 S9 
+C7 C4 C3 CA 
+H9 C5 D5 CQ 
+DT CT H2 C6 
+-  CJ D9 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "12"]
+[West "Johan Svensson#11900"]
+[North "Peter Bertheau#16757"]
+[East "Lars-Uno Andersson#14287"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A543.AT976.AT.87 T2.84.QJ87.JT542 6.QJ2.K965432.93 KQJ987.K53..AKQ6"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "S"]
+[Contract "4D"]
+[Result "9"]
+[Score "NS -100"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "83992839925a4495a449"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  9
+N  D  9
+N  C  2
+S NT  8
+S  S  3
+S  H  9
+S  D  9
+S  C  2
+E NT  5
+E  S 10
+E  H  4
+E  D  4
+E  C  9
+W NT  5
+W  S 10
+W  H  4
+W  D  4
+W  C  9
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "W"]
+1S Pass Pass 2D 
+2S 3NT Pass Pass 
+X Pass Pass 4D 
+Pass Pass Pass 
+[Play "W"]
+CA C7 C5 C3 
+CQ C8 C2 C9 
+SK SA S2 S6 
+S7 DA D7 D2 
+S8 S3 ST D3 
+HK HA H4 HQ 
+S9 S4 H8 D4 
+H3 H6 D8 HJ 
+H5 DT DQ DK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "12"]
+[West "Eva Nilsson#60259"]
+[North "Cristina Ringström#39288"]
+[East "Tina Elfstedt#55302"]
+[South "Per Gjellan#16668"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A543.AT976.AT.87 T2.84.QJ87.JT542 6.QJ2.K965432.93 KQJ987.K53..AKQ6"]
+[Scoring "MP;MP1"]
+[Round "4"]
+[Declarer "W"]
+[Contract "1S"]
+[Result "10"]
+[Score "NS -170"]
+[Table "4"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "83992839925a4495a449"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  9
+N  D  9
+N  C  2
+S NT  8
+S  S  3
+S  H  9
+S  D  9
+S  C  2
+E NT  5
+E  S 10
+E  H  4
+E  D  4
+E  C  9
+W NT  5
+W  S 10
+W  H  4
+W  D  4
+W  C  9
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "W"]
+1S Pass Pass Pass 
+[Play "N"]
+C8 C2 C3 CA 
+S4 ST S6 S7 
+SA S2 D6 S8 
+DA D7 D2 S9 
+S3 H4 D3 SK 
+S5 H8 D4 SQ 
+C7 C4 C9 CK 
+H7 C5 D5 CQ 
+DT CT D9 C6 
+H6 CJ H2 H3 
+H9 DJ DK SJ 
+HT D8 HJ H5 
+HA DQ HQ HK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "13"]
+[West "Eva Nilsson#60259"]
+[North "Peter Bertheau#16757"]
+[East "Tina Elfstedt#55302"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T973.9852.A8.AJ6 AQ862.764.3.Q984 K5.AQT.JT74.K752 J4.KJ3.KQ9652.T3"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "W"]
+[Contract "4DX"]
+[Result "6"]
+[Score "NS 1100"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "76767768776756667566"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  7
+N  D  6
+N  C  7
+S NT  7
+S  S  6
+S  H  8
+S  D  7
+S  C  7
+E NT  6
+E  S  7
+E  H  5
+E  D  6
+E  C  6
+W NT  6
+W  S  7
+W  H  5
+W  D  6
+W  C  6
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1D 2D 
+X 3S Pass 4D 
+X Pass Pass Pass 
+[Play "N"]
+H5 H4 HA H3 
+H2 H6 HQ HK 
+S3 S2 SK SJ 
+H8 H7 HT HJ 
+S7 SA S5 S4 
+S9 SQ DJ DQ 
+C6 C4 CK CT 
+CA C8 C2 C3 
+ST S6 C5 D2 
+DA D3 D4 DK 
+H9 C9 C7 D5 
+D8 S8 DT D9 
+CJ CQ D7 D6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "13"]
+[West "Johan Sylvan#2325"]
+[North "Matteo Nordqvist#67675"]
+[East "Mikael Westerlund#9690"]
+[South "Joakim Johansson#68245"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T973.9852.A8.AJ6 AQ862.764.3.Q984 K5.AQT.JT74.K752 J4.KJ3.KQ9652.T3"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "5"]
+[Score "NS -200"]
+[Table "2"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "76767768776756667566"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  7
+N  D  6
+N  C  7
+S NT  7
+S  S  6
+S  H  8
+S  D  7
+S  C  7
+E NT  6
+E  S  7
+E  H  5
+E  D  6
+E  C  6
+W NT  6
+W  S  7
+W  H  5
+W  D  6
+W  C  6
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C 1D 
+1H 1S 1NT Pass 
+Pass Pass 
+[Play "W"]
+SJ S3 S2 SK 
+C3 CJ CQ C2 
+HJ H2 H4 HT 
+CT CA C4 C5 
+D2 C6 C8 CK 
+DQ DA D3 DJ 
+D9 D8 S6 D4 
+S4 ST SQ S5 
+D5 H5 C9 C7 
+D6 S7 SA D7 
+HK H8 H7 HQ 
+DK H9 S8 DT 
+H3 S9 H6 HA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "13"]
+[West "Jan Clementsson#55627"]
+[North "Demitrius Berg#78981"]
+[East "Peter Fredin#2514"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T973.9852.A8.AJ6 AQ862.764.3.Q984 K5.AQT.JT74.K752 J4.KJ3.KQ9652.T3"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "5"]
+[Score "NS -400"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "76767768776756667566"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  7
+N  D  6
+N  C  7
+S NT  7
+S  S  6
+S  H  8
+S  D  7
+S  C  7
+E NT  6
+E  S  7
+E  H  5
+E  D  6
+E  C  6
+W NT  6
+W  S  7
+W  H  5
+W  D  6
+W  C  6
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+2D Pass 2H Pass 
+Pass 2S Pass 3D 
+3H Pass Pass Pass 
+[Play "W"]
+SJ S3 SA S5 
+DQ DA D3 DT 
+HJ H2 H7 HT 
+DK D8 S6 D4 
+D9 S7 H4 D7 
+S4 S9 S2 SK 
+C3 CJ CQ C2 
+HK ST SQ HQ 
+D2 C6 H6 DJ 
+CT H5 S8 C5 
+H3 CA C4 C7 
+D6 H8 C8 CK 
+D5 H9 C9 HA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "13"]
+[West "Tina Drnovsek#201592"]
+[North "Lars-Uno Andersson#14287"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T973.9852.A8.AJ6 AQ862.764.3.Q984 K5.AQT.JT74.K752 J4.KJ3.KQ9652.T3"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "76767768776756667566"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  7
+N  D  6
+N  C  7
+S NT  7
+S  S  6
+S  H  8
+S  D  7
+S  C  7
+E NT  6
+E  S  7
+E  H  5
+E  D  6
+E  C  6
+W NT  6
+W  S  7
+W  H  5
+W  D  6
+W  C  6
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1D Pass 
+1H 1S 2H Pass 
+Pass Pass 
+[Play "E"]
+D3 DT DQ DA 
+H4 D4 D6 D8 
+SA S5 SJ S3 
+S2 SK S4 S7 
+CQ C2 C3 CJ 
+S6 HT HJ S9 
+S8 D7 DK H8 
+H6 HQ HK H2 
+C4 DJ D5 H9 
+H7 HA H3 H5 
+C8 C5 CT CA 
+C9 CK D2 C6 
+SQ C7 D9 ST 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "13"]
+[West "Per Gjellan#16668"]
+[North "Teo Kukuljan#201593"]
+[East "Cristina Ringström#39288"]
+[South "Gregor Rus#201594"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T973.9852.A8.AJ6 AQ862.764.3.Q984 K5.AQT.JT74.K752 J4.KJ3.KQ9652.T3"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "E"]
+[Contract "3SX"]
+[Result "7"]
+[Score "NS 500"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "76767768776756667566"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  7
+N  D  6
+N  C  7
+S NT  7
+S  S  6
+S  H  8
+S  D  7
+S  C  7
+E NT  6
+E  S  7
+E  H  5
+E  D  6
+E  C  6
+W NT  6
+W  S  7
+W  H  5
+W  D  6
+W  C  6
+[OptimumScore "NS +110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1D =1= Pass 
+1H 1S Pass 2D 
+Pass 3C Pass 3S 
+X Pass Pass Pass 
+[Note "1: 3+"]
+[Play "S"]
+DJ DQ DA D3 
+SK S4 S7 S2 
+S5 SJ S3 S6 
+D4 DK D8 C4 
+D7 D2 H2 S8 
+C5 D5 S9 SA 
+HT HJ H5 H4 
+CK CT CJ CQ 
+HA H3 H9 H6 
+DT D6 H8 SQ 
+HQ HK ST H7 
+C2 C3 C6 C8 
+C7 D9 CA C9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "14"]
+[West "Johan Sylvan#2325"]
+[North "Matteo Nordqvist#67675"]
+[East "Mikael Westerlund#9690"]
+[South "Joakim Johansson#68245"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:KT97.J74.AT96.T9 864.A82.KJ83.743 AQJ.Q963.Q54.AKJ 532.KT5.72.Q8652"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "2"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "8a9979a9973344533445"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  9
+N  D  9
+N  C  7
+S NT  9
+S  S 10
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  3
+E  H  4
+E  D  4
+E  C  5
+W NT  3
+W  S  3
+W  H  4
+W  D  4
+W  C  5
+[OptimumScore "NS +420"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C =1= Pass 1S 
+Pass 2NT Pass 3NT 
+Pass Pass Pass 
+[Note "1:  * 3+ [0:32]"]
+[Play "W"]
+C2 C9 C7 CJ 
+D2 D6 DK DQ 
+C5 CT C4 CK 
+D7 D9 DJ D4 
+C6 H4 C3 CA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "14"]
+[West "Eva Nilsson#60259"]
+[North "Peter Bertheau#16757"]
+[East "Tina Elfstedt#55302"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:KT97.J74.AT96.T9 864.A82.KJ83.743 AQJ.Q963.Q54.AKJ 532.KT5.72.Q8652"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "5"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "8a9979a9973344533445"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  9
+N  D  9
+N  C  7
+S NT  9
+S  S 10
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  3
+E  H  4
+E  D  4
+E  C  5
+W NT  3
+W  S  3
+W  H  4
+W  D  4
+W  C  5
+[OptimumScore "NS +420"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C Pass 1S 
+Pass 2NT Pass 3NT 
+Pass Pass Pass 
+[Play "W"]
+C2 C9 C7 CJ 
+D2 D9 DJ D4 
+C5 CT C3 CA 
+D7 DT DK D5 
+C6 H4 C4 CK 
+S5 D6 D3 DQ 
+S3 S7 S4 SA 
+S2 S9 S6 SQ 
+H5 SK S8 SJ 
+C8 ST D8 H3 
+CQ DA H2 H6 
+HK HJ H8 H9 
+HT H7 HA HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "14"]
+[West "Jan Clementsson#55627"]
+[North "Demitrius Berg#78981"]
+[East "Peter Fredin#2514"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:KT97.J74.AT96.T9 864.A82.KJ83.743 AQJ.Q963.Q54.AKJ 532.KT5.72.Q8652"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "4"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "8a9979a9973344533445"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  9
+N  D  9
+N  C  7
+S NT  9
+S  S 10
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  3
+E  H  4
+E  D  4
+E  C  5
+W NT  3
+W  S  3
+W  H  4
+W  D  4
+W  C  5
+[OptimumScore "NS +420"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C Pass 1D =1= 
+Pass 2NT Pass 3NT 
+Pass Pass Pass 
+[Note "1: Förnekar 5 korts färg men lovar minst en 4 korts hf"]
+[Play "W"]
+C2 C9 C7 CJ 
+S5 S7 S8 SA 
+S3 S9 S4 SQ 
+S2 SK S6 SJ 
+C6 ST H8 H3 
+D2 D6 D8 DQ 
+D7 D9 DJ D4 
+C5 CT C4 CA 
+H5 DA D3 D5 
+HK H4 H2 HQ 
+HT HJ HA H6 
+C8 DT DK H9 
+CQ H7 C3 CK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "14"]
+[West "Tina Drnovsek#201592"]
+[North "Lars-Uno Andersson#14287"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Svensson#11900"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:KT97.J74.AT96.T9 864.A82.KJ83.743 AQJ.Q963.Q54.AKJ 532.KT5.72.Q8652"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -50"]
+[Table "1"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "8a9979a9973344533445"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  9
+N  D  9
+N  C  7
+S NT  9
+S  S 10
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  3
+E  H  4
+E  D  4
+E  C  5
+W NT  3
+W  S  3
+W  H  4
+W  D  4
+W  C  5
+[OptimumScore "NS +420"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H Pass 1S 
+Pass 2NT Pass 3H 
+Pass 3S Pass 3NT 
+Pass Pass Pass 
+[Play "W"]
+D7 D6 DK D4 
+C2 C9 C7 CA 
+S5 S7 S6 SA 
+S2 S9 S4 SQ 
+S3 SK S8 SJ 
+C5 ST H8 H3 
+D2 D9 D3 D5 
+CQ CT C3 CJ 
+H5 H4 HA H6 
+C6 H7 C4 CK 
+HT DA D8 DQ 
+HK HJ H2 H9 
+C8 DT DJ HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "14"]
+[West "Per Gjellan#16668"]
+[North "Teo Kukuljan#201593"]
+[East "Cristina Ringström#39288"]
+[South "Gregor Rus#201594"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:KT97.J74.AT96.T9 864.A82.KJ83.743 AQJ.Q963.Q54.AKJ 532.KT5.72.Q8652"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "6"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "8a9979a9973344533445"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  9
+N  D  9
+N  C  7
+S NT  9
+S  S 10
+S  H  9
+S  D  9
+S  C  7
+E NT  3
+E  S  3
+E  H  4
+E  D  4
+E  C  5
+W NT  3
+W  S  3
+W  H  4
+W  D  4
+W  C  5
+[OptimumScore "NS +420"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 2NT =1= Pass 3C =2= 
+Pass 3H Pass 3NT =3= 
+Pass Pass Pass 
+[Note "1: 19-21"]
+[Note "2: stayman"]
+[Note "3: 4 spades, no 4 harths"]
+[Play "W"]
+C5 C9 C3 CJ 
+D7 D6 DK DQ 
+C2 CT C7 CA 
+D2 D9 DJ D5 
+C6 H4 C4 CK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "15"]
+[West "Eva Nilsson#60259"]
+[North "Peter Bertheau#16757"]
+[East "Tina Elfstedt#55302"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT2.KT9.T3.KJ875 AJ763.Q3.A7542.9 94.AJ84.KQJ9.A42 K85.7652.86.QT63"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "7696a7696a4736347363"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  9
+N  D  6
+N  C 10
+S NT  7
+S  S  6
+S  H  9
+S  D  6
+S  C 10
+E NT  4
+E  S  7
+E  H  3
+E  D  6
+E  C  3
+W NT  4
+W  S  7
+W  H  3
+W  D  6
+W  C  3
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "S"]
+1NT Pass 3NT Pass 
+Pass Pass 
+[Play "W"]
+C6 C7 C9 CA 
+C3 C8 D2 C4 
+D6 D3 D4 DK 
+CQ CK S3 C2 
+CT CJ D5 S4 
+S5 C5 S6 S9 
+D8 DT D7 DQ 
+H7 H9 DA DJ 
+SK S2 S7 H4 
+S8 ST SJ H8 
+H2 SQ SA HJ 
+H5 HT H3 HA 
+H6 HK HQ D9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "15"]
+[West "Johan Sylvan#2325"]
+[North "Matteo Nordqvist#67675"]
+[East "Mikael Westerlund#9690"]
+[South "Joakim Johansson#68245"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT2.KT9.T3.KJ875 AJ763.Q3.A7542.9 94.AJ84.KQJ9.A42 K85.7652.86.QT63"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -100"]
+[Table "2"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "7696a7696a4736347363"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  9
+N  D  6
+N  C 10
+S NT  7
+S  S  6
+S  H  9
+S  D  6
+S  C 10
+E NT  4
+E  S  7
+E  H  3
+E  D  6
+E  C  3
+W NT  4
+W  S  7
+W  H  3
+W  D  6
+W  C  3
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "S"]
+1NT Pass 2S =1= X 
+3C =2= Pass 3NT Pass 
+Pass Pass 
+[Note "1: Transfer till♣"]
+[Note "2: minimum"]
+[Play "W"]
+S5 S2 SA S4 
+D8 D3 D2 DJ 
+C3 C5 C9 CA 
+C6 CJ S3 C2 
+D6 DT D4 DQ 
+H7 C7 DA DK 
+H2 C8 D5 D9 
+H5 H9 HQ H4 
+S8 HT D7 S9 
+SK ST S6 H8 
+H6 HK H3 HA 
+CT SQ S7 HJ 
+CQ CK SJ C4 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "15"]
+[West "Jan Clementsson#55627"]
+[North "Demitrius Berg#78981"]
+[East "Peter Fredin#2514"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT2.KT9.T3.KJ875 AJ763.Q3.A7542.9 94.AJ84.KQJ9.A42 K85.7652.86.QT63"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "7"]
+[Score "NS -200"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "7696a7696a4736347363"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  9
+N  D  6
+N  C 10
+S NT  7
+S  S  6
+S  H  9
+S  D  6
+S  C 10
+E NT  4
+E  S  7
+E  H  3
+E  D  6
+E  C  3
+W NT  4
+W  S  7
+W  H  3
+W  D  6
+W  C  3
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "S"]
+1NT Pass 3NT Pass 
+Pass Pass 
+[Play "W"]
+H5 H9 HQ HA 
+C3 C5 C9 CA 
+C6 CJ H3 C2 
+D6 DT D5 D9 
+D8 D3 DA DJ 
+SK S2 S3 S9 
+S8 ST SJ S4 
+S5 SQ SA H4 
+H2 HT S7 H8 
+H6 C7 S6 DQ 
+H7 C8 D4 DK 
+CT HK D7 HJ 
+CQ CK D2 C4 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "15"]
+[West "Per Gjellan#16668"]
+[North "Teo Kukuljan#201593"]
+[East "Cristina Ringström#39288"]
+[South "Gregor Rus#201594"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT2.KT9.T3.KJ875 AJ763.Q3.A7542.9 94.AJ84.KQJ9.A42 K85.7652.86.QT63"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -100"]
+[Table "6"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "7696a7696a4736347363"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  9
+N  D  6
+N  C 10
+S NT  7
+S  S  6
+S  H  9
+S  D  6
+S  C 10
+E NT  4
+E  S  7
+E  H  3
+E  D  6
+E  C  3
+W NT  4
+W  S  7
+W  H  3
+W  D  6
+W  C  3
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "S"]
+1NT =1= Pass 2NT =2= Pass 
+3NT Pass Pass Pass 
+[Note "1: 14-16"]
+[Note "2: invitation"]
+[Play "W"]
+H2 H9 HQ HA 
+C3 CJ C9 C2 
+C6 C5 S7 CA 
+D8 D3 DA DQ 
+SK S2 S3 S4 
+S8 ST SJ S9 
+S5 SQ SA D9 
+D6 C7 S6 H4 
+-  -  D2 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "15"]
+[West "Tina Drnovsek#201592"]
+[North "Lars-Uno Andersson#14287"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Svensson#11900"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT2.KT9.T3.KJ875 AJ763.Q3.A7542.9 94.AJ84.KQJ9.A42 K85.7652.86.QT63"]
+[Scoring "MP;MP1"]
+[Round "5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -100"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "7696a7696a4736347363"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H  9
+N  D  6
+N  C 10
+S NT  7
+S  S  6
+S  H  9
+S  D  6
+S  C 10
+E NT  4
+E  S  7
+E  H  3
+E  D  6
+E  C  3
+W NT  4
+W  S  7
+W  H  3
+W  D  6
+W  C  3
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "S"]
+1NT Pass 3NT Pass 
+Pass Pass 
+[Play "W"]
+H2 H9 HQ HA 
+C3 CJ C9 C2 
+C6 C5 S3 CA 
+CT CK D4 C4 
+H5 HT H3 H4 
+H6 HK D2 H8 
+D6 D3 D5 DK 
+H7 C7 S6 HJ 
+D8 DT DA DQ 
+SK S2 S7 S4 
+CQ C8 D7 D9 
+S5 ST SJ S9 
+S8 SQ SA DJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "16"]
+[West "UllaBritt Goldberg#12649"]
+[North "Peter Fredin#2514"]
+[East "Lars Goldberg#9298"]
+[South "Jan Clementsson#55627"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KQJ52..K9752.Q52 6.A983.QJT4.9864 T84.T62.A83.KT73 A973.KQJ754.6.AJ"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[Score "NS -100"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "582965829685b4685b46"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  8
+N  H  2
+N  D  9
+N  C  6
+S NT  5
+S  S  8
+S  H  2
+S  D  9
+S  C  6
+E NT  8
+E  S  5
+E  H 11
+E  D  4
+E  C  6
+W NT  8
+W  S  5
+W  H 11
+W  D  4
+W  C  6
+[OptimumScore "NS -500"]
+[Competition "Pairs"]
+[Auction "W"]
+1H 1S 3H =1= 3S 
+4H 4S Pass Pass 
+Pass 
+[Note "1: svagt"]
+[Play "E"]
+DQ D3 D6 DK 
+S6 ST S3 S2 
+H3 S4 S7 SK 
+DT DA S9 D2 
+D4 S8 SA S5 
+H8 H2 HQ SJ 
+DJ D8 H4 D9 
+HA H6 H5 SQ 
+H9 C3 H7 D7 
+C4 C7 HJ D5 
+C6 CK CA C2 
+C8 HT HK C5 
+C9 CT CJ CQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "16"]
+[West "Mikael Rimstedt#88184"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Bertheau#16757"]
+[South "Tina Drnovsek#201592"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KQJ52..K9752.Q52 6.A983.QJT4.9864 T84.T62.A83.KT73 A973.KQJ754.6.AJ"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS -650"]
+[Table "1"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "582965829685b4685b46"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  8
+N  H  2
+N  D  9
+N  C  6
+S NT  5
+S  S  8
+S  H  2
+S  D  9
+S  C  6
+E NT  8
+E  S  5
+E  H 11
+E  D  4
+E  C  6
+W NT  8
+W  S  5
+W  H 11
+W  D  4
+W  C  6
+[OptimumScore "NS -500"]
+[Competition "Pairs"]
+[Auction "W"]
+1H 2H =1= 4H Pass 
+Pass Pass 
+[Note "1: ♠+m"]
+[Play "N"]
+SK S6 S8 SA 
+S5 H3 S4 S3 
+DK DQ D8 D6 
+SQ H8 ST S7 
+D2 DJ DA H7 
+D5 H9 H2 HK 
+SJ HA D3 S9 
+D7 DT H6 CJ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "16"]
+[West "Eva Nilsson#60259"]
+[North "Teo Kukuljan#201593"]
+[East "Tina Elfstedt#55302"]
+[South "Gregor Rus#201594"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KQJ52..K9752.Q52 6.A983.QJT4.9864 T84.T62.A83.KT73 A973.KQJ754.6.AJ"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "8"]
+[Score "NS -300"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "582965829685b4685b46"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  8
+N  H  2
+N  D  9
+N  C  6
+S NT  5
+S  S  8
+S  H  2
+S  D  9
+S  C  6
+E NT  8
+E  S  5
+E  H 11
+E  D  4
+E  C  6
+W NT  8
+W  S  5
+W  H 11
+W  D  4
+W  C  6
+[OptimumScore "NS -500"]
+[Competition "Pairs"]
+[Auction "W"]
+1H 2H =1= 3H 3S 
+4H 4S Pass Pass 
+X Pass Pass Pass 
+[Note "1: spades an a minor, 5,5"]
+[Play "W"]
+HK S2 H3 H2 
+D6 D2 D4 DA 
+CA C2 C9 C3 
+CJ CQ C4 C7 
+SA SJ S6 S4 
+HQ S5 H8 H6 
+S3 SK H9 S8 
+S7 DK DT D8 
+HJ SQ HA HT 
+S9 C5 C8 CT 
+H4 -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "16"]
+[West "Joakim Johansson#68245"]
+[North "Cristina Ringström#39288"]
+[East "Matteo Nordqvist#67675"]
+[South "Per Gjellan#16668"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KQJ52..K9752.Q52 6.A983.QJT4.9864 T84.T62.A83.KT73 A973.KQJ754.6.AJ"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS -650"]
+[Table "2"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "582965829685b4685b46"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  8
+N  H  2
+N  D  9
+N  C  6
+S NT  5
+S  S  8
+S  H  2
+S  D  9
+S  C  6
+E NT  8
+E  S  5
+E  H 11
+E  D  4
+E  C  6
+W NT  8
+W  S  5
+W  H 11
+W  D  4
+W  C  6
+[OptimumScore "NS -500"]
+[Competition "Pairs"]
+[Auction "W"]
+1H 2H =1= 4H Pass 
+Pass Pass 
+[Note "1: 5 sp+en lågfärg"]
+[Play "N"]
+SK S6 S4 SA 
+D2 DT DA D6 
+C5 C4 C3 CA 
+S5 H3 S8 S3 
+DK DQ D3 CJ 
+CQ C6 C7 H4 
+S2 H8 ST S7 
+D5 D4 D8 H5 
+SQ HA CT S9 
+C2 H9 H2 HQ 
+D7 -  -  HK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "16"]
+[West "Johan Sylvan#2325"]
+[North "Demitrius Berg#78981"]
+[East "Mikael Westerlund#9690"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KQJ52..K9752.Q52 6.A983.QJT4.9864 T84.T62.A83.KT73 A973.KQJ754.6.AJ"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "5SX"]
+[Result "6"]
+[Score "NS -1100"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "582965829685b4685b46"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  8
+N  H  2
+N  D  9
+N  C  6
+S NT  5
+S  S  8
+S  H  2
+S  D  9
+S  C  6
+E NT  8
+E  S  5
+E  H 11
+E  D  4
+E  C  6
+W NT  8
+W  S  5
+W  H 11
+W  D  4
+W  C  6
+[OptimumScore "NS -500"]
+[Competition "Pairs"]
+[Auction "W"]
+1H 2H =1= 3H 3S 
+4H 4S Pass Pass 
+5H 5S Pass Pass 
+X Pass Pass Pass 
+[Note "1: ♠ + en lf"]
+[Play "W"]
+HK S2 H3 H2 
+S3 S5 S6 ST 
+S7 SJ C9 S4 
+CA C2 C4 CK 
+SA SQ C6 S8 
+H4 D2 HA H6 
+HJ SK H9 HT 
+D6 D5 DT DA 
+S9 D7 D4 D3 
+HQ C5 H8 C3 
+H7 D9 C8 C7 
+H5 DK DJ D8 
+CJ CQ DQ CT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "17"]
+[West "UllaBritt Goldberg#12649"]
+[North "Peter Fredin#2514"]
+[East "Lars Goldberg#9298"]
+[South "Jan Clementsson#55627"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J943.96.J65.AJT9 T.AKT73.Q83.KQ74 K875.QJ8.KT2.862 AQ62.542.A974.53"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS -420"]
+[Table "5"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "563354533487aa887aa8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  6
+N  H  3
+N  D  3
+N  C  5
+S NT  4
+S  S  5
+S  H  3
+S  D  3
+S  C  4
+E NT  8
+E  S  7
+E  H 10
+E  D 10
+E  C  8
+W NT  8
+W  S  7
+W  H 10
+W  D 10
+W  C  8
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H Pass 1S 
+Pass 2C Pass 3H 
+Pass 4H Pass Pass 
+Pass 
+[Play "S"]
+D2 D4 DJ DQ 
+S5 SQ S3 ST 
+C8 C3 C9 CQ 
+H8 H2 H6 HA 
+DT DA D6 D8 
+S7 SA S4 C4 
+C2 C5 CA C7 
+HJ H4 H9 HK 
+C6 S2 CT CK 
+HQ H5 D5 HT 
+SK S6 S9 H3 
+S8 D7 SJ H7 
+DK D9 CJ D3 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "17"]
+[West "Eva Nilsson#60259"]
+[North "Teo Kukuljan#201593"]
+[East "Tina Elfstedt#55302"]
+[South "Gregor Rus#201594"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J943.96.J65.AJT9 T.AKT73.Q83.KQ74 K875.QJ8.KT2.862 AQ62.542.A974.53"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS -110"]
+[Table "6"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "563354533487aa887aa8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  6
+N  H  3
+N  D  3
+N  C  5
+S NT  4
+S  S  5
+S  H  3
+S  D  3
+S  C  4
+E NT  8
+E  S  7
+E  H 10
+E  D 10
+E  C  8
+W NT  8
+W  S  7
+W  H 10
+W  D 10
+W  C  8
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H Pass 1S 
+Pass 2C Pass 2D =1= 
+Pass 2H Pass Pass 
+Pass 
+[Note "1: +9 hp relä"]
+[Play "S"]
+HQ H2 H9 HK 
+S8 SA S4 ST 
+H8 H4 H6 HA 
+HJ H5 C9 HT 
+S5 S2 S9 H3 
+C2 C3 CA CK 
+SK S6 S3 D3 
+S7 SQ SJ C4 
+DK D4 D5 DQ 
+D2 DA D6 D8 
+DT D9 DJ H7 
+C8 C5 CT C7 
+C6 D7 CJ CQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "17"]
+[West "Joakim Johansson#68245"]
+[North "Cristina Ringström#39288"]
+[East "Matteo Nordqvist#67675"]
+[South "Per Gjellan#16668"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J943.96.J65.AJT9 T.AKT73.Q83.KQ74 K875.QJ8.KT2.862 AQ62.542.A974.53"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS -450"]
+[Table "2"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "563354533487aa887aa8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  6
+N  H  3
+N  D  3
+N  C  5
+S NT  4
+S  S  5
+S  H  3
+S  D  3
+S  C  4
+E NT  8
+E  S  7
+E  H 10
+E  D 10
+E  C  8
+W NT  8
+W  S  7
+W  H 10
+W  D 10
+W  C  8
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H Pass 2NT =1= 
+Pass 3NT =2= Pass 4H 
+Pass Pass Pass 
+[Note "1:  * stenberg [0:07] * invit stenberg [0:25]"]
+[Note "2: singel♠"]
+[Play "S"]
+D2 D4 DJ DQ 
+S5 SQ S4 ST 
+HQ H2 H6 HT 
+S7 SA S3 D3 
+H8 H4 H9 HK 
+HJ H5 C9 HA 
+DT DA D6 D8 
+C2 C3 CA C4 
+S8 S2 SJ H3 
+C6 C5 CT CK 
+C8 S6 D5 H7 
+SK D7 CJ CQ 
+DK D9 S9 C7 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "17"]
+[West "Johan Sylvan#2325"]
+[North "Demitrius Berg#78981"]
+[East "Mikael Westerlund#9690"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J943.96.J65.AJT9 T.AKT73.Q83.KQ74 K875.QJ8.KT2.862 AQ62.542.A974.53"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS -420"]
+[Table "4"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "563354533487aa887aa8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  6
+N  H  3
+N  D  3
+N  C  5
+S NT  4
+S  S  5
+S  H  3
+S  D  3
+S  C  4
+E NT  8
+E  S  7
+E  H 10
+E  D 10
+E  C  8
+W NT  8
+W  S  7
+W  H 10
+W  D 10
+W  C  8
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H Pass 1S 
+Pass 2C Pass 3H 
+Pass 4H Pass Pass 
+Pass 
+[Play "S"]
+C8 C3 CA C4 
+C2 C5 CJ CK 
+H8 H2 H6 HA 
+HQ H4 H9 HK 
+C6 H5 CT C7 
+S5 SA S4 ST 
+S7 S2 S3 H3 
+HJ D4 C9 CQ 
+SK S6 S9 H7 
+S8 D7 SJ HT 
+D2 DA D6 D3 
+DT SQ D5 D8 
+DK D9 DJ DQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "17"]
+[West "Mikael Rimstedt#88184"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Bertheau#16757"]
+[South "Tina Drnovsek#201592"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J943.96.J65.AJT9 T.AKT73.Q83.KQ74 K875.QJ8.KT2.862 AQ62.542.A974.53"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS -420"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "563354533487aa887aa8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  6
+N  H  3
+N  D  3
+N  C  5
+S NT  4
+S  S  5
+S  H  3
+S  D  3
+S  C  4
+E NT  8
+E  S  7
+E  H 10
+E  D 10
+E  C  8
+W NT  8
+W  S  7
+W  H 10
+W  D 10
+W  C  8
+[OptimumScore "NS -420"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass 1H Pass 1S 
+Pass 2C =1= Pass 2D =2= 
+Pass 2H =3= Pass 3H 
+Pass 3NT Pass 4H 
+Pass Pass Pass 
+[Note "1: cl or 16+ any"]
+[Note "2: any 8+hp"]
+[Note "3: h+cl 11-15"]
+[Play "S"]
+C2 C3 CA C4 
+DT DA D5 D8 
+C6 C5 CT CK 
+C8 H2 C9 C7 
+H8 H4 H6 HA 
+HJ H5 H9 HK 
+HQ S2 CJ CQ 
+DK D4 D6 D3 
+D2 D7 DJ DQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "18"]
+[West "UllaBritt Goldberg#12649"]
+[North "Peter Fredin#2514"]
+[East "Lars Goldberg#9298"]
+[South "Jan Clementsson#55627"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT.KQ.A8743.Q987 Q32.JT3.QT65.K64 AK985.98.K92.AJ3 764.A76542.J.T52"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "5"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "bb8bbbb8bb2252222522"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 11
+N  S 11
+N  H  8
+N  D 11
+N  C 11
+S NT 11
+S  S 11
+S  H  8
+S  D 11
+S  C 11
+E NT  2
+E  S  2
+E  H  5
+E  D  2
+E  C  2
+W NT  2
+W  S  2
+W  H  5
+W  D  2
+W  C  2
+[OptimumScore "NS +660"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1NT Pass 3NT 
+Pass Pass Pass 
+[Play "W"]
+H4 HQ HJ H8 
+S6 SJ SQ SK 
+S7 ST S3 S5 
+DJ D3 D5 DK 
+S4 D4 S2 SA 
+C5 D7 D6 S9 
+H2 C7 C4 S8 
+C2 DA DQ D9 
+CT C8 C6 CA 
+H5 C9 CK CJ 
+H6 D8 DT D2 
+HA HK H3 H9 
+H7 CQ HT C3 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "18"]
+[West "Eva Nilsson#60259"]
+[North "Teo Kukuljan#201593"]
+[East "Tina Elfstedt#55302"]
+[South "Gregor Rus#201594"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT.KQ.A8743.Q987 Q32.JT3.QT65.K64 AK985.98.K92.AJ3 764.A76542.J.T52"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 650"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "bb8bbbb8bb2252222522"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 11
+N  S 11
+N  H  8
+N  D 11
+N  C 11
+S NT 11
+S  S 11
+S  H  8
+S  D 11
+S  C 11
+E NT  2
+E  S  2
+E  H  5
+E  D  2
+E  C  2
+W NT  2
+W  S  2
+W  H  5
+W  D  2
+W  C  2
+[OptimumScore "NS +660"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1NT =1= 2H 3D =2= 
+3H 3S Pass 4S 
+Pass Pass Pass 
+[Note "1: 14-16"]
+[Note "2: gf, 5+D * game forcing [0:15] * 11+ popints [0:34]"]
+[Play "W"]
+DJ DA D6 D2 
+S4 SJ SQ SA 
+S6 ST S2 SK 
+S7 C7 S3 S9 
+H2 D3 D5 DK 
+H4 D4 DT D9 
+CT CQ C4 C3 
+H5 D8 DQ S5 
+H6 C8 H3 S8 
+HA HQ HT H9 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "18"]
+[West "Johan Sylvan#2325"]
+[North "Demitrius Berg#78981"]
+[East "Mikael Westerlund#9690"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT.KQ.A8743.Q987 Q32.JT3.QT65.K64 AK985.98.K92.AJ3 764.A76542.J.T52"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS 660"]
+[Table "4"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "bb8bbbb8bb2252222522"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 11
+N  S 11
+N  H  8
+N  D 11
+N  C 11
+S NT 11
+S  S 11
+S  H  8
+S  D 11
+S  C 11
+E NT  2
+E  S  2
+E  H  5
+E  D  2
+E  C  2
+W NT  2
+W  S  2
+W  H  5
+W  D  2
+W  C  2
+[OptimumScore "NS +660"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1S Pass 2D 
+Pass 3NT Pass Pass 
+Pass 
+[Play "W"]
+H4 HQ HJ H8 
+S7 ST S3 S5 
+S6 SJ SQ SK 
+S4 C7 S2 SA 
+C5 C8 C4 S9 
+C2 C9 C6 S8 
+DJ DA D5 D2 
+CT CQ CK CA 
+H2 D3 H3 CJ 
+H5 D4 D6 C3 
+H6 D7 DQ DK 
+H7 D8 DT D9 
+HA HK HT H9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "18"]
+[West "Joakim Johansson#68245"]
+[North "Cristina Ringström#39288"]
+[East "Matteo Nordqvist#67675"]
+[South "Per Gjellan#16668"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT.KQ.A8743.Q987 Q32.JT3.QT65.K64 AK985.98.K92.AJ3 764.A76542.J.T52"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "2"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "bb8bbbb8bb2252222522"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 11
+N  S 11
+N  H  8
+N  D 11
+N  C 11
+S NT 11
+S  S 11
+S  H  8
+S  D 11
+S  C 11
+E NT  2
+E  S  2
+E  H  5
+E  D  2
+E  C  2
+W NT  2
+W  S  2
+W  H  5
+W  D  2
+W  C  2
+[OptimumScore "NS +660"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1NT =1= 3H 3NT 
+Pass Pass Pass 
+[Note "1: 15-17"]
+[Play "W"]
+H4 HQ HT H8 
+S4 SJ S2 S5 
+S6 ST S3 S8 
+DJ D3 DT DK 
+S7 C7 SQ SA 
+H2 C8 D5 SK 
+H5 HK H3 S9 
+C2 DA D6 D9 
+C5 CQ C4 CA 
+H6 D8 DQ D2 
+CT C9 CK C3 
+HA D4 HJ H9 
+H7 D7 C6 CJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "18"]
+[West "Mikael Rimstedt#88184"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Bertheau#16757"]
+[South "Tina Drnovsek#201592"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT.KQ.A8743.Q987 Q32.JT3.QT65.K64 AK985.98.K92.AJ3 764.A76542.J.T52"]
+[Scoring "MP;MP1"]
+[Round "6"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 600"]
+[Table "1"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "bb8bbbb8bb2252222522"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 11
+N  S 11
+N  H  8
+N  D 11
+N  C 11
+S NT 11
+S  S 11
+S  H  8
+S  D 11
+S  C 11
+E NT  2
+E  S  2
+E  H  5
+E  D  2
+E  C  2
+W NT  2
+W  S  2
+W  H  5
+W  D  2
+W  C  2
+[OptimumScore "NS +660"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1NT Pass 3NT 
+Pass Pass Pass 
+[Play "W"]
+H2 HK HJ H8 
+S7 SJ S2 S5 
+S6 ST SQ SA 
+S4 D3 S3 SK 
+C5 D4 D5 S9 
+C2 C7 C6 S8 
+DJ D7 D6 DK 
+H4 DA DT D2 
+CT C8 C4 CA 
+H5 D8 DQ D9 
+HA HQ H3 H9 
+H6 C9 HT C3 
+H7 CQ CK CJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "19"]
+[West "Johan Sylvan#2325"]
+[North "Lars Goldberg#9298"]
+[East "Mikael Westerlund#9690"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ754.T875.KJ.A7 KT83.Q6.86.K9543 .AJ943.AQ432.T86 A962.K2.T975.QJ2"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Table "6"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "76ba676ba63713637136"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H 11
+N  D 10
+N  C  6
+S NT  7
+S  S  6
+S  H 11
+S  D 10
+S  C  6
+E NT  3
+E  S  7
+E  H  1
+E  D  3
+E  C  6
+W NT  3
+W  S  7
+W  H  1
+W  D  3
+W  C  6
+[OptimumScore "NS +450"]
+[Competition "Pairs"]
+[Auction "S"]
+1H Pass 4H Pass 
+Pass Pass 
+[Play "W"]
+CQ CA C3 C6 
+H2 H5 H6 HA 
+HK H7 HQ H3 
+CJ C7 C9 C8 
+DT -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "19"]
+[West "Gregor Rus#201594"]
+[North "Matteo Nordqvist#67675"]
+[East "Teo Kukuljan#201593"]
+[South "Joakim Johansson#68245"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ754.T875.KJ.A7 KT83.Q6.86.K9543 .AJ943.AQ432.T86 A962.K2.T975.QJ2"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Table "2"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "76ba676ba63713637136"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H 11
+N  D 10
+N  C  6
+S NT  7
+S  S  6
+S  H 11
+S  D 10
+S  C  6
+E NT  3
+E  S  7
+E  H  1
+E  D  3
+E  C  6
+W NT  3
+W  S  7
+W  H  1
+W  D  3
+W  C  6
+[OptimumScore "NS +450"]
+[Competition "Pairs"]
+[Auction "S"]
+1H X 2NT =1= Pass 
+3C =2= Pass =3= 4H Pass 
+Pass Pass 
+[Note "1:  * Jacoby invite [0:15]"]
+[Note "2:  * minimum [0:07]"]
+[Note "3: 19-21"]
+[Play "W"]
+DT DK D8 D2 
+HK HT H6 H9 
+CQ CA C3 C6 
+H2 H8 HQ HA 
+D5 DJ D6 D3 
+S6 S4 S3 H3 
+D7 C7 S8 DA 
+D9 S5 C4 DQ 
+S2 S7 C5 D4 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "19"]
+[West "Johan Svensson#11900"]
+[North "Peter Fredin#2514"]
+[East "Lars-Uno Andersson#14287"]
+[South "Jan Clementsson#55627"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ754.T875.KJ.A7 KT83.Q6.86.K9543 .AJ943.AQ432.T86 A962.K2.T975.QJ2"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Table "5"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "76ba676ba63713637136"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H 11
+N  D 10
+N  C  6
+S NT  7
+S  S  6
+S  H 11
+S  D 10
+S  C  6
+E NT  3
+E  S  7
+E  H  1
+E  D  3
+E  C  6
+W NT  3
+W  S  7
+W  H  1
+W  D  3
+W  C  6
+[OptimumScore "NS +450"]
+[Competition "Pairs"]
+[Auction "S"]
+1H Pass 2NT Pass 
+3C =1= Pass 4H Pass 
+Pass Pass 
+[Note "1: minimum"]
+[Play "W"]
+CQ CA C3 C6 
+D5 DK D6 D2 
+D7 DJ D8 D3 
+H2 H5 H6 HA 
+D9 C7 HQ DQ 
+S2 S4 S3 H3 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "19"]
+[West "Per Gjellan#16668"]
+[North "Demitrius Berg#78981"]
+[East "Cristina Ringström#39288"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ754.T875.KJ.A7 KT83.Q6.86.K9543 .AJ943.AQ432.T86 A962.K2.T975.QJ2"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Table "4"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "76ba676ba63713637136"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H 11
+N  D 10
+N  C  6
+S NT  7
+S  S  6
+S  H 11
+S  D 10
+S  C  6
+E NT  3
+E  S  7
+E  H  1
+E  D  3
+E  C  6
+W NT  3
+W  S  7
+W  H  1
+W  D  3
+W  C  6
+[OptimumScore "NS +450"]
+[Competition "Pairs"]
+[Auction "S"]
+1H Pass 3H Pass 
+4H Pass Pass Pass 
+[Play "W"]
+DT DJ D6 D2 
+HK H7 H6 H3 
+CQ CA C5 C6 
+H2 H8 HQ HA 
+D5 DK D8 D3 
+S2 S4 S8 H4 
+D7 C7 C3 DA 
+D9 S5 C4 DQ 
+C2 S7 S3 D4 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "19"]
+[West "Eva Nilsson#60259"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Tina Elfstedt#55302"]
+[South "Tina Drnovsek#201592"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ754.T875.KJ.A7 KT83.Q6.86.K9543 .AJ943.AQ432.T86 A962.K2.T975.QJ2"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Table "1"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "76ba676ba63713637136"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  6
+N  H 11
+N  D 10
+N  C  6
+S NT  7
+S  S  6
+S  H 11
+S  D 10
+S  C  6
+E NT  3
+E  S  7
+E  H  1
+E  D  3
+E  C  6
+W NT  3
+W  S  7
+W  H  1
+W  D  3
+W  C  6
+[OptimumScore "NS +450"]
+[Competition "Pairs"]
+[Auction "S"]
+1H Pass 2S =1= Pass 
+4H Pass Pass Pass 
+[Note "1: 3+♡, inv"]
+[Play "W"]
+CQ CA C3 C6 
+H2 H5 H6 HA 
+D5 DK D6 D2 
+D7 DJ D8 D3 
+S2 S4 S3 H3 
+D9 C7 HQ DA 
+S6 S5 S8 H4 
+HK H7 C4 HJ 
+SA S7 ST H9 
+DT SJ C5 DQ 
+C2 SQ C9 D4 
+CJ H8 CK CT 
+S9 HT SK C8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "20"]
+[West "Gregor Rus#201594"]
+[North "Matteo Nordqvist#67675"]
+[East "Teo Kukuljan#201593"]
+[South "Joakim Johansson#68245"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:A762.A863.QJ2.75 J4.J75.9863.A962 KQ98.KQ.KT74.J83 T53.T942.A5.KQT4"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Table "2"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "8a8968a8965353753537"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  8
+N  D  9
+N  C  6
+S NT  8
+S  S 10
+S  H  8
+S  D  9
+S  C  6
+E NT  5
+E  S  3
+E  H  5
+E  D  3
+E  C  7
+W NT  5
+W  S  3
+W  H  5
+W  D  3
+W  C  7
+[OptimumScore "NS +620"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 1D =1= 
+Pass 1H Pass 1S 
+Pass 4S Pass Pass 
+Pass 
+[Note "1:  * 3+ [0:06]"]
+[Play "W"]
+CK C5 C2 C3 
+CQ C7 C6 C8 
+DA D2 D9 D4 
+D5 DJ D3 D7 
+S3 S2 S4 SK 
+S5 S6 SJ SQ 
+ST SA H5 S8 
+H2 H3 HJ HK 
+H4 H6 H7 HQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "20"]
+[West "Johan Sylvan#2325"]
+[North "Lars Goldberg#9298"]
+[East "Mikael Westerlund#9690"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:A762.A863.QJ2.75 J4.J75.9863.A962 KQ98.KQ.KT74.J83 T53.T942.A5.KQT4"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Table "6"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "8a8968a8965353753537"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  8
+N  D  9
+N  C  6
+S NT  8
+S  S 10
+S  H  8
+S  D  9
+S  C  6
+E NT  5
+E  S  3
+E  H  5
+E  D  3
+E  C  7
+W NT  5
+W  S  3
+W  H  5
+W  D  3
+W  C  7
+[OptimumScore "NS +620"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 1D 
+Pass 1H Pass 1S 
+Pass 4S Pass Pass 
+Pass 
+[Play "W"]
+CK C5 C2 C8 
+C4 C7 CA C3 
+CQ S2 C9 CJ 
+S5 S6 S4 SK 
+S3 SA SJ S8 
+ST S7 C6 SQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "20"]
+[West "Johan Svensson#11900"]
+[North "Peter Fredin#2514"]
+[East "Lars-Uno Andersson#14287"]
+[South "Jan Clementsson#55627"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:A762.A863.QJ2.75 J4.J75.9863.A962 KQ98.KQ.KT74.J83 T53.T942.A5.KQT4"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Table "5"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "8a8968a8965353753537"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  8
+N  D  9
+N  C  6
+S NT  8
+S  S 10
+S  H  8
+S  D  9
+S  C  6
+E NT  5
+E  S  3
+E  H  5
+E  D  3
+E  C  7
+W NT  5
+W  S  3
+W  H  5
+W  D  3
+W  C  7
+[OptimumScore "NS +620"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 1D =1= 
+Pass 1H Pass 1S 
+Pass 4S Pass Pass 
+Pass 
+[Note "1: Alerted"]
+[Play "W"]
+CK C5 C2 C3 
+CQ C7 C6 C8 
+DA D2 D6 D7 
+D5 DQ D3 D4 
+S5 SA S4 S8 
+S3 S2 SJ SK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "20"]
+[West "Per Gjellan#16668"]
+[North "Demitrius Berg#78981"]
+[East "Cristina Ringström#39288"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:A762.A863.QJ2.75 J4.J75.9863.A962 KQ98.KQ.KT74.J83 T53.T942.A5.KQT4"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Table "4"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "8a8968a8965353753537"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  8
+N  D  9
+N  C  6
+S NT  8
+S  S 10
+S  H  8
+S  D  9
+S  C  6
+E NT  5
+E  S  3
+E  H  5
+E  D  3
+E  C  7
+W NT  5
+W  S  3
+W  H  5
+W  D  3
+W  C  7
+[OptimumScore "NS +620"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1C =1= Pass 1D 
+Pass 1H Pass 1S 
+Pass 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: 1 kl som förnekar 5 kort i övriga färger"]
+[Play "W"]
+CK C5 C6 C8 
+C4 C7 CA C3 
+DA D2 D9 D4 
+D5 DJ D3 D7 
+S3 S2 S4 SQ 
+S5 S6 SJ SK 
+ST SA H5 S8 
+H4 H3 H7 HK 
+H2 H6 HJ HQ 
+CT DQ D6 DT 
+H9 HA C2 CJ 
+HT H8 C9 S9 
+CQ S7 D8 DK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "20"]
+[West "Eva Nilsson#60259"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Tina Elfstedt#55302"]
+[South "Tina Drnovsek#201592"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:A762.A863.QJ2.75 J4.J75.9863.A962 KQ98.KQ.KT74.J83 T53.T942.A5.KQT4"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "8a8968a8965353753537"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S 10
+N  H  8
+N  D  9
+N  C  6
+S NT  8
+S  S 10
+S  H  8
+S  D  9
+S  C  6
+E NT  5
+E  S  3
+E  H  5
+E  D  3
+E  C  7
+W NT  5
+W  S  3
+W  H  5
+W  D  3
+W  C  7
+[OptimumScore "NS +620"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass 1C =1= Pass 1S 
+Pass 2S Pass 4S 
+Pass Pass Pass 
+[Note "1: 2+"]
+[Play "W"]
+CK C5 C2 C3 
+CQ C7 C6 C8 
+DA D2 D8 D4 
+H4 H3 HJ HK 
+S3 S2 S4 SK 
+S5 SA SJ S8 
+ST S6 H7 SQ 
+H2 H6 H5 HQ 
+D5 DQ D3 D7 
+C4 DJ D6 DK 
+CT H8 D9 DT 
+H9 S7 C9 CJ 
+HT HA CA S9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "21"]
+[West "Johan Svensson#11900"]
+[North "Peter Fredin#2514"]
+[East "Lars-Uno Andersson#14287"]
+[South "Jan Clementsson#55627"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:65.KQT84.T982.J9 AJ987.93.A63.T76 KQ42.652.Q4.AQ83 T3.AJ7.KJ75.K542"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Table "5"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "65765657656857768577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  7
+N  D  6
+N  C  5
+S NT  6
+S  S  5
+S  H  7
+S  D  6
+S  C  5
+E NT  6
+E  S  8
+E  H  5
+E  D  7
+E  C  7
+W NT  6
+W  S  8
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS -110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C =1= Pass 
+1H 1S X =2= Pass 
+2H Pass Pass Pass 
+[Note "1: Alerted"]
+[Note "2: 3hj"]
+[Play "E"]
+H3 H2 HA H4 
+SA S2 ST S6 
+SJ SK S3 S5 
+C7 C3 CK C9 
+DA D4 D5 D2 
+S9 S4 HJ HK 
+H9 H5 H7 HQ 
+S7 H6 C2 HT 
+D3 DQ D7 H8 
+C6 CA C4 CJ 
+S8 SQ C5 D8 
+CT CQ DJ D9 
+D6 C8 DK DT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "21"]
+[West "Gregor Rus#201594"]
+[North "Matteo Nordqvist#67675"]
+[East "Teo Kukuljan#201593"]
+[South "Joakim Johansson#68245"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:65.KQT84.T982.J9 AJ987.93.A63.T76 KQ42.652.Q4.AQ83 T3.AJ7.KJ75.K542"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "7"]
+[Score "NS -100"]
+[Table "2"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "65765657656857768577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  7
+N  D  6
+N  C  5
+S NT  6
+S  S  5
+S  H  7
+S  D  6
+S  C  5
+E NT  6
+E  S  8
+E  H  5
+E  D  7
+E  C  7
+W NT  6
+W  S  8
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS -110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C =1= Pass 
+1H 1S 1NT Pass 
+2D Pass 2H =2= Pass 
+Pass Pass 
+[Note "1: 3+"]
+[Note "2:  * 3 [0:06]"]
+[Play "E"]
+H3 H2 HA H4 
+H9 H5 H7 HQ 
+S7 H6 HJ HK 
+C6 C3 C5 CJ 
+C7 CQ CK C9 
+SA S2 ST S5 
+DA D4 D5 D2 
+D3 DQ DK D8 
+D6 C8 DJ D9 
+-  -  D7 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "21"]
+[West "Johan Sylvan#2325"]
+[North "Lars Goldberg#9298"]
+[East "Mikael Westerlund#9690"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:65.KQT84.T982.J9 AJ987.93.A63.T76 KQ42.652.Q4.AQ83 T3.AJ7.KJ75.K542"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "S"]
+[Contract "1SX"]
+[Result "4"]
+[Score "NS -800"]
+[Table "6"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "65765657656857768577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  7
+N  D  6
+N  C  5
+S NT  6
+S  S  5
+S  H  7
+S  D  6
+S  C  5
+E NT  6
+E  S  8
+E  H  5
+E  D  7
+E  C  7
+W NT  6
+W  S  8
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS -110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1S X 
+Pass Pass Pass 
+[Play "W"]
+ST S5 SA S2 
+S3 S6 SJ SK 
+H7 HQ H3 H2 
+CK CJ C7 C3 
+D7 D8 DA D4 
+C2 D2 S8 SQ 
+HA H4 H9 H5 
+HJ HK S7 H6 
+C4 H8 S9 S4 
+DK D9 D6 DQ 
+DJ DT D3 C8 
+D5 C9 C6 CQ 
+C5 HT CT CA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "21"]
+[West "Per Gjellan#16668"]
+[North "Demitrius Berg#78981"]
+[East "Cristina Ringström#39288"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:65.KQT84.T982.J9 AJ987.93.A63.T76 KQ42.652.Q4.AQ83 T3.AJ7.KJ75.K542"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Table "4"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "65765657656857768577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  7
+N  D  6
+N  C  5
+S NT  6
+S  S  5
+S  H  7
+S  D  6
+S  C  5
+E NT  6
+E  S  8
+E  H  5
+E  D  7
+E  C  7
+W NT  6
+W  S  8
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS -110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C Pass 
+1H 1S X 1NT 
+Pass Pass 2H 2S 
+Pass Pass Pass 
+[Play "S"]
+H5 H7 HT H3 
+CA C2 CJ C7 
+H6 HA H4 H9 
+SQ ST S5 S7 
+DQ DK D2 D3 
+SK S3 S6 SJ 
+C3 CK C9 C6 
+H2 HJ HQ S8 
+S2 C4 H8 SA 
+S4 C5 D9 S9 
+D4 D5 D8 DA 
+C8 DJ DT D6 
+CQ D7 HK CT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "21"]
+[West "Eva Nilsson#60259"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Tina Elfstedt#55302"]
+[South "Tina Drnovsek#201592"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:65.KQT84.T982.J9 AJ987.93.A63.T76 KQ42.652.Q4.AQ83 T3.AJ7.KJ75.K542"]
+[Scoring "MP;MP1"]
+[Round "7"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Table "1"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "65765657656857768577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  7
+N  D  6
+N  C  5
+S NT  6
+S  S  5
+S  H  7
+S  D  6
+S  C  5
+E NT  6
+E  S  8
+E  H  5
+E  D  7
+E  C  7
+W NT  6
+W  S  8
+W  H  5
+W  D  7
+W  C  7
+[OptimumScore "NS -110"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C =1= Pass 
+1H 1S X =2= 1NT 
+2H Pass Pass Pass 
+[Note "1: 2+"]
+[Note "2: 3♡"]
+[Play "E"]
+C6 C3 CK CJ 
+SA S2 ST S5 
+H3 H2 HA H4 
+CT CA C2 C9 
+H9 H5 H7 HK 
+D3 H6 HJ HQ 
+S7 SK S3 S6 
+S8 SQ C4 D2 
+C7 CQ C5 D8 
+S9 C8 D5 D9 
+SJ S4 D7 HT 
+D6 D4 DJ H8 
+DA DQ DK DT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "22"]
+[West "Mikael Rimstedt#88184"]
+[North "Peter Fredin#2514"]
+[East "Peter Bertheau#16757"]
+[South "Jan Clementsson#55627"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:97542.3.J843.J63 KT.T98764.KT96.K A3.K.AQ75.AQT982 QJ86.AQJ52.2.754"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS -620"]
+[Table "5"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "7839a7839a44a4344a43"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  8
+N  H  3
+N  D  9
+N  C 10
+S NT  7
+S  S  8
+S  H  3
+S  D  9
+S  C 10
+E NT  4
+E  S  4
+E  H 10
+E  D  4
+E  C  3
+W NT  4
+W  S  4
+W  H 10
+W  D  4
+W  C  3
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C =1= 1H Pass 
+4H Pass Pass Pass 
+[Note "1: Alerted"]
+[Play "N"]
+S2 SK SA S6 
+C6 CK CA C5 
+S4 ST S3 S8 
+H3 HT HK HA 
+D3 DK DA D2 
+-  -  DQ -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "22"]
+[West "Birgitta Bornestav#36526"]
+[North "Teo Kukuljan#201593"]
+[East "Demitrius Berg#78981"]
+[South "Gregor Rus#201594"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:97542.3.J843.J63 KT.T98764.KT96.K A3.K.AQ75.AQT982 QJ86.AQJ52.2.754"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "10"]
+[Score "NS -50"]
+[Table "4"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "7839a7839a44a4344a43"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  8
+N  H  3
+N  D  9
+N  C 10
+S NT  7
+S  S  8
+S  H  3
+S  D  9
+S  C 10
+E NT  4
+E  S  4
+E  H 10
+E  D  4
+E  C  3
+W NT  4
+W  S  4
+W  H 10
+W  D  4
+W  C  3
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+2H X 4H Pass 
+Pass 5C Pass Pass 
+Pass 
+[Play "W"]
+D2 DJ DK DA 
+C4 C3 CK CA 
+S6 S2 ST SA 
+S8 S4 SK S3 
+C5 D3 DT DQ 
+HA H3 H8 HK 
+SQ S5 H6 CT 
+C7 CJ H4 C8 
+SJ S9 H7 CQ 
+H2 C6 H9 C2 
+H5 S7 HT D5 
+HJ D4 D6 D7 
+HQ D8 D9 C9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "22"]
+[West "Eva Nilsson#60259"]
+[North "Matteo Nordqvist#67675"]
+[East "Tina Elfstedt#55302"]
+[South "Joakim Johansson#68245"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:97542.3.J843.J63 KT.T98764.KT96.K A3.K.AQ75.AQT982 QJ86.AQJ52.2.754"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "5DX"]
+[Result "9"]
+[Score "NS -300"]
+[Table "2"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "7839a7839a44a4344a43"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  8
+N  H  3
+N  D  9
+N  C 10
+S NT  7
+S  S  8
+S  H  3
+S  D  9
+S  C 10
+E NT  4
+E  S  4
+E  H 10
+E  D  4
+E  C  3
+W NT  4
+W  S  4
+W  H 10
+W  D  4
+W  C  3
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C =1= Pass 1S 
+X 3D 3H 4D 
+4H 5C Pass 5D 
+X Pass Pass Pass 
+[Note "1:  * alert [0:05] * 3+ [0:13]"]
+[Play "W"]
+HA H3 HT HK 
+SQ S2 ST SA 
+D2 DJ DK D5 
+S6 S4 SK S3 
+C7 C3 CK CA 
+H2 D3 D6 DA 
+H5 D4 D9 DQ 
+C4 CJ DT C2 
+-  -  H9 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "22"]
+[West "Johan Svensson#11900"]
+[North "Mikael Westerlund#9690"]
+[East "Lars-Uno Andersson#14287"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:97542.3.J843.J63 KT.T98764.KT96.K A3.K.AQ75.AQT982 QJ86.AQJ52.2.754"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[Score "NS -100"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "7839a7839a44a4344a43"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  8
+N  H  3
+N  D  9
+N  C 10
+S NT  7
+S  S  8
+S  H  3
+S  D  9
+S  C 10
+E NT  4
+E  S  4
+E  H 10
+E  D  4
+E  C  3
+W NT  4
+W  S  4
+W  H 10
+W  D  4
+W  C  3
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C =1= 1H Pass =2= 
+4H Pass Pass 4S 
+Pass Pass Pass 
+[Note "1:  * 17+ [0:08]"]
+[Note "2: 0-4 hp eller straffdubbelt av ♡"]
+[Play "E"]
+H6 HK HA H3 
+H4 S3 HQ D4 
+ST SA S6 S2 
+D6 DA D2 D8 
+D9 D5 SJ D3 
+H7 C2 HJ S4 
+SK C8 S8 S5 
+DK D7 C4 DJ 
+DT DQ SQ C6 
+H8 C9 H5 S7 
+CK CA C5 CJ 
+H9 CT C7 C3 
+HT CQ H2 S9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "22"]
+[West "Per Gjellan#16668"]
+[North "Lars Goldberg#9298"]
+[East "Cristina Ringström#39288"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:97542.3.J843.J63 KT.T98764.KT96.K A3.K.AQ75.AQT982 QJ86.AQJ52.2.754"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "4C"]
+[Result "10"]
+[Score "NS 130"]
+[Table "6"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "7839a7839a44a4344a43"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  8
+N  H  3
+N  D  9
+N  C 10
+S NT  7
+S  S  8
+S  H  3
+S  D  9
+S  C 10
+E NT  4
+E  S  4
+E  H 10
+E  D  4
+E  C  3
+W NT  4
+W  S  4
+W  H 10
+W  D  4
+W  C  3
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1C 1H Pass =1= 
+3H 4C Pass Pass 
+Pass 
+[Note "1: 0-4"]
+[Play "W"]
+HA H3 H6 HK 
+S6 S7 SK SA 
+SJ S2 ST S3 
+D2 D3 DK DA 
+C4 D4 D6 D5 
+S8 S9 CK CA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "23"]
+[West "Mikael Rimstedt#88184"]
+[North "Peter Fredin#2514"]
+[East "Peter Bertheau#16757"]
+[South "Jan Clementsson#55627"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9432.KT83.J3.KJ8 A8.Q9652.KQT8.A2 J765..7642.76543 KQT.AJ74.A95.QT9"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "9"]
+[Score "NS 300"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "1411414114b8cb9c9cb9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  4
+N  H  1
+N  D  1
+N  C  4
+S NT  1
+S  S  4
+S  H  1
+S  D  1
+S  C  4
+E NT 11
+E  S  8
+E  H 12
+E  D 11
+E  C  9
+W NT 12
+W  S  9
+W  H 12
+W  D 11
+W  C  9
+[OptimumScore "NS -1440"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2C 
+Pass 2H Pass 3S 
+Pass 4D =1= Pass 4NT 
+Pass 5H Pass 6H 
+Pass Pass Pass 
+[Note "1: non-serious, kontroll"]
+[Play "N"]
+S3 SA S7 ST 
+HK H2 C7 HJ 
+S2 S8 SJ SK 
+H3 H5 S5 H4 
+C8 CA C4 C9 
+H8 HQ S6 H7 
+HT H6 C3 HA 
+S4 C2 C5 SQ 
+CJ H9 C6 CT 
+DJ D8 D2 D5 
+CK DT D4 CQ 
+S9 DQ D6 DA 
+D3 DK D7 D9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "23"]
+[West "Birgitta Bornestav#36526"]
+[North "Teo Kukuljan#201593"]
+[East "Demitrius Berg#78981"]
+[South "Gregor Rus#201594"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9432.KT83.J3.KJ8 A8.Q9652.KQT8.A2 J765..7642.76543 KQT.AJ74.A95.QT9"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "11"]
+[Score "NS 100"]
+[Table "4"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "1411414114b8cb9c9cb9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  4
+N  H  1
+N  D  1
+N  C  4
+S NT  1
+S  S  4
+S  H  1
+S  D  1
+S  C  4
+E NT 11
+E  S  8
+E  H 12
+E  D 11
+E  C  9
+W NT 12
+W  S  9
+W  H 12
+W  D 11
+W  C  9
+[OptimumScore "NS -1440"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2D 
+Pass 2H Pass 3NT 
+Pass 4H Pass 4NT 
+Pass 5H Pass 6H 
+Pass Pass Pass 
+[Play "N"]
+S9 SA S7 ST 
+HK HQ SJ H4 
+S4 S8 S6 SQ 
+S2 C2 S5 SK 
+H3 H2 C3 HA 
+H8 H5 C4 HJ 
+HT H6 C5 H7 
+C8 CA C6 C9 
+D3 D8 D6 DA 
+CJ H9 C7 CT 
+DJ DK D2 D5 
+CK DQ D4 D9 
+S3 DT D7 CQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "23"]
+[West "Eva Nilsson#60259"]
+[North "Matteo Nordqvist#67675"]
+[East "Tina Elfstedt#55302"]
+[South "Joakim Johansson#68245"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9432.KT83.J3.KJ8 A8.Q9652.KQT8.A2 J765..7642.76543 KQT.AJ74.A95.QT9"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -1430"]
+[Table "2"]
+[ScorePercentage "NS 12.50 EW 87.50"]
+[DoubleDummyTricks "1411414114b8cb9c9cb9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  4
+N  H  1
+N  D  1
+N  C  4
+S NT  1
+S  S  4
+S  H  1
+S  D  1
+S  C  4
+E NT 11
+E  S  8
+E  H 12
+E  D 11
+E  C  9
+W NT 12
+W  S  9
+W  H 12
+W  D 11
+W  C  9
+[OptimumScore "NS -1440"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2D =1= 
+Pass 2H =2= Pass 3D 
+Pass 4H Pass 4NT 
+Pass 5H =3= Pass 6H 
+Pass Pass Pass 
+[Note "1: Överf"]
+[Note "2: relä"]
+[Note "3: 2 ess"]
+[Play "N"]
+DJ D8 D2 DA 
+S2 SA S5 ST 
+HK H2 C4 HJ 
+S3 S8 SJ SK 
+H3 H5 C3 H4 
+H8 H6 S6 HA 
+S4 C2 S7 SQ 
+HT HQ C5 H7 
+D3 DK D4 D5 
+C8 DQ D6 D9 
+CJ CA C6 C9 
+S9 DT D7 CT 
+CK H9 C7 CQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "23"]
+[West "Johan Svensson#11900"]
+[North "Mikael Westerlund#9690"]
+[East "Lars-Uno Andersson#14287"]
+[South "Johan Sylvan#2325"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9432.KT83.J3.KJ8 A8.Q9652.KQT8.A2 J765..7642.76543 KQT.AJ74.A95.QT9"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "11"]
+[Score "NS 100"]
+[Table "1"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "1411414114b8cb9c9cb9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  4
+N  H  1
+N  D  1
+N  C  4
+S NT  1
+S  S  4
+S  H  1
+S  D  1
+S  C  4
+E NT 11
+E  S  8
+E  H 12
+E  D 11
+E  C  9
+W NT 12
+W  S  9
+W  H 12
+W  D 11
+W  C  9
+[OptimumScore "NS -1440"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT Pass 2D 
+Pass 3H Pass 4C 
+Pass 4D Pass 4NT 
+Pass 5H Pass 6H 
+Pass Pass Pass 
+[Play "N"]
+S3 SA S5 ST 
+HK HQ C7 H4 
+S2 S8 SJ SK 
+H3 H2 C6 HJ 
+H8 H5 C5 HA 
+S4 C2 S6 SQ 
+D3 DK D2 D5 
+C8 CA C3 C9 
+DJ D8 D4 DA 
+HT DT D6 D9 
+CJ H6 C4 CT 
+S9 DQ D7 CQ 
+CK H9 S7 H7 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "23"]
+[West "Per Gjellan#16668"]
+[North "Lars Goldberg#9298"]
+[East "Cristina Ringström#39288"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9432.KT83.J3.KJ8 A8.Q9652.KQT8.A2 J765..7642.76543 KQT.AJ74.A95.QT9"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -1430"]
+[Table "6"]
+[ScorePercentage "NS 12.50 EW 87.50"]
+[DoubleDummyTricks "1411414114b8cb9c9cb9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  1
+N  S  4
+N  H  1
+N  D  1
+N  C  4
+S NT  1
+S  S  4
+S  H  1
+S  D  1
+S  C  4
+E NT 11
+E  S  8
+E  H 12
+E  D 11
+E  C  9
+W NT 12
+W  S  9
+W  H 12
+W  D 11
+W  C  9
+[OptimumScore "NS -1440"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass 1NT =1= Pass 2D =2= 
+Pass 3H Pass 4NT 
+Pass 5H Pass 6H 
+Pass Pass Pass 
+[Note "1: 15-17"]
+[Note "2: Alerted"]
+[Play "N"]
+S3 S8 SJ SK 
+S2 SA S5 ST 
+H3 H2 C7 HA 
+H8 H9 S6 H4 
+D3 D8 D2 DA 
+S4 C2 S7 SQ 
+HK H5 C3 H7 
+DJ DK D4 D5 
+HT H6 C4 HJ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "24"]
+[West "Mikael Rimstedt#88184"]
+[North "Peter Fredin#2514"]
+[East "Peter Bertheau#16757"]
+[South "Jan Clementsson#55627"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:96.QJ.JT753.T543 QJT43.65.Q94.QJ9 K8.AK832.A86.AK7 A752.T974.K2.862"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "2NT"]
+[Result "9"]
+[Score "NS 150"]
+[Table "5"]
+[ScorePercentage "NS 34.38 EW 65.62"]
+[DoubleDummyTricks "85899858995843458434"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H  8
+N  D  9
+N  C  9
+S NT  8
+S  S  5
+S  H  8
+S  D  9
+S  C  9
+E NT  5
+E  S  8
+E  H  4
+E  D  3
+E  C  4
+W NT  5
+W  S  8
+W  H  4
+W  D  3
+W  C  4
+[OptimumScore "NS +100"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 2C =1= 
+Pass 2D Pass 2NT =2= 
+Pass Pass Pass 
+[Note "1: Alerted"]
+[Note "2: 20-21"]
+[Play "W"]
+HT HQ H5 H2 
+DK D3 D4 D6 
+H4 HJ H6 H3 
+D2 DJ D9 D8 
+H9 D5 DQ DA 
+H7 S6 S4 HA 
+C8 S9 S3 HK 
+C6 D7 ST H8 
+C2 C3 C9 CA 
+S2 C4 CJ CK 
+S5 C5 CQ C7 
+SA DT SJ SK 
+S7 CT SQ S8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "24"]
+[West "Birgitta Bornestav#36526"]
+[North "Teo Kukuljan#201593"]
+[East "Demitrius Berg#78981"]
+[South "Gregor Rus#201594"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:96.QJ.JT753.T543 QJT43.65.Q94.QJ9 K8.AK832.A86.AK7 A752.T974.K2.862"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "4"]
+[ScorePercentage "NS 81.25 EW 18.75"]
+[DoubleDummyTricks "85899858995843458434"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H  8
+N  D  9
+N  C  9
+S NT  8
+S  S  5
+S  H  8
+S  D  9
+S  C  9
+E NT  5
+E  S  8
+E  H  4
+E  D  3
+E  C  4
+W NT  5
+W  S  8
+W  H  4
+W  D  3
+W  C  4
+[OptimumScore "NS +100"]
+[Competition "Pairs"]
+[Auction "W"]
+2D =1= Pass 2S 3NT 
+Pass Pass Pass 
+[Note "1: 4+ heart and spade 3-10 p"]
+[Play "W"]
+S2 S6 ST SK 
+H4 HQ H6 H2 
+H7 HJ H5 H3 
+D2 DJ DQ DA 
+H9 S9 S3 HA 
+HT D3 S4 HK 
+C8 D5 SJ H8 
+C2 C3 C9 CA 
+C6 C4 CQ CK 
+S5 CT CJ C7 
+S7 C5 SQ S8 
+DK D7 D4 D6 
+SA DT D9 D8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "24"]
+[West "Eva Nilsson#60259"]
+[North "Matteo Nordqvist#67675"]
+[East "Tina Elfstedt#55302"]
+[South "Joakim Johansson#68245"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:96.QJ.JT753.T543 QJT43.65.Q94.QJ9 K8.AK832.A86.AK7 A752.T974.K2.862"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Score "NS 400"]
+[Table "2"]
+[ScorePercentage "NS 81.25 EW 18.75"]
+[DoubleDummyTricks "85899858995843458434"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H  8
+N  D  9
+N  C  9
+S NT  8
+S  S  5
+S  H  8
+S  D  9
+S  C  9
+E NT  5
+E  S  8
+E  H  4
+E  D  3
+E  C  4
+W NT  5
+W  S  8
+W  H  4
+W  D  3
+W  C  4
+[OptimumScore "NS +100"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 2C =1= 
+Pass 2D =2= Pass 2NT =3= 
+Pass 3NT Pass Pass 
+Pass 
+[Note "1: Alerted"]
+[Note "2: relä"]
+[Note "3: Alerted"]
+[Play "W"]
+S5 S6 ST SK 
+H4 HJ H5 H2 
+H7 HQ H6 H3 
+C6 C3 C9 CK 
+H9 S9 S3 HA 
+HT D3 D4 HK 
+C8 D5 D9 H8 
+C2 C4 CJ CA 
+D2 D7 DQ DA 
+DK DT CQ D6 
+SA C5 S4 S8 
+S7 CT SJ D8 
+S2 DJ SQ C7 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "24"]
+[West "Johan Svensson#11900"]
+[North "Mikael Westerlund#9690"]
+[East "Lars-Uno Andersson#14287"]
+[South "Johan Sylvan#2325"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:96.QJ.JT753.T543 QJT43.65.Q94.QJ9 K8.AK832.A86.AK7 A752.T974.K2.862"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -50"]
+[Table "1"]
+[ScorePercentage "NS 3.12 EW 96.88"]
+[DoubleDummyTricks "85899858995843458434"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H  8
+N  D  9
+N  C  9
+S NT  8
+S  S  5
+S  H  8
+S  D  9
+S  C  9
+E NT  5
+E  S  8
+E  H  4
+E  D  3
+E  C  4
+W NT  5
+W  S  8
+W  H  4
+W  D  3
+W  C  4
+[OptimumScore "NS +100"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass Pass 2NT =1= 
+Pass 3NT Pass Pass 
+Pass 
+[Note "1: 22-23"]
+[Play "W"]
+HT HJ H5 H2 
+DK DT D4 D6 
+H4 HQ H6 H3 
+C6 C3 CJ CK 
+H7 S6 S3 HA 
+H9 S9 S4 HK 
+S2 C4 ST H8 
+D2 D3 D9 DA 
+C2 C5 C9 CA 
+S5 D5 DQ D8 
+SA D7 SJ SK 
+C8 CT CQ C7 
+S7 DJ SQ S8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "24"]
+[West "Per Gjellan#16668"]
+[North "Lars Goldberg#9298"]
+[East "Cristina Ringström#39288"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "N:96.QJ.JT753.T543 QJT43.65.Q94.QJ9 K8.AK832.A86.AK7 A752.T974.K2.862"]
+[Scoring "MP;MP1"]
+[Round "8"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Table "6"]
+[ScorePercentage "NS 50.00 EW 60.00"]
+[DoubleDummyTricks "85899858995843458434"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H  8
+N  D  9
+N  C  9
+S NT  8
+S  S  5
+S  H  8
+S  D  9
+S  C  9
+E NT  5
+E  S  8
+E  H  4
+E  D  3
+E  C  4
+W NT  5
+W  S  8
+W  H  4
+W  D  3
+W  C  4
+[OptimumScore "NS +100"]
+[Competition "Pairs"]
+[Auction "W"]
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "25"]
+[West "Gregor Rus#201594"]
+[North "Lars Goldberg#9298"]
+[East "Teo Kukuljan#201593"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A2.72.K8.AKQ8765 QJ97654.AJ86.A2. 3.KT9.QJT96.JT42 KT8.Q543.7543.93"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "N"]
+[Contract "3NTX"]
+[Result "5"]
+[Score "NS -800"]
+[Table "6"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "833ab833ab2a8222a822"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  3
+N  D 10
+N  C 11
+S NT  8
+S  S  3
+S  H  3
+S  D 10
+S  C 11
+E NT  2
+E  S 10
+E  H  8
+E  D  2
+E  C  2
+W NT  2
+W  S 10
+W  H  8
+W  D  2
+W  C  2
+[OptimumScore "NS +200"]
+[Competition "Pairs"]
+[Auction "N"]
+1C =1= 1S X 2H =2= 
+3NT X Pass Pass 
+Pass 
+[Note "1: 16+"]
+[Note "2: ♠ raise with a top honor (A,K or Q)"]
+[Play "E"]
+S4 S3 SK SA 
+DA D6 D3 DK 
+SQ C2 S8 S2 
+SJ C4 ST H2 
+S9 CT D4 H7 
+S7 D9 D5 D8 
+S6 H9 D7 C5 
+S5 DT C3 C6 
+HA HT H3 C7 
+D2 DJ H5 C8 
+H6 CJ C9 CQ 
+H8 HK H4 CK 
+HJ DQ HQ CA 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "25"]
+[West "Joakim Johansson#68245"]
+[North "Demitrius Berg#78981"]
+[East "Matteo Nordqvist#67675"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A2.72.K8.AKQ8765 QJ97654.AJ86.A2. 3.KT9.QJT96.JT42 KT8.Q543.7543.93"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "N"]
+[Contract "5C"]
+[Result "11"]
+[Score "NS 400"]
+[Table "4"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "833ab833ab2a8222a822"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  3
+N  D 10
+N  C 11
+S NT  8
+S  S  3
+S  H  3
+S  D 10
+S  C 11
+E NT  2
+E  S 10
+E  H  8
+E  D  2
+E  C  2
+W NT  2
+W  S 10
+W  H  8
+W  D  2
+W  C  2
+[OptimumScore "NS +200"]
+[Competition "Pairs"]
+[Auction "N"]
+1C 1S X Pass 
+3C 4H 5C Pass 
+Pass Pass 
+[Play "E"]
+SQ S3 S8 SA 
+H6 C2 C3 CQ 
+S4 CT C9 C5 
+DA D6 D3 DK 
+HA H9 H3 H2 
+HJ HK H4 H7 
+H8 HT HQ C6 
+S5 C4 ST S2 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "25"]
+[West "Per Gjellan#16668"]
+[North "Lars-Uno Andersson#14287"]
+[East "Cristina Ringström#39288"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A2.72.K8.AKQ8765 QJ97654.AJ86.A2. 3.KT9.QJT96.JT42 KT8.Q543.7543.93"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "8"]
+[Score "NS -50"]
+[Table "2"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "833ab833ab2a8222a822"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  3
+N  D 10
+N  C 11
+S NT  8
+S  S  3
+S  H  3
+S  D 10
+S  C 11
+E NT  2
+E  S 10
+E  H  8
+E  D  2
+E  C  2
+W NT  2
+W  S 10
+W  H  8
+W  D  2
+W  C  2
+[OptimumScore "NS +200"]
+[Competition "Pairs"]
+[Auction "N"]
+1C 1S 3C Pass 
+3NT Pass Pass Pass 
+[Play "E"]
+SQ S3 S8 S2 
+S5 C2 SK SA 
+H8 CJ C9 C5 
+H6 CT C3 C6 
+D2 C4 H4 CK 
+HJ D6 H3 CQ 
+S4 D9 ST CA 
+S6 DT H5 C8 
+S7 DJ HQ C7 
+DA DQ D4 D8 
+HA H9 D3 H7 
+SJ HT D5 H2 
+S9 HK D7 DK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "25"]
+[West "Jan Clementsson#55627"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Fredin#2514"]
+[South "Tina Drnovsek#201592"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A2.72.K8.AKQ8765 QJ97654.AJ86.A2. 3.KT9.QJT96.JT42 KT8.Q543.7543.93"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "10"]
+[Score "NS -790"]
+[Table "5"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "833ab833ab2a8222a822"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  3
+N  D 10
+N  C 11
+S NT  8
+S  S  3
+S  H  3
+S  D 10
+S  C 11
+E NT  2
+E  S 10
+E  H  8
+E  D  2
+E  C  2
+W NT  2
+W  S 10
+W  H  8
+W  D  2
+W  C  2
+[OptimumScore "NS +200"]
+[Competition "Pairs"]
+[Auction "N"]
+1C =1= 1S Pass Pass 
+3NT 4S X Pass 
+Pass Pass 
+[Note "1: 2+"]
+[Play "S"]
+DQ D3 DK DA 
+S3 ST SA S5 
+D9 D4 D8 D2 
+DJ D5 C5 S6 
+C2 SK S2 SJ 
+HK H3 H2 HJ 
+CJ C3 CQ S4 
+H9 H4 H7 HA 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "25"]
+[West "Mikael Rimstedt#88184"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Bertheau#16757"]
+[South "Johan Sylvan#2325"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A2.72.K8.AKQ8765 QJ97654.AJ86.A2. 3.KT9.QJT96.JT42 KT8.Q543.7543.93"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "N"]
+[Contract "4NTX"]
+[Result "8"]
+[Score "NS -300"]
+[Table "1"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "833ab833ab2a8222a822"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  3
+N  H  3
+N  D 10
+N  C 11
+S NT  8
+S  S  3
+S  H  3
+S  D 10
+S  C 11
+E NT  2
+E  S 10
+E  H  8
+E  D  2
+E  C  2
+W NT  2
+W  S 10
+W  H  8
+W  D  2
+W  C  2
+[OptimumScore "NS +200"]
+[Competition "Pairs"]
+[Auction "N"]
+1C =1= 1S 2D 2S 
+3NT 4S Pass Pass 
+4NT X Pass Pass 
+Pass 
+[Note "1: 17+"]
+[Play "E"]
+SQ S3 S8 SA 
+H6 CJ C9 C5 
+H8 C2 C3 CK 
+HJ C4 D7 CA 
+D2 CT D3 CQ 
+S4 D6 H3 C8 
+S5 H9 D5 C7 
+S6 D9 D4 C6 
+DA DT H4 DK 
+S7 DJ SK S2 
+SJ DQ ST H2 
+S9 HT H5 H7 
+HA HK HQ D8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "26"]
+[West "Per Gjellan#16668"]
+[North "Lars-Uno Andersson#14287"]
+[East "Cristina Ringström#39288"]
+[South "Johan Svensson#11900"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J6.A2.AQJ873.865 KT542.JT.T52.432 8.KQ953.94.AJT97 AQ973.8764.K6.KQ"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "W"]
+[Contract "3SX"]
+[Result "8"]
+[Score "NS 200"]
+[Table "2"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "85ccb85ccb1811118111"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H 12
+N  D 12
+N  C 11
+S NT  8
+S  S  5
+S  H 12
+S  D 12
+S  C 11
+E NT  1
+E  S  8
+E  H  1
+E  D  1
+E  C  1
+W NT  1
+W  S  8
+W  H  1
+W  D  1
+W  C  1
+[OptimumScore "NS +1100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H 1S 2D 
+2S Pass Pass 3D 
+Pass Pass 3S X 
+Pass Pass Pass 
+[Play "N"]
+HA HT H3 H4 
+H2 HJ HQ H6 
+DA D2 D9 DK 
+DQ D5 D4 D6 
+DJ DT S8 S9 
+S6 S2 H5 SA 
+SJ SK C7 S3 
+C5 C2 CA CQ 
+C6 C3 CJ CK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "26"]
+[West "Joakim Johansson#68245"]
+[North "Demitrius Berg#78981"]
+[East "Matteo Nordqvist#67675"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J6.A2.AQJ873.865 KT542.JT.T52.432 8.KQ953.94.AJT97 AQ973.8764.K6.KQ"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "8"]
+[Score "NS 500"]
+[Table "4"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "85ccb85ccb1811118111"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H 12
+N  D 12
+N  C 11
+S NT  8
+S  S  5
+S  H 12
+S  D 12
+S  C 11
+E NT  1
+E  S  8
+E  H  1
+E  D  1
+E  C  1
+W NT  1
+W  S  8
+W  H  1
+W  D  1
+W  C  1
+[OptimumScore "NS +1100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H 1S 2D 
+4S Pass Pass X 
+Pass Pass Pass 
+[Play "N"]
+HA HT H3 H4 
+H2 HJ HQ H6 
+DA D2 D9 DK 
+DQ D5 D4 D6 
+C8 C2 CA CQ 
+C5 C3 CJ CK 
+S6 S2 S8 SA 
+SJ S4 CT SQ 
+D3 S5 H5 H7 
+C6 C4 C7 S3 
+D7 ST H9 H8 
+D8 SK C9 S7 
+DJ DT HK S9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "26"]
+[West "Mikael Rimstedt#88184"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Bertheau#16757"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J6.A2.AQJ873.865 KT542.JT.T52.432 8.KQ953.94.AJT97 AQ973.8764.K6.KQ"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "8"]
+[Score "NS 500"]
+[Table "1"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "85ccb85ccb1811118111"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H 12
+N  D 12
+N  C 11
+S NT  8
+S  S  5
+S  H 12
+S  D 12
+S  C 11
+E NT  1
+E  S  8
+E  H  1
+E  D  1
+E  C  1
+W NT  1
+W  S  8
+W  H  1
+W  D  1
+W  C  1
+[OptimumScore "NS +1100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H 1S X 
+3S 4C 4S X 
+Pass Pass Pass 
+[Play "N"]
+HA HT H3 H4 
+H2 HJ HQ H6 
+DA D2 D9 DK 
+DQ D5 D4 D6 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "26"]
+[West "Gregor Rus#201594"]
+[North "Lars Goldberg#9298"]
+[East "Teo Kukuljan#201593"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J6.A2.AQJ873.865 KT542.JT.T52.432 8.KQ953.94.AJT97 AQ973.8764.K6.KQ"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "11"]
+[Score "NS 150"]
+[Table "6"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "85ccb85ccb1811118111"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H 12
+N  D 12
+N  C 11
+S NT  8
+S  S  5
+S  H 12
+S  D 12
+S  C 11
+E NT  1
+E  S  8
+E  H  1
+E  D  1
+E  C  1
+W NT  1
+W  S  8
+W  H  1
+W  D  1
+W  C  1
+[OptimumScore "NS +1100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H 1S =1= 2D 
+3S =2= Pass Pass X 
+Pass 4C Pass 4D 
+Pass Pass Pass 
+[Note "1: 19-21 * no alertt sorry [0:08]"]
+[Note "2: weak"]
+[Play "E"]
+HJ H3 H4 HA 
+S2 S8 SQ SJ 
+D2 D4 D6 DJ 
+S4 D9 S3 S6 
+HT HK H7 H2 
+S5 H5 H8 DQ 
+D5 C7 DK DA 
+DT C9 H6 D8 
+SK CT S7 D3 
+C2 CJ S9 D7 
+C3 CA CQ C5 
+C4 HQ CK C6 
+ST H9 SA C8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "26"]
+[West "Jan Clementsson#55627"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Fredin#2514"]
+[South "Tina Drnovsek#201592"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J6.A2.AQJ873.865 KT542.JT.T52.432 8.KQ953.94.AJT97 AQ973.8764.K6.KQ"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 650"]
+[Table "5"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "85ccb85ccb1811118111"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  8
+N  S  5
+N  H 12
+N  D 12
+N  C 11
+S NT  8
+S  S  5
+S  H 12
+S  D 12
+S  C 11
+E NT  1
+E  S  8
+E  H  1
+E  D  1
+E  C  1
+W NT  1
+W  S  8
+W  H  1
+W  D  1
+W  C  1
+[OptimumScore "NS +1100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass 1H 1S 2D 
+3S Pass Pass X 
+Pass 4C Pass 4H 
+Pass Pass Pass 
+[Play "W"]
+CK C5 C4 CA 
+H4 HA HT H3 
+H6 H2 HJ HK 
+H7 D3 S2 HQ 
+H8 D7 C3 H9 
+CQ C6 C2 CJ 
+SA S6 S5 S8 
+S7 SJ SK H5 
+D6 C8 D2 CT 
+DK -  -  C9 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "27"]
+[West "Joakim Johansson#68245"]
+[North "Demitrius Berg#78981"]
+[East "Matteo Nordqvist#67675"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:K43.K4.T854.J964 AJT6.QJ3.KQJ.872 872.T965.A6.AK53 Q95.A872.9732.QT"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "E"]
+[Contract "2NT"]
+[Result "6"]
+[Score "NS 100"]
+[Table "4"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "65558655587888578885"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  5
+N  D  5
+N  C  8
+S NT  6
+S  S  5
+S  H  5
+S  D  5
+S  C  8
+E NT  7
+E  S  8
+E  H  8
+E  D  8
+E  C  5
+W NT  7
+W  S  8
+W  H  8
+W  D  8
+W  C  5
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "S"]
+1C Pass 1NT X 
+Pass 2H Pass 2NT 
+Pass Pass Pass 
+[Play "S"]
+DA D2 D8 DK 
+CA CT C9 C2 
+CK CQ C4 C7 
+S2 SQ SK SA 
+D6 D3 D4 DQ 
+C3 D7 D5 DJ 
+H5 H2 HK HQ 
+C5 D9 DT C8 
+S7 H7 CJ H3 
+S8 S5 C6 S6 
+-  -  S3 -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "27"]
+[West "Per Gjellan#16668"]
+[North "Lars-Uno Andersson#14287"]
+[East "Cristina Ringström#39288"]
+[South "Johan Svensson#11900"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:K43.K4.T854.J964 AJT6.QJ3.KQJ.872 872.T965.A6.AK53 Q95.A872.9732.QT"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "8"]
+[Score "NS -120"]
+[Table "2"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "65558655587888578885"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  5
+N  D  5
+N  C  8
+S NT  6
+S  S  5
+S  H  5
+S  D  5
+S  C  8
+E NT  7
+E  S  8
+E  H  8
+E  D  8
+E  C  5
+W NT  7
+W  S  8
+W  H  8
+W  D  8
+W  C  5
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass Pass 1C =1= 
+Pass 1H Pass 1S 
+Pass 1NT Pass Pass 
+Pass 
+[Note "1: 3+"]
+[Play "N"]
+D5 DJ DA D2 
+CJ C2 C5 CT 
+D4 DQ D6 D3 
+HK HQ H5 H2 
+D8 DK S8 D7 
+H4 HJ H6 H7 
+S3 H3 H9 HA 
+S4 S6 S2 S9 
+SK SA S7 SQ 
+DT SJ C3 S5 
+C4 ST HT D9 
+C6 C7 CK CQ 
+C9 C8 CA H8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "27"]
+[West "Gregor Rus#201594"]
+[North "Lars Goldberg#9298"]
+[East "Teo Kukuljan#201593"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:K43.K4.T854.J964 AJT6.QJ3.KQJ.872 872.T965.A6.AK53 Q95.A872.9732.QT"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[Score "NS -90"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "65558655587888578885"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  5
+N  D  5
+N  C  8
+S NT  6
+S  S  5
+S  H  5
+S  D  5
+S  C  8
+E NT  7
+E  S  8
+E  H  8
+E  D  8
+E  C  5
+W NT  7
+W  S  8
+W  H  8
+W  D  8
+W  C  5
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass Pass 1NT =1= 
+Pass Pass Pass 
+[Note "1: 12-14 balansed"]
+[Play "S"]
+C5 CT CJ C2 
+CA CQ C4 C7 
+CK S5 C9 C8 
+C3 H2 C6 H3 
+DA D2 D4 DK 
+D6 D7 D8 DJ 
+H5 H7 HK HQ 
+H6 D3 D5 DQ 
+H9 HA H4 HJ 
+S7 SQ SK SA 
+S2 S9 S4 SJ 
+S8 H8 S3 ST 
+HT D9 DT S6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "27"]
+[West "Jan Clementsson#55627"]
+[North "Barbara Drinovec Drnovšek#201591"]
+[East "Peter Fredin#2514"]
+[South "Tina Drnovsek#201592"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:K43.K4.T854.J964 AJT6.QJ3.KQJ.872 872.T965.A6.AK53 Q95.A872.9732.QT"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Table "5"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "65558655587888578885"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  5
+N  D  5
+N  C  8
+S NT  6
+S  S  5
+S  H  5
+S  D  5
+S  C  8
+E NT  7
+E  S  8
+E  H  8
+E  D  8
+E  C  5
+W NT  7
+W  S  8
+W  H  8
+W  D  8
+W  C  5
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "S"]
+1C =1= Pass 1NT 2S 
+Pass Pass Pass 
+[Note "1: 2+"]
+[Play "S"]
+CA CT C9 C2 
+S7 SQ SK SA 
+CK CQ C4 C7 
+S2 S5 S3 S6 
+C3 S9 C6 C8 
+DA D2 D5 DK 
+C5 H2 CJ ST 
+S8 H7 S4 SJ 
+D6 D3 D4 DJ 
+H5 HA H4 H3 
+H6 H8 HK HJ 
+H9 D7 D8 DQ 
+HT D9 DT HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "27"]
+[West "Mikael Rimstedt#88184"]
+[North "Mikael Westerlund#9690"]
+[East "Peter Bertheau#16757"]
+[South "Johan Sylvan#2325"]
+[Dealer "S"]
+[Vulnerable "-"]
+[Deal "N:K43.K4.T854.J964 AJT6.QJ3.KQJ.872 872.T965.A6.AK53 Q95.A872.9732.QT"]
+[Scoring "MP;MP1"]
+[Round "9"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "9"]
+[Score "NS -150"]
+[Table "1"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "65558655587888578885"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  5
+N  H  5
+N  D  5
+N  C  8
+S NT  6
+S  S  5
+S  H  5
+S  D  5
+S  C  8
+E NT  7
+E  S  8
+E  H  8
+E  D  8
+E  C  5
+W NT  7
+W  S  8
+W  H  8
+W  D  8
+W  C  5
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass Pass 1C 
+Pass 1H Pass 1NT 
+Pass Pass Pass 
+[Play "S"]
+S2 SQ SK SA 
+DA D3 D4 DK 
+CK CT C4 C2 
+S8 S9 S4 S6 
+S7 S5 S3 SJ 
+C3 H2 H4 ST 
+D6 D2 D5 DQ 
+HT D7 D8 DJ 
+CA CQ C6 C7 
+H5 HA HK H3 
+H6 H7 C9 HQ 
+H9 H8 DT HJ 
+C5 D9 CJ C8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "28"]
+[West "UllaBritt Goldberg#12649"]
+[North "Matteo Nordqvist#67675"]
+[East "Lars Goldberg#9298"]
+[South "Joakim Johansson#68245"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:J652.T92.JT9.T53 AKT873.843.Q7.K9 .AK6.AK5.AQJ8642 Q94.QJ75.86432.7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "E"]
+[Contract "3SX"]
+[Result "8"]
+[Score "NS 100"]
+[Table "6"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "7567b7567b1866218541"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  5
+N  H  6
+N  D  7
+N  C 11
+S NT  7
+S  S  5
+S  H  6
+S  D  7
+S  C 11
+E NT  1
+E  S  8
+E  H  6
+E  D  6
+E  C  2
+W NT  1
+W  S  8
+W  H  5
+W  D  4
+W  C  1
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 2S =1= X 
+3S Pass Pass X 
+Pass Pass Pass 
+[Note "1: 10-13 6+"]
+[Play "S"]
+HA H5 H9 H8 
+DA D2 DT D7 
+DK D3 D9 DQ 
+D5 D8 DJ S7 
+C2 S4 S2 SA 
+CJ C7 C3 C9 
+HK H7 HT H3 
+H6 HJ H2 H4 
+C4 D6 C5 CK 
+C6 HQ CT S3 
+C8 SQ S5 S8 
+CQ S9 S6 ST 
+CA D4 SJ SK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "28"]
+[West "Eva Nilsson#60259"]
+[North "Demitrius Berg#78981"]
+[East "Tina Elfstedt#55302"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:J652.T92.JT9.T53 AKT873.843.Q7.K9 .AK6.AK5.AQJ8642 Q94.QJ75.86432.7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "6CX"]
+[Result "11"]
+[Score "NS -200"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "7567b7567b1866218541"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  5
+N  H  6
+N  D  7
+N  C 11
+S NT  7
+S  S  5
+S  H  6
+S  D  7
+S  C 11
+E NT  1
+E  S  8
+E  H  6
+E  D  6
+E  C  2
+W NT  1
+W  S  8
+W  H  5
+W  D  4
+W  C  1
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1S X 
+2S Pass Pass 6C 
+Pass Pass X Pass 
+Pass Pass 
+[Play "W"]
+SQ S2 S3 C2 
+C7 C3 C9 CA 
+S4 C5 CK CQ 
+S9 S5 SA C4 
+D6 CT S7 C6 
+D2 D9 D7 D5 
+HJ HT H3 H6 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "28"]
+[West "Mikael Rimstedt#88184"]
+[North "Cristina Ringström#39288"]
+[East "Peter Bertheau#16757"]
+[South "Per Gjellan#16668"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:J652.T92.JT9.T53 AKT873.843.Q7.K9 .AK6.AK5.AQJ8642 Q94.QJ75.86432.7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "11"]
+[Score "NS 600"]
+[Table "3"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "7567b7567b1866218541"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  5
+N  H  6
+N  D  7
+N  C 11
+S NT  7
+S  S  5
+S  H  6
+S  D  7
+S  C 11
+E NT  1
+E  S  8
+E  H  6
+E  D  6
+E  C  2
+W NT  1
+W  S  8
+W  H  5
+W  D  4
+W  C  1
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 2S 4C 
+4S Pass Pass X 
+Pass 5C Pass Pass 
+Pass 
+[Play "W"]
+S4 S2 S7 C2 
+C7 C3 C9 CA 
+D4 C5 CK CQ 
+S9 S5 S8 C4 
+D3 CT ST C6 
+D2 DJ D7 D5 
+D6 D9 DQ DK 
+D8 DT S3 DA 
+H5 S6 H8 CJ 
+SQ SJ SK C8 
+H7 H2 H4 HA 
+HJ H9 H3 HK 
+HQ HT SA H6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "28"]
+[West "Gregor Rus#201594"]
+[North "Lars-Uno Andersson#14287"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Svensson#11900"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:J652.T92.JT9.T53 AKT873.843.Q7.K9 .AK6.AK5.AQJ8642 Q94.QJ75.86432.7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "N"]
+[Contract "5C"]
+[Result "11"]
+[Score "NS 600"]
+[Table "2"]
+[ScorePercentage "NS 87.50 EW 12.50"]
+[DoubleDummyTricks "7567b7567b1866218541"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  5
+N  H  6
+N  D  7
+N  C 11
+S NT  7
+S  S  5
+S  H  6
+S  D  7
+S  C 11
+E NT  1
+E  S  8
+E  H  6
+E  D  6
+E  C  2
+W NT  1
+W  S  8
+W  H  5
+W  D  4
+W  C  1
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1S X 
+2S =1= Pass Pass X 
+Pass 3C Pass 5C 
+Pass Pass Pass 
+[Note "1: bad raise to 2♠ (3-7)"]
+[Play "E"]
+SA C2 S9 S5 
+C9 CA C7 C3 
+CK CQ H5 C5 
+H8 HA H7 H2 
+S3 C4 S4 CT 
+D7 D5 D2 DJ 
+DQ DK D3 D9 
+S7 DA D4 DT 
+H3 HK HQ HT 
+H4 H6 HJ H9 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "28"]
+[West "Tina Drnovsek#201592"]
+[North "Mikael Westerlund#9690"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Sylvan#2325"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:J652.T92.JT9.T53 AKT873.843.Q7.K9 .AK6.AK5.AQJ8642 Q94.QJ75.86432.7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "N"]
+[Contract "6C"]
+[Result "11"]
+[Score "NS -100"]
+[Table "1"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "7567b7567b1866218541"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  7
+N  S  5
+N  H  6
+N  D  7
+N  C 11
+S NT  7
+S  S  5
+S  H  6
+S  D  7
+S  C 11
+E NT  1
+E  S  8
+E  H  6
+E  D  6
+E  C  2
+W NT  1
+W  S  8
+W  H  5
+W  D  4
+W  C  1
+[OptimumScore "NS +500"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1S X 
+2S =1= Pass Pass 3S 
+Pass 4C Pass 6C 
+Pass Pass Pass 
+[Note "1: weak support"]
+[Play "E"]
+SA C2 S4 S5 
+C9 CA C7 C3 
+CK CQ D2 C5 
+H8 H6 HJ HT 
+S3 C4 SQ S2 
+H3 HA H5 H2 
+D7 DA D3 D9 
+H4 HK H7 H9 
+S8 C6 S9 CT 
+DQ -  -  DJ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "29"]
+[West "Mikael Rimstedt#88184"]
+[North "Cristina Ringström#39288"]
+[East "Peter Bertheau#16757"]
+[South "Per Gjellan#16668"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QJ.JT2.JT5.AJT72 987.86.9643.8653 KT4.AK9543.K.KQ4 A6532.Q7.AQ872.9"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 680"]
+[Table "3"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "a6b6ba6b6b2717127171"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  6
+N  H 11
+N  D  6
+N  C 11
+S NT 10
+S  S  6
+S  H 11
+S  D  6
+S  C 11
+E NT  2
+E  S  7
+E  H  1
+E  D  7
+E  C  1
+W NT  2
+W  S  7
+W  H  1
+W  D  7
+W  C  1
+[OptimumScore "NS +650"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1H 1S 
+2H Pass 4H Pass 
+Pass Pass 
+[Play "W"]
+SA SJ S9 S4 
+S6 SQ S8 ST 
+H7 HJ H6 HA 
+HQ H2 H8 HK 
+C9 C2 C3 CK 
+D2 C7 C5 CQ 
+S5 CA C6 C4 
+D7 CJ C8 DK 
+D8 CT S7 SK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "29"]
+[West "Eva Nilsson#60259"]
+[North "Demitrius Berg#78981"]
+[East "Tina Elfstedt#55302"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QJ.JT2.JT5.AJT72 987.86.9643.8653 KT4.AK9543.K.KQ4 A6532.Q7.AQ872.9"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 650"]
+[Table "4"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "a6b6ba6b6b2717127171"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  6
+N  H 11
+N  D  6
+N  C 11
+S NT 10
+S  S  6
+S  H 11
+S  D  6
+S  C 11
+E NT  2
+E  S  7
+E  H  1
+E  D  7
+E  C  1
+W NT  2
+W  S  7
+W  H  1
+W  D  7
+W  C  1
+[OptimumScore "NS +650"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1H 2H =1= 
+3H Pass 4H Pass 
+Pass Pass 
+[Note "1: michaels"]
+[Play "W"]
+C9 CA C6 C4 
+H7 HJ H6 HK 
+HQ H2 H8 HA 
+SA SJ S7 S4 
+S3 SQ S8 ST 
+DA D5 D3 DK 
+DQ DT D4 H3 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "29"]
+[West "Gregor Rus#201594"]
+[North "Lars-Uno Andersson#14287"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QJ.JT2.JT5.AJT72 987.86.9643.8653 KT4.AK9543.K.KQ4 A6532.Q7.AQ872.9"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 680"]
+[Table "2"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "a6b6ba6b6b2717127171"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  6
+N  H 11
+N  D  6
+N  C 11
+S NT 10
+S  S  6
+S  H 11
+S  D  6
+S  C 11
+E NT  2
+E  S  7
+E  H  1
+E  D  7
+E  C  1
+W NT  2
+W  S  7
+W  H  1
+W  D  7
+W  C  1
+[OptimumScore "NS +650"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1H 2H =1= 
+Pass 2S 3H Pass 
+4H Pass Pass Pass 
+[Note "1: ♠+minor"]
+[Play "W"]
+C9 C2 C8 CK 
+H7 H2 H8 HA 
+HQ HT H6 HK 
+S2 C7 C3 CQ 
+D7 CT C5 C4 
+D2 CJ C6 DK 
+D8 CA D4 S4 
+SA SJ S7 ST 
+S5 SQ S8 SK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "29"]
+[West "UllaBritt Goldberg#12649"]
+[North "Matteo Nordqvist#67675"]
+[East "Lars Goldberg#9298"]
+[South "Joakim Johansson#68245"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QJ.JT2.JT5.AJT72 987.86.9643.8653 KT4.AK9543.K.KQ4 A6532.Q7.AQ872.9"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "7"]
+[Score "NS 300"]
+[Table "6"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "a6b6ba6b6b2717127171"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  6
+N  H 11
+N  D  6
+N  C 11
+S NT 10
+S  S  6
+S  H 11
+S  D  6
+S  C 11
+E NT  2
+E  S  7
+E  H  1
+E  D  7
+E  C  1
+W NT  2
+W  S  7
+W  H  1
+W  D  7
+W  C  1
+[OptimumScore "NS +650"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1H 2H 
+3H Pass 4H Pass 
+Pass 4S Pass Pass 
+Pass 
+[Play "S"]
+HA H7 H2 H6 
+HK HQ HT H8 
+CK C9 C2 C3 
+C4 S2 C7 C5 
+S4 S3 SQ S7 
+SK SA SJ S8 
+DK DA D5 D3 
+ST DQ DT D9 
+CQ -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "29"]
+[West "Tina Drnovsek#201592"]
+[North "Mikael Westerlund#9690"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Sylvan#2325"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QJ.JT2.JT5.AJT72 987.86.9643.8653 KT4.AK9543.K.KQ4 A6532.Q7.AQ872.9"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "12"]
+[Score "NS 690"]
+[Table "1"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "a6b6ba6b6b2717127171"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT 10
+N  S  6
+N  H 11
+N  D  6
+N  C 11
+S NT 10
+S  S  6
+S  H 11
+S  D  6
+S  C 11
+E NT  2
+E  S  7
+E  H  1
+E  D  7
+E  C  1
+W NT  2
+W  S  7
+W  H  1
+W  D  7
+W  C  1
+[OptimumScore "NS +650"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1C =1= 1S 
+2S =2= Pass 3H Pass 
+3S =3= Pass 3NT Pass 
+Pass Pass 
+[Note "1: 17+"]
+[Note "2: forcing game and no stop in ♠"]
+[Note "3: asking for stop"]
+[Play "W"]
+S3 SJ S7 S4 
+H7 H2 H6 HA 
+HQ HT H8 HK 
+D7 HJ D6 H3 
+C9 C2 C3 CK 
+S2 D5 D4 H9 
+S5 DT D3 H5 
+D2 SQ D9 H4 
+D8 C7 C5 CQ 
+S6 CA C6 C4 
+DQ CT C8 ST 
+SA CJ S8 SK 
+DA DJ S9 DK 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "30"]
+[West "Gregor Rus#201594"]
+[North "Lars-Uno Andersson#14287"]
+[East "Teo Kukuljan#201593"]
+[South "Johan Svensson#11900"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:74.AJ876.63.K942 J93.543.AK75.JT3 86.Q9.QJ842.A865 AKQT52.KT2.T9.Q7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "8"]
+[Score "NS 50"]
+[Table "2"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "44788447886855488654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  4
+N  H  7
+N  D  8
+N  C  8
+S NT  4
+S  S  4
+S  H  7
+S  D  8
+S  C  8
+E NT  6
+E  S  8
+E  H  5
+E  D  5
+E  C  4
+W NT  8
+W  S  8
+W  H  6
+W  D  5
+W  C  4
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass Pass 1S Pass 
+2S =1= Pass Pass X 
+Pass 3D 3S Pass 
+Pass Pass 
+[Note "1: 3 spades, 6-9"]
+[Play "N"]
+D6 DA D2 D9 
+C4 C3 CA C7 
+HA H3 HQ HK 
+HJ H4 H9 H2 
+H6 H5 S8 HT 
+CK CT C5 CQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "30"]
+[West "Mikael Rimstedt#88184"]
+[North "Cristina Ringström#39288"]
+[East "Peter Bertheau#16757"]
+[South "Per Gjellan#16668"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:74.AJ876.63.K942 J93.543.AK75.JT3 86.Q9.QJ842.A865 AKQT52.KT2.T9.Q7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS -170"]
+[Table "3"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "44788447886855488654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  4
+N  H  7
+N  D  8
+N  C  8
+S NT  4
+S  S  4
+S  H  7
+S  D  8
+S  C  8
+E NT  6
+E  S  8
+E  H  5
+E  D  5
+E  C  4
+W NT  8
+W  S  8
+W  H  6
+W  D  5
+W  C  4
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass Pass 1S Pass 
+2S Pass Pass Pass 
+[Play "N"]
+D6 DA D4 D9 
+S7 S3 S8 SA 
+S4 SJ S6 S2 
+CK C3 C6 CQ 
+H6 H3 HQ HK 
+D3 DK D2 DT 
+C2 CT CA C7 
+H7 D5 DQ SQ 
+H8 S9 D8 S5 
+C4 CJ C5 H2 
+HJ H4 H9 HT 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "30"]
+[West "Eva Nilsson#60259"]
+[North "Demitrius Berg#78981"]
+[East "Tina Elfstedt#55302"]
+[South "Birgitta Bornestav#36526"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:74.AJ876.63.K942 J93.543.AK75.JT3 86.Q9.QJ842.A865 AKQT52.KT2.T9.Q7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS -140"]
+[Table "4"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "44788447886855488654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  4
+N  H  7
+N  D  8
+N  C  8
+S NT  4
+S  S  4
+S  H  7
+S  D  8
+S  C  8
+E NT  6
+E  S  8
+E  H  5
+E  D  5
+E  C  4
+W NT  8
+W  S  8
+W  H  6
+W  D  5
+W  C  4
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass Pass 1S 2H 
+Pass Pass 2S Pass 
+Pass 3H Pass Pass 
+3S Pass Pass Pass 
+[Play "N"]
+D6 DA D2 D9 
+S4 SJ S6 S2 
+S7 S3 S8 SA 
+D3 DK D4 DT 
+C2 CJ CA C7 
+HA H3 HQ HK 
+HJ H4 H9 H2 
+CK C3 C5 CQ 
+C4 CT C6 HT 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "30"]
+[West "UllaBritt Goldberg#12649"]
+[North "Matteo Nordqvist#67675"]
+[East "Lars Goldberg#9298"]
+[South "Joakim Johansson#68245"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:74.AJ876.63.K942 J93.543.AK75.JT3 86.Q9.QJ842.A865 AKQT52.KT2.T9.Q7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "N"]
+[Contract "4C"]
+[Result "8"]
+[Score "NS -100"]
+[Table "6"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "44788447886855488654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  4
+N  H  7
+N  D  8
+N  C  8
+S NT  4
+S  S  4
+S  H  7
+S  D  8
+S  C  8
+E NT  6
+E  S  8
+E  H  5
+E  D  5
+E  C  4
+W NT  8
+W  S  8
+W  H  6
+W  D  5
+W  C  4
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass Pass 1S 2H 
+2S Pass Pass 3C 
+Pass Pass 3S Pass 
+Pass 4C Pass Pass 
+Pass 
+[Play "E"]
+DA D2 D9 D3 
+S3 S6 SQ S4 
+S9 S8 SK S7 
+DK D4 DT D6 
+D5 DQ C7 C9 
+C3 C5 CQ CK 
+CT CA S2 C2 
+D7 DJ S5 H6 
+H3 HQ HK HA 
+H4 H9 H2 HJ 
+H5 C6 HT H7 
+CJ D8 ST C4 
+SJ C8 SA H8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "30"]
+[West "Tina Drnovsek#201592"]
+[North "Mikael Westerlund#9690"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Johan Sylvan#2325"]
+[Dealer "E"]
+[Vulnerable "-"]
+[Deal "N:74.AJ876.63.K942 J93.543.AK75.JT3 86.Q9.QJ842.A865 AKQT52.KT2.T9.Q7"]
+[Scoring "MP;MP1"]
+[Round "10"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS -140"]
+[Table "1"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "44788447886855488654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  4
+N  S  4
+N  H  7
+N  D  8
+N  C  8
+S NT  4
+S  S  4
+S  H  7
+S  D  8
+S  C  8
+E NT  6
+E  S  8
+E  H  5
+E  D  5
+E  C  4
+W NT  8
+W  S  8
+W  H  6
+W  D  5
+W  C  4
+[OptimumScore "NS -100"]
+[Competition "Pairs"]
+[Auction "E"]
+Pass Pass 1S Pass 
+2S Pass Pass 3H 
+Pass Pass 3S Pass 
+Pass Pass 
+[Play "N"]
+D6 DA D2 D9 
+S4 S3 S6 SA 
+S7 S9 S8 SK 
+CK C3 C5 CQ 
+D3 DK D4 DT 
+C2 CJ CA C7 
+HA H3 HQ HK 
+HJ H4 H9 H2 
+H8 H5 D8 HT 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "31"]
+[West "Joakim Johansson#68245"]
+[North "Lars-Uno Andersson#14287"]
+[East "Matteo Nordqvist#67675"]
+[South "Johan Svensson#11900"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.A9865.AJ9853.82 AKJT653.KJ.62.K6 92.Q32.KQ7.A7543 Q874.T74.T4.QJT9"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "9"]
+[Score "NS 100"]
+[Table "2"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "64bb864bb85922459224"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  4
+N  H 11
+N  D 11
+N  C  8
+S NT  6
+S  S  4
+S  H 11
+S  D 11
+S  C  8
+E NT  5
+E  S  9
+E  H  2
+E  D  2
+E  C  4
+W NT  5
+W  S  9
+W  H  2
+W  D  2
+W  C  4
+[OptimumScore "NS +300"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 1D 4S 
+X Pass Pass Pass 
+[Play "S"]
+DK D4 D8 D2 
+DQ DT DA D6 
+H3 H4 HA HJ 
+H2 H7 H6 HK 
+S2 S4 D3 SA 
+S9 SQ D5 S3 
+CA C9 C2 C6 
+HQ -  -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "31"]
+[West "Gregor Rus#201594"]
+[North "Peter Bertheau#16757"]
+[East "Teo Kukuljan#201593"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.A9865.AJ9853.82 AKJT653.KJ.62.K6 92.Q32.KQ7.A7543 Q874.T74.T4.QJT9"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[Score "NS 50"]
+[Table "4"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "64bb864bb85922459224"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  4
+N  H 11
+N  D 11
+N  C  8
+S NT  6
+S  S  4
+S  H 11
+S  D 11
+S  C  8
+E NT  5
+E  S  9
+E  H  2
+E  D  2
+E  C  4
+W NT  5
+W  S  9
+W  H  2
+W  D  2
+W  C  4
+[OptimumScore "NS +300"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 2D =1= X 
+XX 2S 3D 4S 
+Pass Pass Pass 
+[Note "1:  * weak 2 [0:12]"]
+[Play "N"]
+DA D2 D7 DT 
+H5 HK H3 H4 
+D3 SA S2 S7 
+C2 C6 CA CT 
+H6 HJ HQ H7 
+-  -  DK -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "31"]
+[West "Birgitta Bornestav#36526"]
+[North "Lars Goldberg#9298"]
+[East "Demitrius Berg#78981"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.A9865.AJ9853.82 AKJT653.KJ.62.K6 92.Q32.KQ7.A7543 Q874.T74.T4.QJT9"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[Score "NS 600"]
+[Table "6"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "64bb864bb85922459224"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  4
+N  H 11
+N  D 11
+N  C  8
+S NT  6
+S  S  4
+S  H 11
+S  D 11
+S  C  8
+E NT  5
+E  S  9
+E  H  2
+E  D  2
+E  C  4
+W NT  5
+W  S  9
+W  H  2
+W  D  2
+W  C  4
+[OptimumScore "NS +300"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 1D 3S 
+X Pass 4H Pass 
+Pass 4S 4NT =1= Pass 
+5D Pass Pass Pass 
+[Note "1:  * onaturligt [0:11]"]
+[Play "E"]
+SA S2 S7 D3 
+D2 DK D4 D5 
+D6 D7 DT DJ 
+HK H2 H4 H8 
+HJ HQ H7 H5 
+S3 H3 HT HA 
+S5 C3 C9 H9 
+S6 C4 CT H6 
+C6 CA CJ C2 
+CK C5 CQ C8 
+ST S9 -  -  
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "31"]
+[West "Eva Nilsson#60259"]
+[North "Peter Fredin#2514"]
+[East "Tina Elfstedt#55302"]
+[South "Jan Clementsson#55627"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.A9865.AJ9853.82 AKJT653.KJ.62.K6 92.Q32.KQ7.A7543 Q874.T74.T4.QJT9"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "N"]
+[Contract "6DX"]
+[Result "11"]
+[Score "NS -200"]
+[Table "5"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "64bb864bb85922459224"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  4
+N  H 11
+N  D 11
+N  C  8
+S NT  6
+S  S  4
+S  H 11
+S  D 11
+S  C  8
+E NT  5
+E  S  9
+E  H  2
+E  D  2
+E  C  4
+W NT  5
+W  S  9
+W  H  2
+W  D  2
+W  C  4
+[OptimumScore "NS +300"]
+[Competition "Pairs"]
+[Auction "S"]
+Pass Pass 1D 1S 
+X 3S 4H 4S 
+X Pass 5H 5S 
+6D Pass Pass X 
+Pass Pass Pass 
+[Play "E"]
+SA S2 S7 D3 
+D2 DK D4 D5 
+D6 D7 DT DJ 
+HK H2 H7 H6 
+SK S9 S4 D8 
+HJ HQ H4 H5 
+S3 H3 HT HA 
+S5 C3 S8 H9 
+S6 C4 SQ H8 
+ST DQ C9 DA 
+SJ C5 CT D9 
+C6 CA CJ C2 
+CK C7 CQ C8 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "31"]
+[West "Tina Drnovsek#201592"]
+[North "Cristina Ringström#39288"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Per Gjellan#16668"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.A9865.AJ9853.82 AKJT653.KJ.62.K6 92.Q32.KQ7.A7543 Q874.T74.T4.QJT9"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "9"]
+[Score "NS 100"]
+[Table "3"]
+[ScorePercentage "NS 62.50 EW 37.50"]
+[DoubleDummyTricks "64bb864bb85922459224"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  6
+N  S  4
+N  H 11
+N  D 11
+N  C  8
+S NT  6
+S  S  4
+S  H 11
+S  D 11
+S  C  8
+E NT  5
+E  S  9
+E  H  2
+E  D  2
+E  C  4
+W NT  5
+W  S  9
+W  H  2
+W  D  2
+W  C  4
+[OptimumScore "NS +300"]
+[Competition "Pairs"]
+[Auction "S"]
+1C =1= Pass 1H 1S 
+X 2S 4H 4S 
+Pass Pass X Pass 
+Pass Pass 
+[Note "1: 3+"]
+[Play "S"]
+H2 H4 HA HJ 
+H3 H7 H9 HK 
+S2 S4 D8 SA 
+S9 S7 C2 SK 
+CA C9 C8 CK 
+DK D4 D9 D2 
+D7 DT DA D6 
+DQ HT D3 S6 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "32"]
+[West "Joakim Johansson#68245"]
+[North "Lars-Uno Andersson#14287"]
+[East "Matteo Nordqvist#67675"]
+[South "Johan Svensson#11900"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A962.8.Q9843.K74 3.JT5.AKT65.AQT5 KQT5.AQ6432.72.9 J874.K97.J.J8632"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "6"]
+[Score "NS 300"]
+[Table "2"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "59763587628457984579"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  9
+N  H  7
+N  D  6
+N  C  3
+S NT  5
+S  S  8
+S  H  7
+S  D  6
+S  C  2
+E NT  8
+E  S  4
+E  H  5
+E  D  7
+E  C  9
+W NT  8
+W  S  4
+W  H  5
+W  D  7
+W  C  9
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D 1H 
+1NT Pass 2C Pass 
+3C Pass 3H X 
+3NT Pass Pass Pass 
+[Play "N"]
+S6 S3 SQ S4 
+S2 D5 SK S7 
+H8 H5 HA H7 
+S9 D6 ST S8 
+SA DT S5 SJ 
+D3 DK D2 DJ 
+C4 CA C9 C2 
+CK CQ D7 C3 
+C7 CT H2 C6 
+D4 C5 H3 CJ 
+D8 HT H4 C8 
+D9 HJ H6 HK 
+DQ DA HQ H9 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "32"]
+[West "Gregor Rus#201594"]
+[North "Peter Bertheau#16757"]
+[East "Teo Kukuljan#201593"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A962.8.Q9843.K74 3.JT5.AKT65.AQT5 KQT5.AQ6432.72.9 J874.K97.J.J8632"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "E"]
+[Contract "3CX"]
+[Result "9"]
+[Score "NS -670"]
+[Table "4"]
+[ScorePercentage "NS 0.00 EW 100.00"]
+[DoubleDummyTricks "59763587628457984579"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  9
+N  H  7
+N  D  6
+N  C  3
+S NT  5
+S  S  8
+S  H  7
+S  D  6
+S  C  2
+E NT  8
+E  S  4
+E  H  5
+E  D  7
+E  C  9
+W NT  8
+W  S  4
+W  H  5
+W  D  7
+W  C  9
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D 1H 
+X =1= Pass 2C 2H 
+3C Pass Pass X 
+Pass Pass Pass 
+[Note "1: 4+♠"]
+[Play "S"]
+SK S4 S9 S3 
+HA H7 H8 HT 
+H6 H9 C4 H5 
+S5 S7 S2 CT 
+C9 C2 C7 CA 
+H4 C3 CK CQ 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "32"]
+[West "Birgitta Bornestav#36526"]
+[North "Lars Goldberg#9298"]
+[East "Demitrius Berg#78981"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A962.8.Q9843.K74 3.JT5.AKT65.AQT5 KQT5.AQ6432.72.9 J874.K97.J.J8632"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "E"]
+[Contract "3C"]
+[Result "10"]
+[Score "NS -130"]
+[Table "6"]
+[ScorePercentage "NS 25.00 EW 75.00"]
+[DoubleDummyTricks "59763587628457984579"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  9
+N  H  7
+N  D  6
+N  C  3
+S NT  5
+S  S  8
+S  H  7
+S  D  6
+S  C  2
+E NT  8
+E  S  4
+E  H  5
+E  D  7
+E  C  9
+W NT  8
+W  S  4
+W  H  5
+W  D  7
+W  C  9
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D 1H 
+1S Pass 2C 2H 
+3C Pass Pass Pass 
+[Play "S"]
+SK S4 S9 S3 
+C9 CJ C4 C5 
+D2 DJ D3 DA 
+D7 S7 D4 DK 
+H2 C2 D8 D5 
+S5 S8 SA CT 
+HA H7 H8 HT 
+SQ SJ S2 CQ 
+H3 C3 C7 CA 
+H4 H9 S6 H5 
+H6 HK CK HJ 
+ST C6 DQ D6 
+HQ C8 D9 DT 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "32"]
+[West "Eva Nilsson#60259"]
+[North "Peter Fredin#2514"]
+[East "Tina Elfstedt#55302"]
+[South "Jan Clementsson#55627"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A962.8.Q9843.K74 3.JT5.AKT65.AQT5 KQT5.AQ6432.72.9 J874.K97.J.J8632"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Table "5"]
+[ScorePercentage "NS 75.00 EW 25.00"]
+[DoubleDummyTricks "59763587628457984579"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  9
+N  H  7
+N  D  6
+N  C  3
+S NT  5
+S  S  8
+S  H  7
+S  D  6
+S  C  2
+E NT  8
+E  S  4
+E  H  5
+E  D  7
+E  C  9
+W NT  8
+W  S  4
+W  H  5
+W  D  7
+W  C  9
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D 1H 
+X Pass 2C 2H 
+Pass Pass Pass 
+[Play "W"]
+DJ DQ DK D2 
+C8 D3 DA D7 
+H7 D4 D5 C9 
+CJ C4 CQ H2 
+H9 H8 H5 HA 
+HK C7 HT H3 
+C2 CK CA H4 
+C3 D8 HJ HQ 
+S4 S2 S3 SK 
+S7 S6 C5 SQ 
+S8 S9 D6 ST 
+SJ SA CT S5 
+C6 D9 DT H6 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "32"]
+[West "Tina Drnovsek#201592"]
+[North "Cristina Ringström#39288"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Per Gjellan#16668"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A962.8.Q9843.K74 3.JT5.AKT65.AQT5 KQT5.AQ6432.72.9 J874.K97.J.J8632"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Table "3"]
+[ScorePercentage "NS 50.00 EW 50.00"]
+[DoubleDummyTricks "59763587628457984579"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  5
+N  S  9
+N  H  7
+N  D  6
+N  C  3
+S NT  5
+S  S  8
+S  H  7
+S  D  6
+S  C  2
+E NT  8
+E  S  4
+E  H  5
+E  D  7
+E  C  9
+W NT  8
+W  S  4
+W  H  5
+W  D  7
+W  C  9
+[OptimumScore "NS +140"]
+[Competition "Pairs"]
+[Auction "W"]
+Pass Pass 1D =1= 1H 
+X Pass 2C 2H 
+Pass Pass Pass 
+[Note "1: 4+"]
+[Play "W"]
+DJ DQ DK D2 
+SJ SA S3 ST 
+HK H8 HT HQ 
+S4 S2 H5 S5 
+C6 D3 DA D7 
+H7 D4 D5 C9 
+C3 C4 CQ H2 
+H9 S6 HJ HA 
+S7 S9 -  SK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "33"]
+[West "Gregor Rus#201594"]
+[North "Peter Bertheau#16757"]
+[East "Teo Kukuljan#201593"]
+[South "Mikael Rimstedt#88184"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J984.63.8732.T85 AT2.84.A654.9632 763.AKT75.JT9.J4 KQ5.QJ92.KQ.AKQ7"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS -460"]
+[Table "4"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "2333223332baaaabaaaa"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  2
+N  S  3
+N  H  3
+N  D  3
+N  C  2
+S NT  2
+S  S  3
+S  H  3
+S  D  3
+S  C  2
+E NT 11
+E  S 10
+E  H 10
+E  D 10
+E  C 10
+W NT 11
+W  S 10
+W  H 10
+W  D 10
+W  C 10
+[OptimumScore "NS -460"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 2H 3NT 
+Pass Pass Pass 
+[Play "N"]
+H6 H4 HK H2 
+D8 D4 DT DK 
+C5 C2 C4 CA 
+C8 C3 CJ CK 
+*
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "33"]
+[West "Joakim Johansson#68245"]
+[North "Lars-Uno Andersson#14287"]
+[East "Matteo Nordqvist#67675"]
+[South "Johan Svensson#11900"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J984.63.8732.T85 AT2.84.A654.9632 763.AKT75.JT9.J4 KQ5.QJ92.KQ.AKQ7"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS -460"]
+[Table "2"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "2333223332baaaabaaaa"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  2
+N  S  3
+N  H  3
+N  D  3
+N  C  2
+S NT  2
+S  S  3
+S  H  3
+S  D  3
+S  C  2
+E NT 11
+E  S 10
+E  H 10
+E  D 10
+E  C 10
+W NT 11
+W  S 10
+W  H 10
+W  D 10
+W  C 10
+[OptimumScore "NS -460"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass 1H X 
+Pass 2D Pass 3NT 
+Pass Pass Pass 
+[Play "N"]
+H6 H4 H5 H9 
+C5 C2 C4 CA 
+C8 C3 CJ CK 
+CT C6 S7 CQ 
+S8 C9 S3 C7 
+H3 H8 HK H2 
+D2 D4 DJ DQ 
+D3 D5 D9 DK 
+S4 S2 S6 SK 
+S9 SA H7 S5 
+D7 DA DT HQ 
+SJ ST HT SQ 
+D8 D6 HA HJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "33"]
+[West "Birgitta Bornestav#36526"]
+[North "Lars Goldberg#9298"]
+[East "Demitrius Berg#78981"]
+[South "UllaBritt Goldberg#12649"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J984.63.8732.T85 AT2.84.A654.9632 763.AKT75.JT9.J4 KQ5.QJ92.KQ.AKQ7"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[Score "NS -430"]
+[Table "6"]
+[ScorePercentage "NS 100.00 EW 0.00"]
+[DoubleDummyTricks "2333223332baaaabaaaa"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  2
+N  S  3
+N  H  3
+N  D  3
+N  C  2
+S NT  2
+S  S  3
+S  H  3
+S  D  3
+S  C  2
+E NT 11
+E  S 10
+E  H 10
+E  D 10
+E  C 10
+W NT 11
+W  S 10
+W  H 10
+W  D 10
+W  C 10
+[OptimumScore "NS -460"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass Pass 2C =1= 
+Pass 2D Pass 2NT 
+Pass 3NT Pass Pass 
+Pass 
+[Note "1: stark"]
+[Play "N"]
+C5 C6 CJ CA 
+D2 D4 D9 DK 
+D3 D5 DJ DQ 
+S9 S2 S3 SK 
+S4 ST S6 SQ 
+S8 SA S7 S5 
+C8 C2 C4 CK 
+CT C3 H5 CQ 
+H3 C9 H7 C7 
+D8 DA DT H2 
+D7 D6 HT H9 
+SJ H4 HK HJ 
+H6 H8 HA HQ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "33"]
+[West "Eva Nilsson#60259"]
+[North "Peter Fredin#2514"]
+[East "Tina Elfstedt#55302"]
+[South "Jan Clementsson#55627"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J984.63.8732.T85 AT2.84.A654.9632 763.AKT75.JT9.J4 KQ5.QJ92.KQ.AKQ7"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[Score "NS -460"]
+[Table "5"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "2333223332baaaabaaaa"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  2
+N  S  3
+N  H  3
+N  D  3
+N  C  2
+S NT  2
+S  S  3
+S  H  3
+S  D  3
+S  C  2
+E NT 11
+E  S 10
+E  H 10
+E  D 10
+E  C 10
+W NT 11
+W  S 10
+W  H 10
+W  D 10
+W  C 10
+[OptimumScore "NS -460"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass Pass 2C =1= 
+Pass 2D 2H 2NT 
+Pass 3NT Pass Pass 
+Pass 
+[Note "1: starkt"]
+[Play "N"]
+H6 H4 HA H2 
+H3 H8 H7 HQ 
+D2 D4 D9 DQ 
+D3 D5 DT DK 
+S4 S2 S7 SK 
+S8 ST S6 SQ 
+S9 SA S3 S5 
+D8 DA DJ H9 
+C5 C2 C4 CA 
+C8 C3 CJ CK 
+CT C6 H5 CQ 
+SJ C9 HT C7 
+D7 D6 HK HJ 
+
+[Event "Sista Chansen"]
+[Site "RealBridge"]
+[Date "2022.07.02"]
+[Board "33"]
+[West "Tina Drnovsek#201592"]
+[North "Cristina Ringström#39288"]
+[East "Barbara Drinovec Drnovšek#201591"]
+[South "Per Gjellan#16668"]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:J984.63.8732.T85 AT2.84.A654.9632 763.AKT75.JT9.J4 KQ5.QJ92.KQ.AKQ7"]
+[Scoring "MP;MP1"]
+[Round "11"]
+[Declarer "W"]
+[Contract "4NT"]
+[Result "11"]
+[Score "NS -460"]
+[Table "3"]
+[ScorePercentage "NS 37.50 EW 62.50"]
+[DoubleDummyTricks "2333223332baaaabaaaa"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N NT  2
+N  S  3
+N  H  3
+N  D  3
+N  C  2
+S NT  2
+S  S  3
+S  H  3
+S  D  3
+S  C  2
+E NT 11
+E  S 10
+E  H 10
+E  D 10
+E  C 10
+W NT 11
+W  S 10
+W  H 10
+W  D 10
+W  C 10
+[OptimumScore "NS -460"]
+[Competition "Pairs"]
+[Auction "N"]
+Pass Pass Pass 2C =1= 
+Pass 2D =2= Pass 2NT 
+Pass 4NT Pass Pass 
+Pass 
+[Note "1: strong"]
+[Note "2: 4+points"]
+[Play "N"]
+H6 H4 HK H2 
+H3 H8 HA H9 
+C5 D4 H5 HQ 
+*

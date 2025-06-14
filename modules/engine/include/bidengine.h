@@ -8,11 +8,11 @@
 
 namespace nobridge::engine {
 
-  class BidEngine {
-   public:
-   private:
-    std::vector<std::shared_ptr<Bid>> m_history;
-  };
+    class BidEngine {
+       public:
+       private:
+        std::vector<Bid> m_history;
+    };
 
 }  // namespace nobridge::engine
 
