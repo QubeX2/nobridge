@@ -2,6 +2,7 @@ bin/
 **/CMakeFiles/
 **/cmake_install.cmake
 **/build/
+**/build-tests/
 **/CMakeCache.txt
 **/Makefile
 compile_commands.json

@@ -1,5 +1,0 @@
-if(EXISTS "/Users/mikael/Projects/cpp/nobridge/build-tests/tests/pbntests[1]_tests.cmake")
-  include("/Users/mikael/Projects/cpp/nobridge/build-tests/tests/pbntests[1]_tests.cmake")
-else()
-  add_test(pbntests_NOT_BUILT pbntests_NOT_BUILT)
-endif()
