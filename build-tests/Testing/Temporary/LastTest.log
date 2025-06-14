@@ -1,0 +1,30 @@
+Start testing: Jun 15 00:00 CEST
+----------------------------------------------------------
+1/1 Testing: PbnTest.DefaultTest
+1/1 Test: PbnTest.DefaultTest
+Command: "/Users/mikael/Projects/cpp/nobridge/build-tests/tests/pbntests" "--gtest_filter=PbnTest.DefaultTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/mikael/Projects/cpp/nobridge/build-tests/tests
+"PbnTest.DefaultTest" start time: Jun 15 00:00 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PbnTest.DefaultTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PbnTest
+[ RUN      ] PbnTest.DefaultTest
+[       OK ] PbnTest.DefaultTest (0 ms)
+[----------] 1 test from PbnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PbnTest.DefaultTest" end time: Jun 15 00:00 CEST
+"PbnTest.DefaultTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 15 00:00 CEST

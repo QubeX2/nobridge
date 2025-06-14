@@ -1,0 +1,21 @@
+# ninja log v6
+1	24	1749938447416036387	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ecd9293c7a6b897
+1	24	1749938447416036387	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ecd9293c7a6b897
+24	2484	1749938449875519166	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	cdd819f2cff1a97b
+24	2484	1749938449875519166	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	cdd819f2cff1a97b
+2484	2507	1749938449898970873	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	f57e76b1a82138e5
+2484	2507	1749938449898970873	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	f57e76b1a82138e5
+2507	2525	1749938449916795214	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	30814f49c7841b8a
+2507	2525	1749938449916795214	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	30814f49c7841b8a
+2525	2544	1749938449935546846	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	9c55084be188d74
+2525	2544	1749938449935546846	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	9c55084be188d74
+2544	2562	1749938449953543187	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	9dd7b409830dd35d
+2544	2562	1749938449953543187	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	9dd7b409830dd35d
+2562	2577	1749938449968771951	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8953dffa3d67c22f
+2562	2577	1749938449968771951	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8953dffa3d67c22f
+2577	2590	1749938449982166092	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	e4a1cef518987fe
+2577	2590	1749938449982166092	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	e4a1cef518987fe
+2590	2612	1749938450003483386	CMakeFiles/googletest-populate-complete	18c9b870cce80565
+2590	2612	1749938450003483386	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	18c9b870cce80565
+2590	2612	1749938450003483386	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	18c9b870cce80565
+2590	2612	1749938450003483386	/Users/mikael/Projects/cpp/nobridge/build-tests/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	18c9b870cce80565
