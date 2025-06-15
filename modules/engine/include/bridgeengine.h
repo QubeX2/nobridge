@@ -14,8 +14,8 @@ namespace nobridge::engine {
 
     class BridgeEngine {
        public:
-        auto get_players() { return m_players; }
-        void add_player(std::shared_ptr<Player>& player);
+        auto getPlayers() { return m_players; }
+        void addPlayer(std::shared_ptr<Player>& player);
 
        private:
         Deck m_deck;

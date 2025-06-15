@@ -11,9 +11,9 @@ namespace nobridge::engine {
 
     class Trick {
        public:
-        void add_card(std::shared_ptr<Card>& card);
-        void add_card(std::shared_ptr<Card>& card,
-                      std::shared_ptr<Player>& player);
+        void addCard(std::shared_ptr<Card>& card);
+        void addCard(std::shared_ptr<Card>& card,
+                     std::shared_ptr<Player>& player);
         // get_winner??
 
        private:
