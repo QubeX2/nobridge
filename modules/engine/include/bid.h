@@ -9,7 +9,14 @@
 
 namespace nobridge::engine {
 
-    enum BidType { PASS = 1, DOUBLE, REDOUBLE, ALERT, NORMAL, CONVENTIONAL };
+    enum BidType : uint8_t {
+        PASS = 1,
+        DOUBLE,
+        REDOUBLE,
+        ALERT,
+        NORMAL,
+        CONVENTIONAL
+    };
 
     class Bid {
        public:

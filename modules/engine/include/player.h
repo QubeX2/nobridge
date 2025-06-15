@@ -1,6 +1,7 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
+#include <cstdint>
 #include <memory>
 #include <vector>
 
@@ -8,8 +9,8 @@
 
 namespace nobridge::engine {
 
-    enum class PlayerType { HUMAN = 1, COMPUTER = 2 };
-    enum class Direction { NORTH = 1, EAST, SOUTH, WEST };
+    enum class PlayerType : uint8_t { HUMAN = 1, COMPUTER = 2 };
+    enum class Direction : uint8_t { WEST = 1, NORTH, EAST, SOUTH };
 
     class Player {
        public:
