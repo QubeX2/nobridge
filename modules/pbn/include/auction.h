@@ -5,11 +5,9 @@
 #include <vector>
 namespace nobridge::pbn {
 
-    class Auction {
-       public:
-       private:
-        std::string m_auction;
-        std::vector<std::string> m_bids;
+    struct Auction {
+        std::string auction;
+        std::vector<std::string> bids;
     };
 
 }  // namespace nobridge::pbn

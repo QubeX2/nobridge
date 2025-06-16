@@ -13,8 +13,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(GLOBAL PROPERTY USE_FOLDERS ON)
 
+add_subdirectory(modules/mkrl)
 add_subdirectory(modules/engine)
-add_subdirectory(modules/pbnlib)
+add_subdirectory(modules/pbn)
 add_subdirectory(modules/storage)
 add_subdirectory(apps/CLI)
 

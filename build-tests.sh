@@ -33,4 +33,10 @@ echo "🔗 Linking compile_commands.json to project root..."
 cd ..
 ln -sf ${BUILD_DIR}/compile_commands.json .
 
+
+# === COPY TEST FILES ===
+echo "Copying test files..."
+cp -r tests/files ${BUILD_DIR}/tests/
 echo "✅ Done! Test build complete."
+
+

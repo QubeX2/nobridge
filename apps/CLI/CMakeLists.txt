@@ -4,8 +4,9 @@ add_executable(nobridge
 
 target_link_libraries(nobridge
   PRIVATE 
+  mkrl
   engine
-  pbnlib
+  pbn
   storage
 )
 

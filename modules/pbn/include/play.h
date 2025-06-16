@@ -4,10 +4,8 @@
 #include <vector>
 namespace nobridge::pbn {
 
-    class Play {
-       public:
-       private:
-        std::vector<std::string> m_tricks;
+    struct Play {
+        std::vector<std::string> tricks;
     };
 
 }  // namespace nobridge::pbn

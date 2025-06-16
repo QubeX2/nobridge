@@ -6,12 +6,10 @@
 #include <vector>
 namespace nobridge::pbn {
 
-    class Deal {
-       public:
-       private:
-        std::array<std::string, 4> m_hands;
-        std::string m_dealer;
-        std::string m_vulnerable;
+    struct Deal {
+        std::array<std::string, 4> hands;
+        std::string dealer;
+        std::string vulnerable;
     };
 
 }  // namespace nobridge::pbn

@@ -1,5 +1,5 @@
-#ifndef PBNLIB_PBN_H
-#define PBNLIB_PBN_H
+#ifndef PBN_PBN_H
+#define PBN_PBN_H
 
 /**
  * (1) the identification section
@@ -14,10 +14,8 @@
 
 namespace nobridge::pbn {
 
-    class Pbn {
-       public:
-       private:
-        std::vector<Game> m_games;
+    struct Pbn {
+        std::vector<Game> games;
     };
 
 }  // namespace nobridge::pbn
