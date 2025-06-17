@@ -8,16 +8,23 @@
  * (4) supplemental section
  */
 
+#include <memory>
 #include <vector>
 
 #include "game.h"
+#include "parser.h"
 
 namespace nobridge::pbn {
 
-    struct Pbn {
-        std::vector<Game> games;
+    class Pbn {
+       public:
+       private:
+        std::vector<Game> m_games;
     };
 
+    using PbnPtr = std::shared_ptr<Pbn>;
+
+    PbnPtr process(GameList& glist);
 }  // namespace nobridge::pbn
 
 #endif

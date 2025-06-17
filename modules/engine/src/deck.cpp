@@ -16,10 +16,8 @@ namespace nobridge::engine {
         size_t index = 0;
         for (uint8_t s = 1; s <= 4; s++) {
             for (uint8_t r = 2; r <= 14; r++) {
-                if (m_cards[index] == nullptr) {
-                    m_cards[index++] = std::make_shared<Card>(
-                        static_cast<Suit>(s), static_cast<Rank>(r));
-                }
+                m_cards.push_back(std::make_shared<Card>(static_cast<Suit>(s),
+                                                         static_cast<Rank>(r)));
             }
         }
         this->shuffle();

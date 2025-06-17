@@ -2,8 +2,8 @@
 #define PBN_PARSER_H
 
 #include <memory>
+#include <vector>
 
-#include "pbn.h"
 #include "reader.h"
 
 namespace nobridge::pbn {
@@ -14,19 +14,21 @@ namespace nobridge::pbn {
         std::vector<std::string> lines;
     };
 
-    struct TagList {
-        std::vector<Tag> tags;
-    };
+    using TagPtr = std::shared_ptr<Tag>;
+    using TagList = std::vector<TagPtr>;
+    using GameList = std::vector<TagList>;
 
     class Parser {
        public:
         Parser(Reader& reader) : m_reader(reader) {}
-        std::unique_ptr<Pbn> run();
+        GameList run();
 
        private:
         Reader& m_reader;
     };
 
+    TagList::iterator find_tag(TagList::iterator begin, TagList::iterator end,
+                               std::string name);
 }  // namespace nobridge::pbn
 
 // Overload << for std::ostream

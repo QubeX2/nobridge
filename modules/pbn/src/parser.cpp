@@ -12,11 +12,20 @@
 #include "pbn.h"
 
 namespace nobridge::pbn {
+    TagList::iterator find_tag(TagList::iterator begin, TagList::iterator end,
+                               std::string name) {
+        for (auto it = begin; it != end; ++it) {
+            if (mkrl::string::tolower(name) ==
+                mkrl::string::tolower((*it)->name)) {
+                return it;
+            }
+        }
+        return end;
+    }
 
-    std::unique_ptr<Pbn> Parser::run() {
-        std::vector<TagList> games;
-        std::map<std::string, Tag> tags;
-        std::unique_ptr<Pbn> pbn = std::make_unique<Pbn>();
+    GameList Parser::run() {
+        GameList games;
+        std::map<std::string, TagPtr> tags;
         std::string cur_tag_name;
         TagList list;
 
@@ -25,42 +34,40 @@ namespace nobridge::pbn {
             while (!m_reader.eof()) {
                 // handle a tag
                 std::string line = m_reader.nextLine();
+                mkrl::string::trim(line, " \t\r\n");
                 if (line.starts_with('[')) {
+                    // handle tag
                     std::smatch matches;
                     if (std::regex_search(
                             line, matches,
                             std::regex(R"(\[(.*)[ ]{1}\"(.*)\"\])"))) {
                         if (matches.size() >= 3) {
                             cur_tag_name = matches[1];
-                            // check if a new game
-                            if (cur_tag_name == "Event") {
-                                tags.clear();
-                                if (list.tags.size()) {
-                                    games.push_back(list);
-                                }
-                                list.tags.clear();
-                            }
-                            Tag t{.name = matches[1], .value = matches[2]};
-                            list.tags.push_back(t);
-                            tags[matches[1]] = t;
+                            TagPtr tp = std::make_shared<Tag>(
+                                Tag{.name = matches[1], .value = matches[2]});
+                            list.push_back(tp);
+                            tags[matches[1]] = tp;
                         }
                     }
+
+                } else if (line.length() == 0) {
+                    // check if a new game
+                    tags.clear();
+                    if (list.size()) {
+                        games.push_back(list);
+                    }
+                    list.clear();
+
                 } else if (cur_tag_name.size()) {
+                    // items under a tag
                     if (tags.contains(cur_tag_name)) {
-                        Tag t = tags[cur_tag_name];
-                        t.lines.push_back(line);
+                        TagPtr tp = tags[cur_tag_name];
+                        tp->lines.push_back(line);
                     }
                 }
             }
-
-            // write game from map-tags
-            std::println("Games: {}", games.size());
-            for (auto game : games) {
-                std::println("  List: {}", game.tags.size());
-            }
-            // mkrl::map::print<std::string, Tag>(tags);
         }
-        return nullptr;
+        return games;
     }
 
 }  // namespace nobridge::pbn

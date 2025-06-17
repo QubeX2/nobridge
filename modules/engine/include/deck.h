@@ -8,6 +8,8 @@
 
 namespace nobridge::engine {
 
+    using DealList = std::vector<CardList>;
+
     class Deck {
        public:
         Deck();
@@ -15,7 +17,7 @@ namespace nobridge::engine {
         void shuffle();
         void print();
         // 4 deals with 13 cards
-        std::vector<CardList> deal();
+        DealList deal();
         CardPtr at(size_t index);
 
        private:

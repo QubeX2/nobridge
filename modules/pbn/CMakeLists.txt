@@ -1,6 +1,7 @@
 add_library(pbn STATIC
   src/reader.cpp
   src/parser.cpp
+  src/pbn.cpp
 )
 
 target_link_libraries(pbn
