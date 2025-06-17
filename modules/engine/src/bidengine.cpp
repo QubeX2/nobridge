@@ -10,7 +10,7 @@
 
 namespace nobridge::engine {
 
-    void BridgeEngine::addPlayer(std::shared_ptr<Player>& player) {
+    void BridgeEngine::addPlayer(PlayerPtr& player) {
         for (uint i = 0; i < m_players.size(); i++) {
             if (m_players[i] == nullptr) {
                 m_players[i] = player;

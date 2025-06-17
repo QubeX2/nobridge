@@ -24,8 +24,11 @@ namespace nobridge::engine {
         BidType m_type;
         uint8_t m_level;
         Suit m_suit;
-        std::shared_ptr<Player> m_bidder;
+        PlayerPtr m_bidder;
     };
+
+    using BidPtr = std::shared_ptr<Bid>;
+    using BidList = std::vector<BidPtr>;
 
 }  // namespace nobridge::engine
 

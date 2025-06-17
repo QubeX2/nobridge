@@ -47,7 +47,7 @@ namespace nobridge::engine {
         }
     }
 
-    std::shared_ptr<Card> Deck::at(size_t index) {
+    CardPtr Deck::at(size_t index) {
         if (index < m_cards.size()) {
             return m_cards.at(index);
         }

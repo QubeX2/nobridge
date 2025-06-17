@@ -11,7 +11,7 @@ namespace nobridge::engine {
     class BidEngine {
        public:
        private:
-        std::vector<Bid> m_history;
+        BidList m_history;
     };
 
 }  // namespace nobridge::engine

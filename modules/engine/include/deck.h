@@ -15,12 +15,14 @@ namespace nobridge::engine {
         void shuffle();
         void print();
         // 4 deals with 13 cards
-        std::vector<std::vector<std::shared_ptr<Card>>> deal();
-        std::shared_ptr<Card> at(size_t index);
+        std::vector<CardList> deal();
+        CardPtr at(size_t index);
 
        private:
-        std::array<std::shared_ptr<Card>, 52> m_cards;
+        CardList m_cards;
     };
+
+    using DeckPtr = std::shared_ptr<Deck>;
 
 }  // namespace nobridge::engine
 

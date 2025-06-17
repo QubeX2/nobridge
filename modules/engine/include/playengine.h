@@ -10,7 +10,7 @@ namespace nobridge::engine {
     class PlayEngine {
        public:
        private:
-        std::vector<Trick> m_tricks;
+        TrickList m_tricks;
     };
 
 }  // namespace nobridge::engine

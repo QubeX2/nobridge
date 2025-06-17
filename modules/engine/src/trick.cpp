@@ -7,12 +7,8 @@
 
 namespace nobridge::engine {
 
-    void Trick::addCard(std::shared_ptr<Card>& card) {
-        m_cards.push_back(card);
-    }
-
-    void Trick::addCard(std::shared_ptr<Card>& card,
-                        std::shared_ptr<Player>& player) {
+    void Trick::addCard(CardPtr& card) { m_cards.push_back(card); }
+    void Trick::addCard(CardPtr& card, PlayerPtr& player) {
         this->addCard(card);
         if (m_leader == nullptr) {
             m_leader = player;

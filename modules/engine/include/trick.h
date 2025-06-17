@@ -11,15 +11,17 @@ namespace nobridge::engine {
 
     class Trick {
        public:
-        void addCard(std::shared_ptr<Card>& card);
-        void addCard(std::shared_ptr<Card>& card,
-                     std::shared_ptr<Player>& player);
+        void addCard(CardPtr& card);
+        void addCard(CardPtr& card, PlayerPtr& player);
         // get_winner??
 
        private:
-        std::shared_ptr<Player> m_leader;
-        std::vector<std::shared_ptr<Card>> m_cards;
+        PlayerPtr m_leader;
+        CardList m_cards;
     };
+
+    using TrickPtr = std::shared_ptr<Trick>;
+    using TrickList = std::vector<TrickPtr>;
 
 }  // namespace nobridge::engine
 

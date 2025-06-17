@@ -3,7 +3,9 @@
 
 #include <cstdint>
 #include <map>
+#include <memory>
 #include <string>
+#include <vector>
 
 namespace nobridge::engine {
 
@@ -49,6 +51,8 @@ namespace nobridge::engine {
         Rank m_rank;
     };
 
+    using CardPtr = std::shared_ptr<Card>;
+    using CardList = std::vector<CardPtr>;
 }  // namespace nobridge::engine
 
 #endif

@@ -45,3 +45,5 @@ namespace mkrl::string {
     }
 
 }  // namespace mkrl::string
+
+namespace mkrl::array {}
