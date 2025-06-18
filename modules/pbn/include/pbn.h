@@ -11,20 +11,12 @@
 #include <memory>
 #include <vector>
 
-#include "game.h"
 #include "parser.h"
 
 namespace nobridge::pbn {
 
-    class Pbn {
-       public:
-       private:
-        std::vector<Game> m_games;
-    };
+    GameList processFile(std::string const& path);
 
-    using PbnPtr = std::shared_ptr<Pbn>;
-
-    PbnPtr process(GameList& glist);
 }  // namespace nobridge::pbn
 
 #endif

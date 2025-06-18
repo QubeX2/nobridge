@@ -14,8 +14,10 @@ namespace nobridge::engine {
        public:
         Deck();
 
+        CardList cards() { return m_cards; }
+        CardList cards() const { return m_cards; }
+
         void shuffle();
-        void print();
         // 4 deals with 13 cards
         DealList deal();
         CardPtr at(size_t index);

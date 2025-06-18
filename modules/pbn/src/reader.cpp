@@ -16,6 +16,8 @@ namespace nobridge::pbn {
     void Reader::close() {
         if (m_file.is_open()) {
             m_file.close();
+            m_ok = false;
+            m_eof = true;
         }
     }
 

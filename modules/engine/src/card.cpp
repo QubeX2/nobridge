@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include <format>
+#include <iostream>
 
 namespace nobridge::engine {
 
@@ -14,4 +15,5 @@ namespace nobridge::engine {
         return std::format("{}{}\033[0m", m_suit_texts[m_suit],
                            m_rank_texts[m_rank]);
     }
+
 }  // namespace nobridge::engine

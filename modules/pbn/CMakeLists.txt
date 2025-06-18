@@ -6,7 +6,7 @@ add_library(pbn STATIC
 
 target_link_libraries(pbn
   PRIVATE 
-  mkrl
+  mika
 )
 
 target_include_directories(pbn PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

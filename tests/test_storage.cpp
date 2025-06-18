@@ -6,8 +6,8 @@
 #include "vect.h"
 
 TEST(VectorTest, HandlesVectorMath) {
-    mkrl::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
-    mkrl::VecT<float, 5> vec5b{0.0, 1.0, 0.0, 0.0, 0.0};
+    mika::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
+    mika::VecT<float, 5> vec5b{0.0, 1.0, 0.0, 0.0, 0.0};
 
     // std::cout << std::format("Radian: {}, Degree: {}\n", vec5a.angle(vec5b),
     //                         vec5a.angleDeg(vec5b));

@@ -1,11 +1,11 @@
-#include "mkrl.h"
+#include "mika.h"
 
 #include <algorithm>
 #include <cctype>
 #include <iterator>
 #include <string>
 
-namespace mkrl::string {
+namespace mika::string {
 
     /**
      *
@@ -13,6 +13,21 @@ namespace mkrl::string {
     void trim(std::string& str, std::string chars) {
         str.erase(0, str.find_first_not_of(chars));
         str.erase(str.find_last_not_of(chars) + 1);
+    }
+
+    /**
+     *
+     */
+    std::vector<std::string> split(const std::string& input, char delimiter) {
+        std::stringstream ss(input);
+        std::string item;
+        std::vector<std::string> result;
+
+        while (std::getline(ss, item, delimiter)) {
+            result.push_back(item);
+        }
+
+        return result;
     }
 
     /**
@@ -37,13 +52,13 @@ namespace mkrl::string {
      *
      */
     std::string ucfirst(std::string& str) {
-        std::string nstr = mkrl::string::tolower(str);
-        if (nstr.size()) {
+        std::string nstr = mika::string::tolower(str);
+        if (!nstr.empty()) {
             nstr[0] = std::toupper(str[0]);
         }
         return nstr;
     }
 
-}  // namespace mkrl::string
+}  // namespace mika::string
 
-namespace mkrl::array {}
+namespace mika::array {}

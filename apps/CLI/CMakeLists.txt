@@ -4,7 +4,7 @@ add_executable(nobridge
 
 target_link_libraries(nobridge
   PRIVATE 
-  mkrl
+  mika
   engine
   pbn
   storage

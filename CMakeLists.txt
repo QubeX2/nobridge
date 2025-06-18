@@ -13,7 +13,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(GLOBAL PROPERTY USE_FOLDERS ON)
 
-add_subdirectory(modules/mkrl)
+include_directories(modules/mika/include)
+include_directories(modules/adapter/include)
+include_directories(modules/engine/include)
+include_directories(modules/pbn/include)
+include_directories(modules/storage/include)
+
+add_subdirectory(modules/mika)
+add_subdirectory(modules/adapter)
 add_subdirectory(modules/engine)
 add_subdirectory(modules/pbn)
 add_subdirectory(modules/storage)

@@ -1,5 +1,5 @@
-#ifndef MKRL_VECT_H
-#define MKRL_VECT_H
+#ifndef MIKA_VECT_H
+#define MIKA_VECT_H
 
 #include <algorithm>
 #include <cmath>
@@ -7,9 +7,9 @@
 #include <iterator>
 #include <stdexcept>
 
-#include "mkrl.h"
+#include "mika.h"
 
-namespace mkrl {
+namespace mika {
     template <typename T, std::size_t N>
     class VecT {
        public:
@@ -97,15 +97,15 @@ namespace mkrl {
         mutable std::string m_cached_str;
     };
 
-}  // namespace mkrl
+}  // namespace mika
 #endif
 
 template <typename T, std::size_t N>
-inline std::ostream& operator<<(std::ostream& os, const mkrl::VecT<T, N>& t) {
-    os << "VecT (" << mkrl::array::join(t.data());
+inline std::ostream& operator<<(std::ostream& os, const mika::VecT<T, N>& t) {
+    os << "VecT (" << mika::array::join(t.data());
     os << "), Size: " << t.size();
     os << ", Length: " << t.length();
-    os << ", Normalized (" << mkrl::array::join(t.normalized().data()) << ")"
+    os << ", Normalized (" << mika::array::join(t.normalized().data()) << ")"
        << std::endl;
     return os;
 }

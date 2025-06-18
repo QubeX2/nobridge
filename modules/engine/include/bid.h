@@ -22,7 +22,7 @@ namespace nobridge::engine {
        public:
        private:
         BidType m_type;
-        uint8_t m_level;
+        uint8_t m_level = 0;
         Suit m_suit;
         PlayerPtr m_bidder;
     };

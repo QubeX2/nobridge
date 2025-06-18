@@ -23,15 +23,6 @@ namespace nobridge::engine {
         this->shuffle();
     }
 
-    void Deck::print() {
-        int i = 0;
-        for (auto card : m_cards) {
-            if (i++ % 13 == 0) std::cout << std::endl;
-            std::cout << card->toString() << " ";
-        }
-        std::cout << std::endl;
-    }
-
     void Deck::shuffle() {
         std::random_device rd;
         std::mt19937 gen(rd());

@@ -8,33 +8,20 @@
 #include <string>
 #include <vector>
 
-#include "mkrl.h"
+#include "mika.h"
 #include "pbn.h"
 
 namespace nobridge::pbn {
-    TagList::iterator find_tag(TagList::iterator begin, TagList::iterator end,
-                               std::string name) {
-        for (auto it = begin; it != end; ++it) {
-            if (mkrl::string::tolower(name) ==
-                mkrl::string::tolower((*it)->name)) {
-                return it;
-            }
-        }
-        return end;
-    }
-
-    GameList Parser::run() {
-        GameList games;
-        std::map<std::string, TagPtr> tags;
-        std::string cur_tag_name;
-        TagList list;
-
+    GameList Parser::run() const {
         if (m_reader.ok()) {
+            GameList games;
+            TagMap tmap;
+            std::string cur_tag_name;
             // parse into a map-tags first
             while (!m_reader.eof()) {
                 // handle a tag
                 std::string line = m_reader.nextLine();
-                mkrl::string::trim(line, " \t\r\n");
+                mika::string::trim(line, " \t\r\n");
                 if (line.starts_with('[')) {
                     // handle tag
                     std::smatch matches;
@@ -43,31 +30,29 @@ namespace nobridge::pbn {
                             std::regex(R"(\[(.*)[ ]{1}\"(.*)\"\])"))) {
                         if (matches.size() >= 3) {
                             cur_tag_name = matches[1];
-                            TagPtr tp = std::make_shared<Tag>(
+                            const auto tp = std::make_shared<Tag>(
                                 Tag{.name = matches[1], .value = matches[2]});
-                            list.push_back(tp);
-                            tags[matches[1]] = tp;
+                            tmap[matches[1]] = tp;
                         }
                     }
 
-                } else if (line.length() == 0) {
+                } else if (line.empty()) {
                     // check if a new game
-                    tags.clear();
-                    if (list.size()) {
-                        games.push_back(list);
+                    if (!tmap.empty()) {
+                        games.push_back(tmap);
+                        tmap.clear();
                     }
-                    list.clear();
-
-                } else if (cur_tag_name.size()) {
+                } else if (!cur_tag_name.empty()) {
                     // items under a tag
-                    if (tags.contains(cur_tag_name)) {
-                        TagPtr tp = tags[cur_tag_name];
+                    if (tmap.contains(cur_tag_name)) {
+                        const auto tp = tmap[cur_tag_name];
                         tp->lines.push_back(line);
                     }
                 }
             }
+            return games;
         }
-        return games;
+        return GameList{};
     }
 
 }  // namespace nobridge::pbn

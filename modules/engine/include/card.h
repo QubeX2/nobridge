@@ -53,6 +53,7 @@ namespace nobridge::engine {
 
     using CardPtr = std::shared_ptr<Card>;
     using CardList = std::vector<CardPtr>;
+
 }  // namespace nobridge::engine
 
 #endif

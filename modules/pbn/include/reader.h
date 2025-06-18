@@ -8,7 +8,7 @@ namespace nobridge::pbn {
 
     class Reader {
        public:
-        Reader(std::string filename);
+        explicit Reader(std::string filename);
         std::string nextLine();
         std::string line();
         std::string lastLine();
