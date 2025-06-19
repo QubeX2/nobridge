@@ -9,24 +9,27 @@
 namespace nobridge::engine {
     namespace output {
         void printCards(const CardList& cards) {
-            std::cout << "CARDS" << std::endl;
+            std::cout << "CARDS\n";
             std::size_t i = 0;
             for (auto card : cards) {
-                if (i++ % 13 == 0) std::cout << std::endl;
+                if (i > 0 && i % 13 == 0) {
+                    std::cout << std::endl;
+                }
                 std::cout << card->toString() << " ";
+                i++;
             }
-            std::cout << std::endl;
+            std::cout << "\n\n";
         }
 
         void printDeal(const DealList& deal) {
-            std::cout << "DEAL" << std::endl;
+            std::cout << "DEAL\n";
             for (auto hand : deal) {
                 printCards(hand);
             }
         }
 
         void printDeck(const DeckPtr& deck) {
-            std::cout << "DECK" << std::endl;
+            std::cout << "DECK\n";
             printCards(deck->cards());
         }
     }  // namespace output

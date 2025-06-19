@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <cmath>
 #include <initializer_list>
-#include <iterator>
 #include <stdexcept>
 
 #include "mika.h"
@@ -97,15 +96,16 @@ namespace mika {
         mutable std::string m_cached_str;
     };
 
+    template <typename T, std::size_t N>
+    inline std::ostream& operator<<(std::ostream& os,
+                                    const mika::VecT<T, N>& t) {
+        os << "VecT (" << mika::array::join(t.data());
+        os << "), Size: " << t.size();
+        os << ", Length: " << t.length();
+        os << ", Normalized (" << mika::array::join(t.normalized().data())
+           << ")" << std::endl;
+        return os;
+    }
+
 }  // namespace mika
 #endif
-
-template <typename T, std::size_t N>
-inline std::ostream& operator<<(std::ostream& os, const mika::VecT<T, N>& t) {
-    os << "VecT (" << mika::array::join(t.data());
-    os << "), Size: " << t.size();
-    os << ", Length: " << t.length();
-    os << ", Normalized (" << mika::array::join(t.normalized().data()) << ")"
-       << std::endl;
-    return os;
-}

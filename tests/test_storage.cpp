@@ -1,8 +1,9 @@
 #include <gtest/gtest.h>
 
-#include <format>
-#include <iostream>
-
+#include "adapter.h"
+#include "deck.h"
+#include "parser.h"
+#include "pbn.h"
 #include "vect.h"
 
 TEST(VectorTest, HandlesVectorMath) {
@@ -17,4 +18,22 @@ TEST(VectorTest, HandlesVectorMath) {
 
     // std::cout << vec5a << std::endl;
     // std::cout << vec5b << std::endl;
+}
+
+TEST(HandToVector, Conversion) {
+    nobridge::pbn::GameList gamelist = nobridge::pbn::processFile(
+        "files/RB_220702123558SistaChansen_full.pbn.txt");
+
+    if (!gamelist.empty()) {
+        nobridge::pbn::TagMap tags = gamelist[0];
+
+        if (tags.contains("Deal")) {
+            nobridge::engine::DealList deal =
+                nobridge::adapter::pbn::toDeal(tags["Deal"]->value);
+            if (!deal.empty()) {
+                nobridge::adapter::storage::HandVecT vec =
+                    nobridge::adapter::storage::toVector(deal[0]);
+            }
+        }
+    }
 }

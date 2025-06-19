@@ -1,6 +1,7 @@
 #ifndef CARD_H
 #define CARD_H
 
+#include <array>
 #include <cstdint>
 #include <map>
 #include <memory>
@@ -9,7 +10,7 @@
 
 namespace nobridge::engine {
 
-    enum class Suit : uint8_t { CLUBS = 1, DIAMONDS, HEARTS, SPADES };
+    enum class Suit : uint8_t { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
     enum class Rank : uint8_t {
         TWO = 2,
         THREE,
@@ -26,6 +27,9 @@ namespace nobridge::engine {
         ACE
     };
 
+    const std::array<Suit, 4> kCardSuitList{Suit::SPADES, Suit::HEARTS,
+                                            Suit::DIAMONDS, Suit::CLUBS};
+
     class Card {
        public:
         Card(Suit s, Rank r) : m_suit(s), m_rank(r) {}
@@ -37,10 +41,10 @@ namespace nobridge::engine {
         std::string toString();
 
        private:
-        std::map<Suit, std::string> m_suit_texts{{Suit::CLUBS, "\033[32m♣"},
-                                                 {Suit::DIAMONDS, "\033[31m♦"},
+        std::map<Suit, std::string> m_suit_texts{{Suit::SPADES, "\033[35m♠"},
                                                  {Suit::HEARTS, "\033[31m♥"},
-                                                 {Suit::SPADES, "\033[35m♠"}};
+                                                 {Suit::DIAMONDS, "\033[31m♦"},
+                                                 {Suit::CLUBS, "\033[32m♣"}};
         std::map<Rank, std::string> m_rank_texts{
             {Rank::TWO, "2"},   {Rank::THREE, "3"}, {Rank::FOUR, "4"},
             {Rank::FIVE, "5"},  {Rank::SIX, "6"},   {Rank::SEVEN, "7"},
@@ -53,6 +57,11 @@ namespace nobridge::engine {
 
     using CardPtr = std::shared_ptr<Card>;
     using CardList = std::vector<CardPtr>;
+    using UIntArray4 = std::array<uint8_t, 4>;
+
+    namespace card {
+        UIntArray4 countSuits(const CardList& cards);
+    }  // namespace card
 
 }  // namespace nobridge::engine
 
