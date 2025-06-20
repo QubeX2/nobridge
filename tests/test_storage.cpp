@@ -5,6 +5,7 @@
 #include "parser.h"
 #include "pbn.h"
 #include "vect.h"
+#include "vmath.h"
 
 TEST(VectorTest, HandlesVectorMath) {
     mika::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
@@ -31,8 +32,8 @@ TEST(HandToVector, Conversion) {
             nobridge::engine::DealList deal =
                 nobridge::adapter::pbn::toDeal(tags["Deal"]->value);
             if (!deal.empty()) {
-                nobridge::adapter::storage::HandVecT vec =
-                    nobridge::adapter::storage::toVector(deal[0]);
+                nobridge::vmath::HandVecT vec =
+                    nobridge::vmath::toVector(deal[0]);
             }
         }
     }

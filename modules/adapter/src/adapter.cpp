@@ -14,16 +14,6 @@
 #include "vect.h"
 
 namespace nobridge::adapter {
-    namespace storage {
-        HandVecT toVector(const engine::CardList cards) {
-            engine::UIntArray4 suits = engine::card::countSuits(cards);
-            engine::output::printCards(cards);
-            /* for (auto n : suits) {
-                  std::println("N: {}", n);
-              } */
-            return mika::VecT<float, 20>{};
-        }
-    }  // namespace storage
     namespace pbn {
         engine::DealList toDeal(const std::string &dealstr) {
             std::array<engine::Suit, 4> suit_enums{

@@ -1,5 +1,5 @@
 add_library(storage STATIC
-  src/handt.cpp
+  src/storage.cpp
 )
 
 target_include_directories(storage PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

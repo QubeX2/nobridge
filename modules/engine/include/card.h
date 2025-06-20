@@ -57,11 +57,6 @@ namespace nobridge::engine {
 
     using CardPtr = std::shared_ptr<Card>;
     using CardList = std::vector<CardPtr>;
-    using UIntArray4 = std::array<uint8_t, 4>;
-
-    namespace card {
-        UIntArray4 countSuits(const CardList& cards);
-    }  // namespace card
 
 }  // namespace nobridge::engine
 
