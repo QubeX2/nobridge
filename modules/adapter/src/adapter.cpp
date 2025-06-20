@@ -19,7 +19,7 @@ namespace nobridge::adapter {
             std::array<engine::Suit, 4> suit_enums{
                 engine::Suit::SPADES, engine::Suit::HEARTS,
                 engine::Suit::DIAMONDS, engine::Suit::CLUBS};
-            std::map<char, engine::Rank> rank_enums{
+            std::unordered_map<char, engine::Rank> rank_enums{
                 {'2', engine::Rank::TWO},   {'3', engine::Rank::THREE},
                 {'4', engine::Rank::FOUR},  {'5', engine::Rank::FIVE},
                 {'6', engine::Rank::SIX},   {'7', engine::Rank::SEVEN},

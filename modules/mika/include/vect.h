@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <cmath>
 #include <initializer_list>
+#include <iomanip>
 #include <stdexcept>
 
 #include "mika.h"
@@ -99,11 +100,15 @@ namespace mika {
     template <typename T, std::size_t N>
     inline std::ostream& operator<<(std::ostream& os,
                                     const mika::VecT<T, N>& t) {
-        os << "VecT (" << mika::array::join(t.data());
+        os << std::fixed << std::setprecision(2);
+        os << "VecT (";
+        mika::array::join(os, t.data());
         os << "), Size: " << t.size();
         os << ", Length: " << t.length();
-        os << ", Normalized (" << mika::array::join(t.normalized().data())
-           << ")" << std::endl;
+        // os << ", Normalized (";
+        // mika::array::join(os, t.normalized().data());
+        // os << ")";
+        os << std::endl;
         return os;
     }
 

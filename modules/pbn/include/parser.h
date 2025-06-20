@@ -3,6 +3,7 @@
 
 #include <map>
 #include <memory>
+#include <unordered_map>
 #include <vector>
 
 #include "reader.h"
@@ -16,7 +17,7 @@ namespace nobridge::pbn {
     };
 
     using TagPtr = std::shared_ptr<Tag>;
-    using TagMap = std::map<std::string, TagPtr>;
+    using TagMap = std::unordered_map<std::string, TagPtr>;
     using GameList = std::vector<TagMap>;
 
     class Parser {

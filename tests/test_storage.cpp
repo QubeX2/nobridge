@@ -2,6 +2,7 @@
 
 #include "adapter.h"
 #include "deck.h"
+#include "engine.h"
 #include "parser.h"
 #include "pbn.h"
 #include "vect.h"
@@ -34,6 +35,8 @@ TEST(HandToVector, Conversion) {
             if (!deal.empty()) {
                 nobridge::vmath::HandVecT vec =
                     nobridge::vmath::toVector(deal[0]);
+                std::cout << vec << std::endl;
+                nobridge::engine::output::printCards(deal[0]);
             }
         }
     }

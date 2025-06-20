@@ -1,3 +1,6 @@
+#include <cstdint>
+#include <unordered_map>
+
 #include "card.h"
 #include "vect.h"
 
@@ -19,37 +22,23 @@ namespace nobridge::vmath {
     const float kTenPoints = 0.5f;
 
     // Pos: 1 - Four Card Major Suit
-    const float kFourCardMajorSuit = 1.0f;
-    const float kFiveCardMajorSuit = 2.0f;
-
-    // Pos: 1 - Long Major Suit
-    const float kSixCardMajorSuit = 1.0f;
-    const float kSevenCardMajorSuit = 2.0f;
-    const float kEightCardMajorSuit = 3.0f;
-    const float kLongCardMajorSuit = 4.0f;
+    const float kLongMajorSuit = 1.0f;
 
     // Pos: 2 - Four Card Minor Suit
-    const float kFourCardMinorSuit = 1.0f;
-    const float kFiveCardMinorSuit = 2.0f;
-
-    // Pos: 2 - Long Minor Suit
-    const float kSixCardMinorSuit = 1.0f;
-    const float kSevenCardMinorSuit = 2.0f;
-    const float kEightCardMinorSuit = 3.0f;
-    const float kLongCardMinorSuit = 4.0f;
+    const float kLongMinorSuit = 1.0f;
 
     // Pos: 3 - Dist Points
-    const float kDistDoubleton = 1.0f;
-    const float kDistSingleton = 2.0f;
-    const float kDistVoid = 3.0f;
 
     // Pos: 4 - 7 - Suit count
 
     using UIntArray4 = std::array<uint8_t, 4>;
+    using UIntArray13 = std::array<uint8_t, 13>;
     using HandVecT = mika::VecT<float, 20>;
 
     UIntArray4 countSuits(const engine::CardList& cards);
+    UIntArray13 countRanks(const engine::CardList& cards);
     float calculateHCP(const engine::CardList& cards);
+    float calculateDist(const engine::CardList& caads);
     HandVecT toVector(const engine::CardList cards);
 
 }  // namespace nobridge::vmath

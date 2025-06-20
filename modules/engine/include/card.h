@@ -6,6 +6,7 @@
 #include <map>
 #include <memory>
 #include <string>
+#include <unordered_map>
 #include <vector>
 
 namespace nobridge::engine {
@@ -41,11 +42,12 @@ namespace nobridge::engine {
         std::string toString();
 
        private:
-        std::map<Suit, std::string> m_suit_texts{{Suit::SPADES, "\033[35m♠"},
-                                                 {Suit::HEARTS, "\033[31m♥"},
-                                                 {Suit::DIAMONDS, "\033[31m♦"},
-                                                 {Suit::CLUBS, "\033[32m♣"}};
-        std::map<Rank, std::string> m_rank_texts{
+        std::unordered_map<Suit, std::string> m_suit_texts{
+            {Suit::SPADES, "\033[35m♠"},
+            {Suit::HEARTS, "\033[31m♥"},
+            {Suit::DIAMONDS, "\033[31m♦"},
+            {Suit::CLUBS, "\033[32m♣"}};
+        std::unordered_map<Rank, std::string> m_rank_texts{
             {Rank::TWO, "2"},   {Rank::THREE, "3"}, {Rank::FOUR, "4"},
             {Rank::FIVE, "5"},  {Rank::SIX, "6"},   {Rank::SEVEN, "7"},
             {Rank::EIGHT, "8"}, {Rank::NINE, "9"},  {Rank::TEN, "T"},
