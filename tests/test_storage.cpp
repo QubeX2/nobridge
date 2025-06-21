@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 
+#include <filesystem>
 #include <memory>
 
 #include "adapter.h"
@@ -8,6 +9,7 @@
 #include "hand.h"
 #include "parser.h"
 #include "pbn.h"
+#include "storage.h"
 #include "vect.h"
 #include "vmath.h"
 
@@ -48,4 +50,16 @@ TEST(HandToVector, Conversion) {
             }
         }
     }
+}
+
+TEST(WriteAndReadVectorToFile, Storage) {
+    vmath::HandVecT vecw{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7,
+                         0.8, 0.9, 1.0, 1.1, 1.2, 1.2, 1.3};
+
+    storage::write("./vector.bin", vecw.asBytes(), vecw.byteSize());
+    EXPECT_TRUE(std::filesystem::exists("./vector.bin"));
+
+    vmath::HandVecT vecr;
+    storage::read("./vector.bin", vecr.asBytes(), vecr.byteSize());
+    EXPECT_EQ(vecr[1], 0.2f);
 }

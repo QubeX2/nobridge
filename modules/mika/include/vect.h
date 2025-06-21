@@ -103,6 +103,7 @@ namespace mika {
         const char* asBytes() const {
             return reinterpret_cast<const char*>(m_data.data());
         }
+        char* asBytes() { return reinterpret_cast<char*>(m_data.data()); }
         std::size_t byteSize() const { return sizeof(T) * N; }
 
        private:
