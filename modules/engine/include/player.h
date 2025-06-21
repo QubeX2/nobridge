@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "card.h"
+#include "hand.h"
 
 namespace nobridge::engine {
 
@@ -16,7 +17,7 @@ namespace nobridge::engine {
        public:
        private:
         PlayerType m_type;
-        CardList m_hand;
+        Hand m_hand;
         Direction m_direction;
     };
 

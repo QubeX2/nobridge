@@ -1,12 +1,17 @@
 #include <gtest/gtest.h>
 
+#include <memory>
+
 #include "adapter.h"
 #include "deck.h"
 #include "engine.h"
+#include "hand.h"
 #include "parser.h"
 #include "pbn.h"
 #include "vect.h"
 #include "vmath.h"
+
+using namespace nobridge;
 
 TEST(VectorTest, HandlesVectorMath) {
     mika::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
@@ -23,20 +28,22 @@ TEST(VectorTest, HandlesVectorMath) {
 }
 
 TEST(HandToVector, Conversion) {
-    nobridge::pbn::GameList gamelist = nobridge::pbn::processFile(
-        "files/RB_220702123558SistaChansen_full.pbn.txt");
+    pbn::GameList gamelist =
+        pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
 
     if (!gamelist.empty()) {
-        nobridge::pbn::TagMap tags = gamelist[0];
+        pbn::TagMap tags = gamelist[0];
 
         if (tags.contains("Deal")) {
-            nobridge::engine::DealList deal =
-                nobridge::adapter::pbn::toDeal(tags["Deal"]->value);
+            engine::DealList deal = adapter::pbn::toDeal(tags["Deal"]->value);
             if (!deal.empty()) {
-                nobridge::vmath::HandVecT vec =
-                    nobridge::vmath::toVector(deal[0]);
-                std::cout << vec << std::endl;
-                nobridge::engine::output::printCards(deal[0]);
+                for (auto cards : deal) {
+                    engine::HandPtr hand =
+                        std::make_shared<engine::Hand>(cards, false, false);
+                    vmath::HandVecT vec = vmath::toVector(hand);
+                    engine::output::printCards(cards);
+                    std::cout << vec << std::endl;
+                }
             }
         }
     }

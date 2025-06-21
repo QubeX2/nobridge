@@ -9,6 +9,8 @@
 #include <unordered_map>
 #include <vector>
 
+#include "types.h"
+
 namespace nobridge::engine {
 
     enum class Suit : uint8_t { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
@@ -28,8 +30,9 @@ namespace nobridge::engine {
         ACE
     };
 
-    const std::array<Suit, 4> kCardSuitList{Suit::SPADES, Suit::HEARTS,
-                                            Suit::DIAMONDS, Suit::CLUBS};
+    using SuitList = std::array<Suit, 4>;
+    const SuitList kSuitList{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS,
+                             Suit::CLUBS};
 
     class Card {
        public:
@@ -42,12 +45,11 @@ namespace nobridge::engine {
         std::string toString();
 
        private:
-        std::unordered_map<Suit, std::string> m_suit_texts{
-            {Suit::SPADES, "\033[35m♠"},
-            {Suit::HEARTS, "\033[31m♥"},
-            {Suit::DIAMONDS, "\033[31m♦"},
-            {Suit::CLUBS, "\033[32m♣"}};
-        std::unordered_map<Rank, std::string> m_rank_texts{
+        LegendMap<Suit> m_suit_texts{{Suit::SPADES, "\033[35m♠"},
+                                     {Suit::HEARTS, "\033[31m♥"},
+                                     {Suit::DIAMONDS, "\033[31m♦"},
+                                     {Suit::CLUBS, "\033[32m♣"}};
+        LegendMap<Rank> m_rank_texts{
             {Rank::TWO, "2"},   {Rank::THREE, "3"}, {Rank::FOUR, "4"},
             {Rank::FIVE, "5"},  {Rank::SIX, "6"},   {Rank::SEVEN, "7"},
             {Rank::EIGHT, "8"}, {Rank::NINE, "9"},  {Rank::TEN, "T"},

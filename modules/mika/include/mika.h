@@ -13,6 +13,8 @@
 #include <unordered_map>
 #include <vector>
 
+#include "types.h"
+
 /**
  * string helpers
  */
@@ -38,11 +40,18 @@ namespace mika {
     namespace array {
         template <typename T, std::size_t N>
         void join(std::ostream& os, const std::array<T, N>& arr,
-                  const std::string& separator = ", ") {
+                  const std::string& separator = ", ",
+                  std::unordered_map<std::size_t, std::string> legend = {}) {
             os << std::fixed << std::setprecision(2);
             for (std::size_t i = 0; i < N; ++i) {
                 if (i != 0) os << separator;
-                os << arr[i];
+                if (!legend.empty()) {
+                    os << nobridge::ansi::fg::BLUE << legend[i] << ": "
+                       << nobridge::ansi::RESET << arr[i];
+
+                } else {
+                    os << arr[i];
+                }
             }
         }
 

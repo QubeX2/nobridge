@@ -2,17 +2,26 @@
 #include <unordered_map>
 
 #include "card.h"
+#include "hand.h"
+#include "types.h"
 #include "vect.h"
 
 namespace nobridge::vmath {
-    const size_t kPosHcp = 0;
-    const size_t kPosMajorLength = 1;
-    const size_t kPosMinorLength = 2;
-    const size_t kPosDistPoints = 3;
-    const size_t kPosSpadesCount = 4;
-    const size_t kPosHeartsCount = 5;
-    const size_t kPosDiamondsCount = 6;
-    const size_t kPosClubsCount = 7;
+    const size_t kPos0_Hcp = 0;
+    const size_t kPos1_MajorLength = 1;
+    const size_t kPos2_MinorLength = 2;
+    const size_t kPos3_DistPoints = 3;
+    const size_t kPos4_SpadesCount = 4;
+    const size_t kPos5_HeartsCount = 5;
+    const size_t kPos6_DiamondsCount = 6;
+    const size_t kPos7_ClubsCount = 7;
+    const size_t kPos8_Vulnerable = 8;
+    const size_t kPos9_Dealer = 9;
+    const size_t kPos10_Aces = 10;
+    const size_t kPos11_Kings = 11;
+    const size_t kPos12_Queens = 12;
+    const size_t kPos13_Jacks = 13;
+    const size_t kPosSize = 14;
 
     // Pos: 0 - HCP
     const float kAcePoints = 4.5f;
@@ -31,14 +40,19 @@ namespace nobridge::vmath {
 
     // Pos: 4 - 7 - Suit count
 
-    using UIntArray4 = std::array<uint8_t, 4>;
-    using UIntArray13 = std::array<uint8_t, 13>;
-    using HandVecT = mika::VecT<float, 20>;
+    const LegendMap<std::size_t> kHandLegend{
+        {0, "HCP"},     {1, "Majors"}, {2, "Minors"},   {3, "Dist"},
+        {4, "Spades"},  {5, "Hearts"}, {6, "Diamonds"}, {7, "Clubs"},
+        {8, "Vuln"},    {9, "Dealer"}, {10, "Aces"},    {11, "Kings"},
+        {12, "Queens"}, {13, "Jacks"}};
+
+    using HandVecT = mika::VecT<float, kPosSize>;
 
     UIntArray4 countSuits(const engine::CardList& cards);
     UIntArray13 countRanks(const engine::CardList& cards);
     float calculateHCP(const engine::CardList& cards);
     float calculateDist(const engine::CardList& caads);
-    HandVecT toVector(const engine::CardList cards);
+    HandVecT toVector(const engine::HandPtr& hand);
+    uint8_t rankCount(UIntArray13 list, engine::Rank rank);
 
 }  // namespace nobridge::vmath

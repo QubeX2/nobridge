@@ -5,7 +5,10 @@
 #include <cmath>
 #include <initializer_list>
 #include <iomanip>
+#include <iterator>
 #include <stdexcept>
+#include <string>
+#include <unordered_map>
 
 #include "mika.h"
 
@@ -26,6 +29,16 @@ namespace mika {
         const T& operator[](std::size_t index) const { return m_data[index]; }
         std::array<T, N> data() { return m_data; }
         std::array<T, N> data() const { return m_data; }
+
+        std::unordered_map<std::size_t, std::string> legend() {
+            return m_legend;
+        }
+        std::unordered_map<std::size_t, std::string> legend() const {
+            return m_legend;
+        }
+        void setLegend(std::unordered_map<std::size_t, std::string> legend) {
+            m_legend = legend;
+        }
 
         // Iterators
         auto begin() { return m_data.begin(); }
@@ -95,6 +108,7 @@ namespace mika {
        private:
         std::array<T, N> m_data;
         mutable std::string m_cached_str;
+        std::unordered_map<std::size_t, std::string> m_legend;
     };
 
     template <typename T, std::size_t N>
@@ -102,9 +116,9 @@ namespace mika {
                                     const mika::VecT<T, N>& t) {
         os << std::fixed << std::setprecision(2);
         os << "VecT (";
-        mika::array::join(os, t.data());
-        os << "), Size: " << t.size();
-        os << ", Length: " << t.length();
+        mika::array::join(os, t.data(), ", ", t.legend());
+        os << "), \033[31mSize:\033[0m " << t.size();
+        os << ", \033[31mLength:\033[0m " << t.length();
         // os << ", Normalized (";
         // mika::array::join(os, t.normalized().data());
         // os << ")";

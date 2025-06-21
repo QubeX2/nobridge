@@ -1,25 +1,55 @@
 #include "vmath.h"
 
+#include <cstdint>
+#include <iterator>
+
 #include "card.h"
+#include "hand.h"
+#include "mika.h"
+#include "types.h"
 
 namespace nobridge::vmath {
     /**
      *
      */
-    HandVecT toVector(const engine::CardList cards) {
-        UIntArray4 suits = countSuits(cards);
-        HandVecT hand{};
+    uint8_t rankCount(UIntArray13 list, engine::Rank rank) {
+        return list[static_cast<uint8_t>(rank) - 2];
+    }
 
-        hand[kPosHcp] = calculateHCP(cards);
-        hand[kPosMajorLength] = suits[0] >= 4 ? suits[0] * kLongMajorSuit : 0;
-        hand[kPosMajorLength] += suits[1] >= 4 ? suits[1] * kLongMajorSuit : 0;
-        hand[kPosDistPoints] = calculateDist(cards);
-        hand[kPosSpadesCount] = static_cast<float>(suits[0]);
-        hand[kPosHeartsCount] = static_cast<float>(suits[1]);
-        hand[kPosDiamondsCount] = static_cast<float>(suits[2]);
-        hand[kPosClubsCount] = static_cast<float>(suits[3]);
+    /**
+     *
+     */
+    HandVecT toVector(const engine::HandPtr& hand) {
+        UIntArray4 suits = countSuits(hand->cards());
+        UIntArray13 ranks = countRanks(hand->cards());
 
-        return hand;
+        HandVecT hvect{};
+        hvect.setLegend(kHandLegend);
+
+        hvect[kPos0_Hcp] = calculateHCP(hand->cards());
+
+        hvect[kPos1_MajorLength] =
+            suits[0] >= 4 ? suits[0] * kLongMajorSuit : 0;
+        hvect[kPos1_MajorLength] +=
+            suits[1] >= 4 ? suits[1] * kLongMajorSuit : 0;
+        hvect[kPos2_MinorLength] =
+            suits[2] >= 4 ? suits[2] * kLongMinorSuit : 0;
+        hvect[kPos2_MinorLength] +=
+            suits[3] >= 4 ? suits[3] * kLongMinorSuit : 0;
+
+        hvect[kPos3_DistPoints] = calculateDist(hand->cards());
+        hvect[kPos4_SpadesCount] = static_cast<float>(suits[0]);
+        hvect[kPos5_HeartsCount] = static_cast<float>(suits[1]);
+        hvect[kPos6_DiamondsCount] = static_cast<float>(suits[2]);
+        hvect[kPos7_ClubsCount] = static_cast<float>(suits[3]);
+        hvect[kPos8_Vulnerable] = 0;
+        hvect[kPos9_Dealer] = 0;
+        hvect[kPos10_Aces] = rankCount(ranks, engine::Rank::ACE) * 2.0f;
+        hvect[kPos11_Kings] = rankCount(ranks, engine::Rank::KING) * 1.0f;
+        hvect[kPos12_Queens] = rankCount(ranks, engine::Rank::QUEEN) * 0.5f;
+        hvect[kPos13_Jacks] = rankCount(ranks, engine::Rank::JACK) * 0.25f;
+
+        return hvect;
     }
 
     /**
@@ -30,9 +60,6 @@ namespace nobridge::vmath {
         for (const engine::CardPtr& card : cards) {
             handcount[static_cast<uint8_t>(card->suit()) - 1]++;
         }
-        for (auto n : handcount) {
-            std::println("N: {}", n);
-        }
         return handcount;
     }
 
@@ -42,7 +69,7 @@ namespace nobridge::vmath {
     UIntArray13 countRanks(const engine::CardList& cards) {
         UIntArray13 rankcount{};
         for (const engine::CardPtr& card : cards) {
-            rankcount[static_cast<size_t>(card->rank()) - 2]++;
+            rankcount[static_cast<std::size_t>(card->rank()) - 2]++;
         }
         return rankcount;
     }
@@ -67,12 +94,13 @@ namespace nobridge::vmath {
      */
     float calculateDist(const engine::CardList& cards) {
         float score{};
-        UIntArray13 ranks = countRanks(cards);
-        for (auto rank : ranks) {
-            if (rank <= 2) {
-                score += 3 - rank;
+        UIntArray4 suits = countSuits(cards);
+        for (uint8_t count : suits) {
+            if (count <= 2) {
+                score += 3 - count;
             }
         }
+        return score;
     }
 
 }  // namespace nobridge::vmath

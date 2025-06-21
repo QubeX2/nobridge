@@ -3,6 +3,7 @@ add_library(engine STATIC
   src/bidengine.cpp
   src/bridgeengine.cpp
   src/card.cpp
+  src/hand.cpp
   src/contract.cpp
   src/deck.cpp
   src/playengine.cpp

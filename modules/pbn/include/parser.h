@@ -7,13 +7,14 @@
 #include <vector>
 
 #include "reader.h"
+#include "types.h"
 
 namespace nobridge::pbn {
 
     struct Tag {
         std::string name;
         std::string value;
-        std::vector<std::string> lines;
+        StringList lines;
     };
 
     using TagPtr = std::shared_ptr<Tag>;
