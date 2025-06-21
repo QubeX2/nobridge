@@ -14,5 +14,5 @@ TEST(DeckTest, HandlesShuffling) {
     EXPECT_GT(static_cast<int>(deck->at(0)->suit()), 0);
     EXPECT_GT(static_cast<int>(deck->at(0)->rank()), 0);
 
-    engine::output::printDeck(deck);
+    // engine::output::printDeck(deck);
 }

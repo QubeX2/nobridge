@@ -41,8 +41,9 @@ TEST(HandToVector, Conversion) {
                     engine::HandPtr hand =
                         std::make_shared<engine::Hand>(cards, false, false);
                     vmath::HandVecT vec = vmath::toVector(hand);
-                    engine::output::printCards(cards);
-                    std::cout << vec << std::endl;
+                    EXPECT_GE(vec[0], 0);
+                    // engine::output::printCards(cards);
+                    // std::cout << vec << std::endl;
                 }
             }
         }

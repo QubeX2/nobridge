@@ -27,7 +27,7 @@ TEST(PbnAdapter, AdapterTest) {
 
             EXPECT_EQ(deal.size(), 4);
 
-            engine::output::printDeal(deal);
+            // engine::output::printDeal(deal);
         }
     }
 }
