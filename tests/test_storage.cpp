@@ -6,6 +6,7 @@
 #include "adapter.h"
 #include "deck.h"
 #include "engine.h"
+#include "game.h"
 #include "hand.h"
 #include "parser.h"
 #include "pbn.h"
@@ -71,7 +72,7 @@ TEST_F(StorageTest, CreateHandRec) {
                 hvec.angle());
             EXPECT_GE(hr.id, 0);
 
-            std::cout << hr << std::endl;
+            // std::cout << hr << std::endl;
         }
     }
 }
@@ -86,4 +87,12 @@ TEST(WriteAndReadVectorToFile, Storage) {
     vmath::HandVect vecr;
     storage::read("./vector.bin", vecr.asBytes(), vecr.byteSize());
     EXPECT_EQ(vecr[1], 0.2f);
+}
+
+TEST_F(StorageTest, PbnToEngineGame) {
+    if (!m_gl.empty()) {
+        pbn::TagMap tags = m_gl[0];
+        engine::GamePtr game = adapter::toGame(tags);
+        std::cout << game << std::endl;
+    }
 }

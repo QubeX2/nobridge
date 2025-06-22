@@ -3,6 +3,9 @@
 
 #include <array>
 #include <cstdint>
+#include <format>
+#include <iomanip>
+#include <ios>
 #include <map>
 #include <memory>
 #include <string>
@@ -42,14 +45,14 @@ namespace nobridge::engine {
         Rank rank() const;
         void setRank(const Rank& newRank);
 
-        std::string toString();
         std::string rankText() { return m_rank_texts[m_rank]; }
+        std::string suitText() { return m_suit_texts[m_suit]; }
 
        private:
-        LegendMap<Suit> m_suit_texts{{Suit::SPADES, "\033[35m♠"},
-                                     {Suit::HEARTS, "\033[31m♥"},
-                                     {Suit::DIAMONDS, "\033[31m♦"},
-                                     {Suit::CLUBS, "\033[32m♣"}};
+        LegendMap<Suit> m_suit_texts{{Suit::SPADES, ansi::fg::MAGENTA + "♠"},
+                                     {Suit::HEARTS, ansi::fg::RED + "♥"},
+                                     {Suit::DIAMONDS, ansi::fg::YELLOW + "♦"},
+                                     {Suit::CLUBS, ansi::fg::GREEN + "♣"}};
         LegendMap<Rank> m_rank_texts{
             {Rank::TWO, "2"},   {Rank::THREE, "3"}, {Rank::FOUR, "4"},
             {Rank::FIVE, "5"},  {Rank::SIX, "6"},   {Rank::SEVEN, "7"},
@@ -63,6 +66,11 @@ namespace nobridge::engine {
     using CardPtr = std::shared_ptr<Card>;
     using CardList = std::vector<CardPtr>;
 
+    inline std::ostream& operator<<(std::ostream& os, const CardPtr& c) {
+        os << std::fixed << std::setprecision(2);
+        os << std::format("{}{}\033[0m", c->suitText(), c->rankText());
+        return os;
+    }
 }  // namespace nobridge::engine
 
 #endif

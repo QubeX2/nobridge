@@ -11,14 +11,19 @@
 #include "deck.h"
 #include "player.h"
 #include "trick.h"
+
 namespace nobridge::engine {
 
     class Game {
        public:
-        auto getPlayers() { return m_players; }
+        auto players() { return m_players; }
         void addPlayer(PlayerPtr& player);
 
        private:
+        std::string m_event;
+        std::string m_site;
+        std::string m_date;
+        std::size_t m_board;
         ContractPtr m_contract;
         PlayerList m_players;
         BidList m_bids;
@@ -28,6 +33,14 @@ namespace nobridge::engine {
     using GamePtr = std::shared_ptr<Game>;
     using GameList = std::vector<GamePtr>;
 
+    inline std::ostream& operator<<(std::ostream& os, const GamePtr& g) {
+        os << std::fixed << std::setprecision(2);
+        os << std::format("Players: {}\n", g->players().size());
+        for (auto p : g->players()) {
+            os << p << std::endl;
+        }
+        return os;
+    }
 }  // namespace nobridge::engine
 
 #endif

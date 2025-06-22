@@ -15,7 +15,7 @@ namespace nobridge::engine {
                 if (i > 0 && i % 13 == 0) {
                     std::cout << std::endl;
                 }
-                std::cout << card->toString() << " ";
+                std::cout << card << " ";
                 i++;
             }
             std::cout << "\n\n";

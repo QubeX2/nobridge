@@ -35,9 +35,10 @@ namespace nobridge::adapter {
                     engine::HandPtr hand = std::make_shared<engine::Hand>(
                         deal[i], d == sdealer, svuln.contains(d));
 
+                    std::string name = pbn::getTagValue(tags, dir);
                     engine::PlayerPtr player = std::make_shared<engine::Player>(
-                        engine::PlayerType::HUMAN,
-                        static_cast<engine::Direction>(i), hand);
+                        name, engine::PlayerType::HUMAN,
+                        static_cast<engine::Direction>(i + 1), hand);
                     game->addPlayer(player);
                 }
             }
