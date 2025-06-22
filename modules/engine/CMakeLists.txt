@@ -1,14 +1,12 @@
 add_library(engine STATIC
   src/bid.cpp
-  src/bidengine.cpp
-  src/bridgeengine.cpp
+  src/game.cpp
   src/card.cpp
   src/hand.cpp
   src/contract.cpp
   src/deck.cpp
-  src/playengine.cpp
   src/player.cpp
-  src/scoreengine.cpp
+  src/score.cpp
   src/trick.cpp
   src/engine.cpp
 )

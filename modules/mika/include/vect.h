@@ -5,7 +5,7 @@
 #include <cmath>
 #include <initializer_list>
 #include <iomanip>
-#include <iterator>
+#include <numeric>
 #include <stdexcept>
 #include <string>
 #include <unordered_map>
@@ -56,10 +56,8 @@ namespace mika {
 
         // Dot product
         T dot(const VecT& other) const {
-            T result = T();
-            for (std::size_t i = 0; i < N; ++i)
-                result += m_data[i] * other.m_data[i];
-            return result;
+            return T(std::inner_product(m_data.begin(), m_data.end(),
+                                        other.begin(), T{}));
         }
 
         // Normalized
@@ -72,6 +70,15 @@ namespace mika {
         }
 
         // Angle in radians
+        T angle() const {
+            if (N > 0) {
+                VecT t;
+                t[0] = 1;
+                return this->angle(t);
+            }
+            return 0;
+        }
+
         T angle(const VecT& other) const {
             T dot = this->dot(other);
             T lenA = this->length();
@@ -103,6 +110,7 @@ namespace mika {
         const char* asBytes() const {
             return reinterpret_cast<const char*>(m_data.data());
         }
+
         char* asBytes() { return reinterpret_cast<char*>(m_data.data()); }
         std::size_t byteSize() const { return sizeof(T) * N; }
 

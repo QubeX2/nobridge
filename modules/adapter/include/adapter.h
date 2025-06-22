@@ -5,16 +5,12 @@
 
 #include "card.h"
 #include "deck.h"
-#include "storage.h"
-#include "vect.h"
+#include "game.h"
+#include "parser.h"
 
 namespace nobridge::adapter {
-
-    namespace pbn {
-        // spades, hearts, diamonds, clubs
-        engine::DealList toDeal(const std::string& dealstr);
-
-    }  // namespace pbn
-
+    engine::DealList toDeal(const std::string& dealstr);
+    std::string toHandstr(const engine::CardList cards);
+    engine::GamePtr toGame(nobridge::pbn::TagMap tags);
 }  // namespace nobridge::adapter
 #endif

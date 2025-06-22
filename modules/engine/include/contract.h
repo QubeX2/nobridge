@@ -2,6 +2,7 @@
 #define CONTRACT_H
 
 #include <cstdint>
+#include <memory>
 
 #include "bid.h"
 #include "card.h"
@@ -18,5 +19,6 @@ namespace nobridge::engine {
        public:
     };
 
+    using ContractPtr = std::shared_ptr<Contract>;
 }  // namespace nobridge::engine
 #endif

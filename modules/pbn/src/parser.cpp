@@ -12,6 +12,24 @@
 #include "pbn.h"
 
 namespace nobridge::pbn {
+    const TagPtr getTag(TagMap map, std::string name) {
+        return map.contains(name) ? map[name] : nullptr;
+    }
+    std::string getTagValue(TagMap map, std::string name) {
+        const TagPtr tp = getTag(map, name);
+        if (tp != nullptr) {
+            return tp->value;
+        }
+        return "";
+    }
+    StringList getTagLines(TagMap map, std::string name) {
+        const TagPtr tp = getTag(map, name);
+        if (tp != nullptr) {
+            return tp->lines;
+        }
+        return StringList{};
+    }
+
     GameList Parser::run() const {
         if (m_reader.ok()) {
             GameList games;

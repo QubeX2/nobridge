@@ -15,6 +15,15 @@
 
 using namespace nobridge;
 
+class StorageTest : public testing::Test {
+   public:
+    StorageTest() {
+        m_gl =
+            pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
+    }
+    pbn::GameList m_gl;
+};
+
 TEST(VectorTest, HandlesVectorMath) {
     mika::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
     mika::VecT<float, 5> vec5b{0.0, 1.0, 0.0, 0.0, 0.0};
@@ -29,20 +38,17 @@ TEST(VectorTest, HandlesVectorMath) {
     // std::cout << vec5b << std::endl;
 }
 
-TEST(HandToVector, Conversion) {
-    pbn::GameList gamelist =
-        pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
-
-    if (!gamelist.empty()) {
-        pbn::TagMap tags = gamelist[0];
+TEST_F(StorageTest, Conversion) {
+    if (!m_gl.empty()) {
+        pbn::TagMap tags = m_gl[0];
 
         if (tags.contains("Deal")) {
-            engine::DealList deal = adapter::pbn::toDeal(tags["Deal"]->value);
+            engine::DealList deal = adapter::toDeal(tags["Deal"]->value);
             if (!deal.empty()) {
                 for (auto cards : deal) {
                     engine::HandPtr hand =
                         std::make_shared<engine::Hand>(cards, false, false);
-                    vmath::HandVecT vec = vmath::toVector(hand);
+                    vmath::HandVect vec = vmath::toVector(hand);
                     EXPECT_GE(vec[0], 0);
                     // engine::output::printCards(cards);
                     // std::cout << vec << std::endl;
@@ -51,15 +57,33 @@ TEST(HandToVector, Conversion) {
         }
     }
 }
+TEST_F(StorageTest, CreateHandRec) {
+    if (!m_gl.empty()) {
+        pbn::TagMap tags = m_gl[0];
+
+        if (tags.contains("Deal")) {
+            engine::DealList deal = adapter::toDeal(tags["Deal"]->value);
+            auto hstr = adapter::toHandstr(deal[0]);
+            auto hand = std::make_shared<engine::Hand>(deal[0], false, false);
+            auto hvec = vmath::toVector(hand);
+            auto hr = storage::createHandRec<float, 14>(
+                storage::uniqueId(), hstr, hvec.data(), hvec.length(),
+                hvec.angle());
+            EXPECT_GE(hr.id, 0);
+
+            std::cout << hr << std::endl;
+        }
+    }
+}
 
 TEST(WriteAndReadVectorToFile, Storage) {
-    vmath::HandVecT vecw{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7,
+    vmath::HandVect vecw{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7,
                          0.8, 0.9, 1.0, 1.1, 1.2, 1.2, 1.3};
 
     storage::write("./vector.bin", vecw.asBytes(), vecw.byteSize());
     EXPECT_TRUE(std::filesystem::exists("./vector.bin"));
 
-    vmath::HandVecT vecr;
+    vmath::HandVect vecr;
     storage::read("./vector.bin", vecr.asBytes(), vecr.byteSize());
     EXPECT_EQ(vecr[1], 0.2f);
 }

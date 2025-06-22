@@ -30,6 +30,10 @@ namespace nobridge::pbn {
         Reader& m_reader;
     };
 
+    const TagPtr getTag(TagMap map, std::string name);
+    std::string getTagValue(TagMap map, std::string name);
+    StringList getTagLines(TagMap map, std::string name);
+
 }  // namespace nobridge::pbn
 
 // Overload << for std::ostream

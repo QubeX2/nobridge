@@ -1,29 +1,36 @@
 #include <gtest/gtest.h>
 
+#include <memory>
+
 #include "adapter.h"
 #include "deck.h"
 #include "engine.h"
+#include "gamerec.h"
 #include "parser.h"
 #include "pbn.h"
+#include "storage.h"
+#include "types.h"
+#include "vmath.h"
 
 using namespace nobridge;
 
-TEST(PbnTest, HandlesPbnFiles) {
-    pbn::GameList gl =
-        pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
+class PbnTest : public testing::Test {
+   public:
+    PbnTest() {
+        m_gl =
+            pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
+    }
+    pbn::GameList m_gl;
+};
 
-    EXPECT_GE(gl.size(), 0);
-}
+TEST_F(PbnTest, HandlesPbnFiles) { EXPECT_GE(m_gl.size(), 0); }
 
-TEST(PbnAdapter, AdapterTest) {
-    pbn::GameList gamelist =
-        pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt");
-
-    if (!gamelist.empty()) {
-        pbn::TagMap tags = gamelist[0];
+TEST_F(PbnTest, AdapterTest) {
+    if (!m_gl.empty()) {
+        pbn::TagMap tags = m_gl[0];
 
         if (tags.contains("Deal")) {
-            engine::DealList deal = adapter::pbn::toDeal(tags["Deal"]->value);
+            engine::DealList deal = adapter::toDeal(tags["Deal"]->value);
 
             EXPECT_EQ(deal.size(), 4);
 

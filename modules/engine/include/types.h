@@ -13,10 +13,17 @@ namespace nobridge {
     template <typename K, typename V>
     using LegendMapT = std::unordered_map<K, V>;
 
-    using UIntArray4 = std::array<uint8_t, 4>;
-    using UIntArray13 = std::array<uint8_t, 13>;
+    template <std::size_t N>
+    using UIntArray = std::array<uint8_t, N>;
 
     using StringList = std::vector<std::string>;
+    using ByteData = std::pair<const char*, std::size_t>;
+
+    template <std::size_t N>
+    using FloatArray = std::array<float, N>;
+
+    template <std::size_t N>
+    using StringArray = std::array<std::string, N>;
 
     namespace ansi {
         // --- Style Codes ---

@@ -5,60 +5,68 @@
 #include <iterator>
 #include <string>
 
-namespace mika::string {
+namespace mika {
 
-    /**
-     *
-     */
-    void trim(std::string& str, std::string chars) {
-        str.erase(0, str.find_first_not_of(chars));
-        str.erase(str.find_last_not_of(chars) + 1);
-    }
+    namespace math {
+        float toDegree(float radian) { return radian * 180 / M_PI; }
+    }  // namespace math
 
-    /**
-     *
-     */
-    std::vector<std::string> split(const std::string& input, char delimiter) {
-        std::stringstream ss(input);
-        std::string item;
-        std::vector<std::string> result;
-
-        while (std::getline(ss, item, delimiter)) {
-            result.push_back(item);
+    namespace string {
+        /**
+         *
+         */
+        void trim(std::string& str, std::string chars) {
+            str.erase(0, str.find_first_not_of(chars));
+            str.erase(str.find_last_not_of(chars) + 1);
         }
 
-        return result;
-    }
+        /**
+         *
+         */
+        std::vector<std::string> split(const std::string& input,
+                                       char delimiter) {
+            std::stringstream ss(input);
+            std::string item;
+            std::vector<std::string> result;
 
-    /**
-     *
-     */
-    bool is_anyof(const char& ch, const std::string& chars) {
-        return std::any_of(std::cbegin(chars), std::cend(chars),
-                           [&](const char& c) { return c == ch; });
-    }
+            while (std::getline(ss, item, delimiter)) {
+                result.push_back(item);
+            }
 
-    /*
-     *
-     */
-    std::string tolower(std::string& str) {
-        std::string nstr;
-        std::transform(std::begin(str), std::end(str), std::back_inserter(nstr),
-                       [](unsigned char c) { return std::tolower(c); });
-        return nstr;
-    }
-
-    /**
-     *
-     */
-    std::string ucfirst(std::string& str) {
-        std::string nstr = mika::string::tolower(str);
-        if (!nstr.empty()) {
-            nstr[0] = std::toupper(str[0]);
+            return result;
         }
-        return nstr;
-    }
 
-}  // namespace mika::string
+        /**
+         *
+         */
+        bool is_anyof(const char& ch, const std::string& chars) {
+            return std::any_of(std::cbegin(chars), std::cend(chars),
+                               [&](const char& c) { return c == ch; });
+        }
 
-namespace mika::array {}
+        /*
+         *
+         */
+        std::string tolower(std::string& str) {
+            std::string nstr;
+            std::transform(std::begin(str), std::end(str),
+                           std::back_inserter(nstr),
+                           [](unsigned char c) { return std::tolower(c); });
+            return nstr;
+        }
+
+        /**
+         *
+         */
+        std::string ucfirst(std::string& str) {
+            std::string nstr = mika::string::tolower(str);
+            if (!nstr.empty()) {
+                nstr[0] = std::toupper(str[0]);
+            }
+            return nstr;
+        }
+    }  // namespace string
+
+    namespace array {}
+
+}  // namespace mika

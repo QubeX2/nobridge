@@ -1,29 +1,27 @@
 #include "vmath.h"
 
 #include <cstdint>
-#include <iterator>
 
 #include "card.h"
 #include "hand.h"
-#include "mika.h"
 #include "types.h"
 
 namespace nobridge::vmath {
     /**
      *
      */
-    uint8_t rankCount(UIntArray13 list, engine::Rank rank) {
+    uint8_t rankCount(UIntArray<13> list, engine::Rank rank) {
         return list[static_cast<uint8_t>(rank) - 2];
     }
 
     /**
      *
      */
-    HandVecT toVector(const engine::HandPtr& hand) {
-        UIntArray4 suits = countSuits(hand->cards());
-        UIntArray13 ranks = countRanks(hand->cards());
+    HandVect toVector(const engine::HandPtr& hand) {
+        UIntArray<4> suits = countSuits(hand->cards());
+        UIntArray<13> ranks = countRanks(hand->cards());
 
-        HandVecT hvect{};
+        HandVect hvect{};
         hvect.setLegend(kHandLegend);
 
         hvect[kPos0_Hcp] = calculateHCP(hand->cards());
@@ -55,8 +53,8 @@ namespace nobridge::vmath {
     /**
      *
      */
-    UIntArray4 countSuits(const engine::CardList& cards) {
-        UIntArray4 handcount{};
+    UIntArray<4> countSuits(const engine::CardList& cards) {
+        UIntArray<4> handcount{};
         for (const engine::CardPtr& card : cards) {
             handcount[static_cast<uint8_t>(card->suit()) - 1]++;
         }
@@ -66,8 +64,8 @@ namespace nobridge::vmath {
     /**
      *
      */
-    UIntArray13 countRanks(const engine::CardList& cards) {
-        UIntArray13 rankcount{};
+    UIntArray<13> countRanks(const engine::CardList& cards) {
+        UIntArray<13> rankcount{};
         for (const engine::CardPtr& card : cards) {
             rankcount[static_cast<std::size_t>(card->rank()) - 2]++;
         }
@@ -94,7 +92,7 @@ namespace nobridge::vmath {
      */
     float calculateDist(const engine::CardList& cards) {
         float score{};
-        UIntArray4 suits = countSuits(cards);
+        UIntArray<4> suits = countSuits(cards);
         for (uint8_t count : suits) {
             if (count <= 2) {
                 score += 3 - count;

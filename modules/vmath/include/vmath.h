@@ -1,3 +1,8 @@
+#ifndef VMATH_VMATH_H
+#define VMATH_VMATH_H
+
+#include <array>
+#include <cstddef>
 #include <cstdint>
 #include <unordered_map>
 
@@ -46,13 +51,15 @@ namespace nobridge::vmath {
         {8, "Vuln"},    {9, "Dealer"}, {10, "Aces"},    {11, "Kings"},
         {12, "Queens"}, {13, "Jacks"}};
 
-    using HandVecT = mika::VecT<float, kPosSize>;
+    using HandVect = mika::VecT<float, kPosSize>;
 
-    UIntArray4 countSuits(const engine::CardList& cards);
-    UIntArray13 countRanks(const engine::CardList& cards);
+    UIntArray<4> countSuits(const engine::CardList& cards);
+    UIntArray<13> countRanks(const engine::CardList& cards);
     float calculateHCP(const engine::CardList& cards);
     float calculateDist(const engine::CardList& caads);
-    HandVecT toVector(const engine::HandPtr& hand);
-    uint8_t rankCount(UIntArray13 list, engine::Rank rank);
+    HandVect toVector(const engine::HandPtr& hand);
+    uint8_t rankCount(UIntArray<13> list, engine::Rank rank);
 
 }  // namespace nobridge::vmath
+
+#endif

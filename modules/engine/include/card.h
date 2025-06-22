@@ -43,6 +43,7 @@ namespace nobridge::engine {
         void setRank(const Rank& newRank);
 
         std::string toString();
+        std::string rankText() { return m_rank_texts[m_rank]; }
 
        private:
         LegendMap<Suit> m_suit_texts{{Suit::SPADES, "\033[35m♠"},
