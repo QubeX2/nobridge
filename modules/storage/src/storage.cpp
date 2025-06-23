@@ -9,14 +9,24 @@
 #include <random>
 
 #include "gamerec.h"
+#include "handrec.h"
 
 namespace nobridge::storage {
 
     /**
      *
      */
-    GameRec createGameRec(uint64_t id, std::array<uint64_t, 4> hands) {
-        return GameRec{id, hands};
+    void save(const GameRec& record) {
+        write(kRecordsPath + kGameRecords,
+              reinterpret_cast<const char*>(&record), sizeof(GameRec));
+    }
+
+    /**
+     *
+     */
+    void save(const HandRec& record) {
+        write(kRecordsPath + kHandRecords,
+              reinterpret_cast<const char*>(&record), sizeof(HandRec));
     }
 
     /**

@@ -131,7 +131,7 @@ namespace mika {
         // os << ", Normalized (";
         // mika::array::join(os, t.normalized().data());
         // os << ")";
-        os << std::endl;
+        os << "\n";
         return os;
     }
 

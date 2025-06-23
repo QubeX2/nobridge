@@ -8,14 +8,13 @@
 
 namespace nobridge::storage {
 
-    template <typename T, std::size_t N>
     struct HandRec {
         uint64_t id;
         uint64_t gameid;  // GameRec
-        std::string str;
-        std::array<T, N> vect;
+        std::array<float, 14> vect;
         float length;
         float angle;
+        std::array<char, 100> str;
     };
 
 }  // namespace nobridge::storage

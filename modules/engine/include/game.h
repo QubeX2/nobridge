@@ -37,7 +37,7 @@ namespace nobridge::engine {
         os << std::fixed << std::setprecision(2);
         os << std::format("Players: {}\n", g->players().size());
         for (auto p : g->players()) {
-            os << p << std::endl;
+            os << p << "\n";
         }
         return os;
     }

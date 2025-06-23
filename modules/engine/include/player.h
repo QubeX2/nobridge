@@ -45,7 +45,7 @@ namespace nobridge::engine {
         os << std::format("Name: {}, PlayerType: {}, Direction: {}\n",
                           p->name(), static_cast<uint8_t>(p->type()),
                           static_cast<uint8_t>(p->direction()));
-        os << p->hand() << std::endl;
+        os << p->hand() << "\n";
         return os;
     }
 }  // namespace nobridge::engine

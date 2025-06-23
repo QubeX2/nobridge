@@ -13,7 +13,7 @@ namespace nobridge::engine {
             std::size_t i = 0;
             for (auto card : cards) {
                 if (i > 0 && i % 13 == 0) {
-                    std::cout << std::endl;
+                    std::cout << "\n";
                 }
                 std::cout << card << " ";
                 i++;

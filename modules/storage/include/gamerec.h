@@ -9,7 +9,6 @@ namespace nobridge::storage {
 
     struct GameRec {
         uint64_t id;
-        std::array<uint64_t, 4> hands;
     };
 
 }  // namespace nobridge::storage

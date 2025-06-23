@@ -1,6 +1,8 @@
 #ifndef MIKA_H
 #define MIKA_H
 
+#include <algorithm>
+#include <cstddef>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
@@ -37,6 +39,13 @@ namespace mika {
     }  // namespace map
 
     namespace array {
+        template <std::size_t N>
+        void str2arr(std::array<char, N>& arr, const std::string& s) {
+            arr.fill('\0');
+            std::size_t clen = std::min(s.length(), N);
+            std::copy_n(s.begin(), clen, arr.begin());
+        }
+
         template <typename T, std::size_t N>
         std::string join(
             const std::array<T, N>& arr, const std::string& separator = ", ",

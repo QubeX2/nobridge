@@ -35,8 +35,8 @@ TEST(VectorTest, HandlesVectorMath) {
     EXPECT_EQ(vec5a.length(), 1);
     EXPECT_EQ(vec5a.angleDeg(vec5b), 90);
 
-    // std::cout << vec5a << std::endl;
-    // std::cout << vec5b << std::endl;
+    // std::cout << vec5a
+    // std::cout << vec5b
 }
 
 TEST_F(StorageTest, Conversion) {
@@ -52,12 +52,13 @@ TEST_F(StorageTest, Conversion) {
                     vmath::HandVect vec = vmath::toVector(hand);
                     EXPECT_GE(vec[0], 0);
                     // engine::output::printCards(cards);
-                    // std::cout << vec << std::endl;
+                    // std::cout << vec
                 }
             }
         }
     }
 }
+
 TEST_F(StorageTest, CreateHandRec) {
     if (!m_gl.empty()) {
         pbn::TagMap tags = m_gl[0];
@@ -72,7 +73,7 @@ TEST_F(StorageTest, CreateHandRec) {
                 hvec.angle());
             EXPECT_GE(hr.id, 0);
 
-            // std::cout << hr << std::endl;
+            // std::cout << hr
         }
     }
 }
@@ -93,6 +94,6 @@ TEST_F(StorageTest, PbnToEngineGame) {
     if (!m_gl.empty()) {
         pbn::TagMap tags = m_gl[0];
         engine::GamePtr game = adapter::toGame(tags);
-        std::cout << game << std::endl;
+        std::cout << game << "\n";
     }
 }

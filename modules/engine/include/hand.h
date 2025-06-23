@@ -37,12 +37,12 @@ namespace nobridge::engine {
         std::size_t i = 0;
         for (auto card : h->cards()) {
             if (i > 0 && i % 13 == 0) {
-                os << std::endl;
+                os << "\n";
             }
             os << card << " ";
             i++;
         }
-        os << std::endl;
+        os << "\n";
         return os;
     }
 }  // namespace nobridge::engine
