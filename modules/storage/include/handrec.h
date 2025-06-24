@@ -6,15 +6,18 @@
 #include <cstdint>
 #include <string>
 
+#include "types.h"
+
 namespace nobridge::storage {
 
     struct HandRec {
-        uint64_t id;
-        uint64_t gameid;  // GameRec
-        std::array<float, 14> vect;
+        UIntID id;
+        UIntID gameid;      // GameRec
+        UIntVal direction;  // NORTH = 1
+        FloatArray<14> vect{};
         float length;
         float angle;
-        std::array<char, 100> str;
+        UIntArray<13> cards{};
     };
 
 }  // namespace nobridge::storage

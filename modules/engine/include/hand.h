@@ -5,10 +5,10 @@
 #include <iomanip>
 #include <ios>
 #include <memory>
-#include <set>
-#include <vector>
 
 #include "card.h"
+#include "types.h"
+
 namespace nobridge::engine {
 
     class Hand {
@@ -25,9 +25,6 @@ namespace nobridge::engine {
         bool m_dealer;
         bool m_vulnerable;
     };
-
-    using HandPtr = std::shared_ptr<Hand>;
-    using HandList = std::vector<HandPtr>;
 
     inline std::ostream& operator<<(std::ostream& os, const HandPtr& h) {
         os << std::fixed << std::setprecision(2);

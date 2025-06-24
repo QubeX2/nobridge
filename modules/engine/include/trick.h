@@ -20,9 +20,6 @@ namespace nobridge::engine {
         CardList m_cards;
     };
 
-    using TrickPtr = std::shared_ptr<Trick>;
-    using TrickList = std::vector<TrickPtr>;
-
 }  // namespace nobridge::engine
 
 #endif

@@ -8,13 +8,95 @@
 
 namespace nobridge {
 
+    using UIntVal = uint8_t;
+    using UIntID = uint64_t;
+    using IntScore = int16_t;
+
+    const UIntVal HAND_LENGTH = 13;
+
+    namespace engine {
+
+        // Player
+        enum class Direction : UIntVal { NONE = 0, NORTH, EAST, SOUTH, WEST };
+        enum class PlayerType : UIntVal { HUMAN = 1, COMPUTER };
+        class Player;
+        using PlayerPtr = std::shared_ptr<Player>;
+        using PlayerList = std::vector<PlayerPtr>;
+
+        // Card
+        /**
+         * SPADES [1-13] TWO - ACE
+         * HEARTS [14-26]
+         * DIAMONDS [27-39]
+         * CLUBS [40-52]
+         */
+
+        enum class Suit : UIntVal { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
+        enum class Rank : UIntVal {
+            TWO = 2,
+            THREE,
+            FOUR,
+            FIVE,
+            SIX,
+            SEVEN,
+            EIGHT,
+            NINE,
+            TEN,
+            JACK,
+            QUEEN,
+            KING,
+            ACE
+        };
+
+        using SuitList = std::array<Suit, 4>;
+        const SuitList SUITLIST{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS,
+                                Suit::CLUBS};
+
+        class Card;
+        using CardPtr = std::shared_ptr<Card>;
+        using CardList = std::vector<CardPtr>;
+
+        class Hand;
+        using HandPtr = std::shared_ptr<Hand>;
+        using HandList = std::vector<HandPtr>;
+
+        // Bid
+        enum BidType : UIntVal {
+            PASS = 1,
+            DOUBLE,
+            REDOUBLE,
+            ALERT,
+            NORMAL,
+            CONVENTIONAL
+        };
+
+        class Bid;
+        using BidPtr = std::shared_ptr<Bid>;
+        using BidList = std::vector<BidPtr>;
+
+        // Contract
+        class Contract;
+        using ContractPtr = std::shared_ptr<Contract>;
+
+        // Deck
+        class Deck;
+        using DeckPtr = std::shared_ptr<Deck>;
+        using DealList = std::vector<CardList>;
+
+        // Trick
+        class Trick;
+        using TrickPtr = std::shared_ptr<Trick>;
+        using TrickList = std::vector<TrickPtr>;
+
+    }  // namespace engine
+
     template <typename K>
     using LegendMap = std::unordered_map<K, std::string>;
     template <typename K, typename V>
     using LegendMapT = std::unordered_map<K, V>;
 
     template <std::size_t N>
-    using UIntArray = std::array<uint8_t, N>;
+    using UIntArray = std::array<UIntVal, N>;
 
     using StringList = std::vector<std::string>;
     using ByteData = std::pair<const char*, std::size_t>;

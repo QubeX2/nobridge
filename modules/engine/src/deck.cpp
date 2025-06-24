@@ -14,8 +14,8 @@ namespace nobridge::engine {
 
     Deck::Deck() {
         size_t index = 0;
-        for (uint8_t s = 1; s <= 4; s++) {
-            for (uint8_t r = 2; r <= 14; r++) {
+        for (UIntVal s = 1; s <= 4; s++) {
+            for (UIntVal r = 2; r <= 14; r++) {
                 m_cards.push_back(std::make_shared<Card>(static_cast<Suit>(s),
                                                          static_cast<Rank>(r)));
             }

@@ -6,15 +6,11 @@
 #include <iomanip>
 #include <ios>
 #include <memory>
-#include <vector>
 
-#include "card.h"
 #include "hand.h"
+#include "types.h"
 
 namespace nobridge::engine {
-
-    enum class PlayerType : uint8_t { HUMAN = 1, COMPUTER };
-    enum class Direction : uint8_t { NORTH = 1, EAST, SOUTH, WEST };
 
     class Player {
        public:
@@ -37,14 +33,11 @@ namespace nobridge::engine {
         Direction m_direction;
     };
 
-    using PlayerPtr = std::shared_ptr<Player>;
-    using PlayerList = std::vector<PlayerPtr>;
-
     inline std::ostream& operator<<(std::ostream& os, const PlayerPtr& p) {
         os << std::fixed << std::setprecision(2);
         os << std::format("Name: {}, PlayerType: {}, Direction: {}\n",
-                          p->name(), static_cast<uint8_t>(p->type()),
-                          static_cast<uint8_t>(p->direction()));
+                          p->name(), static_cast<UIntVal>(p->type()),
+                          static_cast<UIntVal>(p->direction()));
         os << p->hand() << "\n";
         return os;
     }

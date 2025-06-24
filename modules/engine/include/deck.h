@@ -4,11 +4,9 @@
 #include <memory>
 #include <vector>
 
-#include "card.h"
+#include "types.h"
 
 namespace nobridge::engine {
-
-    using DealList = std::vector<CardList>;
 
     class Deck {
        public:
@@ -25,8 +23,6 @@ namespace nobridge::engine {
        private:
         CardList m_cards;
     };
-
-    using DeckPtr = std::shared_ptr<Deck>;
 
 }  // namespace nobridge::engine
 

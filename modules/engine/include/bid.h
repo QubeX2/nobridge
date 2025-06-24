@@ -6,29 +6,18 @@
 
 #include "card.h"
 #include "player.h"
+#include "types.h"
 
 namespace nobridge::engine {
-
-    enum BidType : uint8_t {
-        PASS = 1,
-        DOUBLE,
-        REDOUBLE,
-        ALERT,
-        NORMAL,
-        CONVENTIONAL
-    };
 
     class Bid {
        public:
        private:
         BidType m_type;
-        uint8_t m_level = 0;
+        UIntVal m_level = 0;
         Suit m_suit;
         PlayerPtr m_bidder;
     };
-
-    using BidPtr = std::shared_ptr<Bid>;
-    using BidList = std::vector<BidPtr>;
 
 }  // namespace nobridge::engine
 

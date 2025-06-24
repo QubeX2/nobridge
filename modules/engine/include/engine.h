@@ -1,8 +1,8 @@
 #ifndef ENGINE_ENGINE_H
 #define ENGINE_ENGINE_H
 
-#include "card.h"
 #include "deck.h"
+#include "types.h"
 
 namespace nobridge::engine {
     namespace output {

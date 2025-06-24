@@ -4,11 +4,12 @@
 #include <cstdint>
 
 #include "contract.h"
+#include "types.h"
 namespace nobridge::engine {
 
     namespace score {
-        int16_t calculate(const Contract& contract, uint8_t tricks,
-                          bool vulnerable);
+        IntScore calculate(const Contract& contract, UIntVal tricks,
+                           bool vulnerable);
 
     }
 

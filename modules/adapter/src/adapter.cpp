@@ -83,10 +83,10 @@ namespace nobridge::adapter {
             if (hand != "-") {
                 StringList suits = mika::string::split(hand, '.');
                 for (auto it = suits.begin(); it != suits.end(); ++it) {
-                    std::size_t index = it - suits.begin();
+                    std::size_t index2 = it - suits.begin();
                     for (char c : (*it)) {
                         deal.push_back(std::make_shared<engine::Card>(
-                            suit_enums[index], rank_enums[c]));
+                            suit_enums[index2], rank_enums[c]));
                     }
                 }
             }

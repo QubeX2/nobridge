@@ -33,12 +33,11 @@ namespace nobridge::storage {
     std::size_t read(std::string filename, char* data, std::size_t size);
 
     template <typename T, std::size_t N>
-    HandRec createHandRec(uint64_t gameid, const std::string hstr,
+    HandRec createHandRec(const uint64_t gameid, const std::string hstr,
                           std::array<T, N> hvec, float length, float angle) {
         HandRec hr;
         hr.id = uniqueId();
         hr.gameid = gameid;
-        mika::array::str2arr<100>(hr.str, hstr);
         hr.vect = hvec;
         hr.length = length;
         hr.angle = angle;
