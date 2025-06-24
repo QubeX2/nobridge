@@ -1,6 +1,8 @@
 #include "vmath.h"
 
+#include <algorithm>
 #include <cstdint>
+#include <iterator>
 #include <memory>
 
 #include "card.h"
@@ -8,6 +10,17 @@
 #include "types.h"
 
 namespace nobridge::vmath {
+    /**
+     *
+     */
+    UIntArray<HAND_LENGTH> toArrayFromCards(const engine::CardList& cards) {
+        UIntArray<HAND_LENGTH> list;
+        std::transform(
+            cards.begin(), cards.end(), list.begin(),
+            [&](const engine::CardPtr& card) { return toIntFromCard(card); });
+        return list;
+    }
+
     /**
      *
      */

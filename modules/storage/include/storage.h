@@ -7,6 +7,8 @@
 #include "gamerec.h"
 #include "handrec.h"
 #include "mika.h"
+#include "types.h"
+#include "vmath.h"
 
 /**
  * Bridge Records (.brs), Bridge Records Index (.bri)
@@ -33,12 +35,13 @@ namespace nobridge::storage {
     std::size_t read(std::string filename, char* data, std::size_t size);
 
     template <typename T, std::size_t N>
-    HandRec createHandRec(const uint64_t gameid, const std::string hstr,
+    HandRec createHandRec(const UIntID gameid, UIntArray<HAND_LENGTH> cards,
                           std::array<T, N> hvec, float length, float angle) {
         HandRec hr;
         hr.id = uniqueId();
         hr.gameid = gameid;
         hr.vect = hvec;
+        hr.cards = cards;
         hr.length = length;
         hr.angle = angle;
         return hr;

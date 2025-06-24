@@ -65,15 +65,13 @@ TEST_F(StorageTest, CreateHandRec) {
 
         if (tags.contains("Deal")) {
             engine::DealList deal = adapter::toDeal(tags["Deal"]->value);
-            auto hstr = adapter::toHandstr(deal[0]);
             auto hand = std::make_shared<engine::Hand>(deal[0], false, false);
             auto hvec = vmath::toVector(hand);
             auto hr = storage::createHandRec<float, 14>(
-                storage::uniqueId(), hstr, hvec.data(), hvec.length(),
-                hvec.angle());
+                storage::uniqueId(), vmath::toArrayFromCards(deal[0]),
+                hvec.data(), hvec.length(), hvec.angle());
             EXPECT_GE(hr.id, 0);
-
-            // std::cout << hr
+            EXPECT_EQ(hr.cards[1], vmath::toIntFromCard(deal[0].at(1)));
         }
     }
 }

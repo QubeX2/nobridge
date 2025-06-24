@@ -19,12 +19,11 @@ namespace nobridge::adapter {
      */
     engine::GamePtr toGame(nobridge::pbn::TagMap tags) {
         engine::GamePtr game = std::make_shared<engine::Game>();
-
+        /////////////////////////////////
+        // Player
         std::string sdeal = pbn::getTagValue(tags, "Deal");
         std::string sdealer = pbn::getTagValue(tags, "Dealer");
         std::string svuln = pbn::getTagValue(tags, "Vulnerable");
-        /////////////////////////////////
-        // Player
         engine::DealList deal = toDeal(sdeal);
         StringArray<4> directions{"North", "East", "South", "West"};
         if (deal.size() == 4) {
@@ -32,8 +31,18 @@ namespace nobridge::adapter {
                 std::string dir = directions[i];
                 std::string d = dir.substr(0, 1);
                 if (const pbn::TagPtr& tag = pbn::getTag(tags, dir)) {
+                    // Vulnerable
+                    bool vuln = false;
+                    if (svuln == "All" || svuln == "Both") {
+                        vuln = true;
+                    } else if ((d == "N" or d == "S") && svuln == "NS") {
+                        vuln = true;
+                    } else if ((d == "E" or d == "W" && svuln == "EW")) {
+                        vuln = true;
+                    }
+
                     engine::HandPtr hand = std::make_shared<engine::Hand>(
-                        deal[i], d == sdealer, svuln.contains(d));
+                        deal[i], d == sdealer, vuln);
 
                     std::string name = pbn::getTagValue(tags, dir);
                     engine::PlayerPtr player = std::make_shared<engine::Player>(
@@ -43,6 +52,12 @@ namespace nobridge::adapter {
                 }
             }
         }
+        /////////////////////////////////
+        // Play
+
+        /////////////////////////////////
+        // Auction
+
         return game;
     }
 

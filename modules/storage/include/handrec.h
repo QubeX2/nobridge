@@ -7,6 +7,7 @@
 #include <string>
 
 #include "types.h"
+#include "vmath.h"
 
 namespace nobridge::storage {
 
@@ -14,10 +15,10 @@ namespace nobridge::storage {
         UIntID id;
         UIntID gameid;      // GameRec
         UIntVal direction;  // NORTH = 1
-        FloatArray<14> vect{};
+        FloatArray<vmath::POS_SIZE> vect{};
         float length;
         float angle;
-        UIntArray<13> cards{};
+        UIntArray<HAND_LENGTH> cards{};
     };
 
 }  // namespace nobridge::storage

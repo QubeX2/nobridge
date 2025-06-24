@@ -53,6 +53,7 @@ namespace nobridge::vmath {
 
     using HandVect = mika::VecT<float, POS_SIZE>;
 
+    UIntArray<HAND_LENGTH> toArrayFromCards(const engine::CardList& cards);
     UIntVal toIntFromCard(const engine::CardPtr& card);
     engine::CardPtr toCardFromInt(const UIntVal num);
     UIntArray<4> countSuits(const engine::CardList& cards);
