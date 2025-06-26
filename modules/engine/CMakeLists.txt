@@ -1,6 +1,7 @@
 add_library(engine STATIC
   src/bid.cpp
   src/game.cpp
+  src/play.cpp
   src/card.cpp
   src/hand.cpp
   src/contract.cpp

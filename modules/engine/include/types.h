@@ -13,8 +13,31 @@ namespace nobridge {
     using IntScore = int16_t;
 
     const UIntVal HAND_LENGTH = 13;
+    const UIntVal DECK_LENGTH = 52;
+
+    template <typename K>
+    using LegendMap = std::unordered_map<K, std::string>;
+
+    template <typename K, typename V>
+    using LegendMapT = std::unordered_map<K, V>;
+
+    template <std::size_t N>
+    using UIntArray = std::array<UIntVal, N>;
+
+    using StringList = std::vector<std::string>;
+    using ByteData = std::pair<const char*, std::size_t>;
+
+    template <std::size_t N>
+    using FloatArray = std::array<float, N>;
+
+    template <std::size_t N>
+    using StringArray = std::array<std::string, N>;
 
     namespace engine {
+        // Game
+        class Game;
+        using GamePtr = std::shared_ptr<Game>;
+        using GameList = std::vector<GamePtr>;
 
         // Player
         enum class Direction : UIntVal { NONE = 0, NORTH, EAST, SOUTH, WEST };
@@ -84,28 +107,25 @@ namespace nobridge {
         using DealList = std::vector<CardList>;
 
         // Trick
-        class Trick;
-        using TrickPtr = std::shared_ptr<Trick>;
-        using TrickList = std::vector<TrickPtr>;
+        using TrickArray = std::array<CardPtr, 4>;
+        using TrickList = std::vector<TrickArray>;
+
+        const std::array<Suit, 4> SUIT_ARRAY{Suit::SPADES, Suit::HEARTS,
+                                             Suit::DIAMONDS, Suit::CLUBS};
+
+        const LegendMapT<char, Suit> SUIT_MAP{{'S', Suit::SPADES},
+                                              {'H', Suit::HEARTS},
+                                              {'D', Suit::DIAMONDS},
+                                              {'C', Suit::CLUBS}};
+
+        const LegendMapT<char, Rank> RANK_MAP{
+            {'2', Rank::TWO},   {'3', Rank::THREE}, {'4', Rank::FOUR},
+            {'5', Rank::FIVE},  {'6', Rank::SIX},   {'7', Rank::SEVEN},
+            {'8', Rank::EIGHT}, {'9', Rank::NINE},  {'T', Rank::TEN},
+            {'J', Rank::JACK},  {'Q', Rank::QUEEN}, {'K', Rank::KING},
+            {'A', Rank::ACE}};
 
     }  // namespace engine
-
-    template <typename K>
-    using LegendMap = std::unordered_map<K, std::string>;
-    template <typename K, typename V>
-    using LegendMapT = std::unordered_map<K, V>;
-
-    template <std::size_t N>
-    using UIntArray = std::array<UIntVal, N>;
-
-    using StringList = std::vector<std::string>;
-    using ByteData = std::pair<const char*, std::size_t>;
-
-    template <std::size_t N>
-    using FloatArray = std::array<float, N>;
-
-    template <std::size_t N>
-    using StringArray = std::array<std::string, N>;
 
     namespace ansi {
         // --- Style Codes ---

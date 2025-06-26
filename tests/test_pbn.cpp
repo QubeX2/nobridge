@@ -23,6 +23,12 @@ class PbnTest : public testing::Test {
     pbn::GameList m_gl;
 };
 
+TEST(AdaperTest, StringToCard) {
+    engine::CardPtr card = adapter::toCard("H2");
+    EXPECT_EQ(card->suit(), engine::Suit::HEARTS);
+    EXPECT_EQ(card->rank(), engine::Rank::TWO);
+}
+
 TEST_F(PbnTest, HandlesPbnFiles) { EXPECT_GE(m_gl.size(), 0); }
 
 TEST_F(PbnTest, AdapterTest) {

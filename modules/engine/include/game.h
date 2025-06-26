@@ -9,6 +9,7 @@
 #include "bid.h"
 #include "contract.h"
 #include "deck.h"
+#include "play.h"
 #include "player.h"
 #include "trick.h"
 
@@ -27,11 +28,8 @@ namespace nobridge::engine {
         ContractPtr m_contract;
         PlayerList m_players;
         BidList m_bids;
-        TrickList m_tricks;
+        Play m_play;
     };
-
-    using GamePtr = std::shared_ptr<Game>;
-    using GameList = std::vector<GamePtr>;
 
     inline std::ostream& operator<<(std::ostream& os, const GamePtr& g) {
         os << std::fixed << std::setprecision(2);

@@ -54,11 +54,33 @@ namespace nobridge::adapter {
         }
         /////////////////////////////////
         // Play
+        pbn::TagPtr tag = pbn::getTag(tags, "Play");
+        for (auto line : tag->lines) {
+            StringList cards = mika::string::split(line, ' ');
+            for (auto card : cards) {
+            }
+        }
 
         /////////////////////////////////
         // Auction
 
         return game;
+    }
+
+    /**
+     *
+     */
+    engine::CardPtr toCard(const std::string& string) {
+        if (string.length() == 2) {
+            std::string suit = string.substr(0, 1);
+            std::string rank = string.substr(1, 1);
+            if (std::string("SHDC").contains(suit)) {
+                engine::CardPtr card = std::make_shared<engine::Card>(
+                    engine::SUIT_MAP.at(suit[0]), engine::RANK_MAP.at(rank[0]));
+                return card;
+            }
+        }
+        return nullptr;
     }
 
     /**
@@ -77,18 +99,6 @@ namespace nobridge::adapter {
      *
      */
     engine::DealList toDeal(const std::string& dealstr) {
-        std::array<engine::Suit, 4> suit_enums{
-            engine::Suit::SPADES, engine::Suit::HEARTS, engine::Suit::DIAMONDS,
-            engine::Suit::CLUBS};
-        LegendMapT<char, engine::Rank> rank_enums{
-            {'2', engine::Rank::TWO},   {'3', engine::Rank::THREE},
-            {'4', engine::Rank::FOUR},  {'5', engine::Rank::FIVE},
-            {'6', engine::Rank::SIX},   {'7', engine::Rank::SEVEN},
-            {'8', engine::Rank::EIGHT}, {'9', engine::Rank::NINE},
-            {'T', engine::Rank::TEN},   {'J', engine::Rank::JACK},
-            {'Q', engine::Rank::QUEEN}, {'K', engine::Rank::KING},
-            {'A', engine::Rank::ACE},
-        };
         engine::DealList deals;
 
         StringList hands = mika::string::split(
@@ -101,7 +111,8 @@ namespace nobridge::adapter {
                     std::size_t index2 = it - suits.begin();
                     for (char c : (*it)) {
                         deal.push_back(std::make_shared<engine::Card>(
-                            suit_enums[index2], rank_enums[c]));
+                            engine::SUIT_ARRAY[index2],
+                            engine::RANK_MAP.at(c)));
                     }
                 }
             }
