@@ -13,9 +13,9 @@ namespace nobridge::storage {
 
     struct PlayRec {
         UIntID id;
-        UIntID gameid;      // GameRec
-        UIntVal direction;  // NORTH = 1
-        UIntTrickArray tricks;
+        UIntID gameid;    // GameRec
+        UIntV direction;  // NORTH = 1
+        UInt2dA<4, 13> tricks;
     };
 
 }  // namespace nobridge::storage

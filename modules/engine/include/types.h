@@ -2,49 +2,99 @@
 #define ENGINE_TYPES_H
 
 #include <cstdint>
+#include <memory>
+#include <ostream>
 #include <string>
 #include <unordered_map>
 #include <vector>
 
 namespace nobridge {
 
-    using UIntVal = uint8_t;
+    // Points {{{
+    // Pos: 0 - HCP
+    const float ACE_POINTS = 4.5f;
+    const float KING_POINTS = 3.5f;
+    const float QUEEN_POINTS = 2.0f;
+    const float JACK_POINTS = 1.0f;
+    const float TEN_POINTS = 0.5f;
+
+    // Pos: 1 - Four Card Major Suit
+    const float LONG_MAJOR_SUIT = 1.0f;
+
+    // Pos: 2 - Four Card Minor Suit
+    const float LONG_MINOR_SUIT = 1.0f;
+    // }}} End Points
+
+    using UIntV = uint8_t;
     using UIntID = uint64_t;
     using IntScore = int16_t;
 
-    const UIntVal HAND_LENGTH = 13;
-    const UIntVal DECK_LENGTH = 52;
+    const UIntV HAND_LENGTH = 13;
+    const UIntV DECK_LENGTH = 52;
 
     template <typename K>
-    using LegendMap = std::unordered_map<K, std::string>;
+    using LegendM = std::unordered_map<K, std::string>;
 
     template <typename K, typename V>
-    using LegendMapT = std::unordered_map<K, V>;
+    using LegendMT = std::unordered_map<K, V>;
 
     template <std::size_t N>
-    using UIntArray = std::array<UIntVal, N>;
+    using UIntA = std::array<UIntV, N>;
 
-    using StringList = std::vector<std::string>;
-    using ByteData = std::pair<const char*, std::size_t>;
+    template <std::size_t N, std::size_t M>
+    using UInt2dA = std::array<std::array<UIntV, N>, M>;
+
+    using StringL = std::vector<std::string>;
+    // using ByteD = std::pair<const char*, std::size_t>;
 
     template <std::size_t N>
-    using FloatArray = std::array<float, N>;
+    using FloatA = std::array<float, N>;
 
     template <std::size_t N>
-    using StringArray = std::array<std::string, N>;
+    using StringA = std::array<std::string, N>;
 
     namespace engine {
         // Game
         class Game;
-        using GamePtr = std::shared_ptr<Game>;
-        using GameList = std::vector<GamePtr>;
+        using GamePU = std::unique_ptr<Game>;
+        using GameL = std::vector<GamePU>;
 
         // Player
-        enum class Direction : UIntVal { NONE = 0, NORTH, EAST, SOUTH, WEST };
-        enum class PlayerType : UIntVal { HUMAN = 1, COMPUTER };
+        enum class Direction : UIntV { NORTH = 1, EAST, SOUTH, WEST };
+        inline std::ostream& operator<<(std::ostream& os, const Direction& direction) {
+            switch (direction) {
+                case Direction::NORTH:
+                    os << "N";
+                    break;
+                case Direction::EAST:
+                    os << "E";
+                    break;
+                case Direction::SOUTH:
+                    os << "S";
+                    break;
+                case Direction::WEST:
+                    os << "W";
+                    break;
+            }
+            return os;
+        }
+
+        using DirectionL = std::array<Direction, 4>;
+        const DirectionL DIRECTION_L{Direction::NORTH, Direction::EAST, Direction::SOUTH, Direction::WEST};
+        const LegendMT<char, Direction> DIRECTION_M{
+            {'N', Direction::NORTH},
+            {'E', Direction::EAST},
+            {'S', Direction::SOUTH},
+            {'W', Direction::WEST},
+        };
+
+        enum class PlayerType : UIntV { HUMAN = 1, COMPUTER };
         class Player;
-        using PlayerPtr = std::shared_ptr<Player>;
-        using PlayerList = std::vector<PlayerPtr>;
+        using PlayerPU = std::unique_ptr<Player>;
+        using PlayerM = std::unordered_map<Direction, PlayerPU>;
+        // Play
+        class Play;
+        using PlayPU = std::unique_ptr<Play>;
 
         // Card
         /**
@@ -54,76 +104,49 @@ namespace nobridge {
          * CLUBS [40-52]
          */
 
-        enum class Suit : UIntVal { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
-        enum class Rank : UIntVal {
-            TWO = 2,
-            THREE,
-            FOUR,
-            FIVE,
-            SIX,
-            SEVEN,
-            EIGHT,
-            NINE,
-            TEN,
-            JACK,
-            QUEEN,
-            KING,
-            ACE
-        };
+        enum class Suit : UIntV { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
+        enum class Rank : UIntV { TWO = 2, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE };
 
-        using SuitList = std::array<Suit, 4>;
-        const SuitList SUITLIST{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS,
-                                Suit::CLUBS};
+        using SuitL = std::array<Suit, 4>;
+        const SuitL SUIT_L{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS, Suit::CLUBS};
 
         class Card;
-        using CardPtr = std::shared_ptr<Card>;
-        using CardList = std::vector<CardPtr>;
+        using CardP = std::shared_ptr<Card>;
+        using CardL = std::vector<CardP>;
 
         class Hand;
-        using HandPtr = std::shared_ptr<Hand>;
-        using HandList = std::vector<HandPtr>;
+        using HandPU = std::unique_ptr<Hand>;
+        using HandList = std::vector<HandPU>;
 
         // Bid
-        enum BidType : UIntVal {
-            PASS = 1,
-            DOUBLE,
-            REDOUBLE,
-            ALERT,
-            NORMAL,
-            CONVENTIONAL
-        };
+        enum BidType : UIntV { PASS = 1, DOUBLE, REDOUBLE, ALERT, NORMAL, CONVENTIONAL };
 
         class Bid;
-        using BidPtr = std::shared_ptr<Bid>;
-        using BidList = std::vector<BidPtr>;
+        using BidPU = std::unique_ptr<Bid>;
+        using BidL = std::vector<BidPU>;
 
         // Contract
         class Contract;
-        using ContractPtr = std::shared_ptr<Contract>;
+        using ContractPU = std::unique_ptr<Contract>;
 
         // Deck
         class Deck;
-        using DeckPtr = std::shared_ptr<Deck>;
-        using DealList = std::vector<CardList>;
+        using DeckPU = std::unique_ptr<Deck>;
+        using DealL = std::vector<CardL>;
 
         // Trick
-        using TrickArray = std::array<CardPtr, 4>;
-        using TrickList = std::vector<TrickArray>;
+        using TrickA = std::array<CardP, 4>;
+        using TrickL = std::vector<TrickA>;
 
-        const std::array<Suit, 4> SUIT_ARRAY{Suit::SPADES, Suit::HEARTS,
-                                             Suit::DIAMONDS, Suit::CLUBS};
+        const std::array<Suit, 4> SUIT_A{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS, Suit::CLUBS};
 
-        const LegendMapT<char, Suit> SUIT_MAP{{'S', Suit::SPADES},
-                                              {'H', Suit::HEARTS},
-                                              {'D', Suit::DIAMONDS},
-                                              {'C', Suit::CLUBS}};
+        const LegendMT<char, Suit> SUIT_M{
+            {'S', Suit::SPADES}, {'H', Suit::HEARTS}, {'D', Suit::DIAMONDS}, {'C', Suit::CLUBS}};
 
-        const LegendMapT<char, Rank> RANK_MAP{
-            {'2', Rank::TWO},   {'3', Rank::THREE}, {'4', Rank::FOUR},
-            {'5', Rank::FIVE},  {'6', Rank::SIX},   {'7', Rank::SEVEN},
-            {'8', Rank::EIGHT}, {'9', Rank::NINE},  {'T', Rank::TEN},
-            {'J', Rank::JACK},  {'Q', Rank::QUEEN}, {'K', Rank::KING},
-            {'A', Rank::ACE}};
+        const LegendMT<char, Rank> RANK_M{{'2', Rank::TWO}, {'3', Rank::THREE}, {'4', Rank::FOUR},  {'5', Rank::FIVE},
+                                          {'6', Rank::SIX}, {'7', Rank::SEVEN}, {'8', Rank::EIGHT}, {'9', Rank::NINE},
+                                          {'T', Rank::TEN}, {'J', Rank::JACK},  {'Q', Rank::QUEEN}, {'K', Rank::KING},
+                                          {'A', Rank::ACE}};
 
     }  // namespace engine
 

@@ -4,10 +4,10 @@
 #include "parser.h"
 namespace nobridge::pbn {
 
-    GameList processFile(std::string const& path) {
+    GameL processFile(std::string const& path) {
         Reader reader(path);
         Parser parser(reader);
-        GameList games = parser.run();
+        GameL games = parser.run();
         reader.close();
         return games;
     }

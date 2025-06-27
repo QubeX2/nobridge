@@ -6,9 +6,9 @@
 
 namespace nobridge::engine {
     namespace output {
-        void printCards(const CardList& cards);
-        void printDeal(const DealList& deal);
-        void printDeck(const DeckPtr& deck);
+        void printCards(const CardL& cards);
+        void printDeal(const DealL& deal);
+        void printDeck(const DeckPU& deck);
     }  // namespace output
 
 }  // namespace nobridge::engine

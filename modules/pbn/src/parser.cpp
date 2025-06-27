@@ -12,28 +12,26 @@
 #include "pbn.h"
 
 namespace nobridge::pbn {
-    const TagPtr getTag(TagMap map, std::string name) {
-        return map.contains(name) ? map[name] : nullptr;
-    }
-    std::string getTagValue(TagMap map, std::string name) {
-        const TagPtr tp = getTag(map, name);
+    const TagP getTag(TagM map, std::string name) { return map.contains(name) ? map[name] : nullptr; }
+    std::string getTagValue(TagM map, std::string name) {
+        const TagP tp = getTag(map, name);
         if (tp != nullptr) {
             return tp->value;
         }
         return "";
     }
-    StringList getTagLines(TagMap map, std::string name) {
-        const TagPtr tp = getTag(map, name);
+    StringL getTagLines(TagM map, std::string name) {
+        const TagP tp = getTag(map, name);
         if (tp != nullptr) {
             return tp->lines;
         }
-        return StringList{};
+        return StringL{};
     }
 
-    GameList Parser::run() const {
+    GameL Parser::run() const {
         if (m_reader.ok()) {
-            GameList games;
-            TagMap tmap;
+            GameL games;
+            TagM tmap;
             std::string cur_tag_name;
             // parse into a map-tags first
             while (!m_reader.eof()) {
@@ -43,13 +41,10 @@ namespace nobridge::pbn {
                 if (line.starts_with('[')) {
                     // handle tag
                     std::smatch matches;
-                    if (std::regex_search(
-                            line, matches,
-                            std::regex(R"(\[(.*)[ ]{1}\"(.*)\"\])"))) {
+                    if (std::regex_search(line, matches, std::regex(R"(\[(.*)[ ]{1}\"(.*)\"\])"))) {
                         if (matches.size() >= 3) {
                             cur_tag_name = matches[1];
-                            const auto tp = std::make_shared<Tag>(
-                                Tag{.name = matches[1], .value = matches[2]});
+                            const auto tp = std::make_shared<Tag>(Tag{.name = matches[1], .value = matches[2]});
                             tmap[matches[1]] = tp;
                         }
                     }
@@ -70,7 +65,7 @@ namespace nobridge::pbn {
             }
             return games;
         }
-        return GameList{};
+        return GameL{};
     }
 
 }  // namespace nobridge::pbn

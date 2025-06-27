@@ -4,13 +4,13 @@
 
 #include "card.h"
 #include "deck.h"
+#include "helpers.h"
 #include "types.h"
-#include "vmath.h"
 
 using namespace nobridge;
 
 TEST(DeckTest, HandlesShuffling) {
-    engine::DeckPtr deck = std::make_shared<engine::Deck>();
+    engine::DeckPU deck = std::make_unique<engine::Deck>();
     deck->shuffle();
     ASSERT_NE(deck->at(0), nullptr) << "nullptr at(0)";
     EXPECT_GT(static_cast<int>(deck->at(0)->suit()), 0);
@@ -20,18 +20,17 @@ TEST(DeckTest, HandlesShuffling) {
 }
 
 TEST(CardTest, CardToInteger) {
-    engine::CardPtr card =
-        std::make_shared<engine::Card>(engine::Suit::CLUBS, engine::Rank::ACE);
+    engine::CardP card = std::make_shared<engine::Card>(engine::Suit::CLUBS, engine::Rank::ACE);
 
-    EXPECT_EQ(vmath::toIntFromCard(card), 52);
+    EXPECT_EQ(engine::toIntFromCard(card), 52);
 
     card->setSuitAndRank(engine::Suit::SPADES, engine::Rank::ACE);
-    EXPECT_EQ(vmath::toIntFromCard(card), 13);
+    EXPECT_EQ(engine::toIntFromCard(card), 13);
 
     card->setSuitAndRank(engine::Suit::DIAMONDS, engine::Rank::TWO);
-    EXPECT_EQ(vmath::toIntFromCard(card), 27);
+    EXPECT_EQ(engine::toIntFromCard(card), 27);
 
-    engine::CardPtr icard = vmath::toCardFromInt(40);
+    engine::CardP icard = engine::toCardFromInt(40);
     EXPECT_EQ(icard->suit(), engine::Suit::CLUBS);
     EXPECT_EQ(icard->rank(), engine::Rank::TWO);
 }

@@ -13,12 +13,12 @@ namespace nobridge::storage {
 
     struct HandRec {
         UIntID id;
-        UIntID gameid;      // GameRec
-        UIntVal direction;  // NORTH = 1
-        FloatArray<vmath::POS_SIZE> vect{};
+        UIntID gameid;    // GameRec
+        UIntV direction;  // NORTH = 1
+        FloatA<vmath::POS_SIZE> vect{};
         float length;
         float angle;
-        UIntArray<HAND_LENGTH> cards{};
+        UIntA<HAND_LENGTH> cards{};
     };
 
 }  // namespace nobridge::storage

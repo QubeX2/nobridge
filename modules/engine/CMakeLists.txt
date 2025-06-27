@@ -8,8 +8,8 @@ add_library(engine STATIC
   src/deck.cpp
   src/player.cpp
   src/score.cpp
-  src/trick.cpp
   src/engine.cpp
+  src/helpers.cpp
 )
 
 target_include_directories(engine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

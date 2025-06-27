@@ -12,16 +12,16 @@ namespace nobridge::engine {
        public:
         Deck();
 
-        CardList cards() { return m_cards; }
-        CardList cards() const { return m_cards; }
+        CardL cards() { return m_cards; }
+        CardL cards() const { return m_cards; }
 
         void shuffle();
         // 4 deals with 13 cards
-        DealList deal();
-        CardPtr at(size_t index);
+        DealL deal();
+        CardP at(size_t index);
 
        private:
-        CardList m_cards;
+        CardL m_cards;
     };
 
 }  // namespace nobridge::engine

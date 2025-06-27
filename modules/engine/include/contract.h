@@ -12,10 +12,10 @@
 namespace nobridge::engine {
 
     class Contract {
-        UIntVal m_level;
+        UIntV m_level;
         Suit m_suit;
         // doubled??
-        PlayerPtr m_declarer;
+        Direction m_direction;
 
        public:
     };

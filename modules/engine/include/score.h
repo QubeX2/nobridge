@@ -8,8 +8,7 @@
 namespace nobridge::engine {
 
     namespace score {
-        IntScore calculate(const Contract& contract, UIntVal tricks,
-                           bool vulnerable);
+        IntScore calculate(const Contract& contract, UIntV tricks, bool vulnerable);
 
     }
 

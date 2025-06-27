@@ -16,8 +16,14 @@ cd $BUILD_DIR
 echo "🔄 Building (to ensure tests are up-to-date)..."
 ninja
 
+args=("--output-on-failure" "--verbose")
+
+if [ -n "$1" ]; then
+  args+=("-R" "$1")
+fi
+
 # === RUN TESTS ===
 echo "🧪 Running tests with CTest..."
-ctest --output-on-failure --verbose
+ctest "${args[@]}" 
 
 echo "✅ All tests completed."

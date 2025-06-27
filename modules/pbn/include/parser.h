@@ -14,25 +14,25 @@ namespace nobridge::pbn {
     struct Tag {
         std::string name;
         std::string value;
-        StringList lines;
+        StringL lines;
     };
 
-    using TagPtr = std::shared_ptr<Tag>;
-    using TagMap = std::unordered_map<std::string, TagPtr>;
-    using GameList = std::vector<TagMap>;
+    using TagP = std::shared_ptr<Tag>;
+    using TagM = std::unordered_map<std::string, TagP>;
+    using GameL = std::vector<TagM>;
 
     class Parser {
        public:
         explicit Parser(Reader& reader) : m_reader(reader) {}
-        [[nodiscard]] GameList run() const;
+        [[nodiscard]] GameL run() const;
 
        private:
         Reader& m_reader;
     };
 
-    const TagPtr getTag(TagMap map, std::string name);
-    std::string getTagValue(TagMap map, std::string name);
-    StringList getTagLines(TagMap map, std::string name);
+    const TagP getTag(TagM map, std::string name);
+    std::string getTagValue(TagM map, std::string name);
+    StringL getTagLines(TagM map, std::string name);
 
 }  // namespace nobridge::pbn
 

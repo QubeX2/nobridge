@@ -1,9 +1,6 @@
 #include "game.h"
 
 #include "player.h"
+#include "types.h"
 
-namespace nobridge::engine {
-
-    void Game::addPlayer(PlayerPtr& player) { m_players.push_back(player); }
-
-}  // namespace nobridge::engine
+namespace nobridge::engine {}

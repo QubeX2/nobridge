@@ -13,23 +13,22 @@ namespace nobridge::engine {
 
     class Hand {
        public:
-        Hand(CardList cards, bool dealer = false, bool vulnerable = false)
+        Hand(CardL cards, bool dealer = false, bool vulnerable = false)
             : m_cards(cards), m_dealer(dealer), m_vulnerable(vulnerable) {}
 
-        CardList cards() { return m_cards; }
+        CardL cards() { return m_cards; }
         bool dealer() { return m_dealer; }
         bool vulnerable() { return m_vulnerable; }
 
        private:
-        CardList m_cards;
+        CardL m_cards;
         bool m_dealer;
         bool m_vulnerable;
     };
 
-    inline std::ostream& operator<<(std::ostream& os, const HandPtr& h) {
+    inline std::ostream& operator<<(std::ostream& os, const HandPU& h) {
         os << std::fixed << std::setprecision(2);
-        os << std::format("Dealer: {}, Vulnerable: {}\n",
-                          static_cast<bool>(h->dealer()),
+        os << std::format("Dealer: {}, Vulnerable: {}\n", static_cast<bool>(h->dealer()),
                           static_cast<bool>(h->vulnerable()));
         std::size_t i = 0;
         for (auto card : h->cards()) {

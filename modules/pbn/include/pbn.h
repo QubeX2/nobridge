@@ -15,7 +15,7 @@
 
 namespace nobridge::pbn {
 
-    GameList processFile(std::string const& path);
+    GameL processFile(std::string const& path);
 
 }  // namespace nobridge::pbn
 

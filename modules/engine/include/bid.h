@@ -13,10 +13,10 @@ namespace nobridge::engine {
     class Bid {
        public:
        private:
-        BidType m_type;
-        UIntVal m_level = 0;
+        Direction m_direction;
+        UIntV m_level = 0;
         Suit m_suit;
-        PlayerPtr m_bidder;
+        BidType m_type;
     };
 
 }  // namespace nobridge::engine
