@@ -44,15 +44,16 @@ namespace nobridge::adapter {
                     std::string name = pbn::getTagValue(tags, dir);
                     engine::PlayerPU player = std::make_unique<engine::Player>(
                         name, engine::PlayerType::HUMAN, std::make_unique<engine::Hand>(deal[i], d == sdealer, vuln));
-                    game->addPlayer(static_cast<engine::Direction>(i + 1), player);
+                    game->addPlayer(static_cast<engine::Direction>(i + 1), std::move(player));
                 }
             }
         }
+
         /////////////////////////////////
         // Play
         pbn::TagP tag = pbn::getTag(tags, "Play");
         engine::PlayPU play = std::make_unique<engine::Play>();
-        play->setDirection(engine::DIRECTION_M.at(tag->value[0]));
+        play->setDirection(engine::DIRECTION_M.at(tag->value.front()));
         for (auto line : tag->lines) {
             StringL scards = mika::string::split(line, ' ');
             engine::TrickA trick;
@@ -64,11 +65,34 @@ namespace nobridge::adapter {
             }
             play->addTrick(trick);
         }
-        game->addPlay(play);
+        game->addPlay(std::move(play));
 
         /////////////////////////////////
         // Auction
+        engine::ContractPU contract = std::make_unique<engine::Contract>();
+        pbn::TagP tagDecl = pbn::getTag(tags, "Declarer");
+        pbn::TagP tagCont = pbn::getTag(tags, "Contract");
+        if (tagDecl->value.length() > 0) {
+            contract->setDeclarer(engine::DIRECTION_M.at(tagDecl->value.front()));
+        }
+        if (tagCont->value != "Pass") {
+            contract->setLevel(std::stoi(tagCont->value.substr(0, 1)));
+            if (tagCont->value.ends_with("XX")) {
+                contract->setRisk(engine::Risk::REDOUBLED);
+            } else if (tagCont->value.ends_with("X")) {
+                contract->setRisk(engine::Risk::DOUBLED);
+            }
 
+            if (tagCont->value.contains("NT")) {
+                contract->setDenomination(engine::Denomination::NOTRUMP);
+            } else {
+                contract->setDenomination(engine::DENOMINATION_M.at(tagCont->value.substr(1, 1).front()));
+            }
+        }
+        game->setContract(std::move(contract));
+
+        /////////////////////////////////
+        // Game
         return std::move(game);
     }
 

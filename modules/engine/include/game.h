@@ -19,8 +19,11 @@ namespace nobridge::engine {
        public:
         const PlayerM& players() const { return m_players; }
         const PlayPU& play() const { return m_play; }
-        void addPlayer(Direction direction, PlayerPU& player) { m_players.emplace(direction, std::move(player)); }
-        void addPlay(PlayPU& play) { m_play = std::move(play); }
+        const ContractPU& contract() const { return m_contract; }
+
+        void addPlayer(Direction direction, PlayerPU player) { m_players.emplace(direction, std::move(player)); }
+        void addPlay(PlayPU play) { m_play = std::move(play); }
+        void setContract(ContractPU contract) { m_contract = std::move(contract); }
 
        private:
         std::string m_event;
@@ -29,6 +32,7 @@ namespace nobridge::engine {
         std::size_t m_board;
         PlayerM m_players;
         PlayPU m_play;
+        ContractPU m_contract;
     };
 
     inline std::ostream& operator<<(std::ostream& os, const GamePU& g) {
@@ -40,6 +44,7 @@ namespace nobridge::engine {
         if (g->play() != nullptr) {
             os << g->play() << "\n";
         }
+        os << g->contract() << "\n";
         return os;
     }
 }  // namespace nobridge::engine

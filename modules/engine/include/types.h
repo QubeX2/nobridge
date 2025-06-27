@@ -27,7 +27,7 @@ namespace nobridge {
 
     using UIntV = uint8_t;
     using UIntID = uint64_t;
-    using IntScore = int16_t;
+    using IntV = int16_t;
 
     const UIntV HAND_LENGTH = 13;
     const UIntV DECK_LENGTH = 52;
@@ -60,7 +60,7 @@ namespace nobridge {
         using GameL = std::vector<GamePU>;
 
         // Player
-        enum class Direction : UIntV { NORTH = 1, EAST, SOUTH, WEST };
+        enum class Direction : UIntV { NONE = 0, NORTH, EAST, SOUTH, WEST };
         inline std::ostream& operator<<(std::ostream& os, const Direction& direction) {
             switch (direction) {
                 case Direction::NORTH:
@@ -75,6 +75,8 @@ namespace nobridge {
                 case Direction::WEST:
                     os << "W";
                     break;
+                default:
+                    os << "";
             }
             return os;
         }
@@ -119,7 +121,36 @@ namespace nobridge {
         using HandList = std::vector<HandPU>;
 
         // Bid
-        enum BidType : UIntV { PASS = 1, DOUBLE, REDOUBLE, ALERT, NORMAL, CONVENTIONAL };
+        enum class Denomination : UIntV { PASS = 0, SPADES, HEARTS, DIAMONDS, CLUBS, NOTRUMP };
+        const LegendMT<char, Denomination> DENOMINATION_M{
+            {'S', Denomination::SPADES},
+            {'H', Denomination::HEARTS},
+            {'D', Denomination::DIAMONDS},
+            {'C', Denomination::CLUBS},
+        };
+        enum class Risk : UIntV { VOID = 0, DOUBLED, REDOUBLED };
+
+        inline std::ostream& operator<<(std::ostream& os, const Denomination& denomination) {
+            switch (denomination) {
+                case Denomination::SPADES:
+                    os << "S";
+                    break;
+                case Denomination::HEARTS:
+                    os << "H";
+                    break;
+                case Denomination::DIAMONDS:
+                    os << "D";
+                    break;
+                case Denomination::CLUBS:
+                    os << "C";
+                    break;
+                case Denomination::NOTRUMP:
+                    os << "NT";
+                default:
+                    os << "";
+            }
+            return os;
+        }
 
         class Bid;
         using BidPU = std::unique_ptr<Bid>;

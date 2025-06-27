@@ -13,10 +13,9 @@ namespace nobridge::engine {
     class Bid {
        public:
        private:
-        Direction m_direction;
-        UIntV m_level = 0;
-        Suit m_suit;
-        BidType m_type;
+        UIntV m_level{};
+        Denomination m_denomination;
+        Risk m_risk;
     };
 
 }  // namespace nobridge::engine
