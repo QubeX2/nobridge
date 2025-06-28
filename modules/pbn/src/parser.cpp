@@ -12,16 +12,24 @@
 #include "pbn.h"
 
 namespace nobridge::pbn {
-    const TagP getTag(TagM map, std::string name) { return map.contains(name) ? map[name] : nullptr; }
-    std::string getTagValue(TagM map, std::string name) {
-        const TagP tp = getTag(map, name);
+    const Tag* getTag(const TagM& map, const std::string& name) {
+        auto it = map.find(name);
+        if (it != map.end()) {
+            return it->second.get();
+        }
+        return nullptr;
+    }
+
+    std::string getTagValue(const TagM& map, const std::string& name) {
+        const Tag* tp = getTag(map, name);
         if (tp != nullptr) {
             return tp->value;
         }
         return "";
     }
+
     StringL getTagLines(TagM map, std::string name) {
-        const TagP tp = getTag(map, name);
+        const Tag* tp = getTag(map, name);
         if (tp != nullptr) {
             return tp->lines;
         }
@@ -44,21 +52,21 @@ namespace nobridge::pbn {
                     if (std::regex_search(line, matches, std::regex(R"(\[(.*)[ ]{1}\"(.*)\"\])"))) {
                         if (matches.size() >= 3) {
                             cur_tag_name = matches[1];
-                            const auto tp = std::make_shared<Tag>(Tag{.name = matches[1], .value = matches[2]});
-                            tmap[matches[1]] = tp;
+                            tmap.emplace(matches[1], std::make_unique<Tag>(Tag{
+                                                         .name = matches[1], .value = matches[2]}));
                         }
                     }
 
                 } else if (line.empty()) {
                     // check if a new game
                     if (!tmap.empty()) {
-                        games.push_back(tmap);
+                        games.push_back(std::move(tmap));
                         tmap.clear();
                     }
                 } else if (!cur_tag_name.empty()) {
                     // items under a tag
                     if (tmap.contains(cur_tag_name)) {
-                        const auto tp = tmap[cur_tag_name];
+                        Tag* tp = tmap.at(cur_tag_name).get();
                         tp->lines.push_back(line);
                     }
                 }

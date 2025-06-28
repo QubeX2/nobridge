@@ -11,7 +11,7 @@ namespace nobridge::engine {
         void printCards(const CardL& cards) {
             std::cout << "CARDS\n";
             std::size_t i = 0;
-            for (auto card : cards) {
+            for (const CardPU& card : cards) {
                 if (i > 0 && i % 13 == 0) {
                     std::cout << "\n";
                 }
@@ -23,7 +23,7 @@ namespace nobridge::engine {
 
         void printDeal(const DealL& deal) {
             std::cout << "DEAL\n";
-            for (auto hand : deal) {
+            for (const CardL& hand : deal) {
                 printCards(hand);
             }
         }

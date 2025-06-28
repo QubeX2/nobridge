@@ -39,13 +39,13 @@ TEST(VectorTest, HandlesVectorMath) {
 
 TEST_F(StorageTest, Conversion) {
     if (!m_gl.empty()) {
-        pbn::TagM tags = m_gl[0];
+        const pbn::TagM& tags = m_gl[0];
 
         if (tags.contains("Deal")) {
-            engine::DealL deal = adapter::toDeal(tags["Deal"]->value);
+            engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
             if (!deal.empty()) {
-                for (auto cards : deal) {
-                    engine::HandPU hand = std::make_unique<engine::Hand>(cards);
+                for (engine::CardL& cards : deal) {
+                    engine::HandPU hand = std::make_unique<engine::Hand>(std::move(cards));
                     vmath::HandVect vec = vmath::toVector(hand);
                     EXPECT_GE(vec[0], 0);
                     // engine::output::printCards(cards);
@@ -58,11 +58,11 @@ TEST_F(StorageTest, Conversion) {
 
 TEST_F(StorageTest, CreateHandRec) {
     if (!m_gl.empty()) {
-        pbn::TagM tags = m_gl[0];
+        const pbn::TagM& tags = m_gl[0];
 
         if (tags.contains("Deal")) {
-            engine::DealL deal = adapter::toDeal(tags["Deal"]->value);
-            auto hand = std::make_unique<engine::Hand>(deal[0]);
+            engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
+            auto hand = std::make_unique<engine::Hand>(std::move(deal[0]));
             auto hvec = vmath::toVector(hand);
             auto hr = storage::createHandRec<float, 14>(storage::uniqueId(), hand->toArray(),
                                                         hvec.data(), hvec.length(), hvec.angle());

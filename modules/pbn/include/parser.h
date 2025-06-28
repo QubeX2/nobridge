@@ -17,8 +17,8 @@ namespace nobridge::pbn {
         StringL lines;
     };
 
-    using TagP = std::shared_ptr<Tag>;
-    using TagM = std::unordered_map<std::string, TagP>;
+    using TagPU = std::unique_ptr<Tag>;
+    using TagM = std::unordered_map<std::string, TagPU>;
     using GameL = std::vector<TagM>;
 
     class Parser {
@@ -30,9 +30,9 @@ namespace nobridge::pbn {
         Reader& m_reader;
     };
 
-    const TagP getTag(TagM map, std::string name);
-    std::string getTagValue(TagM map, std::string name);
-    StringL getTagLines(TagM map, std::string name);
+    const Tag* getTag(const TagM& map, const std::string& name);
+    std::string getTagValue(const TagM& map, const std::string& name);
+    StringL getTagLines(const TagM& map, const std::string& name);
 
 }  // namespace nobridge::pbn
 

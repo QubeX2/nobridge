@@ -1,6 +1,7 @@
 #ifndef ENGINE_PLAY_H
 #define ENGINE_PLAY_H
 
+#include <algorithm>
 #include <array>
 #include <cstdint>
 #include <iomanip>
@@ -19,7 +20,7 @@ namespace nobridge::engine {
     class Play {
        public:
         void setDirection(const Direction& direction) { m_direction = direction; }
-        void addTrick(const TrickA& trick) { m_tricks.push_back(trick); }
+        void addTrick(TrickA trick) { m_tricks.push_back(std::move(trick)); }
         const TrickL& tricks() const { return m_tricks; }
         Direction direction() const { return m_direction; }
 
@@ -35,7 +36,7 @@ namespace nobridge::engine {
         StringA<4> dirs{"N", "E", "S", "W"};
         UIntV ix = dir - 1;
         int tno = 1;
-        for (TrickA trick : p->tricks()) {
+        for (const TrickA& trick : p->tricks()) {
             std::cout << "Trick" << std::setfill('0') << std::setw(2) << (tno++) << " ";
             for (UIntV i = 0; i < 4; i++) {
                 if (trick[i] != nullptr) {

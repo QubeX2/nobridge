@@ -11,14 +11,12 @@ namespace nobridge::engine {
     class Deck {
        public:
         Deck();
-
-        CardL cards() { return m_cards; }
-        CardL cards() const { return m_cards; }
+        const CardL& cards() const { return m_cards; }
 
         void shuffle();
         // 4 deals with 13 cards
         DealL deal();
-        CardP at(size_t index);
+        const Card* at(const size_t& index);
 
        private:
         CardL m_cards;

@@ -18,8 +18,8 @@ namespace nobridge::engine {
      */
     class Hand {
        public:
-        Hand(CardL cards) : m_cards(cards) {}
-        CardL cards() const { return m_cards; }
+        Hand(CardL cards) : m_cards(std::move(cards)) {}
+        const CardL& cards() const { return m_cards; }
 
         UIntA<HAND_LENGTH> toArray() const;
         float HCP();
@@ -31,9 +31,9 @@ namespace nobridge::engine {
         // Count a specific rank from an array of counted ranks
         static UIntV rankCount(UIntA<13> list, Rank rank);
         // Get an Int from a Card
-        static UIntV toInt(const CardP& card);
+        static UIntV toInt(const CardPU& card);
         // Get a CardP from an integer
-        static CardP toCard(const UIntV num);
+        static CardPU toCard(const UIntV num);
 
        private:
         CardL m_cards;
@@ -43,7 +43,7 @@ namespace nobridge::engine {
         os << std::fixed << std::setprecision(2);
         os << "Hand\n";
         std::size_t i = 0;
-        for (auto card : h->cards()) {
+        for (const CardPU& card : h->cards()) {
             if (i > 0 && i % 13 == 0) {
                 os << "\n";
             }

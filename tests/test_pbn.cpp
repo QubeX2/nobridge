@@ -22,14 +22,14 @@ class PbnTest : public testing::Test {
 
 TEST_F(PbnTest, PbnToEngineGame) {
     if (!m_gl.empty()) {
-        pbn::TagM tags = m_gl[0];
+        const pbn::TagM& tags = m_gl[0];
         engine::GamePU game = adapter::toGame(tags);
         std::cout << game << "\n";
     }
 }
 
 TEST(AdaperTest, StringToCard) {
-    engine::CardP card = adapter::toCard("H2");
+    engine::CardPU card = adapter::toCard("H2");
     EXPECT_EQ(card->suit(), engine::Suit::HEARTS);
     EXPECT_EQ(card->rank(), engine::Rank::TWO);
 }
@@ -38,10 +38,10 @@ TEST_F(PbnTest, HandlesPbnFiles) { EXPECT_GE(m_gl.size(), 0); }
 
 TEST_F(PbnTest, AdapterTest) {
     if (!m_gl.empty()) {
-        pbn::TagM tags = m_gl[0];
+        const pbn::TagM& tags = m_gl[0];
 
         if (tags.contains("Deal")) {
-            engine::DealL deal = adapter::toDeal(tags["Deal"]->value);
+            engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
 
             EXPECT_EQ(deal.size(), 4);
 

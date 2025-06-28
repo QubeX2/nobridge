@@ -130,8 +130,8 @@ namespace nobridge {
         const SuitL SUIT_L{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS, Suit::CLUBS};
 
         class Card;
-        using CardP = std::shared_ptr<Card>;
-        using CardL = std::vector<CardP>;
+        using CardPU = std::unique_ptr<Card>;
+        using CardL = std::vector<CardPU>;
 
         class Hand;
         using HandPU = std::unique_ptr<Hand>;
@@ -172,7 +172,7 @@ namespace nobridge {
         class Bid;
         using BidPU = std::unique_ptr<Bid>;
         using BidA = std::array<BidPU, 4>;
-        using AuctionL = std::vector<BidA>;
+        using BidL = std::vector<BidA>;
 
         // Contract
         class Contract;
@@ -184,7 +184,7 @@ namespace nobridge {
         using DealL = std::vector<CardL>;
 
         // Trick
-        using TrickA = std::array<CardP, 4>;
+        using TrickA = std::array<CardPU, 4>;
         using TrickL = std::vector<TrickA>;
 
         const std::array<Suit, 4> SUIT_A{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS, Suit::CLUBS};

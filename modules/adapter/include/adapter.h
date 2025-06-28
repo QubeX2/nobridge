@@ -10,9 +10,9 @@
 #include "types.h"
 
 namespace nobridge::adapter {
-    engine::CardP toCard(const std::string& string);
+    engine::CardPU toCard(const std::string& string);
     engine::DealL toDeal(const std::string& dealstr);
     std::string toHandstr(const engine::CardL cards);
-    engine::GamePU toGame(nobridge::pbn::TagM tags);
+    engine::GamePU toGame(const nobridge::pbn::TagM& tags);
 }  // namespace nobridge::adapter
 #endif

@@ -18,7 +18,7 @@ namespace nobridge::adapter {
     /**
      *
      */
-    engine::GamePU toGame(nobridge::pbn::TagM tags) {
+    engine::GamePU toGame(const nobridge::pbn::TagM& tags) {
         const static StringA<4> directions{"North", "East", "South", "West"};
         const static std::unordered_set<std::string> check_vuln{"All", "Both"};
 
@@ -48,11 +48,12 @@ namespace nobridge::adapter {
         if (deal.size() == 4) {
             for (std::size_t i = 0; i < directions.size(); ++i) {
                 std::string dir = directions[i];
-                if (const pbn::TagP& tag = pbn::getTag(tags, dir)) {
+                if (const pbn::Tag* tag = pbn::getTag(tags, dir)) {
                     // Vulnerable
                     std::string name = pbn::getTagValue(tags, dir);
                     engine::PlayerPU player = std::make_unique<engine::Player>(
-                        name, engine::PlayerType::HUMAN, std::make_unique<engine::Hand>(deal[i]));
+                        name, engine::PlayerType::HUMAN,
+                        std::make_unique<engine::Hand>(std::move(deal[i])));
                     game->addPlayer(static_cast<engine::Direction>(i + 1), std::move(player));
                 }
             }
@@ -60,27 +61,27 @@ namespace nobridge::adapter {
 
         /////////////////////////////////
         // Play
-        pbn::TagP tag = pbn::getTag(tags, "Play");
+        const pbn::Tag* tag = pbn::getTag(tags, "Play");
         engine::PlayPU play = std::make_unique<engine::Play>();
         play->setDirection(engine::DIRECTION_M.at(tag->value.front()));
         for (auto line : tag->lines) {
             StringL scards = mika::string::split(line, ' ');
             engine::TrickA trick;
             for (std::size_t i = 0; i < scards.size(); i++) {
-                engine::CardP card = toCard(scards[i]);
+                engine::CardPU card = toCard(scards[i]);
                 if (card != nullptr) {
-                    trick[i] = card;
+                    trick[i] = std::move(card);
                 }
             }
-            play->addTrick(trick);
+            play->addTrick(std::move(trick));
         }
         game->addPlay(std::move(play));
 
         /////////////////////////////////
-        // Auction
+        // Contract
         engine::ContractPU contract = std::make_unique<engine::Contract>();
-        pbn::TagP tagDecl = pbn::getTag(tags, "Declarer");
-        pbn::TagP tagCont = pbn::getTag(tags, "Contract");
+        const pbn::Tag* tagDecl = pbn::getTag(tags, "Declarer");
+        const pbn::Tag* tagCont = pbn::getTag(tags, "Contract");
         if (tagDecl->value.length() > 0) {
             contract->setDeclarer(engine::DIRECTION_M.at(tagDecl->value.front()));
         }
@@ -99,6 +100,9 @@ namespace nobridge::adapter {
                     engine::DENOMINATION_M.at(tagCont->value.substr(1, 1).front()));
             }
         }
+        /////////////////////////////////
+        // Bids
+
         game->setContract(std::move(contract));
 
         /////////////////////////////////
@@ -109,14 +113,14 @@ namespace nobridge::adapter {
     /**
      *
      */
-    engine::CardP toCard(const std::string& string) {
+    engine::CardPU toCard(const std::string& string) {
         if (string.length() == 2) {
             std::string suit = string.substr(0, 1);
             std::string rank = string.substr(1, 1);
             if (std::string("SHDC").contains(suit)) {
-                engine::CardP card = std::make_shared<engine::Card>(engine::SUIT_M.at(suit[0]),
-                                                                    engine::RANK_M.at(rank[0]));
-                return card;
+                engine::CardPU card = std::make_unique<engine::Card>(engine::SUIT_M.at(suit[0]),
+                                                                     engine::RANK_M.at(rank[0]));
+                return std::move(card);
             }
         }
         return nullptr;
@@ -125,9 +129,9 @@ namespace nobridge::adapter {
     /**
      *
      */
-    std::string toHandstr(const engine::CardL cards) {
+    std::string toHandstr(const engine::CardL& cards) {
         StringA<4> suits;
-        for (auto card : cards) {
+        for (const engine::CardPU& card : cards) {
             suits[static_cast<std::size_t>(card->suit()) - 1] += card->rankText();
         }
         return mika::array::join(suits, ".");
@@ -147,12 +151,12 @@ namespace nobridge::adapter {
                 for (auto it = suits.begin(); it != suits.end(); ++it) {
                     std::size_t index2 = it - suits.begin();
                     for (char c : (*it)) {
-                        deal.push_back(std::make_shared<engine::Card>(engine::SUIT_A[index2],
+                        deal.push_back(std::make_unique<engine::Card>(engine::SUIT_A[index2],
                                                                       engine::RANK_M.at(c)));
                     }
                 }
             }
-            deals.push_back(deal);
+            deals.push_back(std::move(deal));
         }
         return deals;
     }  // namespace pbn

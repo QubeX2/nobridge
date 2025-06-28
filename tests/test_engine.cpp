@@ -21,7 +21,7 @@ TEST(DeckTest, HandlesShuffling) {
 }
 
 TEST(CardTest, CardToInteger) {
-    engine::CardP card = std::make_shared<engine::Card>(engine::Suit::CLUBS, engine::Rank::ACE);
+    engine::CardPU card = std::make_unique<engine::Card>(engine::Suit::CLUBS, engine::Rank::ACE);
 
     EXPECT_EQ(engine::Hand::toInt(card), 52);
 
@@ -31,7 +31,7 @@ TEST(CardTest, CardToInteger) {
     card->setSuitAndRank(engine::Suit::DIAMONDS, engine::Rank::TWO);
     EXPECT_EQ(engine::Hand::toInt(card), 27);
 
-    engine::CardP icard = engine::Hand::toCard(40);
+    engine::CardPU icard = engine::Hand::toCard(40);
     EXPECT_EQ(icard->suit(), engine::Suit::CLUBS);
     EXPECT_EQ(icard->rank(), engine::Rank::TWO);
 }
