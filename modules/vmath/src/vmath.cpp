@@ -15,30 +15,30 @@ namespace nobridge::vmath {
      *
      */
     HandVect toVector(const engine::HandPU& hand) {
-        UIntA<4> suits = engine::countSuits(hand->cards());
-        UIntA<13> ranks = engine::countRanks(hand->cards());
+        UIntA<4> suits = hand->suits();
+        UIntA<13> ranks = hand->ranks();
 
         HandVect hvect{};
         hvect.setLegend(HAND_LEGEND);
 
-        hvect[POS0_HCP] = engine::calculateHCP(hand->cards());
+        hvect[POS0_HCP] = hand->HCP();
 
         hvect[POS1_MAJOR_LENGTH] = suits[0] >= 4 ? suits[0] * LONG_MAJOR_SUIT : 0;
         hvect[POS1_MAJOR_LENGTH] += suits[1] >= 4 ? suits[1] * LONG_MAJOR_SUIT : 0;
         hvect[POS2_MINOR_LENGTH] = suits[2] >= 4 ? suits[2] * LONG_MINOR_SUIT : 0;
         hvect[POS2_MINOR_LENGTH] += suits[3] >= 4 ? suits[3] * LONG_MINOR_SUIT : 0;
 
-        hvect[POS3_DIST_POINTS] = engine::calculateDist(hand->cards());
+        hvect[POS3_DIST_POINTS] = hand->distribution();
         hvect[POS4_SPADES_COUNT] = static_cast<float>(suits[0]);
         hvect[POS5_HEARTS_COUNT] = static_cast<float>(suits[1]);
         hvect[POS6_DIAMONDS_COUNT] = static_cast<float>(suits[2]);
         hvect[POS7_CLUBS_COUNT] = static_cast<float>(suits[3]);
         hvect[POS8_VULNERABLE] = 0;
         hvect[POS9_DEALER] = 0;
-        hvect[POS10_ACES] = engine::rankCount(ranks, engine::Rank::ACE) * 2.0f;
-        hvect[POS11_KINGS] = engine::rankCount(ranks, engine::Rank::KING) * 1.0f;
-        hvect[POS12_QUEENS] = engine::rankCount(ranks, engine::Rank::QUEEN) * 0.5f;
-        hvect[POS13_JACKS] = engine::rankCount(ranks, engine::Rank::JACK) * 0.25f;
+        hvect[POS10_ACES] = engine::Hand::rankCount(ranks, engine::Rank::ACE) * 2.0f;
+        hvect[POS11_KINGS] = engine::Hand::rankCount(ranks, engine::Rank::KING) * 1.0f;
+        hvect[POS12_QUEENS] = engine::Hand::rankCount(ranks, engine::Rank::QUEEN) * 0.5f;
+        hvect[POS13_JACKS] = engine::Hand::rankCount(ranks, engine::Rank::JACK) * 0.25f;
 
         return hvect;
     }

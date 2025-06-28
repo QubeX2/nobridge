@@ -9,6 +9,8 @@ namespace nobridge::storage {
 
     struct GameRec {
         uint64_t id;
+        uint8_t dealer;
+        uint8_t vulnerable;
     };
 
 }  // namespace nobridge::storage

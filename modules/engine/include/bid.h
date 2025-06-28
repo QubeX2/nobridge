@@ -12,6 +12,14 @@ namespace nobridge::engine {
 
     class Bid {
        public:
+        void setLevel(UIntV level) { m_level = level; }
+        void setDenomination(Denomination denomination) { m_denomination = denomination; }
+        void setRisk(Risk risk) { m_risk = risk; }
+
+        UIntV level() const { return m_level; }
+        Denomination denomination() const { return m_denomination; }
+        Risk risk() const { return m_risk; }
+
        private:
         UIntV m_level{};
         Denomination m_denomination;

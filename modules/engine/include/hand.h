@@ -11,25 +11,37 @@
 
 namespace nobridge::engine {
 
+    /**
+     * @brief Represents a player's hand of cards in a card game.
+     *        This class manages the cards held by a player, allowing
+     *        for operations such as adding, removing, and inspecting cards.
+     */
     class Hand {
        public:
-        Hand(CardL cards, bool dealer = false, bool vulnerable = false)
-            : m_cards(cards), m_dealer(dealer), m_vulnerable(vulnerable) {}
+        Hand(CardL cards) : m_cards(cards) {}
+        CardL cards() const { return m_cards; }
 
-        CardL cards() { return m_cards; }
-        bool dealer() { return m_dealer; }
-        bool vulnerable() { return m_vulnerable; }
+        UIntA<HAND_LENGTH> toArray() const;
+        float HCP();
+        float distribution();
+        // Get an array of counted suits [S,H,D,C] and ranks [2,3,4,5,6,7,8,9,T,J,Q,K,A]
+        UIntA<4> suits();
+        UIntA<13> ranks();
+
+        // Count a specific rank from an array of counted ranks
+        static UIntV rankCount(UIntA<13> list, Rank rank);
+        // Get an Int from a Card
+        static UIntV toInt(const CardP& card);
+        // Get a CardP from an integer
+        static CardP toCard(const UIntV num);
 
        private:
         CardL m_cards;
-        bool m_dealer;
-        bool m_vulnerable;
     };
 
     inline std::ostream& operator<<(std::ostream& os, const HandPU& h) {
         os << std::fixed << std::setprecision(2);
-        os << std::format("Dealer: {}, Vulnerable: {}\n", static_cast<bool>(h->dealer()),
-                          static_cast<bool>(h->vulnerable()));
+        os << "Hand\n";
         std::size_t i = 0;
         for (auto card : h->cards()) {
             if (i > 0 && i % 13 == 0) {

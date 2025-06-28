@@ -59,7 +59,6 @@ namespace nobridge {
         using GamePU = std::unique_ptr<Game>;
         using GameL = std::vector<GamePU>;
 
-        // Player
         enum class Direction : UIntV { NONE = 0, NORTH, EAST, SOUTH, WEST };
         inline std::ostream& operator<<(std::ostream& os, const Direction& direction) {
             switch (direction) {
@@ -82,7 +81,8 @@ namespace nobridge {
         }
 
         using DirectionL = std::array<Direction, 4>;
-        const DirectionL DIRECTION_L{Direction::NORTH, Direction::EAST, Direction::SOUTH, Direction::WEST};
+        const DirectionL DIRECTION_L{Direction::NORTH, Direction::EAST, Direction::SOUTH,
+                                     Direction::WEST};
         const LegendMT<char, Direction> DIRECTION_M{
             {'N', Direction::NORTH},
             {'E', Direction::EAST},
@@ -90,10 +90,13 @@ namespace nobridge {
             {'W', Direction::WEST},
         };
 
+        enum class Vulnerable : UIntV { NONE = 0, BOTH, NS, EW };
+
         enum class PlayerType : UIntV { HUMAN = 1, COMPUTER };
         class Player;
         using PlayerPU = std::unique_ptr<Player>;
         using PlayerM = std::unordered_map<Direction, PlayerPU>;
+
         // Play
         class Play;
         using PlayPU = std::unique_ptr<Play>;
@@ -107,7 +110,21 @@ namespace nobridge {
          */
 
         enum class Suit : UIntV { SPADES = 1, HEARTS, DIAMONDS, CLUBS };
-        enum class Rank : UIntV { TWO = 2, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE };
+        enum class Rank : UIntV {
+            TWO = 2,
+            THREE,
+            FOUR,
+            FIVE,
+            SIX,
+            SEVEN,
+            EIGHT,
+            NINE,
+            TEN,
+            JACK,
+            QUEEN,
+            KING,
+            ACE
+        };
 
         using SuitL = std::array<Suit, 4>;
         const SuitL SUIT_L{Suit::SPADES, Suit::HEARTS, Suit::DIAMONDS, Suit::CLUBS};
@@ -154,7 +171,8 @@ namespace nobridge {
 
         class Bid;
         using BidPU = std::unique_ptr<Bid>;
-        using BidL = std::vector<BidPU>;
+        using BidA = std::array<BidPU, 4>;
+        using AuctionL = std::vector<BidA>;
 
         // Contract
         class Contract;
@@ -174,10 +192,11 @@ namespace nobridge {
         const LegendMT<char, Suit> SUIT_M{
             {'S', Suit::SPADES}, {'H', Suit::HEARTS}, {'D', Suit::DIAMONDS}, {'C', Suit::CLUBS}};
 
-        const LegendMT<char, Rank> RANK_M{{'2', Rank::TWO}, {'3', Rank::THREE}, {'4', Rank::FOUR},  {'5', Rank::FIVE},
-                                          {'6', Rank::SIX}, {'7', Rank::SEVEN}, {'8', Rank::EIGHT}, {'9', Rank::NINE},
-                                          {'T', Rank::TEN}, {'J', Rank::JACK},  {'Q', Rank::QUEEN}, {'K', Rank::KING},
-                                          {'A', Rank::ACE}};
+        const LegendMT<char, Rank> RANK_M{
+            {'2', Rank::TWO}, {'3', Rank::THREE}, {'4', Rank::FOUR},  {'5', Rank::FIVE},
+            {'6', Rank::SIX}, {'7', Rank::SEVEN}, {'8', Rank::EIGHT}, {'9', Rank::NINE},
+            {'T', Rank::TEN}, {'J', Rank::JACK},  {'Q', Rank::QUEEN}, {'K', Rank::KING},
+            {'A', Rank::ACE}};
 
     }  // namespace engine
 

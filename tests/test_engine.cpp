@@ -4,6 +4,7 @@
 
 #include "card.h"
 #include "deck.h"
+#include "hand.h"
 #include "helpers.h"
 #include "types.h"
 
@@ -22,15 +23,15 @@ TEST(DeckTest, HandlesShuffling) {
 TEST(CardTest, CardToInteger) {
     engine::CardP card = std::make_shared<engine::Card>(engine::Suit::CLUBS, engine::Rank::ACE);
 
-    EXPECT_EQ(engine::toIntFromCard(card), 52);
+    EXPECT_EQ(engine::Hand::toInt(card), 52);
 
     card->setSuitAndRank(engine::Suit::SPADES, engine::Rank::ACE);
-    EXPECT_EQ(engine::toIntFromCard(card), 13);
+    EXPECT_EQ(engine::Hand::toInt(card), 13);
 
     card->setSuitAndRank(engine::Suit::DIAMONDS, engine::Rank::TWO);
-    EXPECT_EQ(engine::toIntFromCard(card), 27);
+    EXPECT_EQ(engine::Hand::toInt(card), 27);
 
-    engine::CardP icard = engine::toCardFromInt(40);
+    engine::CardP icard = engine::Hand::toCard(40);
     EXPECT_EQ(icard->suit(), engine::Suit::CLUBS);
     EXPECT_EQ(icard->rank(), engine::Rank::TWO);
 }

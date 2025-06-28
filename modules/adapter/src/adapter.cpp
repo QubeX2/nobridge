@@ -3,6 +3,7 @@
 #include "adapter.h"
 
 #include <memory>
+#include <unordered_set>
 
 #include "card.h"
 #include "deck.h"
@@ -18,32 +19,40 @@ namespace nobridge::adapter {
      *
      */
     engine::GamePU toGame(nobridge::pbn::TagM tags) {
+        const static StringA<4> directions{"North", "East", "South", "West"};
+        const static std::unordered_set<std::string> check_vuln{"All", "Both"};
+
         engine::GamePU game = std::make_unique<engine::Game>();
         /////////////////////////////////
         // Player
         std::string sdeal = pbn::getTagValue(tags, "Deal");
         std::string sdealer = pbn::getTagValue(tags, "Dealer");
         std::string svuln = pbn::getTagValue(tags, "Vulnerable");
+
+        // -- Dealer
+        game->setDealer(engine::DIRECTION_M.at(sdealer.front()));
+
+        // -- Vulnerable
+        engine::Vulnerable vuln = engine::Vulnerable::NONE;
+        if (check_vuln.contains(svuln)) {
+            vuln = engine::Vulnerable::BOTH;
+        } else if (svuln == "NS") {
+            vuln = engine::Vulnerable::NS;
+        } else if (svuln == "EW") {
+            vuln = engine::Vulnerable::EW;
+        }
+        game->setVulnerable(vuln);
+
+        // -- Player, Hand
         engine::DealL deal = toDeal(sdeal);
-        StringA<4> directions{"North", "East", "South", "West"};
         if (deal.size() == 4) {
             for (std::size_t i = 0; i < directions.size(); ++i) {
                 std::string dir = directions[i];
-                std::string d = dir.substr(0, 1);
                 if (const pbn::TagP& tag = pbn::getTag(tags, dir)) {
                     // Vulnerable
-                    bool vuln = false;
-                    if (svuln == "All" || svuln == "Both") {
-                        vuln = true;
-                    } else if ((d == "N" or d == "S") && svuln == "NS") {
-                        vuln = true;
-                    } else if ((d == "E" or d == "W" && svuln == "EW")) {
-                        vuln = true;
-                    }
-
                     std::string name = pbn::getTagValue(tags, dir);
                     engine::PlayerPU player = std::make_unique<engine::Player>(
-                        name, engine::PlayerType::HUMAN, std::make_unique<engine::Hand>(deal[i], d == sdealer, vuln));
+                        name, engine::PlayerType::HUMAN, std::make_unique<engine::Hand>(deal[i]));
                     game->addPlayer(static_cast<engine::Direction>(i + 1), std::move(player));
                 }
             }
@@ -86,7 +95,8 @@ namespace nobridge::adapter {
             if (tagCont->value.contains("NT")) {
                 contract->setDenomination(engine::Denomination::NOTRUMP);
             } else {
-                contract->setDenomination(engine::DENOMINATION_M.at(tagCont->value.substr(1, 1).front()));
+                contract->setDenomination(
+                    engine::DENOMINATION_M.at(tagCont->value.substr(1, 1).front()));
             }
         }
         game->setContract(std::move(contract));
@@ -104,8 +114,8 @@ namespace nobridge::adapter {
             std::string suit = string.substr(0, 1);
             std::string rank = string.substr(1, 1);
             if (std::string("SHDC").contains(suit)) {
-                engine::CardP card =
-                    std::make_shared<engine::Card>(engine::SUIT_M.at(suit[0]), engine::RANK_M.at(rank[0]));
+                engine::CardP card = std::make_shared<engine::Card>(engine::SUIT_M.at(suit[0]),
+                                                                    engine::RANK_M.at(rank[0]));
                 return card;
             }
         }
@@ -137,7 +147,8 @@ namespace nobridge::adapter {
                 for (auto it = suits.begin(); it != suits.end(); ++it) {
                     std::size_t index2 = it - suits.begin();
                     for (char c : (*it)) {
-                        deal.push_back(std::make_shared<engine::Card>(engine::SUIT_A[index2], engine::RANK_M.at(c)));
+                        deal.push_back(std::make_shared<engine::Card>(engine::SUIT_A[index2],
+                                                                      engine::RANK_M.at(c)));
                     }
                 }
             }

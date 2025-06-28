@@ -45,7 +45,7 @@ TEST_F(StorageTest, Conversion) {
             engine::DealL deal = adapter::toDeal(tags["Deal"]->value);
             if (!deal.empty()) {
                 for (auto cards : deal) {
-                    engine::HandPU hand = std::make_unique<engine::Hand>(cards, false, false);
+                    engine::HandPU hand = std::make_unique<engine::Hand>(cards);
                     vmath::HandVect vec = vmath::toVector(hand);
                     EXPECT_GE(vec[0], 0);
                     // engine::output::printCards(cards);
@@ -62,12 +62,12 @@ TEST_F(StorageTest, CreateHandRec) {
 
         if (tags.contains("Deal")) {
             engine::DealL deal = adapter::toDeal(tags["Deal"]->value);
-            auto hand = std::make_unique<engine::Hand>(deal[0], false, false);
+            auto hand = std::make_unique<engine::Hand>(deal[0]);
             auto hvec = vmath::toVector(hand);
-            auto hr = storage::createHandRec<float, 14>(storage::uniqueId(), engine::toArrayFromCards(deal[0]),
+            auto hr = storage::createHandRec<float, 14>(storage::uniqueId(), hand->toArray(),
                                                         hvec.data(), hvec.length(), hvec.angle());
             EXPECT_GE(hr.id, 0);
-            EXPECT_EQ(hr.cards[1], engine::toIntFromCard(deal[0].at(1)));
+            EXPECT_EQ(hr.cards[1], engine::Hand::toInt(deal[0].at(1)));
         }
     }
 }
