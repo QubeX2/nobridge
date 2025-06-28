@@ -20,7 +20,7 @@ namespace nobridge::engine {
     class Play {
        public:
         void setDirection(const Direction& direction) { m_direction = direction; }
-        void addTrick(TrickA trick) { m_tricks.push_back(std::move(trick)); }
+        void addTrick(TrickA tricks) { m_tricks.push_back(std::move(tricks)); }
         const TrickL& tricks() const { return m_tricks; }
         Direction direction() const { return m_direction; }
 
@@ -33,7 +33,7 @@ namespace nobridge::engine {
         os << std::fixed << std::setprecision(2);
         os << "Play - Direction: " << p->direction() << "\n";
         UIntV dir = static_cast<UIntV>(p->direction());
-        StringA<4> dirs{"N", "E", "S", "W"};
+        const static StringA<4> dirs{"N", "E", "S", "W"};
         UIntV ix = dir - 1;
         int tno = 1;
         for (const TrickA& trick : p->tricks()) {

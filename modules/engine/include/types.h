@@ -145,10 +145,12 @@ namespace nobridge {
             {'D', Denomination::DIAMONDS},
             {'C', Denomination::CLUBS},
         };
-        enum class Risk : UIntV { VOID = 0, DOUBLED, REDOUBLED };
 
         inline std::ostream& operator<<(std::ostream& os, const Denomination& denomination) {
             switch (denomination) {
+                case Denomination::PASS:
+                    os << "Pass";
+                    break;
                 case Denomination::SPADES:
                     os << "S";
                     break;
@@ -163,20 +165,43 @@ namespace nobridge {
                     break;
                 case Denomination::NOTRUMP:
                     os << "NT";
+                    break;
                 default:
                     os << "";
+                    break;
             }
             return os;
         }
 
+        enum class Risk : UIntV { VOID = 0, DOUBLED, REDOUBLED };
+        inline std::ostream& operator<<(std::ostream& os, const Risk& risk) {
+            switch (risk) {
+                case Risk::REDOUBLED:
+                    os << "XX";
+                    break;
+                case Risk::DOUBLED:
+                    os << "X";
+                    break;
+                default:
+                    os << "";
+                    break;
+            }
+            return os;
+        }
         class Bid;
         using BidPU = std::unique_ptr<Bid>;
         using BidA = std::array<BidPU, 4>;
         using BidL = std::vector<BidA>;
 
+        // Auction
+        class Auction;
+        using AuctionPU = std::unique_ptr<Auction>;
+
         // Contract
         class Contract;
         using ContractPU = std::unique_ptr<Contract>;
+
+        using DeclS = std::tuple<UIntV, Denomination, Risk>;
 
         // Deck
         class Deck;

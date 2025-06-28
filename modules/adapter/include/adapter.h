@@ -11,8 +11,12 @@
 
 namespace nobridge::adapter {
     engine::CardPU toCard(const std::string& string);
+    engine::DeclS toDecl(const std::string& bid);
     engine::DealL toDeal(const std::string& dealstr);
-    std::string toHandstr(const engine::CardL cards);
     engine::GamePU toGame(const nobridge::pbn::TagM& tags);
+    engine::Direction toDirection(const std::string& ch);
+    engine::Denomination toDenomination(const std::string& ch);
+
+    std::string toHandString(const engine::CardL cards);
 }  // namespace nobridge::adapter
 #endif

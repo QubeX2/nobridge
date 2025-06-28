@@ -3,7 +3,9 @@
 #include "adapter.h"
 
 #include <memory>
+#include <tuple>
 #include <unordered_set>
+#include <vector>
 
 #include "card.h"
 #include "deck.h"
@@ -61,21 +63,23 @@ namespace nobridge::adapter {
 
         /////////////////////////////////
         // Play
-        const pbn::Tag* tag = pbn::getTag(tags, "Play");
+        const pbn::Tag* tagPlay = pbn::getTag(tags, "Play");
         engine::PlayPU play = std::make_unique<engine::Play>();
-        play->setDirection(engine::DIRECTION_M.at(tag->value.front()));
-        for (auto line : tag->lines) {
+        if (tagPlay->value.length() > 0) {
+            play->setDirection(toDirection(tagPlay->value));
+        }
+        for (auto line : tagPlay->lines) {
             StringL scards = mika::string::split(line, ' ');
-            engine::TrickA trick;
+            engine::TrickA tricks;
             for (std::size_t i = 0; i < scards.size(); i++) {
                 engine::CardPU card = toCard(scards[i]);
                 if (card != nullptr) {
-                    trick[i] = std::move(card);
+                    tricks[i] = std::move(card);
                 }
             }
-            play->addTrick(std::move(trick));
+            play->addTrick(std::move(tricks));
         }
-        game->addPlay(std::move(play));
+        game->setPlay(std::move(play));
 
         /////////////////////////////////
         // Contract
@@ -83,7 +87,7 @@ namespace nobridge::adapter {
         const pbn::Tag* tagDecl = pbn::getTag(tags, "Declarer");
         const pbn::Tag* tagCont = pbn::getTag(tags, "Contract");
         if (tagDecl->value.length() > 0) {
-            contract->setDeclarer(engine::DIRECTION_M.at(tagDecl->value.front()));
+            contract->setDeclarer(toDirection(tagDecl->value));
         }
         if (tagCont->value != "Pass") {
             contract->setLevel(std::stoi(tagCont->value.substr(0, 1)));
@@ -96,18 +100,80 @@ namespace nobridge::adapter {
             if (tagCont->value.contains("NT")) {
                 contract->setDenomination(engine::Denomination::NOTRUMP);
             } else {
-                contract->setDenomination(
-                    engine::DENOMINATION_M.at(tagCont->value.substr(1, 1).front()));
+                contract->setDenomination(toDenomination(tagCont->value.substr(1, 1)));
             }
         }
+        game->setContract(std::move(contract));
+
         /////////////////////////////////
         // Bids
-
-        game->setContract(std::move(contract));
+        engine::AuctionPU auction = std::make_unique<engine::Auction>();
+        const pbn::Tag* tagAuct = pbn::getTag(tags, "Auction");
+        if (tagAuct->value.length() > 0) {
+            auction->setDirection(toDirection(tagAuct->value));
+        }
+        std::cout << "#### Auction\n";
+        for (auto line : tagAuct->lines) {
+            StringL sbids = mika::string::split(line, ' ');
+            engine::BidA bids;
+            for (std::size_t i = 0; i < sbids.size(); i++) {
+                engine::DeclS decl = toDecl(sbids[i]);
+                std::cout << static_cast<int>(std::get<0>(decl)) << std::get<1>(decl)
+                          << std::get<2>(decl) << " ";
+                engine::BidPU bid = std::make_unique<engine::Bid>();
+                bid->setLevel(std::get<0>(decl));
+                bid->setDenomination(std::get<1>(decl));
+                bid->setRisk(std::get<2>(decl));
+                bids[i] = std::move(bid);
+            }
+            auction->addBid(std::move(bids));
+        }
+        game->setAuction(std::move(auction));
 
         /////////////////////////////////
         // Game
         return std::move(game);
+    }
+
+    /**
+     *
+     */
+    engine::Denomination toDenomination(const std::string& ch) {
+        return engine::DENOMINATION_M.at(ch.front());
+    }
+
+    /**
+     *
+     */
+    engine::Direction toDirection(const std::string& ch) {
+        return engine::DIRECTION_M.at(ch.front());
+    }
+
+    /**
+     *
+     */
+    engine::DeclS toDecl(const std::string& bid) {
+        if (bid != "Pass") {
+            UIntV level = 0;
+            engine::Risk risk = engine::Risk::VOID;
+            engine::Denomination denomination = engine::Denomination::PASS;
+            if (bid.contains("XX")) {
+                risk = engine::Risk::REDOUBLED;
+            } else if (bid.contains("X")) {
+                risk = engine::Risk::DOUBLED;
+            }
+
+            if (bid.contains("NT")) {
+                level = std::stoi(bid.substr(0, 1));
+                denomination = engine::Denomination::NOTRUMP;
+            } else if (bid.find_first_of("SHDC") != std::string::npos) {
+                level = std::stoi(bid.substr(0, 1));
+                denomination = toDenomination(bid.substr(1, 1));
+            }
+            return std::make_tuple(level, denomination, risk);
+        } else {
+            return std::make_tuple(0, engine::Denomination::PASS, engine::Risk::VOID);
+        }
     }
 
     /**
@@ -129,7 +195,7 @@ namespace nobridge::adapter {
     /**
      *
      */
-    std::string toHandstr(const engine::CardL& cards) {
+    std::string toHandString(const engine::CardL& cards) {
         StringA<4> suits;
         for (const engine::CardPU& card : cards) {
             suits[static_cast<std::size_t>(card->suit()) - 1] += card->rankText();

@@ -3,9 +3,13 @@
 
 #include <array>
 #include <cstdint>
+#include <format>
+#include <iomanip>
 #include <memory>
+#include <string>
 #include <vector>
 
+#include "auction.h"
 #include "bid.h"
 #include "contract.h"
 #include "deck.h"
@@ -17,9 +21,17 @@ namespace nobridge::engine {
 
     class Game {
        public:
+        Game()
+            : m_event(""),
+              m_site(""),
+              m_date(""),
+              m_board(0),
+              m_dealer(Direction::NONE),
+              m_vulnerable(Vulnerable::NONE) {}
         const PlayerM& players() const { return m_players; }
         const PlayerPU& getPlayer(Direction direction) const { return m_players.at(direction); }
         const PlayPU& play() const { return m_play; }
+        const AuctionPU& auction() const { return m_auction; }
         const ContractPU& contract() const { return m_contract; }
         Direction dealer() const { return m_dealer; }
         Vulnerable vulnerable() const { return m_vulnerable; }
@@ -27,7 +39,8 @@ namespace nobridge::engine {
         void addPlayer(Direction direction, PlayerPU player) {
             m_players.emplace(direction, std::move(player));
         }
-        void addPlay(PlayPU play) { m_play = std::move(play); }
+        void setPlay(PlayPU play) { m_play = std::move(play); }
+        void setAuction(AuctionPU auction) { m_auction = std::move(auction); }
         void setContract(ContractPU contract) { m_contract = std::move(contract); }
         void setDealer(Direction dealer) { m_dealer = dealer; }
         void setVulnerable(Vulnerable vulnerable) { m_vulnerable = vulnerable; }
@@ -41,6 +54,7 @@ namespace nobridge::engine {
         Vulnerable m_vulnerable;
         PlayerM m_players;
         PlayPU m_play;
+        AuctionPU m_auction;
         ContractPU m_contract;
     };
 
@@ -54,6 +68,7 @@ namespace nobridge::engine {
             os << g->play() << "\n";
         }
         os << g->contract() << "\n";
+        os << g->auction() << "\n";
         return os;
     }
 }  // namespace nobridge::engine

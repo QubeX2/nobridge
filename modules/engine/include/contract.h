@@ -6,27 +6,18 @@
 
 #include "bid.h"
 #include "card.h"
+#include "decl.h"
 #include "player.h"
 #include "types.h"
 
 namespace nobridge::engine {
 
-    class Contract {
+    class Contract : public Decl {
        public:
-        void setLevel(UIntV level) { m_level = level; }
-        void setDenomination(Denomination denomination) { m_denomination = denomination; }
         void setDeclarer(Direction declarer) { m_declarer = declarer; }
-        void setRisk(Risk risk) { m_risk = risk; }
-
-        UIntV level() const { return m_level; }
-        Denomination denomination() const { return m_denomination; }
-        Risk risk() const { return m_risk; }
         Direction declarer() const { return m_declarer; }
 
        private:
-        UIntV m_level{};
-        Denomination m_denomination = Denomination::PASS;
-        Risk m_risk = Risk::VOID;
         Direction m_declarer = Direction::NONE;
     };
 
@@ -44,6 +35,7 @@ namespace nobridge::engine {
                 os << "X";
             }
         }
+        os << "\n";
         return os;
     }
 }  // namespace nobridge::engine
