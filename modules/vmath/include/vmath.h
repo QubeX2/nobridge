@@ -28,10 +28,10 @@ namespace nobridge::vmath {
     const size_t POS13_JACKS = 13;
     const size_t POS14_BALANCED = 14;
     const size_t POS15_SPADES_HCP = 15;
-    const size_t POS15_HEARTS_HCP = 16;
-    const size_t POS15_DIAMONDS_HCP = 17;
-    const size_t POS15_CLUBS_HCP = 18;
-    const size_t POS_SIZE = 18;
+    const size_t POS16_HEARTS_HCP = 16;
+    const size_t POS17_DIAMONDS_HCP = 17;
+    const size_t POS18_CLUBS_HCP = 18;
+    const size_t POS_SIZE = 19;
 
     const LegendM<std::size_t> HAND_LEGEND{
         {0, "HCP"},    {1, "Majors"},   {2, "Minors"},  {3, "Dist"},   {4, "Spades"},

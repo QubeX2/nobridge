@@ -80,6 +80,32 @@ namespace nobridge::engine {
     float Hand::balanced() {
         float balanced = 0;
         UIntA<4> suits = this->suits();
+        // Initialize variables to count suit distribution properties
+        int voidCount = 0;       // Number of suits with 0 cards
+        int singletonCount = 0;  // Number of suits with 1 card
+        int doubletonCount = 0;  // Number of suits with 2 cards
+        int maxSuitLength = 0;   // Maximum number of cards in any single suit
+
+        // Iterate through the four suits to determine distribution properties
+        for (int i = 0; i < 4; ++i) {
+            if (suits[i] == 0) {
+                voidCount++;
+            } else if (suits[i] == 1) {
+                singletonCount++;
+            } else if (suits[i] == 2) {
+                doubletonCount++;
+            }
+            // Keep track of the longest suit
+            if (suits[i] > maxSuitLength) {
+                maxSuitLength = suits[i];
+            }
+        }
+
+        if (voidCount == 0 && singletonCount == 0 && doubletonCount <= 1 && maxSuitLength <= 5) {
+            balanced = 1.0f;  // Hand is balanced
+        } else {
+            balanced = 0.0f;  // Hand is not balanced
+        }
         return balanced;
     }
 

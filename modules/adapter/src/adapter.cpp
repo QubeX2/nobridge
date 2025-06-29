@@ -1,5 +1,3 @@
-
-
 #include "adapter.h"
 
 #include <memory>
@@ -224,6 +222,6 @@ namespace nobridge::adapter {
             }
             deals.push_back(std::move(deal));
         }
-        return deals;
+        return std::move(deals);
     }  // namespace pbn
 }  // namespace nobridge::adapter

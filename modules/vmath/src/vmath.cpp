@@ -39,7 +39,12 @@ namespace nobridge::vmath {
         hvect[POS11_KINGS] = engine::Hand::rankCount(ranks, engine::Rank::KING) * 1.0f;
         hvect[POS12_QUEENS] = engine::Hand::rankCount(ranks, engine::Rank::QUEEN) * 0.5f;
         hvect[POS13_JACKS] = engine::Hand::rankCount(ranks, engine::Rank::JACK) * 0.25f;
-
+        hvect[POS14_BALANCED] = hand->balanced();
+        FloatA shcp = hand->suitHCP();
+        hvect[POS15_SPADES_HCP] = shcp[0];
+        hvect[POS16_HEARTS_HCP] = shcp[1];
+        hvect[POS17_DIAMONDS_HCP] = shcp[2];
+        hvect[POS18_CLUBS_HCP] = shcp[3];
         return hvect;
     }
 

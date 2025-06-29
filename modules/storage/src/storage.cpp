@@ -10,6 +10,7 @@
 
 #include "gamerec.h"
 #include "handrec.h"
+#include "types.h"
 
 namespace nobridge::storage {
 
