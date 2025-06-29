@@ -19,6 +19,7 @@ echo "⚙️  Configuring project with Ninja and Clang..."
 cmake -G Ninja \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
   -DCMAKE_CXX_COMPILER=${CXX_COMPILER} \
+  -DCMAKE_BUILD_TYPE="Release" \
   ..
 
 # === BUILD ===

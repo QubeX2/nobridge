@@ -63,18 +63,12 @@ TEST_F(StorageTest, CreateHandRec) {
 
         if (tags.contains("Deal")) {
             engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
-            EXPECT_FALSE(deal.empty()) << "empty DealL";
             auto hand = std::make_unique<engine::Hand>(std::move(deal[0]));
             auto hvec = vmath::toVector(hand);
-            // try {
             auto hr = storage::createHandRec(storage::uniqueId(), hand->toArray(), hvec.data(),
                                              hvec.length(), hvec.angle());
             EXPECT_GE(hr.id, 0);
-            EXPECT_GE(deal[0].size(), 2) << "Fewer than 2 cards";
-            EXPECT_EQ(hr.cards[1], engine::Hand::toInt(deal[0].at(1)));
-            // } catch (const std::exception& e) {
-            //     FAIL() << "Test failed." << e.what() << "\n";
-            // }
+            EXPECT_EQ(hr.cards[1], engine::Hand::toInt(hand->cards().at(1)));
         }
     }
 }

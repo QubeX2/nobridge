@@ -222,6 +222,6 @@ namespace nobridge::adapter {
             }
             deals.push_back(std::move(deal));
         }
-        return std::move(deals);
+        return deals;
     }  // namespace pbn
 }  // namespace nobridge::adapter
