@@ -64,8 +64,8 @@ TEST_F(StorageTest, CreateHandRec) {
             engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
             auto hand = std::make_unique<engine::Hand>(std::move(deal[0]));
             auto hvec = vmath::toVector(hand);
-            auto hr = storage::createHandRec<float, 14>(storage::uniqueId(), hand->toArray(),
-                                                        hvec.data(), hvec.length(), hvec.angle());
+            auto hr = storage::createHandRec(storage::uniqueId(), hand->toArray(), hvec.data(),
+                                             hvec.length(), hvec.angle());
             EXPECT_GE(hr.id, 0);
             EXPECT_EQ(hr.cards[1], engine::Hand::toInt(deal[0].at(1)));
         }
@@ -73,12 +73,13 @@ TEST_F(StorageTest, CreateHandRec) {
 }
 
 TEST(WriteAndReadVectorToFile, Storage) {
-    vmath::HandVect vecw{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.2, 1.3};
-
+    vmath::HandVect vecw{};
+    vecw[1] = 0.2f;
     storage::write("./vector.bin", vecw.asBytes(), vecw.byteSize());
     EXPECT_TRUE(std::filesystem::exists("./vector.bin"));
 
     vmath::HandVect vecr;
     storage::read("./vector.bin", vecr.asBytes(), vecr.byteSize());
+    EXPECT_EQ(vecr[0], 0.0f);
     EXPECT_EQ(vecr[1], 0.2f);
 }

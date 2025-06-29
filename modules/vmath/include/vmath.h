@@ -26,11 +26,18 @@ namespace nobridge::vmath {
     const size_t POS11_KINGS = 11;
     const size_t POS12_QUEENS = 12;
     const size_t POS13_JACKS = 13;
-    const size_t POS_SIZE = 14;
+    const size_t POS14_BALANCED = 14;
+    const size_t POS15_SPADES_HCP = 15;
+    const size_t POS15_HEARTS_HCP = 16;
+    const size_t POS15_DIAMONDS_HCP = 17;
+    const size_t POS15_CLUBS_HCP = 18;
+    const size_t POS_SIZE = 18;
 
-    const LegendM<std::size_t> HAND_LEGEND{{0, "HCP"},    {1, "Majors"},   {2, "Minors"},  {3, "Dist"},  {4, "Spades"},
-                                           {5, "Hearts"}, {6, "Diamonds"}, {7, "Clubs"},   {8, "Vuln"},  {9, "Dealer"},
-                                           {10, "Aces"},  {11, "Kings"},   {12, "Queens"}, {13, "Jacks"}};
+    const LegendM<std::size_t> HAND_LEGEND{
+        {0, "HCP"},    {1, "Majors"},   {2, "Minors"},  {3, "Dist"},   {4, "Spades"},
+        {5, "Hearts"}, {6, "Diamonds"}, {7, "Clubs"},   {8, "Vuln"},   {9, "Dealer"},
+        {10, "Aces"},  {11, "Kings"},   {12, "Queens"}, {13, "Jacks"}, {14, "Balanced"},
+        {15, "S-HCP"}, {16, "H-HCP"},   {17, "D-HCP"},  {18, "C-HCP"}};
 
     using HandVect = mika::VecT<float, POS_SIZE>;
 

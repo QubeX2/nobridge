@@ -16,26 +16,38 @@ namespace nobridge::storage {
     /**
      *
      */
+    HandRec createHandRec(const UIntID gameid, UIntA<HAND_LENGTH> cards,
+                          FloatA<vmath::POS_SIZE> hvec, float length, float angle) {
+        HandRec hr;
+        hr.id = uniqueId();
+        hr.gameid = gameid;
+        hr.vect = hvec;
+        hr.cards = cards;
+        hr.length = length;
+        hr.angle = angle;
+        return hr;
+    }
+
+    /**
+     *
+     */
     void save(const GameRec& record) {
-        write(kRecordsPath + kGameRecords,
-              reinterpret_cast<const char*>(&record), sizeof(GameRec));
+        write(kRecordsPath + kGameRecords, reinterpret_cast<const char*>(&record), sizeof(GameRec));
     }
 
     /**
      *
      */
     void save(const HandRec& record) {
-        write(kRecordsPath + kHandRecords,
-              reinterpret_cast<const char*>(&record), sizeof(HandRec));
+        write(kRecordsPath + kHandRecords, reinterpret_cast<const char*>(&record), sizeof(HandRec));
     }
 
     /**
      *
      */
     uint64_t uniqueId() {
-        uint64_t time_since_epoch = std::chrono::high_resolution_clock::now()
-                                        .time_since_epoch()
-                                        .count();
+        uint64_t time_since_epoch =
+            std::chrono::high_resolution_clock::now().time_since_epoch().count();
         static std::mt19937_64 generator(std::random_device{}());
         return time_since_epoch ^ generator();
     }
@@ -43,8 +55,7 @@ namespace nobridge::storage {
     /**
      *
      */
-    std::size_t write(std::string filename, const char* data,
-                      std::size_t size) {
+    std::size_t write(std::string filename, const char* data, std::size_t size) {
         std::ofstream output(filename, std::ios::binary);
         if (!output) return -1;
         output.write(data, size);

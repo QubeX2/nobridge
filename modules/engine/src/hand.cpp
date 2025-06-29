@@ -1,5 +1,7 @@
 #include "hand.h"
 
+#include "types.h"
+
 namespace nobridge::engine {
     /**
      *
@@ -64,18 +66,46 @@ namespace nobridge::engine {
     /**
      *
      */
+    FloatA<4> Hand::suitHCP() {
+        FloatA<4> suits{};
+        for (const CardPU& card : m_cards) {
+            suits[static_cast<std::size_t>(card->suit()) - 1] += this->rankScore(card->rank());
+        }
+        return suits;
+    }
+
+    /**
+     *
+     */
+    float Hand::balanced() {
+        float balanced = 0;
+        UIntA<4> suits = this->suits();
+        return balanced;
+    }
+
+    /**
+     *
+     */
     float Hand::HCP() {
         float score{};
         for (const CardPU& card : m_cards) {
-            score += card->rank() == Rank::ACE ? ACE_POINTS : 0;
-            score += card->rank() == Rank::KING ? KING_POINTS : 0;
-            score += card->rank() == Rank::QUEEN ? QUEEN_POINTS : 0;
-            score += card->rank() == Rank::JACK ? JACK_POINTS : 0;
-            score += card->rank() == Rank::TEN ? TEN_POINTS : 0;
+            score += this->rankScore(card->rank());
         }
         return score;
     }
 
+    /**
+     *
+     */
+    float Hand::rankScore(Rank rank) {
+        float score{};
+        score += rank == Rank::ACE ? ACE_POINTS : 0;
+        score += rank == Rank::KING ? KING_POINTS : 0;
+        score += rank == Rank::QUEEN ? QUEEN_POINTS : 0;
+        score += rank == Rank::JACK ? JACK_POINTS : 0;
+        score += rank == Rank::TEN ? TEN_POINTS : 0;
+        return score;
+    }
     /**
      *
      */

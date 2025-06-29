@@ -23,7 +23,9 @@ namespace nobridge::engine {
 
         UIntA<HAND_LENGTH> toArray() const;
         float HCP();
+        FloatA<4> suitHCP();
         float distribution();
+        float balanced();
         // Get an array of counted suits [S,H,D,C] and ranks [2,3,4,5,6,7,8,9,T,J,Q,K,A]
         UIntA<4> suits();
         UIntA<13> ranks();
@@ -34,6 +36,7 @@ namespace nobridge::engine {
         static UIntV toInt(const CardPU& card);
         // Get a CardP from an integer
         static CardPU toCard(const UIntV num);
+        static float rankScore(Rank rank);
 
        private:
         CardL m_cards;
