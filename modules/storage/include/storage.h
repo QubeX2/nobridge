@@ -35,7 +35,7 @@ namespace nobridge::storage {
     std::size_t read(std::string filename, char* data, std::size_t size);
 
     HandRec createHandRec(const UIntID gameid, UIntA<HAND_LENGTH> cards,
-                          FloatA<vmath::POS_SIZE> hvec, float length, float angle);
+                          FloatA<vmath::VECT_HAND_SIZE> hvec, float length, float angle);
 
     template <typename T, std::size_t N>
     inline std::ostream& operator<<(std::ostream& os, HandRec h) {

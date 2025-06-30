@@ -15,7 +15,7 @@ namespace nobridge::storage {
         UIntID id;
         UIntID gameid;    // GameRec
         UIntV direction;  // NORTH = 1
-        FloatA<vmath::POS_SIZE> vect{};
+        FloatA<vmath::VECT_HAND_SIZE> vect{};
         float length;
         float angle;
         UIntA<HAND_LENGTH> cards{};

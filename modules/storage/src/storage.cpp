@@ -11,6 +11,7 @@
 #include "gamerec.h"
 #include "handrec.h"
 #include "types.h"
+#include "vmath.h"
 
 namespace nobridge::storage {
 
@@ -18,7 +19,7 @@ namespace nobridge::storage {
      *
      */
     HandRec createHandRec(const UIntID gameid, UIntA<HAND_LENGTH> cards,
-                          FloatA<vmath::POS_SIZE> hvec, float length, float angle) {
+                          FloatA<vmath::VECT_HAND_SIZE> hvec, float length, float angle) {
         HandRec hr;
         hr.id = uniqueId();
         hr.gameid = gameid;

@@ -5,12 +5,66 @@
 #include <iterator>
 #include <memory>
 
+#include "bid.h"
 #include "card.h"
 #include "hand.h"
 #include "helpers.h"
 #include "types.h"
 
 namespace nobridge::vmath {
+    PlayedCardsVect& addPlayedCard(PlayedCardsVect& vect, const engine::CardPU& card) {
+        UIntV ix = engine::Hand::toInt(card);
+        vect[ix - 1] = TRUE_SCALAR;
+        return vect;
+    }
+
+    /**
+     * From a Bid pointer with properties level(), denomination() and risk()
+     * to a float ContractVect [S, H, D, C, NT, R], R is for risk Void = 0.0f, X = 1.0f, XX = 2.0f
+     */
+    ContractVect toContract(const engine::BidPU& bid) {
+        ContractVect contractVect{};
+
+        float level = static_cast<float>(bid->level());
+
+        switch (bid->denomination()) {
+            case engine::Denomination::SPADES:
+                contractVect[0] = level;
+                break;
+            case engine::Denomination::HEARTS:
+                contractVect[1] = level;
+                break;
+            case engine::Denomination::DIAMONDS:
+                contractVect[2] = level;
+                break;
+            case engine::Denomination::CLUBS:
+                contractVect[3] = level;
+                break;
+            case engine::Denomination::NOTRUMP:
+                contractVect[4] = level;
+                break;
+            default:
+                break;
+        }
+
+        // Map the bid's risk level to the last index of the contractVect.
+        switch (bid->risk()) {
+            case engine::Risk::VOID:
+                contractVect[5] = 0.0f;  // As per comment: Void = 0.0f
+                break;
+            case engine::Risk::DOUBLED:
+                contractVect[5] = 1.0f;  // As per comment: X = 1.0f
+                break;
+            case engine::Risk::REDOUBLED:
+                contractVect[5] = 2.0f;  // As per comment: XX = 2.0f
+                break;
+            default:
+                break;
+        }
+
+        return contractVect;
+    }
+
     /**
      *
      */
