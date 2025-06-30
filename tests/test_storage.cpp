@@ -28,14 +28,8 @@ TEST(VectorTest, HandlesVectorMath) {
     mika::VecT<float, 5> vec5a{1.0, 0.0, 0.0, 0.0, 0.0};
     mika::VecT<float, 5> vec5b{0.0, 1.0, 0.0, 0.0, 0.0};
 
-    // std::cout << std::format("Radian: {}, Degree: {}\n", vec5a.angle(vec5b),
-    //                         vec5a.angleDeg(vec5b));
-
     EXPECT_EQ(vec5a.length(), 1);
     EXPECT_EQ(vec5a.angleDeg(vec5b), 90);
-
-    // std::cout << vec5a
-    // std::cout << vec5b
 }
 
 TEST_F(StorageTest, Conversion) {
@@ -66,7 +60,7 @@ TEST_F(StorageTest, CreateHandRec) {
             auto hand = std::make_unique<engine::Hand>(std::move(deal[0]));
             auto hvec = vmath::toVector(hand);
             auto hr = storage::createHandRec(storage::uniqueId(), hand->toArray(), hvec.data(),
-                                             hvec.length(), hvec.angle());
+                                             hvec.length());
             EXPECT_GE(hr.id, 0);
             EXPECT_EQ(hr.cards[1], engine::Hand::toInt(hand->cards().at(1)));
         }

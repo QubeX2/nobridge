@@ -19,14 +19,13 @@ namespace nobridge::storage {
      *
      */
     HandRec createHandRec(const UIntID gameid, UIntA<HAND_LENGTH> cards,
-                          FloatA<vmath::VECT_HAND_SIZE> hvec, float length, float angle) {
+                          FloatA<vmath::VECT_HAND_SIZE> hvec, float length) {
         HandRec hr;
         hr.id = uniqueId();
         hr.gameid = gameid;
         hr.vect = hvec;
         hr.cards = cards;
         hr.length = length;
-        hr.angle = angle;
         return hr;
     }
 
