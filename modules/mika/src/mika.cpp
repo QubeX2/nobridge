@@ -23,14 +23,15 @@ namespace mika {
         /**
          *
          */
-        std::vector<std::string> split(const std::string& input,
-                                       char delimiter) {
+        std::vector<std::string> split(const std::string& input, char delimiter, bool noempty) {
             std::stringstream ss(input);
             std::string item;
             std::vector<std::string> result;
 
             while (std::getline(ss, item, delimiter)) {
-                result.push_back(item);
+                if (!noempty || (noempty && item.length())) {
+                    result.push_back(item);
+                }
             }
 
             return result;
@@ -49,8 +50,7 @@ namespace mika {
          */
         std::string tolower(std::string& str) {
             std::string nstr;
-            std::transform(std::begin(str), std::end(str),
-                           std::back_inserter(nstr),
+            std::transform(std::begin(str), std::end(str), std::back_inserter(nstr),
                            [](unsigned char c) { return std::tolower(c); });
             return nstr;
         }

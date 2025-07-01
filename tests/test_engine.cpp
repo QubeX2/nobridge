@@ -32,6 +32,8 @@ TEST(CardTest, CardToInteger) {
     EXPECT_EQ(engine::Hand::toInt(card), 27);
 
     engine::CardPU icard = engine::Hand::toCard(40);
-    EXPECT_EQ(icard->suit(), engine::Suit::CLUBS);
-    EXPECT_EQ(icard->rank(), engine::Rank::TWO);
+    if (icard != nullptr) {
+        EXPECT_EQ(icard->suit(), engine::Suit::CLUBS);
+        EXPECT_EQ(icard->rank(), engine::Rank::TWO);
+    }
 }

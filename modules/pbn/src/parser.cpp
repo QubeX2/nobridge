@@ -36,9 +36,9 @@ namespace nobridge::pbn {
         return StringL{};
     }
 
-    GameL Parser::run() const {
+    TagML Parser::run() const {
         if (m_reader.ok()) {
-            GameL games;
+            TagML games;
             TagM tmap;
             std::string cur_tag_name;
             // parse into a map-tags first
@@ -73,7 +73,7 @@ namespace nobridge::pbn {
             }
             return games;
         }
-        return GameL{};
+        return TagML{};
     }
 
 }  // namespace nobridge::pbn

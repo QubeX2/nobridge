@@ -4,12 +4,12 @@
 #include "parser.h"
 namespace nobridge::pbn {
 
-    GameL processFile(std::string const& path) {
+    TagML processFile(std::string const& path) {
         Reader reader(path);
         Parser parser(reader);
-        GameL games = parser.run();
+        TagML tagslist = parser.run();
         reader.close();
-        return games;
+        return tagslist;
     }
 
 }  // namespace nobridge::pbn

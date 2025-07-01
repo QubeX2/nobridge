@@ -34,16 +34,13 @@ namespace nobridge::vmath {
                 std::cerr << "Error: Could not open file for writing: " << index_path << "\n";
                 return;
             }
-
-            // 1. Write the total number of Node objects in the vector.
-            size_t num_nodes = m_nodes.size();
+            out_file.write(reinterpret_cast<const char*>(&m_entry_point), sizeof(m_entry_point));
+            out_file.write(reinterpret_cast<const char*>(&m_max_layer), sizeof(m_max_layer));
+            std::size_t num_nodes = m_nodes.size();
             out_file.write(reinterpret_cast<const char*>(&num_nodes), sizeof(num_nodes));
-
-            // 2. Loop through and write each Node object individually.
             for (const auto& node : m_nodes) {
                 this->writeNode(out_file, node);
             }
-
             out_file.close();
         }
 
@@ -54,11 +51,11 @@ namespace nobridge::vmath {
                 return;
             }
 
-            // 1. Read the total number of Node objects.
-            size_t num_nodes;
+            in_file.read(reinterpret_cast<char*>(&m_entry_point), sizeof(m_entry_point));
+            in_file.read(reinterpret_cast<char*>(&m_max_layer), sizeof(m_max_layer));
+            std::size_t num_nodes;
             in_file.read(reinterpret_cast<char*>(&num_nodes), sizeof(num_nodes));
-
-            // 2. Resize the output vector to hold all the nodes.
+            std::cout << "num_nodes: " << num_nodes << "\n";
             m_nodes.resize(num_nodes);
 
             for (size_t i = 0; i < num_nodes; ++i) {
@@ -208,12 +205,12 @@ namespace nobridge::vmath {
         void readNode(std::ifstream& in, Node& node) {
             in.read(reinterpret_cast<char*>(node.data.data()), sizeof(T) * N);
 
-            size_t num_layers;
+            std::size_t num_layers;
             in.read(reinterpret_cast<char*>(&num_layers), sizeof(num_layers));
             node.connections.resize(num_layers);
 
-            for (size_t i = 0; i < num_layers; ++i) {
-                size_t num_neighbors;
+            for (std::size_t i = 0; i < num_layers; ++i) {
+                std::size_t num_neighbors;
                 in.read(reinterpret_cast<char*>(&num_neighbors), sizeof(num_neighbors));
                 node.connections[i].resize(num_neighbors);
                 in.read(reinterpret_cast<char*>(node.connections[i].data()),

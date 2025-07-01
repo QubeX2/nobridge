@@ -12,7 +12,7 @@ target_link_libraries(test_vectors PRIVATE GTest::gtest GTest::gtest_main mika v
 
 include(GoogleTest)
 
-# gtest_discover_tests(test_engine)
-# gtest_discover_tests(test_pbn)
-# gtest_discover_tests(test_storage)
+gtest_discover_tests(test_engine)
+gtest_discover_tests(test_pbn)
+gtest_discover_tests(test_storage)
 gtest_discover_tests(test_vectors)

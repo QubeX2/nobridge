@@ -14,18 +14,12 @@
 #include "types.h"
 
 namespace nobridge::adapter {
+    const static StringA<4> directions{"North", "East", "South", "West"};
+    const static std::unordered_set<std::string> check_vuln{"All", "Both"};
 
-    /**
-     *
-     */
-    engine::GamePU toGame(const nobridge::pbn::TagM& tags) {
-        const static StringA<4> directions{"North", "East", "South", "West"};
-        const static std::unordered_set<std::string> check_vuln{"All", "Both"};
-
-        engine::GamePU game = std::make_unique<engine::Game>();
+    void _processGame(engine::GamePU& game, const pbn::TagM& tags) {
         /////////////////////////////////
         // Player
-        std::string sdeal = pbn::getTagValue(tags, "Deal");
         std::string sdealer = pbn::getTagValue(tags, "Dealer");
         std::string svuln = pbn::getTagValue(tags, "Vulnerable");
 
@@ -42,8 +36,11 @@ namespace nobridge::adapter {
             vuln = engine::Vulnerable::EW;
         }
         game->setVulnerable(vuln);
+    }
 
+    void _processPlayer(engine::GamePU& game, const pbn::TagM& tags) {
         // -- Player, Hand
+        std::string sdeal = pbn::getTagValue(tags, "Deal");
         engine::DealL deal = toDeal(sdeal);
         if (deal.size() == 4) {
             for (std::size_t i = 0; i < directions.size(); ++i) {
@@ -58,10 +55,13 @@ namespace nobridge::adapter {
                 }
             }
         }
+    }
 
+    void _processPlay(engine::GamePU& game, const pbn::TagM& tags) {
         /////////////////////////////////
         // Play
         const pbn::Tag* tagPlay = pbn::getTag(tags, "Play");
+        if (tagPlay == nullptr) return;
         engine::PlayPU play = std::make_unique<engine::Play>();
         if (tagPlay->value.length() > 0) {
             play->setDirection(toDirection(tagPlay->value));
@@ -78,7 +78,9 @@ namespace nobridge::adapter {
             play->addTrick(std::move(tricks));
         }
         game->setPlay(std::move(play));
+    }
 
+    void _processContract(engine::GamePU& game, const pbn::TagM& tags) {
         /////////////////////////////////
         // Contract
         engine::ContractPU contract = std::make_unique<engine::Contract>();
@@ -88,6 +90,7 @@ namespace nobridge::adapter {
             contract->setDeclarer(toDirection(tagDecl->value));
         }
         if (tagCont->value != "Pass") {
+            if (tagCont == nullptr || tagCont->value.empty()) return;
             contract->setLevel(std::stoi(tagCont->value.substr(0, 1)));
             if (tagCont->value.ends_with("XX")) {
                 contract->setRisk(engine::Risk::REDOUBLED);
@@ -102,22 +105,20 @@ namespace nobridge::adapter {
             }
         }
         game->setContract(std::move(contract));
+    }
 
+    void _processAuction(engine::GamePU& game, const pbn::TagM& tags) {
         /////////////////////////////////
         // Bids
         engine::AuctionPU auction = std::make_unique<engine::Auction>();
         const pbn::Tag* tagAuct = pbn::getTag(tags, "Auction");
-        if (tagAuct->value.length() > 0) {
-            auction->setDirection(toDirection(tagAuct->value));
-        }
-        std::cout << "#### Auction\n";
+        if (tagAuct != nullptr && !tagAuct->value.empty()) return;
+        auction->setDirection(toDirection(tagAuct->value));
         for (auto line : tagAuct->lines) {
             StringL sbids = mika::string::split(line, ' ');
             engine::BidA bids;
             for (std::size_t i = 0; i < sbids.size(); i++) {
                 engine::DeclS decl = toDecl(sbids[i]);
-                std::cout << static_cast<int>(std::get<0>(decl)) << std::get<1>(decl)
-                          << std::get<2>(decl) << " ";
                 engine::BidPU bid = std::make_unique<engine::Bid>();
                 bid->setLevel(std::get<0>(decl));
                 bid->setDenomination(std::get<1>(decl));
@@ -127,9 +128,18 @@ namespace nobridge::adapter {
             auction->addBid(std::move(bids));
         }
         game->setAuction(std::move(auction));
+    }
 
-        /////////////////////////////////
-        // Game
+    /**
+     *
+     */
+    engine::GamePU toGame(const nobridge::pbn::TagM& tags) {
+        engine::GamePU game = std::make_unique<engine::Game>();
+        _processGame(game, tags);
+        _processPlayer(game, tags);
+        _processPlay(game, tags);
+        _processContract(game, tags);
+        _processAuction(game, tags);
         return std::move(game);
     }
 
@@ -178,7 +188,8 @@ namespace nobridge::adapter {
      *
      */
     engine::CardPU toCard(const std::string& string) {
-        if (string.length() == 2) {
+        if (string.length()) {
+            if (string.starts_with("-") || string.starts_with("*")) return nullptr;
             std::string suit = string.substr(0, 1);
             std::string rank = string.substr(1, 1);
             if (std::string("SHDC").contains(suit)) {

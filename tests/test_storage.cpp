@@ -21,7 +21,7 @@ using namespace nobridge;
 class StorageTest : public testing::Test {
    public:
     StorageTest() { m_gl = pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt"); }
-    pbn::GameL m_gl;
+    pbn::TagML m_gl;
 };
 
 TEST(VectorTest, HandlesVectorMath) {

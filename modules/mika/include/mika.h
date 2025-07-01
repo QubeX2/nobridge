@@ -22,8 +22,8 @@ namespace mika {
 
     namespace string {
         void trim(std::string& str, const std::string chars);
-        std::vector<std::string> split(const std::string& input,
-                                       char delimiter);
+        std::vector<std::string> split(const std::string& input, char delimiter,
+                                       bool noempty = true);
         bool is_anyof(const char& ch, const std::string& chars);
         std::string tolower(std::string& str);
         std::string ucfirst(std::string& str);
@@ -47,16 +47,15 @@ namespace mika {
         }
 
         template <typename T, std::size_t N>
-        std::string join(
-            const std::array<T, N>& arr, const std::string& separator = ", ",
-            std::unordered_map<std::size_t, std::string> legend = {}) {
+        std::string join(const std::array<T, N>& arr, const std::string& separator = ", ",
+                         std::unordered_map<std::size_t, std::string> legend = {}) {
             std::stringstream os;
             os << std::fixed << std::setprecision(2);
             for (std::size_t i = 0; i < N; ++i) {
                 if (i != 0) os << separator;
                 if (!legend.empty()) {
-                    os << nobridge::ansi::fg::BLUE << legend[i] << ": "
-                       << nobridge::ansi::RESET << arr[i];
+                    os << nobridge::ansi::fg::BLUE << legend[i] << ": " << nobridge::ansi::RESET
+                       << arr[i];
 
                 } else {
                     os << arr[i];
@@ -73,8 +72,8 @@ namespace mika {
             for (std::size_t i = 0; i < N; ++i) {
                 if (i != 0) os << separator;
                 if (!legend.empty()) {
-                    os << nobridge::ansi::fg::BLUE << legend[i] << ": "
-                       << nobridge::ansi::RESET << arr[i];
+                    os << nobridge::ansi::fg::BLUE << legend[i] << ": " << nobridge::ansi::RESET
+                       << arr[i];
 
                 } else {
                     os << arr[i];

@@ -17,7 +17,7 @@ using namespace nobridge;
 class PbnTest : public testing::Test {
    public:
     PbnTest() { m_gl = pbn::processFile("files/RB_220702123558SistaChansen_full.pbn.txt"); }
-    pbn::GameL m_gl;
+    pbn::TagML m_gl;
 };
 
 TEST_F(PbnTest, PbnToEngineGame) {

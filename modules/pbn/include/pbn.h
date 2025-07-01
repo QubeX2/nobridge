@@ -15,7 +15,7 @@
 
 namespace nobridge::pbn {
 
-    GameL processFile(std::string const& path);
+    TagML processFile(std::string const& path);
 
 }  // namespace nobridge::pbn
 

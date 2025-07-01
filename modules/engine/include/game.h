@@ -60,15 +60,21 @@ namespace nobridge::engine {
 
     inline std::ostream& operator<<(std::ostream& os, const GamePU& g) {
         os << std::fixed << std::setprecision(2);
-        os << std::format("Players: {}\n", g->players().size());
-        for (auto direction : DIRECTION_L) {
-            os << direction << ": " << g->players().at(direction) << "\n";
+        if (g->players().size() > 0) {
+            os << std::format("Players: {}\n", g->players().size());
+            for (auto direction : DIRECTION_L) {
+                os << direction << ": " << g->players().at(direction) << "\n";
+            }
         }
         if (g->play() != nullptr) {
             os << g->play() << "\n";
         }
-        os << g->contract() << "\n";
-        os << g->auction() << "\n";
+        if (g->contract() != nullptr) {
+            os << g->contract() << "\n";
+        }
+        if (g->auction() != nullptr) {
+            os << g->auction() << "\n";
+        }
         return os;
     }
 }  // namespace nobridge::engine

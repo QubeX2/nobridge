@@ -19,12 +19,12 @@ namespace nobridge::pbn {
 
     using TagPU = std::unique_ptr<Tag>;
     using TagM = std::unordered_map<std::string, TagPU>;
-    using GameL = std::vector<TagM>;
+    using TagML = std::vector<TagM>;
 
     class Parser {
        public:
         explicit Parser(Reader& reader) : m_reader(reader) {}
-        [[nodiscard]] GameL run() const;
+        [[nodiscard]] TagML run() const;
 
        private:
         Reader& m_reader;
