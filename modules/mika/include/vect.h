@@ -41,8 +41,9 @@ namespace mika {
 
         T& operator[](std::size_t index) { return m_data[index]; }
         const T& operator[](std::size_t index) const { return m_data[index]; }
-        std::array<T, N> data() { return m_data; }
-        std::array<T, N> data() const { return m_data; }
+
+        T* data() { return m_data.data(); }
+        const T* data() const { return m_data.data(); }
 
         std::unordered_map<std::size_t, std::string> legend() { return m_legend; }
         std::unordered_map<std::size_t, std::string> legend() const { return m_legend; }
@@ -119,10 +120,11 @@ namespace mika {
             return angle(other) * T(180) / T(M_PI);  // Or use std::numbers::pi if C++20
         }
 
-        // Bytes
         const char* asBytes() const { return reinterpret_cast<const char*>(m_data.data()); }
-
         char* asBytes() { return reinterpret_cast<char*>(m_data.data()); }
+
+        std::array<T, N> arrayData() { return m_data; }
+        const std::array<T, N> arrayData() const { return m_data; }
         std::size_t byteSize() const { return sizeof(T) * N; }
 
        private:
@@ -138,7 +140,7 @@ namespace mika {
     inline std::ostream& operator<<(std::ostream& os, const mika::VecT<T, N>& t) {
         os << std::fixed << std::setprecision(2);
         os << "VecT (";
-        mika::array::join(os, t.data(), ", ", t.legend());
+        mika::array::join(os, t.arrayData(), ", ", t.legend());
         os << "), \033[31mSize:\033[0m " << t.size();
         os << ", \033[31mLength:\033[0m " << t.length();
         os << "\n";

@@ -59,7 +59,7 @@ TEST_F(StorageTest, CreateHandRec) {
             engine::DealL deal = adapter::toDeal(tags.at("Deal")->value);
             auto hand = std::make_unique<engine::Hand>(std::move(deal[0]));
             auto hvec = vmath::toVector(hand);
-            auto hr = storage::createHandRec(storage::uniqueId(), hand->toArray(), hvec.data(),
+            auto hr = storage::createHandRec(storage::uniqueId(), hand->toArray(), hvec.arrayData(),
                                              hvec.length());
             EXPECT_GE(hr.id, 0);
             EXPECT_EQ(hr.cards[1], engine::Hand::toInt(hand->cards().at(1)));

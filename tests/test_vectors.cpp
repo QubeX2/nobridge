@@ -50,6 +50,11 @@ TEST(VectorTest, HNSW_Test) {
     }
     std::cout << "Done Indexing\n";
 
+    index.save("./index.bin");
+
+    vmath::HNSW<float, DIM> index2{};
+    index2.load("./index.bin");
+
     // --- Searching ---
     // Create a random query vector.
     mika::VecT<float, DIM> query_vector;
@@ -62,7 +67,7 @@ TEST(VectorTest, HNSW_Test) {
               << std::endl;
 
     // Perform the search.
-    auto result_queue = index.searchKnn(query_vector, K);
+    auto result_queue = index2.searchKnn(query_vector, K);
 
     // --- Display Results ---
     // The result is a min-priority queue, so we need to reverse it to display from closest to
