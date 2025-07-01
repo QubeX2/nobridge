@@ -29,8 +29,57 @@ TEST(VectorTest, VectorMath1) {
 }
 
 TEST(VectorTest, HNSW_Test) {
-    const int num_points = 1000;
-    const int k = 5;
+    const int NUM_POINTS = 1000;
+    const int K = 5;
+    const std::size_t DIM = 5;
 
-    vmath::HNSW<float, 5> index();
+    vmath::HNSW<float, DIM> index{};
+
+    std::mt19937 rng(std::time(0));
+    std::uniform_real_distribution<float> dist(1.0f, 10.0f);
+
+    // Indexing
+    std::cout << "\nIndexing: " << NUM_POINTS << " vectors.\n";
+    mika::VecTList<float, DIM> dataset(NUM_POINTS, mika::VecT<float, DIM>());
+    for (std::size_t i = 0; i < NUM_POINTS; ++i) {
+        for (std::size_t d = 0; d < DIM; ++d) {
+            dataset[i][d] = dist(rng);
+        }
+        // Add the point to the index with its index as the label.
+        index.addPoint(dataset[i], i);
+    }
+    std::cout << "Done Indexing\n";
+
+    // --- Searching ---
+    // Create a random query vector.
+    mika::VecT<float, DIM> query_vector;
+    for (std::size_t d = 0; d < DIM; ++d) {
+        query_vector[d] = dist(rng);
+    }
+    std::cout << "\nQuery Vector\n";
+    std::cout << query_vector << "\n";
+    std::cout << "Searching for the " << K << " nearest neighbors to a random query vector..."
+              << std::endl;
+
+    // Perform the search.
+    auto result_queue = index.searchKnn(query_vector, K);
+
+    // --- Display Results ---
+    // The result is a min-priority queue, so we need to reverse it to display from closest to
+    // farthest.
+    std::vector<std::pair<float, UIntID>> results;
+    while (!result_queue.empty()) {
+        results.push_back(result_queue.top());
+        result_queue.pop();
+    }
+    std::reverse(results.begin(), results.end());
+
+    std::cout << "Search Results (closest first):" << std::endl;
+    for (const auto& result : results) {
+        // The distance is squared L2, so we take the sqrt for the actual Euclidean distance.
+        float distance = std::sqrt(result.first);
+        UIntID label = result.second;
+        std::cout << "  - Label: " << label << ", Distance: " << distance << "\n";
+        std::cout << dataset[label] << "\n";
+    }
 }

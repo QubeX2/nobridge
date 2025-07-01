@@ -87,7 +87,7 @@ namespace nobridge::vmath {
                         UIntID furthest_neighbor = -1;
                         for (UIntID conn_label : neighbor_connections) {
                             float dist =
-                                L2Sqr(m_nodes[neighbor.second].data, m_nodes[conn_label].data);
+                                m_nodes[neighbor.second].data.L2Sqr(m_nodes[conn_label].data);
                             if (dist > max_dist) {
                                 max_dist = dist;
                                 furthest_neighbor = conn_label;
@@ -184,7 +184,7 @@ namespace nobridge::vmath {
 
             // Initialize candidates with the entry points.
             for (auto ep : entry_points) {
-                float dist = L2Sqr(query, m_nodes[ep].data);
+                float dist = query.L2Sqr(m_nodes[ep].data);
                 candidates.push({-dist, ep});
                 top_k.push({dist, ep});
                 visited.insert(ep);
@@ -207,7 +207,7 @@ namespace nobridge::vmath {
                 for (UIntID neighbor_label : m_nodes[curr_label].connections[layer]) {
                     if (visited.find(neighbor_label) == visited.end()) {
                         visited.insert(neighbor_label);
-                        float dist = L2Sqr(query, m_nodes[neighbor_label].data);
+                        float dist = query.L2Sqr(m_nodes[neighbor_label].data);
 
                         if (dist < top_k.top().first || top_k.size() < k) {
                             candidates.push({-dist, neighbor_label});
@@ -225,66 +225,4 @@ namespace nobridge::vmath {
 
 }  // namespace nobridge::vmath
 
-// --- Example Usage ---
-/*
-int main() {
-    // --- Setup ---
-    const int dim = 5;            // Dimension of vectors
-    const int num_points = 1000;  // Number of points to index
-    const int k = 5;              // Number of nearest neighbors to find
-
-    // Create an instance of the HNSW index.
-    hnswlib::HNSW index(dim, 16, 200);  // (dimension, M, efConstruction)
-
-    // --- Data Generation and Indexing ---
-    std::cout << "Generating " << num_points << " random " << dim
-              << "D vectors and adding them to the index..." << std::endl;
-
-    // Use a random number generator to create data.
-    std::mt19937 rng(std::time(0));
-    std::uniform_real_distribution<float> dist(0.0, 1.0);
-
-    std::vector<hnswlib::Vector> dataset(num_points, hnswlib::Vector(dim));
-    for (int i = 0; i < num_points; ++i) {
-        for (int d = 0; d < dim; ++d) {
-            dataset[i][d] = dist(rng);
-        }
-        // Add the point to the index with its index as the label.
-        index.addPoint(dataset[i], i);
-    }
-    std::cout << "Indexing complete." << std::endl;
-
-    // --- Searching ---
-    // Create a random query vector.
-    hnswlib::Vector query_vector(dim);
-    for (int d = 0; d < dim; ++d) {
-        query_vector[d] = dist(rng);
-    }
-    std::cout << "\nSearching for the " << k << " nearest neighbors to a random query vector..."
-              << std::endl;
-
-    // Perform the search.
-    auto result_queue = index.searchKnn(query_vector, k);
-
-    // --- Display Results ---
-    // The result is a min-priority queue, so we need to reverse it to display from closest to
-    // farthest.
-    std::vector<std::pair<float, hnswlib::UIntID>> results;
-    while (!result_queue.empty()) {
-        results.push_back(result_queue.top());
-        result_queue.pop();
-    }
-    std::reverse(results.begin(), results.end());
-
-    std::cout << "Search Results (closest first):" << std::endl;
-    for (const auto& result : results) {
-        // The distance is squared L2, so we take the sqrt for the actual Euclidean distance.
-        float distance = std::sqrt(result.first);
-        hnswlib::UIntID label = result.second;
-        std::cout << "  - Label: " << label << ", Distance: " << distance << std::endl;
-    }
-
-    return 0;
-}
-*/
 #endif  // HNSW_LIB_H

@@ -9,6 +9,7 @@
 #include <stdexcept>
 #include <string>
 #include <unordered_map>
+#include <vector>
 
 #include "mika.h"
 
@@ -68,7 +69,7 @@ namespace mika {
             return T(std::inner_product(m_data.begin(), m_data.end(), other.begin(), T{}));
         }
 
-        float L2Sqr(const VecT& other) {
+        float L2Sqr(const VecT& other) const {
             if (this->size() != other.size()) {
                 throw std::invalid_argument("Vectors must have the same dimension.");
             }
@@ -129,6 +130,9 @@ namespace mika {
         mutable std::string m_cached_str;
         std::unordered_map<std::size_t, std::string> m_legend;
     };
+
+    template <typename T, std::size_t N>
+    using VecTList = std::vector<VecT<T, N>>;
 
     template <typename T, std::size_t N>
     inline std::ostream& operator<<(std::ostream& os, const mika::VecT<T, N>& t) {
