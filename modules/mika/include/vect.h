@@ -68,20 +68,20 @@ namespace mika {
             return T(std::inner_product(m_data.begin(), m_data.end(), other.begin(), T{}));
         }
 
-        double distance(const VecT& other) {
-            // Ensure vectors have the same dimension
+        float L2Sqr(const VecT& other) {
             if (this->size() != other.size()) {
-                throw std::invalid_argument(
-                    "Vectors must have the same dimension to calculate distance.");
+                throw std::invalid_argument("Vectors must have the same dimension.");
             }
-
-            double sum_of_squares = 0.0;
+            float sum = 0.0f;
             for (size_t i = 0; i < this->size(); ++i) {
-                double diff = this->at(i) - other.at(i);
-                sum_of_squares += diff * diff;
+                float diff = this->at(i) - other.at(i);
+                sum += diff * diff;
             }
-
-            return std::sqrt(sum_of_squares);
+            return sum;
+        }
+        float distance(const VecT& other) {
+            float sum = L2Sqr(other);
+            return std::sqrt(sum);
         }
 
         // Normalized

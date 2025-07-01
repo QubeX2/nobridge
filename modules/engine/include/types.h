@@ -1,7 +1,9 @@
 #ifndef ENGINE_TYPES_H
 #define ENGINE_TYPES_H
 
+#include <cstddef>
 #include <cstdint>
+#include <iterator>
 #include <memory>
 #include <ostream>
 #include <string>
@@ -26,7 +28,7 @@ namespace nobridge {
     // }}} End Points
 
     using UIntV = uint8_t;
-    using UIntID = uint64_t;
+    using UIntID = std::size_t;
     using IntV = int16_t;
 
     const UIntV HAND_LENGTH = 13;
