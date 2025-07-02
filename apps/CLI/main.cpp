@@ -1,13 +1,17 @@
 
 #include <cstddef>
 #include <filesystem>
+#include <ios>
 #include <iostream>
 #include <span>
+#include <vector>
 
 #include "adapter.h"
+#include "contract.h"
 #include "game.h"
 #include "pbn.h"
 #include "types.h"
+#include "vmath.h"
 
 using namespace nobridge;
 
@@ -16,7 +20,36 @@ void import_pbn(std::string pbn_file) {
         pbn::TagML tagslist = pbn::processFile(pbn_file);
         for (const pbn::TagM& tags : tagslist) {
             engine::GamePU game = adapter::toGame(tags);
-            std::cout << game;
+            UIntV dir = static_cast<UIntV>(game->auction()->direction());
+            UIntV ix = dir - 1;
+            vmath::ContractVect cur_contract;
+            std::vector<vmath::ContractVect> player_contracts;
+            vmath::ContractVect bdr_contract;
+            vmath::ContractVect ptn_contract;
+            std::cout << game->auction() << "\n";
+            for (const engine::BidA& bid : game->auction()->bids()) {
+                for (UIntV i = 0; i < 4; i++) {
+                    if (bid[i] != nullptr) {
+                        bdr_contract = vmath::toContract(bid[i]);
+                        if (player_contracts.size() >= 2) {
+                            // ptn_contract = player_contracts[0];
+                        }
+                        player_contracts.push_back(bdr_contract);
+                        if (bid[i]->denomination() != engine::Denomination::PASS) {
+                            // std::cout << "bidder: " << bdr_contract << "\n";
+                            const engine::HandPU& hand =
+                                game->getPlayer(static_cast<engine::Direction>(ix))->hand();
+                            vmath::HandVect hv = vmath::toVector(hand);
+                            vmath::AuctionVect auction =
+                                vmath::toAuction(hv, bdr_contract, ptn_contract, cur_contract);
+                            // std::cout << auction << "\n";
+                            cur_contract = bdr_contract;
+                        }
+                    }
+                    ix = (ix + 1) % 4;
+                }
+            }
+            break;
         }
     }
 }

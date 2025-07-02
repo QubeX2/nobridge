@@ -112,7 +112,7 @@ namespace nobridge::adapter {
         // Bids
         engine::AuctionPU auction = std::make_unique<engine::Auction>();
         const pbn::Tag* tagAuct = pbn::getTag(tags, "Auction");
-        if (tagAuct != nullptr && !tagAuct->value.empty()) return;
+        if (tagAuct == nullptr || tagAuct->value.empty()) return;
         auction->setDirection(toDirection(tagAuct->value));
         for (auto line : tagAuct->lines) {
             StringL sbids = mika::string::split(line, ' ');

@@ -19,7 +19,6 @@ namespace nobridge::engine {
         UIntV znum = num - 1;
         UIntV suit = (num / 13) + 1;
         UIntV rank = (num % 13) + 1;
-        // std::cout << std::format("Num: {}, Suit: {}, Rank: {}", num, suit, rank);
         CardPU card = std::make_unique<Card>(static_cast<Suit>(suit), static_cast<Rank>(rank));
         return std::move(card);
     }

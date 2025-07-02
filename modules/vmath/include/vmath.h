@@ -56,13 +56,13 @@ namespace nobridge::vmath {
     // [S, H, D, C, NT, R] 0 - 7; (R = Risk, X = 1.0f, XX = 2.0f)
     using ContractVect = mika::VecT<float, VECT_CONTRACT_SIZE>;
 
-    // Bidder + Partner + Current
-    using AuctionVect = mika::VecT<float, VECT_CONTRACT_SIZE * 3>;
-
     // History of played cards 1.0f played etc
     using PlayedCardsVect = mika::VecT<float, VECT_PLAYED_CARDS_SIZE>;
 
-    // Play Vector
+    // Hand + Bidder + Partner + Current
+    using AuctionVect = mika::VecT<float, VECT_HAND_SIZE + (VECT_CONTRACT_SIZE * 3)>;
+
+    // Play Vector - Player + Dummy + Contract + PlayedCards
     using PlayVect =
         mika::VecT<float, (VECT_HAND_SIZE * 2) + VECT_CONTRACT_SIZE + VECT_PLAYED_CARDS_SIZE>;
 
@@ -71,8 +71,9 @@ namespace nobridge::vmath {
     ContractVect toContract(const engine::BidPU& bid);
     PlayedCardsVect& addPlayedCard(PlayedCardsVect& vect, const engine::CardPU& card);
 
-    AuctionVect toAuction(const ContractVect& bidder, const ContractVect& partner,
-                          const ContractVect& current);
+    AuctionVect toAuction(const HandVect& player, const ContractVect& bidder,
+                          const ContractVect& partner, const ContractVect& current);
+
     PlayVect toPlay(const HandVect& player, const HandVect& dummy, const ContractVect& contract,
                     const PlayedCardsVect& played);
 

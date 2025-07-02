@@ -12,6 +12,24 @@
 #include "types.h"
 
 namespace nobridge::vmath {
+    /**
+     *
+     */
+    AuctionVect toAuction(const HandVect& player, const ContractVect& bidder,
+                          const ContractVect& partner, const ContractVect& current) {
+        AuctionVect auction;
+        std::copy(player.begin(), player.end(), auction.begin());
+        std::copy(bidder.begin(), bidder.end(), auction.begin() + player.size());
+        std::copy(partner.begin(), partner.end(), auction.begin() + player.size() + bidder.size());
+        std::copy(current.begin(), current.end(),
+                  auction.begin() + player.size() + (bidder.size() * 2));
+
+        return auction;
+    }
+
+    /**
+     *
+     */
     PlayedCardsVect& addPlayedCard(PlayedCardsVect& vect, const engine::CardPU& card) {
         UIntV ix = engine::Hand::toInt(card);
         vect[ix - 1] = TRUE_SCALAR;
